@@ -1,0 +1,33 @@
+.menu {
+    @include positionX();
+    width: 100%;
+    height: 10%;
+    bottom: 0px;
+    background-color: lighten($backgroundColor, 10%);
+    align-content: center;
+
+    .button_container {
+        @include positionXY();
+    }
+
+    .button {
+        @extend %container;
+
+    }
+
+    .button.active {
+        &:after {color: $onBlue}
+    }
+    .button.home {
+        &:after{ content: "\f015" }
+    }
+
+    .button.domo {
+        &:after{ content: "\f2c9" }
+    }
+
+    .button.settings {
+        &:after{ content: "\f085" }
+    }
+
+}

@@ -1,0 +1,23 @@
+.switch {
+    @extend %container;  
+  }
+  
+  .switch.light {
+    &:after {
+      @extend %icon;
+      content: "\f0eb";
+    }
+  }
+  .switch.light.on {
+      &:after { color: $onGreen}
+  }
+  
+  .switch.fosset {
+    &:after {
+      @extend %icon;
+      content: "\f043";
+    }
+  }
+  .switch.fosset.on {
+      &:after { color: $onBlue}
+  }

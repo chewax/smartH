@@ -1,0 +1,100 @@
+.info {
+    @extend %container;
+    background-color: lighten($backgroundColor, 20%);
+  }
+  
+  .info.entry {
+    
+    &:before {
+      @extend %icon;
+      @include positionXY(33%, 60%);
+      content: "\f30b";
+    }
+    
+    &:after {
+      @extend %icon;
+      @include positionXY(66%, 60%);
+      content: "\f30a";
+    }
+    
+  }
+  .info.entry.active {
+    
+    &:before {
+      content: "\f30a";
+      color: $onOrange;
+    }
+    
+    &:after {
+      content: "\f30b";
+      color: $onOrange;
+    }
+   
+  }
+  
+  .info.lock {
+    
+    &:after {
+      @extend %icon;
+      content: "\f023";
+    }
+    
+  }
+  .info.lock.active {
+    
+    &:after {
+      content: "\f3c1";
+      color: $onOrange;
+    }
+   
+  }
+  
+  .info.temp {
+    .data {
+      @include positionXY(40%,60%);
+      font-weight: 600;
+      color: $onBlue;
+      font-size: 2em;
+    }
+    
+    &:after {
+      @extend %icon;
+      font-family: $fontFamily;
+      font-weight: 400;
+      font-size: 1.5em;
+      @include positionXY(75%,60%);
+      content: "℃";
+    }
+    
+  }
+  
+  .info.energy {
+    .data {
+      @include positionXY(40%,60%);
+      font-weight: 600;
+      color: $white;
+      font-size: 2em;
+    }
+    
+    &:after {
+      @extend %icon;
+      font-family: $fontFamily;
+      font-weight: 400;
+      font-size: 1.5em;
+      @include positionXY(75%,60%);
+      content: "KWh";
+    }
+    
+  }
+  
+  
+  .macro {
+    @extend %container;
+  
+    &:after {
+      @extend %icon;
+      color: $white;
+      content: "\f2f1";
+    }
+    
+  }

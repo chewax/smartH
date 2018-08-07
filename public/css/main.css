@@ -1,0 +1,173 @@
+@charset "UTF-8";
+body {
+  background-color: #1a1a1a;
+  font-family: Arial, sans-serif; }
+
+.switch:after, .info:after, .macro:after, .menu .button:after, .switch.light:after, .switch.fosset:after, .info.entry:before, .info.entry:after, .info.lock:after, .info.temp:after, .info.energy:after {
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+  color: #787878;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900; }
+
+.switch .name, .info .name, .macro .name, .menu .button .name {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  font-size: 1em;
+  text-align: center;
+  color: #c8c8c8;
+  width: 90%; }
+
+.switch, .info, .macro, .menu .button {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: #343434;
+  float: left;
+  margin-left: 4.5px;
+  margin-top: 4.5px;
+  box-sizing: border-box; }
+  .md.switch, .md.info, .md.macro, .menu .md.button {
+    width: 204.5px; }
+  .lg.switch, .lg.info, .lg.macro, .menu .lg.button {
+    width: 204.5px;
+    height: 204.5px; }
+    .lg.switch:after, .lg.info:after, .lg.macro:after, .menu .lg.button:after {
+      font-size: 3em;
+      top: 55%; }
+
+.switch.light:after {
+  content: "\f0eb"; }
+
+.switch.light.on:after {
+  color: #80d30b; }
+
+.switch.fosset:after {
+  content: "\f043"; }
+
+.switch.fosset.on:after {
+  color: #1398fa; }
+
+.info {
+  background-color: #4d4d4d; }
+
+.info.entry:before {
+  position: absolute;
+  left: 33%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  content: "\f30b"; }
+.info.entry:after {
+  position: absolute;
+  left: 66%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  content: "\f30a"; }
+
+.info.entry.active:before {
+  content: "\f30a";
+  color: #fb870b; }
+.info.entry.active:after {
+  content: "\f30b";
+  color: #fb870b; }
+
+.info.lock:after {
+  content: "\f023"; }
+
+.info.lock.active:after {
+  content: "\f3c1";
+  color: #fb870b; }
+
+.info.temp .data {
+  position: absolute;
+  left: 40%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  font-weight: 600;
+  color: #1398fa;
+  font-size: 2em; }
+.info.temp:after {
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  position: absolute;
+  left: 75%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  content: "℃"; }
+
+.info.energy .data {
+  position: absolute;
+  left: 40%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  font-weight: 600;
+  color: #c8c8c8;
+  font-size: 2em; }
+.info.energy:after {
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  position: absolute;
+  left: 75%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  content: "KWh"; }
+
+.macro:after {
+  color: #c8c8c8;
+  content: "\f2f1"; }
+
+.macro.morning:after {
+  content: ""; }
+
+.macro.night:after {
+  content: ""; }
+
+.macro.away:after {
+  content: ""; }
+
+.macro.active:after {
+  color: #fb870b; }
+
+.menu {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 10%;
+  bottom: 0px;
+  background-color: #343434;
+  align-content: center; }
+  .menu .button_container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+  .menu .button.active:after {
+    color: #1398fa; }
+  .menu .button.home:after {
+    content: ""; }
+  .menu .button.domo:after {
+    content: ""; }
+  .menu .button.settings:after {
+    content: ""; }
+
+.controls {
+  display: none; }
+
+.controls.active {
+  display: block; }
+
+.dashboard {
+  display: none; }
+
+.dashboard.active {
+  display: block; }
+
+/*# sourceMappingURL=main.css.map */

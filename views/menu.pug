@@ -1,0 +1,19 @@
+extends layout
+
+include dashboard.pug
+include controls.pug
+
+block append footer
+    div(class="menu")
+        div(class="button_container")
+            div(class="button home")
+                span(class="name") Dashboard
+
+            div(class="button domo")
+                span(class="name") Controls
+
+            div(class="button settings")
+                span(class="name") Settings
+
+block append scripts
+      script(src='/static/js/menu.js')

@@ -1,0 +1,15 @@
+.controls {
+    display: none;
+}
+
+.controls.active {
+    display:block;
+}
+
+.dashboard {
+    display: none;
+}
+
+.dashboard.active {
+    display: block;
+}
