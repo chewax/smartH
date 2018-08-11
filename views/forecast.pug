@@ -1,0 +1,24 @@
+block append content
+    #weather
+        div(class="forecast lg")
+            div(class="today")
+                span(class="temp") 12 ℃
+                //- span(class="rain") 20%
+            div(class="tomorrow")  
+                span(class="temp-1 clear-night")
+                    span(class="tx") 18 ℃
+                    span(class="tn") 12 ℃
+                    span(class="rain") 20%
+                span(class="temp-2 partly-cloudy-day")
+                    span(class="tx") 19 ℃
+                    span(class="tn") 14 ℃
+                    span(class="rain") 40%
+                span(class="temp-3 rain")
+                    span(class="tx") 22 ℃
+                    span(class="tn") 17 ℃
+                    span(class="rain") 90%
+                
+        
+
+block append scripts
+      script(src='/static/js/forecast.js')

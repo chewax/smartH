@@ -2,7 +2,7 @@
     @include positionXY(50%, 60%);
     font-size: 2em;
     color: $smoke;
-    font-family: "Font Awesome 5 Free";
+    font-family: $iconFontFamily;
     font-weight: 900;
   }
   
@@ -41,5 +41,25 @@
           top: 55%;
         }
   
+    }
+
+    &.disabled {
+      background-color: darken($buttonColor, 5%);
+      
+      .name {
+        color: lighten($buttonColor, 5%);
+      }
+
+      &:after {
+        color: lighten($buttonColor, 5%);
+      }
+
+      &:before {
+        @extend %icon;
+        @include positionXY (15%, 85%);
+        font-size: 0.9em;
+        content: "\f111";
+        color: $onRed;
+      }
     }
   }

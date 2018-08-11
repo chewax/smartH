@@ -7,6 +7,6 @@
 
 @mixin positionX($x:50%) {
   position: absolute;
-  left: 50%;
+  left: $x;
   transform: translateX(-50%);
 }

@@ -3,7 +3,7 @@ body {
   background-color: #1a1a1a;
   font-family: Arial, sans-serif; }
 
-.switch:after, .info:after, .macro:after, .menu .button:after, .switch.light:after, .switch.fosset:after, .info.entry:before, .info.entry:after, .info.lock:after, .info.temp:after, .info.energy:after {
+.switch:after, .info:after, .macro:after, .forecast:after, .disabled.switch:before, .disabled.info:before, .disabled.macro:before, .disabled.forecast:before, .switch.light:after, .switch.fosset:after, .info.entry:before, .info.entry:after, .info.lock:after, .info.temp:after, .info.energy:after, .today .temp:after, .tomorrow .temp-1:after, .tomorrow .temp-2:after, .tomorrow .temp-3:after, .tomorrow .temp-1 .rain:after, .tomorrow .temp-2 .rain:after, .tomorrow .temp-3 .rain:after {
   position: absolute;
   left: 50%;
   top: 60%;
@@ -13,7 +13,7 @@ body {
   font-family: "Font Awesome 5 Free";
   font-weight: 900; }
 
-.switch .name, .info .name, .macro .name, .menu .button .name {
+.switch .name, .info .name, .macro .name, .forecast .name, .today:before, .tomorrow .temp-1:before, .tomorrow .temp-2:before, .tomorrow .temp-3:before {
   position: absolute;
   left: 50%;
   top: 20%;
@@ -23,7 +23,7 @@ body {
   color: #c8c8c8;
   width: 90%; }
 
-.switch, .info, .macro, .menu .button {
+.switch, .info, .macro, .forecast {
   position: relative;
   width: 100px;
   height: 100px;
@@ -32,14 +32,28 @@ body {
   margin-left: 4.5px;
   margin-top: 4.5px;
   box-sizing: border-box; }
-  .md.switch, .md.info, .md.macro, .menu .md.button {
+  .md.switch, .md.info, .md.macro, .md.forecast {
     width: 204.5px; }
-  .lg.switch, .lg.info, .lg.macro, .menu .lg.button {
+  .lg.switch, .lg.info, .lg.macro, .lg.forecast {
     width: 204.5px;
     height: 204.5px; }
-    .lg.switch:after, .lg.info:after, .lg.macro:after, .menu .lg.button:after {
+    .lg.switch:after, .lg.info:after, .lg.macro:after, .lg.forecast:after {
       font-size: 3em;
       top: 55%; }
+  .disabled.switch, .disabled.info, .disabled.macro, .disabled.forecast {
+    background-color: #272727; }
+    .disabled.switch .name, .disabled.info .name, .disabled.macro .name, .disabled.forecast .name {
+      color: #414141; }
+    .disabled.switch:after, .disabled.info:after, .disabled.macro:after, .disabled.forecast:after {
+      color: #414141; }
+    .disabled.switch:before, .disabled.info:before, .disabled.macro:before, .disabled.forecast:before {
+      position: absolute;
+      left: 15%;
+      top: 85%;
+      transform: translate(-50%, -50%);
+      font-size: 0.9em;
+      content: "\f111";
+      color: #fa3e0a; }
 
 .switch.light:after {
   content: "\f0eb"; }
@@ -135,39 +149,119 @@ body {
 .macro.active:after {
   color: #fb870b; }
 
-.menu {
+.today .temp:after, .tomorrow .temp-1:after, .tomorrow .temp-2:after, .tomorrow .temp-3:after, .tomorrow .temp-1 .rain:after, .tomorrow .temp-2 .rain:after, .tomorrow .temp-3 .rain:after {
+  font-family: "weathericons";
+  color: #fb870b;
+  content: "\f00d";
+  left: 0%;
+  top: 50%;
+  font-size: 1.5em; }
+
+.forecast {
+  background-color: #4d4d4d;
+  text-align: center; }
+
+.today {
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
   width: 100%;
-  height: 10%;
-  bottom: 0px;
-  background-color: #343434;
-  align-content: center; }
-  .menu .button_container {
+  height: 50%; }
+  .today:before {
+    top: 15%;
+    content: "Hoy";
+    font-weight: 900; }
+  .today .temp {
+    position: absolute;
+    left: 65%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.7em;
+    color: #fb870b; }
+    .today .temp:after {
+      left: -60%; }
+
+.tomorrow {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 50%; }
+  .tomorrow .temp-1, .tomorrow .temp-2, .tomorrow .temp-3 {
+    position: absolute;
+    left: 18%;
+    transform: translateX(-50%);
+    top: 5%;
+    font-size: 0.9em;
+    color: #c8c8c8;
+    font-weight: 100;
+    width: 30%;
+    height: 100%; }
+    .tomorrow .temp-1:before, .tomorrow .temp-2:before, .tomorrow .temp-3:before {
+      font-weight: 900;
+      top: -8%;
+      content: "Dia 1"; }
+    .tomorrow .temp-1:after, .tomorrow .temp-2:after, .tomorrow .temp-3:after {
+      left: 50%;
+      top: 15%;
+      color: #787878; }
+    .tomorrow .temp-1 .tx, .tomorrow .temp-2 .tx, .tomorrow .temp-3 .tx {
+      position: absolute;
+      left: 50%;
+      top: 40%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    .tomorrow .temp-1 .tn, .tomorrow .temp-2 .tn, .tomorrow .temp-3 .tn {
+      position: absolute;
+      left: 50%;
+      top: 57%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    .tomorrow .temp-1 .rain, .tomorrow .temp-2 .rain, .tomorrow .temp-3 .rain {
+      position: absolute;
+      left: 72%;
+      top: 78%;
+      transform: translate(-50%, -50%); }
+      .tomorrow .temp-1 .rain:after, .tomorrow .temp-2 .rain:after, .tomorrow .temp-3 .rain:after {
+        content: "\f084";
+        left: -51%;
+        color: #787878;
+        font-size: 1em; }
+  .tomorrow .temp-2 {
     position: absolute;
     left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%); }
-  .menu .button.active:after {
-    color: #1398fa; }
-  .menu .button.home:after {
-    content: ""; }
-  .menu .button.domo:after {
-    content: ""; }
-  .menu .button.settings:after {
-    content: ""; }
+    transform: translateX(-50%); }
+    .tomorrow .temp-2:before {
+      content: "Dia 2"; }
+  .tomorrow .temp-3 {
+    position: absolute;
+    left: 82%;
+    transform: translateX(-50%); }
+    .tomorrow .temp-3:before {
+      content: "Dia 3"; }
+  .tomorrow .clear-day:after {
+    content: "\f00d"; }
+  .tomorrow .clear-night:after {
+    content: "\f02e"; }
+  .tomorrow .rain:after {
+    content: "\f019"; }
+  .tomorrow .snow:after {
+    content: "\f01b"; }
+  .tomorrow .sleet:after {
+    content: "\f0b5"; }
+  .tomorrow .wind:after {
+    content: "\f021"; }
+  .tomorrow .fog:after {
+    content: "\f014"; }
+  .tomorrow .cloudy:after {
+    content: "\f013"; }
+  .tomorrow .partly-cloudy-night:after {
+    content: "\f086"; }
+  .tomorrow .partly-cloudy-day:after {
+    content: "\f002"; }
 
-.controls {
-  display: none; }
-
-.controls.active {
-  display: block; }
-
-.dashboard {
-  display: none; }
-
-.dashboard.active {
-  display: block; }
+.clear-day:after {
+  background: url("/static/icons/weather/Sun.svg"); }
 
 /*# sourceMappingURL=main.css.map */

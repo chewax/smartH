@@ -13,6 +13,7 @@
     "grunt": "^1.0.3",
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-watch": "^1.1.0",
+    "lodash": "^4.17.10",
     "pug": "^2.0.3",
     "request": "^2.87.0",
     "socket.io": "^2.1.1"

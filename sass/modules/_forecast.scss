@@ -1,0 +1,161 @@
+%weather_after {
+  @extend %icon;
+  font-family: $weatherFontFamily;
+  color: $onOrange;
+  content: "\f00d";
+  left: 0%;
+  top: 50%;
+  font-size: 1.5em;
+}
+
+.forecast {
+  @extend %container;
+  background-color: lighten($backgroundColor, 20%);
+  text-align: center;
+}
+  
+.today {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+
+  &:before {
+    @extend %name;
+    top: 15%;
+    content: "Hoy";
+    font-weight: 900;
+  }
+
+  .temp {
+    @include positionXY(65%, 50%);
+    font-size: 1.7em;
+    color: $onOrange;
+
+    &:after { 
+      @extend %weather_after;
+      left: -60%;
+    }
+  }
+}
+  
+
+.tomorrow {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 50%;
+
+ 
+  .temp-1 {
+    @include positionX(18%);
+    top: 5%;
+    font-size: 0.9em;
+    color: $white;
+    font-weight: 100;
+    width: 30%;
+    height: 100%;
+
+    &:before {
+      @extend %name;
+      font-weight: 900;
+      top: -8%;
+      content: "Dia 1";
+    }
+
+    &:after { 
+      @extend %weather_after;
+      left: 50%;
+      top: 15%;
+      color: $smoke;
+    }
+    
+    .tx {
+      @include positionXY(50%, 40%);
+      width: 100%;
+      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .tn {
+      @include positionXY(50%, 57%);
+      width: 100%;
+      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .rain {
+      @include positionXY(72%, 78%);
+  
+      &:after { 
+        @extend %weather_after;
+        content: "\f084";
+        left: -51%;
+        color: $smoke;
+        font-size: 1em;
+      }
+    }
+    
+  }
+
+  .temp-2 {
+    @extend .temp-1;
+    @include positionX(50%);
+    &:before {
+      content: "Dia 2";
+    }
+  }
+
+  .temp-3 {
+    @extend .temp-1;
+    @include positionX(82%);
+    &:before {
+      content: "Dia 3";
+    }
+  }
+
+
+  .clear-day:after {
+    content: "\f00d";
+  }
+
+  .clear-night:after {
+    content: "\f02e";
+  }
+
+  .rain:after {
+    content: "\f019";
+  }
+
+  .snow:after {
+    content: "\f01b";
+  }
+
+  .sleet:after {
+    content: "\f0b5";
+  }
+
+  .wind:after {
+    content: "\f021";
+  }
+
+  .fog:after {
+    content: "\f014";
+  }
+
+  .cloudy:after {
+    content: "\f013";
+  }
+
+  .partly-cloudy-night:after {
+    content: "\f086";
+  }
+
+  .partly-cloudy-day:after {
+    content: "\f002";
+  }
+}
+
+.clear-day {
+  &:after { background: url($clear_day_icon) }
+}
+  

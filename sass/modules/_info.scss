@@ -87,14 +87,3 @@
     
   }
   
-  
-  .macro {
-    @extend %container;
-  
-    &:after {
-      @extend %icon;
-      color: $white;
-      content: "\f2f1";
-    }
-    
-  }

@@ -1,7 +1,15 @@
+extends layout
+
+include forecast.pug
+
 block append content
-    div(class="dashboard")
+    #controls
+        for device in devices
+                div(class=device.class)
+                    span(class="name") #{device.name}
+                    if device.data
+                        span(class="data") #{device.data} 
 
-
-block scripts
+block append scripts
       script(src='/static/js/dashboard.js')
 
