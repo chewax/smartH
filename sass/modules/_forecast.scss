@@ -1,11 +1,10 @@
-%weather_after {
+%weather_icon {
   @extend %icon;
   font-family: $weatherFontFamily;
   color: $onOrange;
   content: "\f00d";
   left: 0%;
   top: 50%;
-  font-size: 1.5em;
 }
 
 .forecast {
@@ -19,143 +18,110 @@
   width: 100%;
   height: 50%;
 
-  &:before {
-    @extend %name;
-    top: 15%;
-    content: "Hoy";
-    font-weight: 900;
+  &:before { 
+    @extend %weather_icon;
+    @include positionXY(50%, 50%);
   }
 
   .temp {
-    @include positionXY(65%, 50%);
-    font-size: 1.7em;
+    @include positionXY(50%, 85%);
+    font-size: 1.5em;
     color: $onOrange;
+    width: 100%;
 
-    &:after { 
-      @extend %weather_after;
-      left: -60%;
+    @include respond-to(handhelds) {
+      font-size: 1.3em;
     }
   }
 }
   
 
 .tomorrow {
-  position: absolute;
+  @extend .today;
   top: 50%;
-  width: 100%;
-  height: 50%;
-
- 
-  .temp-1 {
-    @include positionX(18%);
-    top: 5%;
-    font-size: 0.9em;
-    color: $white;
-    font-weight: 100;
-    width: 30%;
-    height: 100%;
-
-    &:before {
-      @extend %name;
-      font-weight: 900;
-      top: -8%;
-      content: "Dia 1";
-    }
-
-    &:after { 
-      @extend %weather_after;
-      left: 50%;
-      top: 15%;
-      color: $smoke;
-    }
-    
-    .tx {
-      @include positionXY(50%, 40%);
-      width: 100%;
-      text-align: center;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    
-    .tn {
-      @include positionXY(50%, 57%);
-      width: 100%;
-      text-align: center;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-
-    .rain {
-      @include positionXY(72%, 78%);
   
-      &:after { 
-        @extend %weather_after;
-        content: "\f084";
-        left: -51%;
-        color: $smoke;
-        font-size: 1em;
-      }
-    }
-    
+  &:after {
+    content: "";
+    width: 80%;
+    @include positionXY(50%, 5%);
+    height: 2px;
+    background-color: darken($smoke,10%);
   }
 
-  .temp-2 {
-    @extend .temp-1;
-    @include positionX(50%);
+  &:before { 
+    color: $smoke;
+    font-size: 1.2em;
+    @include positionXY(50%, 42%);
+  }
+
+  .temp {
+    font-size: 1em;
+    color: $smoke;
+    width: 100%;
+    @include positionXY(50%, 66%);
+
+    @include respond-to(handhelds) {
+      font-size: 0.7em;
+    }
+  }
+
+  .rain {
+    @include positionXY(55%, 86%);
+    color: $smoke;
+    font-size: 1em;
+
     &:before {
-      content: "Dia 2";
+      @extend %weather_icon;
+      content: "\f084";
+      color: currentColor;
+      font-size: 0.9em;
+      left: -35%;
+      top: 40%;
+    }
+
+    @include respond-to(handhelds) {
+      font-size: 1em;
     }
   }
 
-  .temp-3 {
-    @extend .temp-1;
-    @include positionX(82%);
-    &:before {
-      content: "Dia 3";
-    }
-  }
-
-
-  .clear-day:after {
+}
+  
+  .clear-day:before {
     content: "\f00d";
   }
 
-  .clear-night:after {
+  .clear-night:before {
     content: "\f02e";
   }
 
-  .rain:after {
+  .rain:before {
     content: "\f019";
   }
 
-  .snow:after {
+  .snow:before {
     content: "\f01b";
   }
 
-  .sleet:after {
+  .sleet:before {
     content: "\f0b5";
   }
 
-  .wind:after {
+  .wind:before {
     content: "\f021";
   }
 
-  .fog:after {
+  .fog:before {
     content: "\f014";
   }
 
-  .cloudy:after {
+  .cloudy:before {
     content: "\f013";
   }
 
-  .partly-cloudy-night:after {
+  .partly-cloudy-night:before {
     content: "\f086";
   }
 
-  .partly-cloudy-day:after {
+  .partly-cloudy-day:before {
     content: "\f002";
   }
-}
-
-.clear-day {
-  &:after { background: url($clear_day_icon) }
-}
-  

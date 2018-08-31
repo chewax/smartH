@@ -3,7 +3,7 @@ body {
   background-color: #1a1a1a;
   font-family: Arial, sans-serif; }
 
-.switch:after, .info:after, .macro:after, .forecast:after, .disabled.switch:before, .disabled.info:before, .disabled.macro:before, .disabled.forecast:before, .switch.light:after, .switch.fosset:after, .info.entry:before, .info.entry:after, .info.lock:after, .info.temp:after, .info.energy:after, .today .temp:after, .tomorrow .temp-1:after, .tomorrow .temp-2:after, .tomorrow .temp-3:after, .tomorrow .temp-1 .rain:after, .tomorrow .temp-2 .rain:after, .tomorrow .temp-3 .rain:after {
+.switch:after, .info:after, .macro:after, .forecast:after, .disabled.switch:before, .disabled.info:before, .disabled.macro:before, .disabled.forecast:before, .switch.light:after, .switch.fosset:after, .info.entry:before, .info.entry:after, .info.lock:after, .info.temp:after, .info.energy:after, .today:before, .tomorrow:before, .tomorrow .rain:before {
   position: absolute;
   left: 50%;
   top: 60%;
@@ -12,8 +12,11 @@ body {
   color: #787878;
   font-family: "Font Awesome 5 Free";
   font-weight: 900; }
+  @media only screen and (max-width: 430px) {
+    .switch:after, .info:after, .macro:after, .forecast:after, .disabled.switch:before, .disabled.info:before, .disabled.macro:before, .disabled.forecast:before, .switch.light:after, .switch.fosset:after, .info.entry:before, .info.entry:after, .info.lock:after, .info.temp:after, .info.energy:after, .today:before, .tomorrow:before, .tomorrow .rain:before {
+      font-size: 1.4em; } }
 
-.switch .name, .info .name, .macro .name, .forecast .name, .today:before, .tomorrow .temp-1:before, .tomorrow .temp-2:before, .tomorrow .temp-3:before {
+.switch .name, .info .name, .macro .name, .forecast .name {
   position: absolute;
   left: 50%;
   top: 20%;
@@ -22,6 +25,9 @@ body {
   text-align: center;
   color: #c8c8c8;
   width: 90%; }
+  @media only screen and (max-width: 430px) {
+    .switch .name, .info .name, .macro .name, .forecast .name {
+      font-size: 0.8em; } }
 
 .switch, .info, .macro, .forecast {
   position: relative;
@@ -32,11 +38,25 @@ body {
   margin-left: 4.5px;
   margin-top: 4.5px;
   box-sizing: border-box; }
+  @media only screen and (max-width: 430px) {
+    .switch, .info, .macro, .forecast {
+      width: 80px;
+      height: 80px; } }
   .md.switch, .md.info, .md.macro, .md.forecast {
     width: 204.5px; }
+    @media only screen and (max-width: 430px) {
+      .md.switch, .md.info, .md.macro, .md.forecast {
+        width: 164.5px; } }
+    .md.switch:after, .md.info:after, .md.macro:after, .md.forecast:after {
+      font-size: 3em;
+      top: 55%; }
   .lg.switch, .lg.info, .lg.macro, .lg.forecast {
     width: 204.5px;
     height: 204.5px; }
+    @media only screen and (max-width: 430px) {
+      .lg.switch, .lg.info, .lg.macro, .lg.forecast {
+        width: 164.5px;
+        height: 164.5px; } }
     .lg.switch:after, .lg.info:after, .lg.macro:after, .lg.forecast:after {
       font-size: 3em;
       top: 55%; }
@@ -105,6 +125,9 @@ body {
   font-weight: 600;
   color: #1398fa;
   font-size: 2em; }
+  @media only screen and (max-width: 430px) {
+    .info.temp .data {
+      font-size: 1.4em; } }
 .info.temp:after {
   font-family: Arial, sans-serif;
   font-weight: 400;
@@ -114,6 +137,9 @@ body {
   top: 60%;
   transform: translate(-50%, -50%);
   content: "℃"; }
+  @media only screen and (max-width: 430px) {
+    .info.temp:after {
+      font-size: 1em; } }
 
 .info.energy .data {
   position: absolute;
@@ -132,6 +158,9 @@ body {
   top: 60%;
   transform: translate(-50%, -50%);
   content: "KWh"; }
+  @media only screen and (max-width: 430px) {
+    .info.energy:after {
+      font-size: 1em; } }
 
 .macro:after {
   color: #c8c8c8;
@@ -149,119 +178,112 @@ body {
 .macro.active:after {
   color: #fb870b; }
 
-.today .temp:after, .tomorrow .temp-1:after, .tomorrow .temp-2:after, .tomorrow .temp-3:after, .tomorrow .temp-1 .rain:after, .tomorrow .temp-2 .rain:after, .tomorrow .temp-3 .rain:after {
+.today:before, .tomorrow:before, .tomorrow .rain:before {
   font-family: "weathericons";
   color: #fb870b;
   content: "\f00d";
   left: 0%;
-  top: 50%;
-  font-size: 1.5em; }
+  top: 50%; }
 
 .forecast {
   background-color: #4d4d4d;
   text-align: center; }
 
-.today {
+.today, .tomorrow {
   position: absolute;
   width: 100%;
   height: 50%; }
-  .today:before {
-    top: 15%;
-    content: "Hoy";
-    font-weight: 900; }
-  .today .temp {
-    position: absolute;
-    left: 65%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 1.7em;
-    color: #fb870b; }
-    .today .temp:after {
-      left: -60%; }
-
-.tomorrow {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  height: 50%; }
-  .tomorrow .temp-1, .tomorrow .temp-2, .tomorrow .temp-3 {
-    position: absolute;
-    left: 18%;
-    transform: translateX(-50%);
-    top: 5%;
-    font-size: 0.9em;
-    color: #c8c8c8;
-    font-weight: 100;
-    width: 30%;
-    height: 100%; }
-    .tomorrow .temp-1:before, .tomorrow .temp-2:before, .tomorrow .temp-3:before {
-      font-weight: 900;
-      top: -8%;
-      content: "Dia 1"; }
-    .tomorrow .temp-1:after, .tomorrow .temp-2:after, .tomorrow .temp-3:after {
-      left: 50%;
-      top: 15%;
-      color: #787878; }
-    .tomorrow .temp-1 .tx, .tomorrow .temp-2 .tx, .tomorrow .temp-3 .tx {
-      position: absolute;
-      left: 50%;
-      top: 40%;
-      transform: translate(-50%, -50%);
-      width: 100%;
-      text-align: center;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
-    .tomorrow .temp-1 .tn, .tomorrow .temp-2 .tn, .tomorrow .temp-3 .tn {
-      position: absolute;
-      left: 50%;
-      top: 57%;
-      transform: translate(-50%, -50%);
-      width: 100%;
-      text-align: center;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
-    .tomorrow .temp-1 .rain, .tomorrow .temp-2 .rain, .tomorrow .temp-3 .rain {
-      position: absolute;
-      left: 72%;
-      top: 78%;
-      transform: translate(-50%, -50%); }
-      .tomorrow .temp-1 .rain:after, .tomorrow .temp-2 .rain:after, .tomorrow .temp-3 .rain:after {
-        content: "\f084";
-        left: -51%;
-        color: #787878;
-        font-size: 1em; }
-  .tomorrow .temp-2 {
+  .today:before, .tomorrow:before {
     position: absolute;
     left: 50%;
-    transform: translateX(-50%); }
-    .tomorrow .temp-2:before {
-      content: "Dia 2"; }
-  .tomorrow .temp-3 {
+    top: 50%;
+    transform: translate(-50%, -50%); }
+  .today .temp, .tomorrow .temp {
     position: absolute;
-    left: 82%;
-    transform: translateX(-50%); }
-    .tomorrow .temp-3:before {
-      content: "Dia 3"; }
-  .tomorrow .clear-day:after {
-    content: "\f00d"; }
-  .tomorrow .clear-night:after {
-    content: "\f02e"; }
-  .tomorrow .rain:after {
-    content: "\f019"; }
-  .tomorrow .snow:after {
-    content: "\f01b"; }
-  .tomorrow .sleet:after {
-    content: "\f0b5"; }
-  .tomorrow .wind:after {
-    content: "\f021"; }
-  .tomorrow .fog:after {
-    content: "\f014"; }
-  .tomorrow .cloudy:after {
-    content: "\f013"; }
-  .tomorrow .partly-cloudy-night:after {
-    content: "\f086"; }
-  .tomorrow .partly-cloudy-day:after {
-    content: "\f002"; }
+    left: 50%;
+    top: 85%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    color: #fb870b;
+    width: 100%; }
+    @media only screen and (max-width: 430px) {
+      .today .temp, .tomorrow .temp {
+        font-size: 1.3em; } }
 
-.clear-day:after {
-  background: url("/static/icons/weather/Sun.svg"); }
+.tomorrow {
+  top: 50%; }
+  .tomorrow:after {
+    content: "";
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -50%);
+    height: 2px;
+    background-color: #5f5f5f; }
+  .tomorrow:before {
+    color: #787878;
+    font-size: 1.2em;
+    position: absolute;
+    left: 50%;
+    top: 42%;
+    transform: translate(-50%, -50%); }
+  .tomorrow .temp {
+    font-size: 1em;
+    color: #787878;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 66%;
+    transform: translate(-50%, -50%); }
+    @media only screen and (max-width: 430px) {
+      .tomorrow .temp {
+        font-size: 0.7em; } }
+  .tomorrow .rain {
+    position: absolute;
+    left: 55%;
+    top: 86%;
+    transform: translate(-50%, -50%);
+    color: #787878;
+    font-size: 1em; }
+    .tomorrow .rain:before {
+      content: "\f084";
+      color: currentColor;
+      font-size: 0.9em;
+      left: -35%;
+      top: 40%; }
+    @media only screen and (max-width: 430px) {
+      .tomorrow .rain {
+        font-size: 1em; } }
+
+.clear-day:before {
+  content: "\f00d"; }
+
+.clear-night:before {
+  content: "\f02e"; }
+
+.rain:before {
+  content: "\f019"; }
+
+.snow:before {
+  content: "\f01b"; }
+
+.sleet:before {
+  content: "\f0b5"; }
+
+.wind:before {
+  content: "\f021"; }
+
+.fog:before {
+  content: "\f014"; }
+
+.cloudy:before {
+  content: "\f013"; }
+
+.partly-cloudy-night:before {
+  content: "\f086"; }
+
+.partly-cloudy-day:before {
+  content: "\f002"; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,12 +1,19 @@
 @mixin positionXY($x:50%, $y:50%) {
-    position: absolute;
-    left: $x;
-    top: $y;
-    transform: translate(-50%, -50%);
-  }
+  position: absolute;
+  left: $x;
+  top: $y;
+  transform: translate(-50%, -50%);
+}
 
 @mixin positionX($x:50%) {
   position: absolute;
   left: $x;
   transform: translateX(-50%);
+}
+
+@mixin positionXYRotate($x:50%, $y:50%, $a:45deg) {
+  position: absolute;
+  left: $x;
+  top: $y;
+  transform: translate(-50%, -50%) rotate($a);
 }

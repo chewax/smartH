@@ -55,6 +55,10 @@
       font-weight: 600;
       color: $onBlue;
       font-size: 2em;
+
+      @include respond-to(handhelds) {
+        font-size: 1.4em;
+      }
     }
     
     &:after {
@@ -64,6 +68,10 @@
       font-size: 1.5em;
       @include positionXY(75%,60%);
       content: "℃";
+
+      @include respond-to(handhelds) {
+        font-size: 1em;
+      }
     }
     
   }
@@ -83,6 +91,10 @@
       font-size: 1.5em;
       @include positionXY(75%,60%);
       content: "KWh";
+
+      @include respond-to(handhelds) {
+        font-size: 1em;
+      }
     }
     
   }

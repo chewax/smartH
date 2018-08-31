@@ -8,6 +8,7 @@ $(document).ready(function(){
   }
 
   socket.emit('client:register', client);
+
   socket.emit('client:boards:get');
 
   socket.on("client:boards:all", (boards) => {
@@ -28,6 +29,24 @@ $(document).ready(function(){
     actuators.removeClass('disabled');
   })
 
+  socket.on("client:forecast:all", (data) => {
+    let $today = $(".forecast .today");
+    $today.addClass(data.daily.data[0].icon);
+    $(`<span>${Math.round(data.daily.data[0].temperatureMax)}℃ / ${Math.round(data.daily.data[0].temperatureMin)}℃</span>`)
+        .addClass("temp")
+        .appendTo($today);
+
+
+    let $tomorrow = $(".forecast .tomorrow");
+    $tomorrow.addClass(data.daily.data[1].icon);
+    $(`<span>${Math.round(data.daily.data[1].temperatureMax)}℃ / ${Math.round(data.daily.data[1].temperatureMin)}℃</span>`)
+      .addClass("temp")
+      .appendTo($tomorrow);
+
+    $(`<span>${Math.round(data.daily.data[1].precipProbability)}%</span>`)
+      .addClass("rain")
+      .appendTo($tomorrow);
+  })
   
   $(".switch").on('click', switchClick);
   $(".info").on('click', infoClick);
@@ -65,7 +84,6 @@ $(document).ready(function(){
   }
 
   function appendBoard (board) {
-    console.log(board);
     let controls = $("#controls");
 
     if (board.module_0_type != "empty") {
