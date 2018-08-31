@@ -1,45 +1,35 @@
-let express = require('express');
-let app = express();
-let server = require('http').Server(app);
-let io = require('socket.io')(server);
+(function () {
 
-require('./lib/socket').initSocketIOEvents(io);
+    'use strict';
 
-app.use('/static', express.static(__dirname + '/public'));
-app.use('/socket', express.static(__dirname + '/node_modules/socket.io-client/dist'));
-app.set('views', __dirname + '/views')
-app.set('view engine', 'pug')
+    let express = require('express');
+    let app = express();
+    let server = require('http').Server(app);
+    let io = require('socket.io')(server);
+    let bodyParser = require('body-parser');
+    let cors = require('./lib/cors');
+    let config = require('./lib/config');
+    let logger = require('./lib/logger');
+    let publicRoutes = require('./lib/routes/public');
+    let protectedRoutes = require('./lib/routes/protected');
+    require('./lib/socket').initSocketIOEvents(io);
+    require('./lib/database');
 
-app.get('/', function (req, res) {
-    
-    res.render('dashboard', {
-        devices: [
-            { class: "macro away lg", name: "Fuera" },
-            { class: "macro morning lg", name: "Mañana" },
-            { class: "macro night lg", name: "Noche" },
-            { class: "switch light", name: "Zaguan" },
-            { class: "switch light", name: "Alero Este" },
-            { class: "switch light", name: "Alero Sur" },
-            { class: "switch light", name: "Dormitorio 1" },
-            { class: "switch light", name: "Dormitorio 2" },
-            { class: "switch fosset", name: "Jardin Frente" },
-            { class: "info energy md", name: "Consumo", data: "0.23" },
-            { class: "info entry", name: "Frente" },
-            { class: "info entry", name: "Fondo" },
-            { class: "info entry", name: "Cocina" },
-            { class: "info lock", name: "Frente" },
-            { class: "info lock", name: "Fondo" },
-            { class: "info lock", name: "Cocina" },
-            { class: "info temp", name: "Comedor", data: "18" },
-            { class: "info temp", name: "Dormitorio", data: "23" }
-        ],
+    app.set('views', __dirname + '/views')
+    app.set('view engine', 'pug')
+
+    app.use(bodyParser.urlencoded({ extended: false }));
+    app.use(bodyParser.json());
+    app.use(cors());
+    app.use('/static', express.static(__dirname + '/public'));
+    app.use('/socket', express.static(__dirname + '/node_modules/socket.io-client/dist'));
+    app.use(config.api.version, publicRoutes);
+    app.use(config.api.version, protectedRoutes);
+
+    server.listen(config.server.port, function () {
+        logger.log(`Server UP, listening on port ${config.server.port}`);
     });
 
-    // res.render('dashboard', {
-    //     devices: []
-    // });
-});
+}).call(this);
 
-server.listen(5050, function () {
-    console.log('Example app listening on port 5050!');
-});
+
