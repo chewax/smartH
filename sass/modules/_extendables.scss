@@ -21,6 +21,11 @@
       font-size: 0.8em;
     }
   }
+
+
+  %ip {
+    display: none;
+  }
   
   %container {
     position: relative;
@@ -40,6 +45,7 @@
     &:after {  @extend %icon }
 
     .name { @extend %name }
+    .ip { @extend %ip }
     
     &.md {
       width: (2 * $buttonSize) + $nbspSize;

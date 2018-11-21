@@ -86,8 +86,6 @@ $(document).ready(function(){
   function appendBoard (board) {
     let $controls = $("#controls");
 
-    if (typeof board.type == "undefined" || board.type == null || board.type == "") board.type = "switch";
-
     let $module = $( "<div/>", {
         id: `${board.id}`, 
         "class": `${board.type} ${board.actuator}`
@@ -100,6 +98,11 @@ $(document).ready(function(){
     $("<span/>", { 
       "class": "name",
       "text": `${board.name}`,
+    }).appendTo($module);
+
+    $("<span/>", { 
+      "class": "ip",
+      "text": `${board.ip}`,
     }).appendTo($module);
   }
 

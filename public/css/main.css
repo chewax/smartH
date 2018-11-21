@@ -29,6 +29,9 @@ body {
     .switch .name, .info .name, .macro .name, .forecast .name {
       font-size: 0.8em; } }
 
+.switch .ip, .info .ip, .macro .ip, .forecast .ip {
+  display: none; }
+
 .switch, .info, .macro, .forecast {
   position: relative;
   width: 100px;
