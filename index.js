@@ -27,7 +27,7 @@
     app.use(config.api.version, protectedRoutes);
 
     server.listen(config.server.port, function () {
-        logger.log(`Server UP, listening on port ${config.server.port}`);
+        logger.info(`Server UP, listening on port ${config.server.port}`);
     });
 
 }).call(this);

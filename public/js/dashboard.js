@@ -8,14 +8,14 @@ $(document).ready(function(){
   }
 
   socket.emit('client:register', client);
-
   socket.emit('client:boards:get');
+  socket.emit('client:forecast:get');
 
   socket.on("client:boards:all", (boards) => {
-    boards.forEach(board => {appendBoard(board)});
+    boards.forEach( board => { appendBoard(board) });
   })
   
-  socket.on("client:board:new", (board) => {
+  socket.on("client:board:new", (board) => { 
     appendBoard(board);
   })
 
@@ -84,59 +84,23 @@ $(document).ready(function(){
   }
 
   function appendBoard (board) {
-    let controls = $("#controls");
+    let $controls = $("#controls");
 
-    if (board.module_0_type != "empty") {
-      var $module_0 = $("<div>", {id: `${board.id}_module_0`, "class": `${board.module_0_type}`});
+    if (typeof board.type == "undefined" || board.type == null || board.type == "") board.type = "switch";
 
-      if (board.status == "offline") $module_0.addClass('disabled');
-      
-      $(`<span>${board.module_0_name}</span>`)
-        .addClass("name")
-        .appendTo($module_0);
+    let $module = $( "<div/>", {
+        id: `${board.id}`, 
+        "class": `${board.type} ${board.actuator}`
+      })
+      .on('click', switchClick)
+      .appendTo($controls);
 
-      $module_0.on('click', switchClick);
-      controls.append($module_0);
-    }
-
-    if (board.module_1_type != "empty") {
-      var $module_1 = $("<div>", {id: `${board.id}_module_1`, "class": `${board.module_1_type}`});
-      
-      if (board.status == "offline") $module_1.addClass('disabled');
-
-      $(`<span>${board.module_1_name}</span>`)
-        .addClass("name")
-        .appendTo($module_1);
-
-      $module_1.on('click', switchClick);
-      controls.append($module_1);
-    }
-
-    if (board.module_2_type != "empty") {
-      var $module_2 = $("<div>", {id: `${board.id}_module_2`, "class": `${board.module_2_type}`});
-
-      if (board.status == "offline") $module_2.addClass('disabled');
-
-      $(`<span>${board.module_2_name}</span>`)
-        .addClass("name")
-        .appendTo($module_2);
-
-      $module_2.on('click', switchClick);
-      controls.append($module_2);
-    }
-
-    if (board.module_3_type != "empty") {
-      var $module_3 = $("<div>", {id: `${board.id}_module_3`, "class": `${board.module_3_type}`});
-      
-      if (board.status == "offline") $module_3.addClass('disabled');
-
-      $(`<span>${board.module_3_name}</span>`)
-        .addClass("name")
-        .appendTo($module_3);
-
-      $module_3.on('click', switchClick);
-      controls.append($module_3);
-    }
+    if (board.status == "offline") $module.addClass('disabled');
+    
+    $("<span/>", { 
+      "class": "name",
+      "text": `${board.name}`,
+    }).appendTo($module);
   }
 
 })

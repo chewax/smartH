@@ -6,7 +6,6 @@ block append content
     #controls
         for device in devices
                 div(class=device.class)
-                    span(class="name") #{device.name}
                     if device.data
                         span(class="data") #{device.data} 
 
