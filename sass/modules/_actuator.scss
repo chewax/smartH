@@ -1,23 +1,23 @@
-.switch {
+.actuator {
     @extend %container;  
   }
   
-  .switch.light {
+  .actuator.bulb {
     &:after {
       @extend %icon;
       content: "\f0eb";
     }
   }
-  .switch.light.on {
+  .actuator.bulb.on {
       &:after { color: $onGreen}
   }
   
-  .switch.fosset {
+  .actuator.valve {
     &:after {
       @extend %icon;
       content: "\f043";
     }
   }
-  .switch.fosset.on {
+  .actuator.valve.on {
       &:after { color: $onBlue}
   }

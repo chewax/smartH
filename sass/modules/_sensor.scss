@@ -1,9 +1,9 @@
-.info {
+.sensor {
     @extend %container;
     background-color: lighten($backgroundColor, 20%);
   }
   
-  .info.entry {
+  .sensor.hall {
     
     &:before {
       @extend %icon;
@@ -18,7 +18,8 @@
     }
     
   }
-  .info.entry.active {
+
+  .sensor.hall.active {
     
     &:before {
       content: "\f30a";
@@ -32,7 +33,7 @@
    
   }
   
-  .info.lock {
+  .sensor.lock {
     
     &:after {
       @extend %icon;
@@ -40,7 +41,8 @@
     }
     
   }
-  .info.lock.active {
+  
+  .sensor.lock.active {
     
     &:after {
       content: "\f3c1";
@@ -49,7 +51,7 @@
    
   }
   
-  .info.temp {
+  .sensor.dht {
     .data {
       @include positionXY(40%,60%);
       font-weight: 600;
@@ -76,7 +78,7 @@
     
   }
   
-  .info.energy {
+  .sensor.current {
     .data {
       @include positionXY(40%,60%);
       font-weight: 600;

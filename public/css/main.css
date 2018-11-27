@@ -3,7 +3,7 @@ body {
   background-color: #1a1a1a;
   font-family: Arial, sans-serif; }
 
-.switch:after, .info:after, .macro:after, .forecast:after, .disabled.switch:before, .disabled.info:before, .disabled.macro:before, .disabled.forecast:before, .switch.light:after, .switch.fosset:after, .info.entry:before, .info.entry:after, .info.lock:after, .info.temp:after, .info.energy:after, .today:before, .tomorrow:before, .tomorrow .rain:before {
+.actuator:after, .sensor:after, .macro:after, .forecast:after, .disabled.actuator:before, .disabled.sensor:before, .disabled.macro:before, .disabled.forecast:before, .actuator.bulb:after, .actuator.valve:after, .sensor.hall:before, .sensor.hall:after, .sensor.lock:after, .sensor.dht:after, .sensor.current:after, .today:before, .tomorrow:before, .tomorrow .rain:before {
   position: absolute;
   left: 50%;
   top: 60%;
@@ -13,10 +13,10 @@ body {
   font-family: "Font Awesome 5 Free";
   font-weight: 900; }
   @media only screen and (max-width: 430px) {
-    .switch:after, .info:after, .macro:after, .forecast:after, .disabled.switch:before, .disabled.info:before, .disabled.macro:before, .disabled.forecast:before, .switch.light:after, .switch.fosset:after, .info.entry:before, .info.entry:after, .info.lock:after, .info.temp:after, .info.energy:after, .today:before, .tomorrow:before, .tomorrow .rain:before {
+    .actuator:after, .sensor:after, .macro:after, .forecast:after, .disabled.actuator:before, .disabled.sensor:before, .disabled.macro:before, .disabled.forecast:before, .actuator.bulb:after, .actuator.valve:after, .sensor.hall:before, .sensor.hall:after, .sensor.lock:after, .sensor.dht:after, .sensor.current:after, .today:before, .tomorrow:before, .tomorrow .rain:before {
       font-size: 1.4em; } }
 
-.switch .name, .info .name, .macro .name, .forecast .name {
+.actuator .name, .sensor .name, .macro .name, .forecast .name {
   position: absolute;
   left: 50%;
   top: 20%;
@@ -26,13 +26,13 @@ body {
   color: #c8c8c8;
   width: 90%; }
   @media only screen and (max-width: 430px) {
-    .switch .name, .info .name, .macro .name, .forecast .name {
+    .actuator .name, .sensor .name, .macro .name, .forecast .name {
       font-size: 0.8em; } }
 
-.switch .ip, .info .ip, .macro .ip, .forecast .ip {
+.actuator .ip, .sensor .ip, .macro .ip, .forecast .ip {
   display: none; }
 
-.switch, .info, .macro, .forecast {
+.actuator, .sensor, .macro, .forecast {
   position: relative;
   width: 100px;
   height: 100px;
@@ -42,34 +42,34 @@ body {
   margin-top: 4.5px;
   box-sizing: border-box; }
   @media only screen and (max-width: 430px) {
-    .switch, .info, .macro, .forecast {
+    .actuator, .sensor, .macro, .forecast {
       width: 80px;
       height: 80px; } }
-  .md.switch, .md.info, .md.macro, .md.forecast {
+  .md.actuator, .md.sensor, .md.macro, .md.forecast {
     width: 204.5px; }
     @media only screen and (max-width: 430px) {
-      .md.switch, .md.info, .md.macro, .md.forecast {
+      .md.actuator, .md.sensor, .md.macro, .md.forecast {
         width: 164.5px; } }
-    .md.switch:after, .md.info:after, .md.macro:after, .md.forecast:after {
+    .md.actuator:after, .md.sensor:after, .md.macro:after, .md.forecast:after {
       font-size: 3em;
       top: 55%; }
-  .lg.switch, .lg.info, .lg.macro, .lg.forecast {
+  .lg.actuator, .lg.sensor, .lg.macro, .lg.forecast {
     width: 204.5px;
     height: 204.5px; }
     @media only screen and (max-width: 430px) {
-      .lg.switch, .lg.info, .lg.macro, .lg.forecast {
+      .lg.actuator, .lg.sensor, .lg.macro, .lg.forecast {
         width: 164.5px;
         height: 164.5px; } }
-    .lg.switch:after, .lg.info:after, .lg.macro:after, .lg.forecast:after {
+    .lg.actuator:after, .lg.sensor:after, .lg.macro:after, .lg.forecast:after {
       font-size: 3em;
       top: 55%; }
-  .disabled.switch, .disabled.info, .disabled.macro, .disabled.forecast {
+  .disabled.actuator, .disabled.sensor, .disabled.macro, .disabled.forecast {
     background-color: #272727; }
-    .disabled.switch .name, .disabled.info .name, .disabled.macro .name, .disabled.forecast .name {
+    .disabled.actuator .name, .disabled.sensor .name, .disabled.macro .name, .disabled.forecast .name {
       color: #414141; }
-    .disabled.switch:after, .disabled.info:after, .disabled.macro:after, .disabled.forecast:after {
+    .disabled.actuator:after, .disabled.sensor:after, .disabled.macro:after, .disabled.forecast:after {
       color: #414141; }
-    .disabled.switch:before, .disabled.info:before, .disabled.macro:before, .disabled.forecast:before {
+    .disabled.actuator:before, .disabled.sensor:before, .disabled.macro:before, .disabled.forecast:before {
       position: absolute;
       left: 15%;
       top: 85%;
@@ -78,49 +78,49 @@ body {
       content: "\f111";
       color: #fa3e0a; }
 
-.switch.light:after {
+.actuator.bulb:after {
   content: "\f0eb"; }
 
-.switch.light.on:after {
+.actuator.bulb.on:after {
   color: #80d30b; }
 
-.switch.fosset:after {
+.actuator.valve:after {
   content: "\f043"; }
 
-.switch.fosset.on:after {
+.actuator.valve.on:after {
   color: #1398fa; }
 
-.info {
+.sensor {
   background-color: #4d4d4d; }
 
-.info.entry:before {
+.sensor.hall:before {
   position: absolute;
   left: 33%;
   top: 60%;
   transform: translate(-50%, -50%);
   content: "\f30b"; }
-.info.entry:after {
+.sensor.hall:after {
   position: absolute;
   left: 66%;
   top: 60%;
   transform: translate(-50%, -50%);
   content: "\f30a"; }
 
-.info.entry.active:before {
+.sensor.hall.active:before {
   content: "\f30a";
   color: #fb870b; }
-.info.entry.active:after {
+.sensor.hall.active:after {
   content: "\f30b";
   color: #fb870b; }
 
-.info.lock:after {
+.sensor.lock:after {
   content: "\f023"; }
 
-.info.lock.active:after {
+.sensor.lock.active:after {
   content: "\f3c1";
   color: #fb870b; }
 
-.info.temp .data {
+.sensor.dht .data {
   position: absolute;
   left: 40%;
   top: 60%;
@@ -129,9 +129,9 @@ body {
   color: #1398fa;
   font-size: 2em; }
   @media only screen and (max-width: 430px) {
-    .info.temp .data {
+    .sensor.dht .data {
       font-size: 1.4em; } }
-.info.temp:after {
+.sensor.dht:after {
   font-family: Arial, sans-serif;
   font-weight: 400;
   font-size: 1.5em;
@@ -141,10 +141,10 @@ body {
   transform: translate(-50%, -50%);
   content: "℃"; }
   @media only screen and (max-width: 430px) {
-    .info.temp:after {
+    .sensor.dht:after {
       font-size: 1em; } }
 
-.info.energy .data {
+.sensor.current .data {
   position: absolute;
   left: 40%;
   top: 60%;
@@ -152,7 +152,7 @@ body {
   font-weight: 600;
   color: #c8c8c8;
   font-size: 2em; }
-.info.energy:after {
+.sensor.current:after {
   font-family: Arial, sans-serif;
   font-weight: 400;
   font-size: 1.5em;
@@ -162,7 +162,7 @@ body {
   transform: translate(-50%, -50%);
   content: "KWh"; }
   @media only screen and (max-width: 430px) {
-    .info.energy:after {
+    .sensor.current:after {
       font-size: 1em; } }
 
 .macro:after {

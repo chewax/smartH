@@ -6,8 +6,7 @@ block append content
     #controls
         for device in devices
                 div(class=device.class)
-                    if device.data
-                        span(class="data") #{device.data} 
+                    
 
 block append scripts
       script(src='/static/js/dashboard.js')

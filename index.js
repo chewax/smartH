@@ -7,13 +7,14 @@
     let server = require('http').Server(app);
     let io = require('socket.io')(server);
     let bodyParser = require('body-parser');
-    let cors = require('./lib/cors');
-    let config = require('./lib/config');
-    let logger = require('./lib/logger');
+    let cors = require('./lib/modules/core/cors');
+    let config = require('./lib/modules/core/config');
+    let logger = require('./lib/modules/core/logger');
     let publicRoutes = require('./lib/routes/public');
     let protectedRoutes = require('./lib/routes/protected');
-    require('./lib/socket').initSocketIOEvents(io);
-    require('./lib/database');
+
+    require('./lib/modules/core/socket').initSocketIOEvents(io);
+    require('./lib/modules/core/database');
 
     app.set('views', __dirname + '/views')
     app.set('view engine', 'pug')

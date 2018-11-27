@@ -1,58 +1,48 @@
 $(document).ready(function(){
 
   var socket = io();
+  var serverStatus = "online"
+
+  socket.on('disconnect', function() {
+    console.log("server disconnected");
+    serverStatus = "offline"
+  })
 
   var client = {
     id: "someuniqueidprobablylogintoken",
-    name: "username"
+    name: "Daniel"
   }
 
-  socket.emit('client:register', client);
-  socket.emit('client:boards:get');
-  socket.emit('client:forecast:get');
+  socket.emit('console:register', client);
+  socket.emit('console:boards:get');
 
-  socket.on("client:boards:all", (boards) => {
+  socket.on("console:boards:get", loadModules)
+  socket.on("console:board:new", appendBoard);
+  socket.on("console:board:disable", disableModule)
+  socket.on("console:board:enable", enableModule)
+  socket.on("console:board:temperature", updateModuleTemperature)
+
+
+  function loadModules (boards) {
     boards.forEach( board => { appendBoard(board) });
-  })
-  
-  socket.on("client:board:new", (board) => { 
-    appendBoard(board);
-  })
+  }
 
-  socket.on("client:board:disable", (id) => {
-    var actuators = $(`[id^='${id}']`);
-    actuators.addClass('disabled');  
-  })
+  function updateModuleTemperature (data) {
+    var $data = $(`[id^='${data.id}'] .data`);
+    $data.text(data.temperature);
+  }
 
-  socket.on("client:board:enable", (id) => {
+  function enableModule (id) {
     var actuators = $(`[id^='${id}']`);
     actuators.removeClass('disabled');
-  })
+  }
 
-  socket.on("client:forecast:all", (data) => {
-    let $today = $(".forecast .today");
-    $today.addClass(data.daily.data[0].icon);
-    $(`<span>${Math.round(data.daily.data[0].temperatureMax)}℃ / ${Math.round(data.daily.data[0].temperatureMin)}℃</span>`)
-        .addClass("temp")
-        .appendTo($today);
+  function disableModule (id) {
+    var actuators = $(`[id^='${id}']`);
+    actuators.addClass('disabled');  
+  }
 
-
-    let $tomorrow = $(".forecast .tomorrow");
-    $tomorrow.addClass(data.daily.data[1].icon);
-    $(`<span>${Math.round(data.daily.data[1].temperatureMax)}℃ / ${Math.round(data.daily.data[1].temperatureMin)}℃</span>`)
-      .addClass("temp")
-      .appendTo($tomorrow);
-
-    $(`<span>${Math.round(data.daily.data[1].precipProbability)}%</span>`)
-      .addClass("rain")
-      .appendTo($tomorrow);
-  })
-  
-  $(".switch").on('click', switchClick);
-  $(".info").on('click', infoClick);
-  $(".macro").on('click', macroClick);
-
-  function switchClick (e) {
+  function actuatorClick (e) {
     e.preventDefault();
     
     if ($(this).hasClass('disabled')) return;
@@ -60,38 +50,13 @@ $(document).ready(function(){
     $(this).toggleClass('on');
     $(".macro").removeClass('active');
 
-    socket.emit("client:switch:actuate", $(this).attr('id'));
+    socket.emit("console:board:actuate", $(this).attr('id'));
   } 
 
-  function macroClick (e) {
-    e.preventDefault();
-    
-    if ($(this).hasClass('disabled')) return;
-
-    $(this).toggleClass('active');
-  
-    if ($(this).hasClass('active')) {
-      $(".macro").not(this).removeClass('active');
-    }
-  }
-
-  function infoClick (e) {
-    e.preventDefault();
-
-    if ($(this).hasClass('disabled')) return;
-    
-    $(this).toggleClass('active');
-  }
-
-  function appendBoard (board) {
-    let $controls = $("#controls");
-
+  function createModule (board) {
     let $module = $( "<div/>", {
-        id: `${board.id}`, 
-        "class": `${board.type} ${board.actuator}`
+        id: `${board.id}`
       })
-      .on('click', switchClick)
-      .appendTo($controls);
 
     if (board.status == "offline") $module.addClass('disabled');
     
@@ -104,6 +69,43 @@ $(document).ready(function(){
       "class": "ip",
       "text": `${board.ip}`,
     }).appendTo($module);
+
+    return $module;
+    
+  }
+
+  function addSensor (board) {
+    let $controls = $("#controls");
+    let $module = createModule(board);
+
+    $("<span/>", { 
+      "class": "data",
+      "text": "",
+    }).appendTo($module);
+
+    $module.addClass('sensor');
+    $module.addClass(board.sensor);
+
+    $module.appendTo($controls);
+  }
+
+  function addActuator (board) {
+
+    let $controls = $("#controls");
+    let $module = createModule(board);
+
+    $module.addClass('actuator');
+    $module.addClass(board.actuator);
+    $module.on('click', actuatorClick);
+
+    $module.appendTo($controls);
+  }
+
+  function appendBoard (board) {
+
+    if (!isNull(board.sensor)) addSensor(board);
+    if (!isNull(board.actuator)) addActuator(board);
+
   }
 
 })
