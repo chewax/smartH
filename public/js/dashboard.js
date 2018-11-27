@@ -1,20 +1,22 @@
 $(document).ready(function(){
 
   var socket = io();
-  var serverStatus = "online"
-
-  socket.on('disconnect', function() {
-    console.log("server disconnected");
-    serverStatus = "offline"
-  })
-
+  var serverStatus = ""
   var client = {
     id: "someuniqueidprobablylogintoken",
     name: "Daniel"
   }
 
-  socket.emit('console:register', client);
-  socket.emit('console:boards:get');
+  socket.on('disconnect', function() {
+    serverStatus = "offline"
+  })
+
+  socket.on('connect', function() {
+    clearModules();
+    serverStatus = "online"
+    socket.emit('console:register', client);
+    socket.emit('console:boards:get');
+  })
 
   socket.on("console:boards:get", loadModules)
   socket.on("console:board:new", appendBoard);
@@ -22,6 +24,10 @@ $(document).ready(function(){
   socket.on("console:board:enable", enableModule)
   socket.on("console:board:temperature", updateModuleTemperature)
 
+  
+  function clearModules () {
+    $("#controls").empty();
+  }
 
   function loadModules (boards) {
     boards.forEach( board => { appendBoard(board) });
@@ -32,14 +38,16 @@ $(document).ready(function(){
     $data.text(data.temperature);
   }
 
-  function enableModule (id) {
-    var actuators = $(`[id^='${id}']`);
-    actuators.removeClass('disabled');
+  function enableModule (board) {
+    console.log(board);
+    var modules = $(`[id^='${board.id}']`);
+    modules.removeClass('disabled');
+    updateBoard (board);
   }
 
   function disableModule (id) {
-    var actuators = $(`[id^='${id}']`);
-    actuators.addClass('disabled');  
+    var modules = $(`[id^='${id}']`);
+    modules.addClass('disabled');  
   }
 
   function actuatorClick (e) {
@@ -101,11 +109,97 @@ $(document).ready(function(){
     $module.appendTo($controls);
   }
 
+  function removeSensor (board) {
+    var $module = $(`[id^='${board.id}'].sensor`);
+    $module.remove();
+  }
+
+  function removeActuator (board) {
+    var $module = $(`[id^='${board.id}'].actuator`);
+    $module.remove();
+  }
+
+  function upsertSensor (board) {
+    var $module = $(`[id^='${board.id}'].sensor`);
+    
+    
+    if ($module.length == 0) {
+      $module = $( "<div/>", {
+        id: `${board.id}`
+      })
+
+      if (board.status == "offline") $module.addClass('disabled');
+    }
+    else {
+      $module.empty();
+      $module.removeClass();
+    }
+    
+
+    $("<span/>", { 
+      "class": "name",
+      "text": `${board.name}`,
+    }).appendTo($module);
+
+    $("<span/>", { 
+      "class": "ip",
+      "text": `${board.ip}`,
+    }).appendTo($module);
+
+    $("<span/>", { 
+      "class": "data",
+      "text": "",
+    }).appendTo($module);
+
+    $module.addClass('sensor');
+    $module.addClass(board.sensor);
+
+  }
+
+  function upsertActuator (board) {
+    var $module = $(`[id^='${board.id}'].actuator`);
+
+    if ($module.length == 0) {
+      
+      $module = $( "<div/>", {
+        id: `${board.id}`
+      })
+
+      if (board.status == "offline") $module.addClass('disabled');
+    }
+    else {
+      $module.empty();
+      $module.removeClass();
+    }
+
+    $("<span/>", { 
+      "class": "name",
+      "text": `${board.name}`,
+    }).appendTo($module);
+
+    $("<span/>", { 
+      "class": "ip",
+      "text": `${board.ip}`,
+    }).appendTo($module);
+
+
+    $module.addClass('actuator');
+    $module.addClass(board.actuator);
+  }
+
   function appendBoard (board) {
 
     if (!isNull(board.sensor)) addSensor(board);
     if (!isNull(board.actuator)) addActuator(board);
 
+  }
+
+  function updateBoard (board) {
+    if (!isNull(board.sensor)) upsertSensor (board);
+    else removeSensor (board);
+
+    if (!isNull(board.actuator)) upsertActuator (board);
+    else removeActuator (board);
   }
 
 })
