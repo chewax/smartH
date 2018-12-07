@@ -76,7 +76,7 @@ $(document).ready(function(){
     $("<span/>", { 
       "class": "ip",
       "text": `${board.ip}`,
-    }).appendTo($module);
+    }).appendTo($module); 
 
     return $module;
     
