@@ -106,3 +106,582 @@
 ℹ 07/Dec/2018:06:04:58 Emitted: board:toggle
 ℹ 07/Dec/2018:06:04:59 Emitted: board:toggle
 ℹ 07/Dec/2018:06:05:00 Emitted: board:toggle
+❯ 07/Dec/2018:06:46:27 Connecting to database...
+ℹ 07/Dec/2018:06:46:27 Initializing Socket Events.
+ℹ 07/Dec/2018:06:46:28 Server UP, listening on port 5000
+✔ 07/Dec/2018:06:46:28 Database connection success!!!
+❯ 07/Dec/2018:06:47:12 Connecting to database...
+ℹ 07/Dec/2018:06:47:12 Initializing Socket Events.
+ℹ 07/Dec/2018:06:47:12 Server UP, listening on port 5000
+✔ 07/Dec/2018:06:47:12 Database connection success!!!
+❯ 07/Dec/2018:06:49:26 Connecting to database...
+ℹ 07/Dec/2018:06:49:26 Initializing Socket Events.
+ℹ 07/Dec/2018:06:49:26 Server UP, listening on port 5000
+✔ 07/Dec/2018:06:49:26 Database connection success!!!
+❯ 07/Dec/2018:06:54:32 Connecting to database...
+ℹ 07/Dec/2018:06:54:32 Initializing Socket Events.
+ℹ 07/Dec/2018:06:54:32 Server UP, listening on port 5000
+✔ 07/Dec/2018:06:54:32 Database connection success!!!
+❯ 07/Dec/2018:06:54:47 Connecting to database...
+ℹ 07/Dec/2018:06:54:47 Initializing Socket Events.
+ℹ 07/Dec/2018:06:54:47 Server UP, listening on port 5000
+✔ 07/Dec/2018:06:54:47 Database connection success!!!
+❯ 07/Dec/2018:06:54:50 Connecting to database...
+ℹ 07/Dec/2018:06:54:50 Initializing Socket Events.
+ℹ 07/Dec/2018:06:54:51 Server UP, listening on port 5000
+✔ 07/Dec/2018:06:54:51 Database connection success!!!
+❯ 07/Dec/2018:06:54:57 Connecting to database...
+ℹ 07/Dec/2018:06:54:58 Initializing Socket Events.
+ℹ 07/Dec/2018:06:54:58 Server UP, listening on port 5000
+✔ 07/Dec/2018:06:54:58 Database connection success!!!
+❯ 07/Dec/2018:06:55:08 Connecting to database...
+ℹ 07/Dec/2018:06:55:09 Initializing Socket Events.
+ℹ 07/Dec/2018:06:55:09 Server UP, listening on port 5000
+✔ 07/Dec/2018:06:55:09 Database connection success!!!
+❯ 07/Dec/2018:06:55:19 Connecting to database...
+ℹ 07/Dec/2018:06:55:20 Initializing Socket Events.
+ℹ 07/Dec/2018:06:55:20 Server UP, listening on port 5000
+✔ 07/Dec/2018:06:55:20 Database connection success!!!
+❯ 07/Dec/2018:06:55:44 Connecting to database...
+ℹ 07/Dec/2018:06:55:44 Initializing Socket Events.
+ℹ 07/Dec/2018:06:55:44 Server UP, listening on port 5000
+✔ 07/Dec/2018:06:55:44 Database connection success!!!
+❯ 07/Dec/2018:06:55:59 Connecting to database...
+ℹ 07/Dec/2018:06:55:59 Initializing Socket Events.
+ℹ 07/Dec/2018:06:55:59 Server UP, listening on port 5000
+✔ 07/Dec/2018:06:55:59 Database connection success!!!
+❯ 07/Dec/2018:06:56:25 Connecting to database...
+ℹ 07/Dec/2018:06:56:25 Initializing Socket Events.
+ℹ 07/Dec/2018:06:56:25 Server UP, listening on port 5000
+✔ 07/Dec/2018:06:56:25 Database connection success!!!
+❯ 07/Dec/2018:06:56:41 Connecting to database...
+ℹ 07/Dec/2018:06:56:41 Initializing Socket Events.
+ℹ 07/Dec/2018:06:56:41 Server UP, listening on port 5000
+✔ 07/Dec/2018:06:56:41 Database connection success!!!
+❯ 07/Dec/2018:06:57:00 Connecting to database...
+ℹ 07/Dec/2018:06:57:00 Initializing Socket Events.
+ℹ 07/Dec/2018:06:57:00 Server UP, listening on port 5000
+✔ 07/Dec/2018:06:57:00 Database connection success!!!
+❯ 07/Dec/2018:06:57:21 Connecting to database...
+ℹ 07/Dec/2018:06:57:21 Initializing Socket Events.
+ℹ 07/Dec/2018:06:57:21 Server UP, listening on port 5000
+✔ 07/Dec/2018:06:57:21 Database connection success!!!
+❯ 07/Dec/2018:06:57:34 Connecting to database...
+ℹ 07/Dec/2018:06:57:34 Initializing Socket Events.
+ℹ 07/Dec/2018:06:57:34 Server UP, listening on port 5000
+✔ 07/Dec/2018:06:57:34 Database connection success!!!
+❯ 07/Dec/2018:06:59:54 Connecting to database...
+ℹ 07/Dec/2018:06:59:54 Initializing Socket Events.
+ℹ 07/Dec/2018:06:59:54 Server UP, listening on port 5000
+✔ 07/Dec/2018:06:59:54 Database connection success!!!
+❯ 07/Dec/2018:07:04:45 Connecting to database...
+ℹ 07/Dec/2018:07:04:45 Initializing Socket Events.
+ℹ 07/Dec/2018:07:04:45 Server UP, listening on port 5000
+✔ 07/Dec/2018:07:04:45 Database connection success!!!
+ℹ 07/Dec/2018:07:04:58 Emitted: board:toggle
+ℹ 07/Dec/2018:07:04:59 Emitted: board:toggle
+ℹ 07/Dec/2018:07:04:59 Emitted: board:toggle
+ℹ 07/Dec/2018:07:05:00 Emitted: board:toggle
+ℹ 07/Dec/2018:07:05:00 Emitted: board:toggle
+ℹ 07/Dec/2018:07:05:01 Emitted: board:toggle
+ℹ 07/Dec/2018:07:05:01 Emitted: board:toggle
+ℹ 07/Dec/2018:07:05:02 Emitted: board:toggle
+❯ 07/Dec/2018:10:02:15 Connecting to database...
+ℹ 07/Dec/2018:10:02:15 Initializing Socket Events.
+ℹ 07/Dec/2018:10:02:15 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:02:15 Database connection success!!!
+❯ 07/Dec/2018:10:02:38 Connecting to database...
+ℹ 07/Dec/2018:10:02:38 Initializing Socket Events.
+ℹ 07/Dec/2018:10:02:38 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:02:38 Database connection success!!!
+❯ 07/Dec/2018:10:03:06 Connecting to database...
+ℹ 07/Dec/2018:10:03:06 Initializing Socket Events.
+ℹ 07/Dec/2018:10:03:06 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:03:06 Database connection success!!!
+❯ 07/Dec/2018:10:03:08 Connecting to database...
+ℹ 07/Dec/2018:10:03:09 Initializing Socket Events.
+ℹ 07/Dec/2018:10:03:09 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:03:09 Database connection success!!!
+❯ 07/Dec/2018:10:04:02 Connecting to database...
+ℹ 07/Dec/2018:10:04:02 Initializing Socket Events.
+ℹ 07/Dec/2018:10:04:02 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:04:02 Database connection success!!!
+❯ 07/Dec/2018:10:04:17 Connecting to database...
+ℹ 07/Dec/2018:10:04:17 Initializing Socket Events.
+ℹ 07/Dec/2018:10:04:17 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:04:17 Database connection success!!!
+❯ 07/Dec/2018:10:04:39 Connecting to database...
+ℹ 07/Dec/2018:10:04:39 Initializing Socket Events.
+ℹ 07/Dec/2018:10:04:39 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:04:39 Database connection success!!!
+❯ 07/Dec/2018:10:04:45 Connecting to database...
+ℹ 07/Dec/2018:10:04:45 Initializing Socket Events.
+ℹ 07/Dec/2018:10:04:45 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:04:45 Database connection success!!!
+❯ 07/Dec/2018:10:05:11 Connecting to database...
+ℹ 07/Dec/2018:10:05:11 Initializing Socket Events.
+ℹ 07/Dec/2018:10:05:11 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:05:11 Database connection success!!!
+❯ 07/Dec/2018:10:05:21 Connecting to database...
+ℹ 07/Dec/2018:10:05:21 Initializing Socket Events.
+ℹ 07/Dec/2018:10:05:21 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:05:21 Database connection success!!!
+❯ 07/Dec/2018:10:05:31 Connecting to database...
+ℹ 07/Dec/2018:10:05:31 Initializing Socket Events.
+ℹ 07/Dec/2018:10:05:31 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:05:31 Database connection success!!!
+❯ 07/Dec/2018:10:05:45 Connecting to database...
+ℹ 07/Dec/2018:10:05:45 Initializing Socket Events.
+ℹ 07/Dec/2018:10:05:46 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:05:46 Database connection success!!!
+❯ 07/Dec/2018:10:05:55 Connecting to database...
+ℹ 07/Dec/2018:10:05:56 Initializing Socket Events.
+ℹ 07/Dec/2018:10:05:56 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:05:56 Database connection success!!!
+❯ 07/Dec/2018:10:07:25 Connecting to database...
+ℹ 07/Dec/2018:10:07:25 Initializing Socket Events.
+ℹ 07/Dec/2018:10:07:25 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:07:25 Database connection success!!!
+❯ 07/Dec/2018:10:07:42 Connecting to database...
+ℹ 07/Dec/2018:10:07:43 Initializing Socket Events.
+ℹ 07/Dec/2018:10:07:43 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:07:43 Database connection success!!!
+❯ 07/Dec/2018:10:08:02 Connecting to database...
+ℹ 07/Dec/2018:10:08:02 Initializing Socket Events.
+ℹ 07/Dec/2018:10:08:03 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:08:03 Database connection success!!!
+❯ 07/Dec/2018:10:08:39 Connecting to database...
+ℹ 07/Dec/2018:10:08:39 Initializing Socket Events.
+ℹ 07/Dec/2018:10:08:39 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:08:39 Database connection success!!!
+❯ 07/Dec/2018:10:09:46 Connecting to database...
+ℹ 07/Dec/2018:10:09:47 Initializing Socket Events.
+ℹ 07/Dec/2018:10:09:47 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:09:47 Database connection success!!!
+❯ 07/Dec/2018:10:16:46 Connecting to database...
+ℹ 07/Dec/2018:10:16:46 Initializing Socket Events.
+ℹ 07/Dec/2018:10:16:46 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:16:46 Database connection success!!!
+❯ 07/Dec/2018:10:17:05 Connecting to database...
+ℹ 07/Dec/2018:10:17:05 Initializing Socket Events.
+ℹ 07/Dec/2018:10:17:06 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:17:06 Database connection success!!!
+❯ 07/Dec/2018:10:17:18 Connecting to database...
+ℹ 07/Dec/2018:10:17:18 Initializing Socket Events.
+ℹ 07/Dec/2018:10:17:18 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:17:18 Database connection success!!!
+❯ 07/Dec/2018:10:17:30 Connecting to database...
+ℹ 07/Dec/2018:10:17:30 Initializing Socket Events.
+ℹ 07/Dec/2018:10:17:30 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:17:30 Database connection success!!!
+❯ 07/Dec/2018:10:19:20 Connecting to database...
+ℹ 07/Dec/2018:10:19:20 Initializing Socket Events.
+ℹ 07/Dec/2018:10:19:20 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:19:20 Database connection success!!!
+❯ 07/Dec/2018:10:19:23 Connecting to database...
+ℹ 07/Dec/2018:10:19:23 Initializing Socket Events.
+ℹ 07/Dec/2018:10:19:23 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:19:23 Database connection success!!!
+❯ 07/Dec/2018:10:19:56 Connecting to database...
+ℹ 07/Dec/2018:10:19:57 Initializing Socket Events.
+ℹ 07/Dec/2018:10:19:57 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:19:57 Database connection success!!!
+❯ 07/Dec/2018:10:20:27 Connecting to database...
+ℹ 07/Dec/2018:10:20:28 Initializing Socket Events.
+ℹ 07/Dec/2018:10:20:28 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:20:28 Database connection success!!!
+❯ 07/Dec/2018:10:20:38 Connecting to database...
+ℹ 07/Dec/2018:10:20:39 Initializing Socket Events.
+ℹ 07/Dec/2018:10:20:39 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:20:39 Database connection success!!!
+❯ 07/Dec/2018:10:20:41 Connecting to database...
+ℹ 07/Dec/2018:10:20:41 Initializing Socket Events.
+ℹ 07/Dec/2018:10:20:41 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:20:41 Database connection success!!!
+❯ 07/Dec/2018:10:20:49 Connecting to database...
+ℹ 07/Dec/2018:10:20:49 Initializing Socket Events.
+ℹ 07/Dec/2018:10:20:49 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:20:49 Database connection success!!!
+❯ 07/Dec/2018:10:21:03 Connecting to database...
+ℹ 07/Dec/2018:10:21:03 Initializing Socket Events.
+ℹ 07/Dec/2018:10:21:03 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:21:03 Database connection success!!!
+❯ 07/Dec/2018:10:21:17 Connecting to database...
+ℹ 07/Dec/2018:10:21:18 Initializing Socket Events.
+ℹ 07/Dec/2018:10:21:18 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:21:18 Database connection success!!!
+❯ 07/Dec/2018:10:21:37 Connecting to database...
+ℹ 07/Dec/2018:10:21:38 Initializing Socket Events.
+ℹ 07/Dec/2018:10:21:38 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:21:38 Database connection success!!!
+❯ 07/Dec/2018:10:22:17 Connecting to database...
+ℹ 07/Dec/2018:10:22:17 Initializing Socket Events.
+ℹ 07/Dec/2018:10:22:17 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:22:17 Database connection success!!!
+❯ 07/Dec/2018:10:22:49 Connecting to database...
+ℹ 07/Dec/2018:10:22:49 Initializing Socket Events.
+ℹ 07/Dec/2018:10:22:49 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:22:49 Database connection success!!!
+❯ 07/Dec/2018:10:22:56 Connecting to database...
+ℹ 07/Dec/2018:10:22:56 Initializing Socket Events.
+ℹ 07/Dec/2018:10:22:56 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:22:56 Database connection success!!!
+❯ 07/Dec/2018:10:23:18 Connecting to database...
+ℹ 07/Dec/2018:10:23:18 Initializing Socket Events.
+ℹ 07/Dec/2018:10:23:18 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:23:18 Database connection success!!!
+❯ 07/Dec/2018:10:24:02 Connecting to database...
+ℹ 07/Dec/2018:10:24:02 Initializing Socket Events.
+ℹ 07/Dec/2018:10:24:02 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:24:02 Database connection success!!!
+ℹ 07/Dec/2018:10:24:25 Emitted: board:toggle
+ℹ 07/Dec/2018:10:24:26 Emitted: board:toggle
+❯ 07/Dec/2018:10:29:35 Connecting to database...
+ℹ 07/Dec/2018:10:29:35 Initializing Socket Events.
+ℹ 07/Dec/2018:10:29:35 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:29:35 Database connection success!!!
+❯ 07/Dec/2018:10:31:21 Connecting to database...
+ℹ 07/Dec/2018:10:31:21 Initializing Socket Events.
+ℹ 07/Dec/2018:10:31:22 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:31:22 Database connection success!!!
+❯ 07/Dec/2018:10:32:44 Connecting to database...
+ℹ 07/Dec/2018:10:32:44 Initializing Socket Events.
+ℹ 07/Dec/2018:10:32:44 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:32:44 Database connection success!!!
+❯ 07/Dec/2018:10:33:23 Connecting to database...
+ℹ 07/Dec/2018:10:33:23 Initializing Socket Events.
+ℹ 07/Dec/2018:10:33:24 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:33:24 Database connection success!!!
+❯ 07/Dec/2018:10:34:07 Connecting to database...
+ℹ 07/Dec/2018:10:34:08 Initializing Socket Events.
+ℹ 07/Dec/2018:10:34:08 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:34:08 Database connection success!!!
+❯ 07/Dec/2018:10:42:28 Connecting to database...
+ℹ 07/Dec/2018:10:42:29 Initializing Socket Events.
+ℹ 07/Dec/2018:10:42:29 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:42:29 Database connection success!!!
+❯ 07/Dec/2018:10:43:08 Connecting to database...
+ℹ 07/Dec/2018:10:43:09 Initializing Socket Events.
+ℹ 07/Dec/2018:10:43:09 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:43:09 Database connection success!!!
+❯ 07/Dec/2018:10:43:24 Connecting to database...
+ℹ 07/Dec/2018:10:43:24 Initializing Socket Events.
+ℹ 07/Dec/2018:10:43:24 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:43:24 Database connection success!!!
+❯ 07/Dec/2018:10:43:41 Connecting to database...
+ℹ 07/Dec/2018:10:43:42 Initializing Socket Events.
+ℹ 07/Dec/2018:10:43:42 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:43:42 Database connection success!!!
+❯ 07/Dec/2018:10:44:04 Connecting to database...
+ℹ 07/Dec/2018:10:44:04 Initializing Socket Events.
+ℹ 07/Dec/2018:10:44:05 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:44:05 Database connection success!!!
+❯ 07/Dec/2018:10:45:47 Connecting to database...
+ℹ 07/Dec/2018:10:45:47 Initializing Socket Events.
+ℹ 07/Dec/2018:10:45:47 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:45:48 Database connection success!!!
+❯ 07/Dec/2018:10:46:27 Connecting to database...
+ℹ 07/Dec/2018:10:46:28 Initializing Socket Events.
+ℹ 07/Dec/2018:10:46:28 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:46:28 Database connection success!!!
+❯ 07/Dec/2018:10:46:55 Connecting to database...
+ℹ 07/Dec/2018:10:46:55 Initializing Socket Events.
+ℹ 07/Dec/2018:10:46:55 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:46:55 Database connection success!!!
+❯ 07/Dec/2018:10:47:35 Connecting to database...
+ℹ 07/Dec/2018:10:47:35 Initializing Socket Events.
+ℹ 07/Dec/2018:10:47:36 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:47:36 Database connection success!!!
+❯ 07/Dec/2018:10:47:37 Connecting to database...
+ℹ 07/Dec/2018:10:47:37 Initializing Socket Events.
+ℹ 07/Dec/2018:10:47:37 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:47:37 Database connection success!!!
+❯ 07/Dec/2018:10:47:52 Connecting to database...
+ℹ 07/Dec/2018:10:47:52 Initializing Socket Events.
+ℹ 07/Dec/2018:10:47:52 Server UP, listening on port 5000
+✔ 07/Dec/2018:10:47:52 Database connection success!!!
+ℹ 07/Dec/2018:12:55:08 Board disabled: Cocina
+❯ 07/Dec/2018:13:28:53 Connecting to database...
+ℹ 07/Dec/2018:13:28:54 Initializing Socket Events.
+ℹ 07/Dec/2018:13:28:54 Server UP, listening on port 5000
+✔ 07/Dec/2018:13:28:54 Database connection success!!!
+ℹ 07/Dec/2018:13:29:07 Emitted: board:toggle
+ℹ 07/Dec/2018:13:29:07 Emitted: board:toggle
+❯ 08/Dec/2018:09:36:56 Connecting to database...
+ℹ 08/Dec/2018:09:36:57 Initializing Socket Events.
+ℹ 08/Dec/2018:09:36:57 Server UP, listening on port 5000
+✔ 08/Dec/2018:09:36:57 Database connection success!!!
+✖ 08/Dec/2018:09:37:18 NotAuthorizedError: User not found
+❯ 08/Dec/2018:09:56:40 Connecting to database...
+ℹ 08/Dec/2018:09:56:40 Initializing Socket Events.
+ℹ 08/Dec/2018:09:56:40 Server UP, listening on port 5000
+✔ 08/Dec/2018:09:56:40 Database connection success!!!
+✖ 08/Dec/2018:09:56:47 NotAuthorizedError: User not found
+❯ 08/Dec/2018:09:57:32 Connecting to database...
+ℹ 08/Dec/2018:09:57:32 Initializing Socket Events.
+ℹ 08/Dec/2018:09:57:32 Server UP, listening on port 5000
+✔ 08/Dec/2018:09:57:32 Database connection success!!!
+❯ 08/Dec/2018:09:57:43 Connecting to database...
+ℹ 08/Dec/2018:09:57:43 Initializing Socket Events.
+ℹ 08/Dec/2018:09:57:43 Server UP, listening on port 5000
+✔ 08/Dec/2018:09:57:43 Database connection success!!!
+✖ 08/Dec/2018:09:57:48 NotAuthorizedError: User not found
+❯ 08/Dec/2018:09:58:05 Connecting to database...
+ℹ 08/Dec/2018:09:58:05 Initializing Socket Events.
+ℹ 08/Dec/2018:09:58:05 Server UP, listening on port 5000
+✔ 08/Dec/2018:09:58:05 Database connection success!!!
+❯ 08/Dec/2018:09:58:28 Connecting to database...
+ℹ 08/Dec/2018:09:58:28 Initializing Socket Events.
+ℹ 08/Dec/2018:09:58:28 Server UP, listening on port 5000
+✔ 08/Dec/2018:09:58:28 Database connection success!!!
+✖ 08/Dec/2018:09:58:41 NotAuthorizedError: User not found
+❯ 08/Dec/2018:09:58:47 Connecting to database...
+ℹ 08/Dec/2018:09:58:47 Initializing Socket Events.
+ℹ 08/Dec/2018:09:58:47 Server UP, listening on port 5000
+✔ 08/Dec/2018:09:58:47 Database connection success!!!
+✖ 08/Dec/2018:09:58:50 NotAuthorizedError: User not found
+❯ 08/Dec/2018:09:59:37 Connecting to database...
+ℹ 08/Dec/2018:09:59:37 Initializing Socket Events.
+ℹ 08/Dec/2018:09:59:37 Server UP, listening on port 5000
+✔ 08/Dec/2018:09:59:37 Database connection success!!!
+❯ 08/Dec/2018:09:59:51 Connecting to database...
+ℹ 08/Dec/2018:09:59:51 Initializing Socket Events.
+ℹ 08/Dec/2018:09:59:51 Server UP, listening on port 5000
+✔ 08/Dec/2018:09:59:51 Database connection success!!!
+✖ 08/Dec/2018:09:59:58 NotAuthorizedError: User not found
+❯ 08/Dec/2018:10:00:14 Connecting to database...
+ℹ 08/Dec/2018:10:00:14 Initializing Socket Events.
+ℹ 08/Dec/2018:10:00:14 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:00:14 Database connection success!!!
+✖ 08/Dec/2018:10:00:18 NotAuthorizedError: User not found
+❯ 08/Dec/2018:10:01:16 Connecting to database...
+ℹ 08/Dec/2018:10:01:17 Initializing Socket Events.
+ℹ 08/Dec/2018:10:01:17 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:01:17 Database connection success!!!
+❯ 08/Dec/2018:10:01:34 Connecting to database...
+ℹ 08/Dec/2018:10:01:34 Initializing Socket Events.
+ℹ 08/Dec/2018:10:01:34 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:01:34 Database connection success!!!
+❯ 08/Dec/2018:10:01:38 Connecting to database...
+ℹ 08/Dec/2018:10:01:38 Initializing Socket Events.
+ℹ 08/Dec/2018:10:01:38 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:01:38 Database connection success!!!
+❯ 08/Dec/2018:10:01:43 Connecting to database...
+ℹ 08/Dec/2018:10:01:44 Initializing Socket Events.
+ℹ 08/Dec/2018:10:01:44 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:01:44 Database connection success!!!
+❯ 08/Dec/2018:10:01:49 Connecting to database...
+ℹ 08/Dec/2018:10:01:49 Initializing Socket Events.
+ℹ 08/Dec/2018:10:01:49 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:01:49 Database connection success!!!
+❯ 08/Dec/2018:10:01:56 Connecting to database...
+ℹ 08/Dec/2018:10:01:56 Initializing Socket Events.
+ℹ 08/Dec/2018:10:01:56 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:01:56 Database connection success!!!
+❯ 08/Dec/2018:10:02:31 Connecting to database...
+ℹ 08/Dec/2018:10:02:31 Initializing Socket Events.
+ℹ 08/Dec/2018:10:02:31 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:02:31 Database connection success!!!
+✖ 08/Dec/2018:10:02:43 NotAuthorizedError: User not found
+❯ 08/Dec/2018:10:02:51 Connecting to database...
+ℹ 08/Dec/2018:10:02:52 Initializing Socket Events.
+ℹ 08/Dec/2018:10:02:52 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:02:52 Database connection success!!!
+✖ 08/Dec/2018:10:02:56 NotAuthorizedError: User not found
+❯ 08/Dec/2018:10:03:06 Connecting to database...
+ℹ 08/Dec/2018:10:03:06 Initializing Socket Events.
+ℹ 08/Dec/2018:10:03:06 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:03:06 Database connection success!!!
+✖ 08/Dec/2018:10:03:10 NotAuthorizedError: User not found
+❯ 08/Dec/2018:10:04:17 Connecting to database...
+ℹ 08/Dec/2018:10:04:18 Initializing Socket Events.
+ℹ 08/Dec/2018:10:04:18 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:04:18 Database connection success!!!
+✖ 08/Dec/2018:10:04:23 NotAuthorizedError: User not found
+❯ 08/Dec/2018:10:04:59 Connecting to database...
+ℹ 08/Dec/2018:10:04:59 Initializing Socket Events.
+ℹ 08/Dec/2018:10:04:59 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:04:59 Database connection success!!!
+❯ 08/Dec/2018:10:05:08 Connecting to database...
+ℹ 08/Dec/2018:10:05:09 Initializing Socket Events.
+ℹ 08/Dec/2018:10:05:09 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:05:09 Database connection success!!!
+❯ 08/Dec/2018:10:05:19 Connecting to database...
+ℹ 08/Dec/2018:10:05:19 Initializing Socket Events.
+ℹ 08/Dec/2018:10:05:20 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:05:20 Database connection success!!!
+✖ 08/Dec/2018:10:05:28 NotAuthorizedError: User not found
+❯ 08/Dec/2018:10:05:35 Connecting to database...
+ℹ 08/Dec/2018:10:05:36 Initializing Socket Events.
+ℹ 08/Dec/2018:10:05:36 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:05:36 Database connection success!!!
+❯ 08/Dec/2018:10:06:17 Connecting to database...
+ℹ 08/Dec/2018:10:06:17 Initializing Socket Events.
+ℹ 08/Dec/2018:10:06:17 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:06:17 Database connection success!!!
+❯ 08/Dec/2018:10:06:19 Connecting to database...
+ℹ 08/Dec/2018:10:06:19 Initializing Socket Events.
+ℹ 08/Dec/2018:10:06:20 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:06:20 Database connection success!!!
+❯ 08/Dec/2018:10:06:59 Connecting to database...
+ℹ 08/Dec/2018:10:06:59 Initializing Socket Events.
+ℹ 08/Dec/2018:10:06:59 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:06:59 Database connection success!!!
+❯ 08/Dec/2018:10:07:47 Connecting to database...
+ℹ 08/Dec/2018:10:07:47 Initializing Socket Events.
+ℹ 08/Dec/2018:10:07:47 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:07:47 Database connection success!!!
+❯ 08/Dec/2018:10:09:35 Connecting to database...
+ℹ 08/Dec/2018:10:09:35 Initializing Socket Events.
+ℹ 08/Dec/2018:10:09:35 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:09:35 Database connection success!!!
+❯ 08/Dec/2018:10:10:17 Connecting to database...
+ℹ 08/Dec/2018:10:10:17 Initializing Socket Events.
+ℹ 08/Dec/2018:10:10:17 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:10:17 Database connection success!!!
+❯ 08/Dec/2018:10:10:26 Connecting to database...
+ℹ 08/Dec/2018:10:10:26 Initializing Socket Events.
+ℹ 08/Dec/2018:10:10:26 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:10:26 Database connection success!!!
+❯ 08/Dec/2018:10:10:59 Connecting to database...
+ℹ 08/Dec/2018:10:10:59 Initializing Socket Events.
+ℹ 08/Dec/2018:10:10:59 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:10:59 Database connection success!!!
+❯ 08/Dec/2018:10:11:01 Connecting to database...
+ℹ 08/Dec/2018:10:11:01 Initializing Socket Events.
+ℹ 08/Dec/2018:10:11:01 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:11:01 Database connection success!!!
+❯ 08/Dec/2018:10:11:18 Connecting to database...
+ℹ 08/Dec/2018:10:11:18 Initializing Socket Events.
+ℹ 08/Dec/2018:10:11:18 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:11:18 Database connection success!!!
+❯ 08/Dec/2018:10:11:21 Connecting to database...
+ℹ 08/Dec/2018:10:11:21 Initializing Socket Events.
+ℹ 08/Dec/2018:10:11:21 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:11:21 Database connection success!!!
+❯ 08/Dec/2018:10:11:25 Connecting to database...
+ℹ 08/Dec/2018:10:11:25 Initializing Socket Events.
+ℹ 08/Dec/2018:10:11:25 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:11:25 Database connection success!!!
+❯ 08/Dec/2018:10:11:43 Connecting to database...
+ℹ 08/Dec/2018:10:11:43 Initializing Socket Events.
+ℹ 08/Dec/2018:10:11:43 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:11:43 Database connection success!!!
+❯ 08/Dec/2018:10:12:03 Connecting to database...
+ℹ 08/Dec/2018:10:12:03 Initializing Socket Events.
+ℹ 08/Dec/2018:10:12:03 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:12:03 Database connection success!!!
+❯ 08/Dec/2018:10:12:08 Connecting to database...
+ℹ 08/Dec/2018:10:12:08 Initializing Socket Events.
+ℹ 08/Dec/2018:10:12:08 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:12:08 Database connection success!!!
+❯ 08/Dec/2018:10:12:18 Connecting to database...
+ℹ 08/Dec/2018:10:12:18 Initializing Socket Events.
+ℹ 08/Dec/2018:10:12:18 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:12:18 Database connection success!!!
+❯ 08/Dec/2018:10:14:24 Connecting to database...
+ℹ 08/Dec/2018:10:14:24 Initializing Socket Events.
+ℹ 08/Dec/2018:10:14:24 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:14:24 Database connection success!!!
+❯ 08/Dec/2018:10:14:41 Connecting to database...
+ℹ 08/Dec/2018:10:14:42 Initializing Socket Events.
+ℹ 08/Dec/2018:10:14:42 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:14:42 Database connection success!!!
+❯ 08/Dec/2018:10:14:45 Connecting to database...
+ℹ 08/Dec/2018:10:14:45 Initializing Socket Events.
+ℹ 08/Dec/2018:10:14:45 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:14:45 Database connection success!!!
+❯ 08/Dec/2018:10:15:59 Connecting to database...
+ℹ 08/Dec/2018:10:15:59 Initializing Socket Events.
+ℹ 08/Dec/2018:10:15:59 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:15:59 Database connection success!!!
+❯ 08/Dec/2018:10:16:11 Connecting to database...
+ℹ 08/Dec/2018:10:16:11 Initializing Socket Events.
+ℹ 08/Dec/2018:10:16:11 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:16:11 Database connection success!!!
+❯ 08/Dec/2018:10:16:14 Connecting to database...
+ℹ 08/Dec/2018:10:16:14 Initializing Socket Events.
+ℹ 08/Dec/2018:10:16:14 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:16:14 Database connection success!!!
+❯ 08/Dec/2018:10:16:34 Connecting to database...
+ℹ 08/Dec/2018:10:16:35 Initializing Socket Events.
+ℹ 08/Dec/2018:10:16:35 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:16:35 Database connection success!!!
+❯ 08/Dec/2018:10:16:41 Connecting to database...
+ℹ 08/Dec/2018:10:16:41 Initializing Socket Events.
+ℹ 08/Dec/2018:10:16:41 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:16:41 Database connection success!!!
+❯ 08/Dec/2018:10:17:39 Connecting to database...
+ℹ 08/Dec/2018:10:17:39 Initializing Socket Events.
+ℹ 08/Dec/2018:10:17:39 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:17:39 Database connection success!!!
+❯ 08/Dec/2018:10:18:05 Connecting to database...
+ℹ 08/Dec/2018:10:18:05 Initializing Socket Events.
+ℹ 08/Dec/2018:10:18:05 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:18:05 Database connection success!!!
+❯ 08/Dec/2018:10:18:23 Connecting to database...
+ℹ 08/Dec/2018:10:18:23 Initializing Socket Events.
+ℹ 08/Dec/2018:10:18:23 Server UP, listening on port 5000
+✔ 08/Dec/2018:10:18:23 Database connection success!!!
+ℹ 08/Dec/2018:10:19:20 Emitted: board:toggle
+ℹ 08/Dec/2018:10:19:21 Emitted: board:toggle
+ℹ 08/Dec/2018:13:22:20 Emitted: board:toggle
+ℹ 08/Dec/2018:13:22:20 Emitted: board:toggle
+❯ 19/Dec/2018:23:12:39 Connecting to database...
+ℹ 19/Dec/2018:23:12:40 Initializing Socket Events.
+ℹ 19/Dec/2018:23:12:40 Server UP, listening on port 5000
+✖ 19/Dec/2018:23:12:40 Database connection Error
+❯ 19/Dec/2018:23:12:54 Connecting to database...
+ℹ 19/Dec/2018:23:12:54 Initializing Socket Events.
+ℹ 19/Dec/2018:23:12:54 Server UP, listening on port 5000
+✔ 19/Dec/2018:23:12:54 Database connection success!!!
+ℹ 19/Dec/2018:23:13:23 Emitted: board:toggle
+ℹ 19/Dec/2018:23:13:24 Emitted: board:toggle
+ℹ 19/Dec/2018:23:13:24 Emitted: board:toggle
+ℹ 19/Dec/2018:23:13:25 Emitted: board:toggle
+ℹ 19/Dec/2018:23:13:26 Emitted: board:toggle
+ℹ 19/Dec/2018:23:13:26 Emitted: board:toggle
+ℹ 19/Dec/2018:23:13:27 Emitted: board:toggle
+ℹ 19/Dec/2018:23:13:27 Emitted: board:toggle
+ℹ 19/Dec/2018:23:13:28 Emitted: board:toggle
+ℹ 19/Dec/2018:23:42:40 Emitted: board:toggle
+ℹ 19/Dec/2018:23:42:42 Emitted: board:toggle
+ℹ 19/Dec/2018:23:43:14 Emitted: board:toggle
+ℹ 19/Dec/2018:23:43:15 Emitted: board:toggle
+ℹ 19/Dec/2018:23:43:15 Emitted: board:toggle
+ℹ 19/Dec/2018:23:43:17 Emitted: board:toggle
+ℹ 19/Dec/2018:23:43:18 Emitted: board:toggle
+ℹ 19/Dec/2018:23:43:49 Emitted: board:toggle
+ℹ 19/Dec/2018:23:43:50 Emitted: board:toggle
+ℹ 19/Dec/2018:23:43:50 Emitted: board:toggle
+ℹ 19/Dec/2018:23:43:51 Emitted: board:toggle
+ℹ 19/Dec/2018:23:51:11 Emitted: board:toggle
+ℹ 19/Dec/2018:23:51:12 Emitted: board:toggle
+ℹ 19/Dec/2018:23:51:13 Emitted: board:toggle
+ℹ 19/Dec/2018:23:51:14 Emitted: board:toggle
+ℹ 19/Dec/2018:23:51:15 Emitted: board:toggle
+ℹ 19/Dec/2018:23:51:15 Emitted: board:toggle
+ℹ 19/Dec/2018:23:51:19 Emitted: board:toggle
+ℹ 19/Dec/2018:23:51:20 Emitted: board:toggle
+ℹ 19/Dec/2018:23:51:20 Emitted: board:toggle
+ℹ 19/Dec/2018:23:51:21 Emitted: board:toggle
+ℹ 19/Dec/2018:23:52:45 Emitted: board:toggle
+ℹ 19/Dec/2018:23:52:46 Emitted: board:toggle
+ℹ 19/Dec/2018:23:52:47 Emitted: board:toggle
+ℹ 19/Dec/2018:23:52:49 Emitted: board:toggle
+ℹ 19/Dec/2018:23:52:49 Emitted: board:toggle
+ℹ 19/Dec/2018:23:53:06 Emitted: board:toggle
+ℹ 19/Dec/2018:23:53:08 Emitted: board:toggle
+ℹ 19/Dec/2018:23:53:08 Emitted: board:toggle
+ℹ 19/Dec/2018:23:53:10 Emitted: board:toggle
+ℹ 19/Dec/2018:23:53:11 Emitted: board:toggle
+ℹ 19/Dec/2018:23:53:13 Emitted: board:toggle
+ℹ 19/Dec/2018:23:53:14 Emitted: board:toggle
+ℹ 19/Dec/2018:23:54:36 Emitted: board:toggle
+ℹ 19/Dec/2018:23:54:37 Emitted: board:toggle
+ℹ 19/Dec/2018:23:54:37 Emitted: board:toggle
+ℹ 19/Dec/2018:23:55:01 Emitted: board:toggle
+ℹ 19/Dec/2018:23:55:03 Emitted: board:toggle
+ℹ 19/Dec/2018:23:55:03 Emitted: board:toggle
+ℹ 19/Dec/2018:23:55:04 Emitted: board:toggle
+ℹ 19/Dec/2018:23:55:05 Emitted: board:toggle

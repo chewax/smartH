@@ -21,3 +21,16 @@
   .actuator.valve.on {
       &:after { color: $onBlue}
   }
+
+  .actuator.generic {
+    &:after {
+      @extend %icon;
+      content: "\f111";
+    }
+  }
+  .actuator.generic.on {
+      &:after { 
+        content: "\f111";
+        color: $onGreen
+      }
+  }
