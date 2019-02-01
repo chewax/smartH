@@ -1,0 +1,84 @@
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+    from {
+      -webkit-transform: translate(-50%, -50%) rotate(0deg);
+      -o-transform: translate(-50%, -50%) rotate(0deg);
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+      -webkit-transform: translate(-50%, -50%) rotate(360deg);
+      -o-transform: translate(-50%, -50%) rotate(360deg);
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
+  @keyframes rotating {
+    from {
+      -ms-transform: translate(-50%, -50%) rotate(0deg);
+      -moz-transform: translate(-50%, -50%) rotate(0deg);
+      -webkit-transform: translate(-50%, -50%) rotate(0deg);
+      -o-transform: translate(-50%, -50%) rotate(0deg);
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+      -ms-transform: translate(-50%, -50%) rotate(360deg);
+      -moz-transform: translate(-50%, -50%) rotate(360deg);
+      -webkit-transform: translate(-50%, -50%) rotate(360deg);
+      -o-transform: translate(-50%, -50%) rotate(360deg);
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
+
+.motorpulse {
+    @extend %container;
+
+    &:after {
+        @extend %icon;
+        content: $cogIcon;
+        font-size: 2em;
+        @include positionXY(50%, 60%);
+    }
+
+    &:before {
+        @extend %icon;
+        content: $circleIcon; //Check
+        @include positionXY(80%, 80%);
+        font-size: 1em;
+        color: $onOrange;
+    }
+
+    &.opened {
+        &:before { 
+            content: $unlockedIcon; //Check
+            color: $onYellow;
+            // @include positionXY(80%, 85%);
+        }
+    }
+
+    &.closed {
+        &:before { 
+            content: $lockedIcon; //Check
+            color: $onGreen;
+            // @include positionXY(20%, 85%);
+        }
+    }
+
+    &.unknown {
+        &:before {
+            content: $circleIcon; //Check
+            color: $onOrange;
+            // @include positionXY(50%, 85%);
+        }
+    }
+
+    &.transition {
+
+        &:after {
+            -webkit-animation: rotating 2s linear infinite;
+            -moz-animation: rotating 2s linear infinite;
+            -ms-animation: rotating 2s linear infinite;
+            -o-animation: rotating 2s linear infinite;
+            animation: rotating 2s linear infinite;
+            color: $onOrange;
+        }
+        
+    }
+}

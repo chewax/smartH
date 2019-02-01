@@ -22,7 +22,7 @@ $(document).ready(function () {
     socket.on("console:board:new", appendBoard);
     socket.on("console:board:disable", disableModule)
     socket.on("console:board:enable", enableModule)
-    socket.on("console:board:temperature", updateModuleTemperature)
+    socket.on("console:board:sense", updateModuleSensor)
     socket.on("console:board:setOn", boardSwitchOn)
     socket.on("console:board:setOff", boardSwitchOff)
 
@@ -36,9 +36,16 @@ $(document).ready(function () {
         boards.forEach(board => { appendBoard(board) });
     }
 
-    function updateModuleTemperature (data) {
-        var $data = $(`[id^='${data.id}'] .data`);
-        $data.text(data.temperature);
+    function updateModuleSensor (board) {
+        var $board = $(`[id^='${board.id}']`);
+        var $boardData = $(`[id^='${board.id}'] .data`);
+        $boardData.text(board.sensorInfo);
+        $board.removeClass('opened');
+        $board.removeClass('closed');
+        $board.removeClass('unknown');
+        $board.addClass(board.state);
+
+        console.log(board);
     }
 
     function enableModule (board) {
@@ -48,26 +55,28 @@ $(document).ready(function () {
         updateBoard(board);
     }
 
-    function disableModule (id) {
-        var modules = $(`[id^='${id}']`);
+    function disableModule (board) {
+        var modules = $(`[id^='${board.id}']`);
         modules.addClass('disabled');
         modules.removeClass('on');
     }
 
-    function boardSwitchOn (id) {
+    function boardSwitchOn (board) {
         
         if ($(this).hasClass('disabled')) return;
 
-        var modules = $(`[id^='${id}']`);
+        var modules = $(`[id^='${board.id}']`);
         modules.addClass('on');
+        modules.addClass('transition');
     }
 
-    function boardSwitchOff (id) {
+    function boardSwitchOff (board) {
         
         if ($(this).hasClass('disabled')) return;
 
-        var modules = $(`[id^='${id}']`);
+        var modules = $(`[id^='${board.id}']`);
         modules.removeClass('on');
+        modules.removeClass('transition');
     }
 
     function actuatorClick (e) {
@@ -112,48 +121,90 @@ $(document).ready(function () {
 
     }
 
-    function addSensor (board) {
-        let $controls = $("#controls");
-        let $module = createModule(board);
+    // function addSensor (board) {
+    //     let $controls = $("#controls");
+    //     let $module = createModule(board);
 
-        $("<span/>", {
-            "class": "data",
-            "text": "",
-        }).appendTo($module);
+    //     $("<span/>", {
+    //         "class": "data",
+    //         "text": "",
+    //     }).appendTo($module);
 
-        $module.addClass('sensor');
-        $module.addClass(board.sensor);
+    //     $module.addClass('sensor');
+    //     $module.addClass(board.sensor);
 
-        $module.appendTo($controls);
-    }
+    //     $module.appendTo($controls);
+    // }
 
-    function addActuator (board) {
+    // function addActuator (board) {
 
-        let $controls = $("#controls");
-        let $module = createModule(board);
+    //     let $controls = $("#controls");
+    //     let $module = createModule(board);
 
-        $module.addClass('actuator');
-        $module.addClass(board.actuator);
-        $module.on('click', actuatorClick);
+    //     $module.addClass('actuator');
+    //     $module.addClass(board.actuator);
+    //     $module.on('click', actuatorClick);
 
-        $module.appendTo($controls);
-    }
+    //     $module.appendTo($controls);
+    // }
 
-    function removeSensor (board) {
-        var $module = $(`[id^='${board.id}'].sensor`);
+    // function removeSensor (board) {
+    //     var $module = $(`[id^='${board.id}'].sensor`);
+    //     $module.remove();
+    // }
+
+    // function removeActuator (board) {
+    //     var $module = $(`[id^='${board.id}'].actuator`);
+    //     $module.remove();
+    // }
+
+    // function upsertSensor (board) {
+    //     var $module = $(`[id^='${board.id}'].sensor`);
+
+
+    //     if ($module.length == 0) {
+    //         $module = $("<div/>", {
+    //             id: `${board.id}`
+    //         })
+
+    //         if (board.status == "offline") $module.addClass('disabled');
+    //     }
+    //     else {
+    //         $module.empty();
+    //         $module.removeClass();
+    //     }
+
+
+    //     $("<span/>", {
+    //         "class": "name",
+    //         "text": `${board.name}`,
+    //     }).appendTo($module);
+
+    //     $("<span/>", {
+    //         "class": "ip",
+    //         "text": `${board.ip}`,
+    //     }).appendTo($module);
+
+    //     $("<span/>", {
+    //         "class": "data",
+    //         "text": "",
+    //     }).appendTo($module);
+
+    //     $module.addClass('sensor');
+    //     $module.addClass(board.sensor);
+
+    // }
+
+    function removeBoard (board) {
+        var $module = $(`[id^='${board.id}']`);
         $module.remove();
     }
 
-    function removeActuator (board) {
-        var $module = $(`[id^='${board.id}'].actuator`);
-        $module.remove();
-    }
-
-    function upsertSensor (board) {
-        var $module = $(`[id^='${board.id}'].sensor`);
-
+    function upsertBoard (board) {
+        var $module = $(`[id^='${board.id}']`);
 
         if ($module.length == 0) {
+
             $module = $("<div/>", {
                 id: `${board.id}`
             })
@@ -165,43 +216,6 @@ $(document).ready(function () {
             $module.removeClass();
         }
 
-
-        $("<span/>", {
-            "class": "name",
-            "text": `${board.name}`,
-        }).appendTo($module);
-
-        $("<span/>", {
-            "class": "ip",
-            "text": `${board.ip}`,
-        }).appendTo($module);
-
-        $("<span/>", {
-            "class": "data",
-            "text": "",
-        }).appendTo($module);
-
-        $module.addClass('sensor');
-        $module.addClass(board.sensor);
-
-    }
-
-    function upsertActuator (board) {
-        var $module = $(`[id^='${board.id}'].actuator`);
-
-        if ($module.length == 0) {
-
-            $module = $("<div/>", {
-                id: `${board.id}`
-            })
-
-            if (board.status == "offline") $module.addClass('disabled');
-        }
-        else {
-            $module.empty();
-            $module.removeClass();
-        }
-
         $("<span/>", {
             "class": "name",
             "text": `${board.name}`,
@@ -214,7 +228,8 @@ $(document).ready(function () {
 
 
         $module.addClass('actuator');
-        $module.addClass(board.actuator);
+        $module.addClass(board.mode);
+        $module.addClass(board.relayState);
     }
 
     function appendBoard (board) {
@@ -224,22 +239,22 @@ $(document).ready(function () {
 
         let $controls = $("#controls");
         let $module = createModule(board);
-
-        $module.addClass('actuator');
         $module.addClass(board.mode);
-        $module.addClass('bulb');
+        console.log(board);
+
+        $module.addClass(board.relayState);
 
         $module.on('click', actuatorClick);
         $module.appendTo($controls);
 
     }
 
-    function updateBoard (board) {
-        if (!isNull(board.sensor)) upsertSensor(board);
-        else removeSensor(board);
+    // function updateBoard (board) {
+    //     if (!isNull(board.sensor)) upsertSensor(board);
+    //     else removeSensor(board);
 
-        if (!isNull(board.actuator)) upsertActuator(board);
-        else removeActuator(board);
-    }
+    //     if (!isNull(board.actuator)) upsertActuator(board);
+    //     else removeActuator(board);
+    // }
 
 })
