@@ -91,9 +91,9 @@
       &:before {
         @extend %icon;
         @include positionXY (15%, 85%);
-        font-size: 0.9em;
-        content: "\f111";
-        color: $onRed;
+        font-size: 1em;
+        content: "\f111" !important;
+        color: $onRed !important;
       }
     }
   }

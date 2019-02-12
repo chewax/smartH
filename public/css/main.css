@@ -74,9 +74,9 @@ body {
       left: 15%;
       top: 85%;
       transform: translate(-50%, -50%);
-      font-size: 0.9em;
-      content: "\f111";
-      color: #fa3e0a; }
+      font-size: 1em;
+      content: "\f111" !important;
+      color: #fa3e0a !important; }
 
 .actuator.bulb:after {
   content: "\f0eb"; }
@@ -342,7 +342,7 @@ body {
 .motorpulse.unknown:before {
   content: "";
   color: #fb870b; }
-.motorpulse.transition:after {
+.motorpulse.on:after {
   -webkit-animation: rotating 2s linear infinite;
   -moz-animation: rotating 2s linear infinite;
   -ms-animation: rotating 2s linear infinite;

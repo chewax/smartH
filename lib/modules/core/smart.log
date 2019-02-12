@@ -7548,3 +7548,4083 @@
 ℹ 01/Feb/2019:12:42:20 Initializing Socket Events.
 ℹ 01/Feb/2019:12:42:21 Server UP, listening on port 5000
 ✔ 01/Feb/2019:12:42:21 Database connection success!!!
+❯ 01/Feb/2019:12:48:37 Connecting to database...
+ℹ 01/Feb/2019:12:48:38 Initializing Socket Events.
+ℹ 01/Feb/2019:12:48:38 Server UP, listening on port 5000
+✔ 01/Feb/2019:12:48:38 Database connection success!!!
+ℹ 01/Feb/2019:12:49:07 Emitted: board:setOn
+ℹ 01/Feb/2019:12:49:09 Emitted: board:setOff
+ℹ 01/Feb/2019:12:49:10 Emitted: board:setOn
+ℹ 01/Feb/2019:12:49:11 Emitted: board:setOff
+❯ 01/Feb/2019:12:49:26 Connecting to database...
+ℹ 01/Feb/2019:12:49:27 Initializing Socket Events.
+ℹ 01/Feb/2019:12:49:27 Server UP, listening on port 5000
+✔ 01/Feb/2019:12:49:27 Database connection success!!!
+❯ 01/Feb/2019:12:50:11 Connecting to database...
+ℹ 01/Feb/2019:12:50:11 Initializing Socket Events.
+ℹ 01/Feb/2019:12:50:12 Server UP, listening on port 5000
+✔ 01/Feb/2019:12:50:12 Database connection success!!!
+ℹ 01/Feb/2019:12:50:35 Emitted: board:setOn
+ℹ 01/Feb/2019:12:50:43 Emitted: board:setOff
+ℹ 01/Feb/2019:12:50:43 Emitted: board:sense
+ℹ 01/Feb/2019:12:50:44 Emitted: board:sense
+ℹ 01/Feb/2019:12:50:45 Emitted: board:setOff
+ℹ 01/Feb/2019:12:50:45 Emitted: board:sense
+ℹ 01/Feb/2019:12:52:46 Emitted: board:setOn
+ℹ 01/Feb/2019:12:52:47 Emitted: board:setOff
+ℹ 01/Feb/2019:12:54:39 Emitted: board:setOn
+ℹ 01/Feb/2019:12:54:41 Emitted: board:setOff
+ℹ 01/Feb/2019:12:54:42 Emitted: board:setOn
+ℹ 01/Feb/2019:12:54:45 Emitted: board:setOff
+ℹ 01/Feb/2019:12:54:46 Emitted: board:setOn
+ℹ 01/Feb/2019:12:54:51 Emitted: board:setOff
+ℹ 01/Feb/2019:12:55:00 Emitted: board:setOn
+ℹ 01/Feb/2019:12:55:03 Emitted: board:setOff
+ℹ 01/Feb/2019:12:55:04 Emitted: board:setOn
+ℹ 01/Feb/2019:12:55:05 Emitted: board:setOff
+ℹ 01/Feb/2019:12:55:06 Emitted: board:setOn
+ℹ 01/Feb/2019:12:55:07 Emitted: board:setOff
+ℹ 01/Feb/2019:12:55:07 Emitted: board:setOn
+ℹ 01/Feb/2019:12:55:12 Emitted: board:sense
+ℹ 01/Feb/2019:12:55:15 Emitted: board:setOff
+ℹ 01/Feb/2019:12:55:15 Emitted: board:sense
+ℹ 01/Feb/2019:12:55:18 Emitted: board:sense
+ℹ 01/Feb/2019:13:49:17 Emitted: board:setOn
+ℹ 01/Feb/2019:13:49:19 Emitted: board:setOff
+ℹ 01/Feb/2019:13:49:20 Emitted: board:setOn
+ℹ 01/Feb/2019:13:49:20 Emitted: board:setOff
+ℹ 01/Feb/2019:13:49:21 Emitted: board:setOn
+ℹ 01/Feb/2019:13:49:22 Emitted: board:setOff
+ℹ 01/Feb/2019:13:49:22 Emitted: board:setOn
+ℹ 01/Feb/2019:13:49:23 Emitted: board:setOff
+ℹ 01/Feb/2019:13:49:24 Emitted: board:setOn
+ℹ 01/Feb/2019:13:49:28 Emitted: board:setOff
+ℹ 01/Feb/2019:13:49:28 Emitted: board:sense
+ℹ 01/Feb/2019:13:49:30 Emitted: board:sense
+ℹ 01/Feb/2019:13:49:33 Emitted: board:setOff
+ℹ 01/Feb/2019:13:49:33 Emitted: board:sense
+ℹ 01/Feb/2019:13:49:37 Emitted: board:setOn
+ℹ 01/Feb/2019:13:49:37 Emitted: board:sense
+ℹ 01/Feb/2019:13:49:40 Emitted: board:setOff
+ℹ 01/Feb/2019:13:49:40 Emitted: board:sense
+ℹ 01/Feb/2019:13:50:32 Emitted: board:setOn
+ℹ 01/Feb/2019:13:50:33 Emitted: board:setOff
+ℹ 01/Feb/2019:13:50:34 Emitted: board:setOn
+ℹ 01/Feb/2019:13:50:39 Emitted: board:setOff
+ℹ 01/Feb/2019:13:50:57 Emitted: board:setOn
+ℹ 01/Feb/2019:13:51:00 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:02 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:02 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:04 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:06 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:06 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:08 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:08 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:08 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:08 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:10 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:10 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:10 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:13 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:13 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:14 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:15 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:15 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:15 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:16 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:16 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:16 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:17 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:17 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:17 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:18 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:18 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:19 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:19 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:19 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:20 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:20 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:20 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:21 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:21 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:21 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:22 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:22 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:22 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:23 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:23 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:23 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:23 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:23 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:23 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:24 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:24 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:24 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:24 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:25 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:25 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:25 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:25 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:25 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:25 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:25 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:25 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:25 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:25 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:25 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:26 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:26 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:26 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:26 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:26 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:26 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:27 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:27 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:27 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:27 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:28 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:28 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:28 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:28 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:28 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:28 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:28 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:28 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:28 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:28 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:28 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:29 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:29 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:29 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:30 Emitted: board:sense
+ℹ 01/Feb/2019:13:51:46 Emitted: board:setOn
+ℹ 01/Feb/2019:13:51:48 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:49 Emitted: board:setOn
+ℹ 01/Feb/2019:13:51:50 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:50 Emitted: board:setOn
+ℹ 01/Feb/2019:13:51:51 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:52 Emitted: board:setOn
+ℹ 01/Feb/2019:13:51:52 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:53 Emitted: board:setOn
+ℹ 01/Feb/2019:13:51:53 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:54 Emitted: board:setOn
+ℹ 01/Feb/2019:13:51:54 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:55 Emitted: board:setOn
+ℹ 01/Feb/2019:13:51:56 Emitted: board:setOff
+ℹ 01/Feb/2019:13:51:57 Emitted: board:setOn
+ℹ 01/Feb/2019:13:51:59 Emitted: board:setOff
+ℹ 01/Feb/2019:13:52:00 Emitted: board:setOn
+ℹ 01/Feb/2019:13:52:02 Emitted: board:setOff
+ℹ 01/Feb/2019:13:52:44 Emitted: board:setOn
+ℹ 01/Feb/2019:13:52:45 Emitted: board:setOff
+ℹ 01/Feb/2019:13:52:46 Emitted: board:setOn
+ℹ 01/Feb/2019:13:52:47 Emitted: board:setOff
+ℹ 01/Feb/2019:13:52:47 Emitted: board:setOn
+ℹ 01/Feb/2019:13:52:48 Emitted: board:setOff
+ℹ 01/Feb/2019:13:52:49 Emitted: board:setOn
+ℹ 01/Feb/2019:13:52:54 Emitted: board:setOff
+ℹ 01/Feb/2019:13:52:55 Emitted: board:setOn
+ℹ 01/Feb/2019:13:52:58 Emitted: board:setOff
+ℹ 01/Feb/2019:13:52:59 Emitted: board:setOn
+ℹ 01/Feb/2019:13:52:59 Emitted: board:setOff
+ℹ 01/Feb/2019:13:53:00 Emitted: board:setOn
+ℹ 01/Feb/2019:13:53:00 Emitted: board:setOff
+ℹ 01/Feb/2019:13:53:01 Emitted: board:setOn
+ℹ 01/Feb/2019:13:53:02 Emitted: board:setOff
+ℹ 01/Feb/2019:13:53:02 Emitted: board:setOn
+ℹ 01/Feb/2019:13:53:03 Emitted: board:setOff
+ℹ 01/Feb/2019:13:53:03 Emitted: board:setOn
+ℹ 01/Feb/2019:13:53:04 Emitted: board:setOff
+ℹ 01/Feb/2019:13:53:04 Emitted: board:setOn
+ℹ 01/Feb/2019:13:53:05 Emitted: board:setOff
+❯ 03/Feb/2019:20:11:30 Connecting to database...
+ℹ 03/Feb/2019:20:11:30 Initializing Socket Events.
+ℹ 03/Feb/2019:20:11:30 Server UP, listening on port 5000
+✔ 03/Feb/2019:20:11:30 Database connection success!!!
+ℹ 03/Feb/2019:20:12:17 Emitted: board:setOn
+ℹ 03/Feb/2019:20:12:26 Emitted: board:setOff
+ℹ 03/Feb/2019:20:12:26 Emitted: board:sense
+ℹ 03/Feb/2019:20:12:26 Emitted: board:sense
+ℹ 03/Feb/2019:20:12:28 Emitted: board:setOff
+ℹ 03/Feb/2019:20:12:28 Emitted: board:sense
+ℹ 03/Feb/2019:20:12:28 Emitted: board:setOn
+ℹ 03/Feb/2019:20:12:29 Emitted: board:setOff
+ℹ 03/Feb/2019:20:12:36 Emitted: board:setOn
+ℹ 03/Feb/2019:20:12:39 Emitted: board:setOff
+ℹ 03/Feb/2019:20:12:40 Emitted: board:sense
+ℹ 03/Feb/2019:20:12:42 Emitted: board:setOn
+ℹ 03/Feb/2019:20:12:43 Emitted: board:setOff
+ℹ 03/Feb/2019:20:12:43 Emitted: board:sense
+ℹ 03/Feb/2019:20:12:43 Emitted: board:setOn
+ℹ 03/Feb/2019:20:12:43 Emitted: board:setOff
+ℹ 03/Feb/2019:20:12:44 Emitted: board:setOn
+ℹ 03/Feb/2019:20:12:48 Emitted: board:sense
+ℹ 03/Feb/2019:20:12:49 Emitted: board:setOff
+ℹ 03/Feb/2019:20:12:49 Emitted: board:sense
+ℹ 03/Feb/2019:20:12:49 Emitted: board:sense
+ℹ 03/Feb/2019:20:12:50 Emitted: board:setOff
+ℹ 03/Feb/2019:20:12:50 Emitted: board:sense
+ℹ 03/Feb/2019:20:12:50 Emitted: board:setOn
+ℹ 03/Feb/2019:20:12:50 Emitted: board:sense
+ℹ 03/Feb/2019:20:12:50 Emitted: board:setOff
+ℹ 03/Feb/2019:20:12:50 Emitted: board:setOff
+ℹ 03/Feb/2019:20:12:50 Emitted: board:sense
+ℹ 03/Feb/2019:20:12:51 Emitted: board:sense
+ℹ 03/Feb/2019:20:12:51 Emitted: board:setOff
+ℹ 03/Feb/2019:20:12:51 Emitted: board:sense
+ℹ 03/Feb/2019:20:12:51 Emitted: board:sense
+ℹ 03/Feb/2019:20:12:51 Emitted: board:setOn
+ℹ 03/Feb/2019:20:12:51 Emitted: board:setOff
+ℹ 03/Feb/2019:20:12:51 Emitted: board:sense
+ℹ 03/Feb/2019:20:12:56 Emitted: board:sense
+ℹ 03/Feb/2019:20:12:58 Emitted: board:setOn
+ℹ 03/Feb/2019:20:13:01 Emitted: board:setOff
+ℹ 03/Feb/2019:20:13:03 Emitted: board:setOn
+ℹ 03/Feb/2019:20:13:05 Emitted: board:setOff
+ℹ 03/Feb/2019:20:13:09 Emitted: board:setOn
+ℹ 03/Feb/2019:20:13:12 Emitted: board:setOff
+ℹ 03/Feb/2019:20:13:12 Emitted: board:sense
+ℹ 03/Feb/2019:20:13:16 Emitted: board:sense
+ℹ 03/Feb/2019:20:13:16 Emitted: board:setOff
+ℹ 03/Feb/2019:20:13:16 Emitted: board:sense
+ℹ 03/Feb/2019:20:13:17 Emitted: board:sense
+ℹ 03/Feb/2019:20:13:18 Emitted: board:setOff
+ℹ 03/Feb/2019:20:13:18 Emitted: board:sense
+ℹ 03/Feb/2019:20:13:21 Emitted: board:sense
+ℹ 03/Feb/2019:20:13:22 Emitted: board:setOff
+ℹ 03/Feb/2019:20:13:22 Emitted: board:sense
+ℹ 03/Feb/2019:20:13:23 Emitted: board:sense
+ℹ 03/Feb/2019:21:15:38 Emitted: board:setOn
+ℹ 03/Feb/2019:21:15:47 Emitted: board:setOff
+ℹ 03/Feb/2019:21:15:47 Emitted: board:sense
+ℹ 03/Feb/2019:21:15:47 Emitted: board:sense
+ℹ 04/Feb/2019:09:49:15 Emitted: board:setOn
+ℹ 04/Feb/2019:09:49:17 Emitted: board:setOff
+ℹ 04/Feb/2019:09:49:18 Emitted: board:setOn
+ℹ 04/Feb/2019:09:49:19 Emitted: board:setOff
+ℹ 04/Feb/2019:09:49:20 Emitted: board:setOn
+ℹ 04/Feb/2019:09:49:21 Emitted: board:setOff
+ℹ 04/Feb/2019:09:49:22 Emitted: board:setOn
+ℹ 04/Feb/2019:09:49:22 Emitted: board:setOff
+ℹ 04/Feb/2019:09:49:24 Emitted: board:setOn
+ℹ 04/Feb/2019:09:49:26 Emitted: board:setOff
+ℹ 04/Feb/2019:09:49:26 Emitted: board:setOn
+ℹ 04/Feb/2019:09:49:27 Emitted: board:setOff
+ℹ 04/Feb/2019:09:49:30 Emitted: board:setOn
+ℹ 04/Feb/2019:09:49:34 Emitted: board:setOff
+ℹ 04/Feb/2019:09:49:35 Emitted: board:setOn
+ℹ 04/Feb/2019:09:49:36 Emitted: board:setOff
+ℹ 04/Feb/2019:09:49:39 Emitted: board:setOn
+ℹ 04/Feb/2019:09:49:39 Emitted: board:setOff
+ℹ 04/Feb/2019:09:49:40 Emitted: board:setOn
+ℹ 04/Feb/2019:09:49:40 Emitted: board:setOff
+ℹ 04/Feb/2019:09:49:41 Emitted: board:setOn
+ℹ 04/Feb/2019:09:49:41 Emitted: board:setOff
+ℹ 04/Feb/2019:09:50:38 Emitted: board:setOn
+ℹ 04/Feb/2019:09:50:44 Emitted: board:setOff
+ℹ 04/Feb/2019:09:50:46 Emitted: board:setOn
+ℹ 04/Feb/2019:09:50:50 Emitted: board:setOff
+ℹ 04/Feb/2019:09:50:50 Emitted: board:sense
+ℹ 04/Feb/2019:09:50:54 Emitted: board:sense
+ℹ 04/Feb/2019:09:50:56 Emitted: board:setOn
+ℹ 04/Feb/2019:09:50:59 Emitted: board:setOff
+ℹ 04/Feb/2019:09:50:59 Emitted: board:sense
+ℹ 04/Feb/2019:09:51:00 Emitted: board:sense
+ℹ 04/Feb/2019:09:51:00 Emitted: board:setOff
+ℹ 04/Feb/2019:09:51:00 Emitted: board:sense
+ℹ 04/Feb/2019:09:51:12 Emitted: board:setOn
+ℹ 04/Feb/2019:09:51:13 Emitted: board:sense
+ℹ 04/Feb/2019:09:51:16 Emitted: board:setOff
+ℹ 04/Feb/2019:09:51:16 Emitted: board:sense
+ℹ 04/Feb/2019:09:51:20 Emitted: board:setOn
+ℹ 04/Feb/2019:09:51:21 Emitted: board:setOff
+ℹ 04/Feb/2019:09:51:23 Emitted: board:sense
+ℹ 04/Feb/2019:09:51:23 Emitted: board:setOn
+ℹ 04/Feb/2019:09:51:24 Emitted: board:setOff
+ℹ 04/Feb/2019:09:51:24 Emitted: board:setOn
+ℹ 04/Feb/2019:09:51:25 Emitted: board:setOff
+ℹ 04/Feb/2019:09:51:26 Emitted: board:setOn
+ℹ 04/Feb/2019:09:51:26 Emitted: board:setOff
+ℹ 04/Feb/2019:09:51:26 Emitted: board:setOn
+ℹ 04/Feb/2019:09:51:27 Emitted: board:setOff
+ℹ 04/Feb/2019:09:51:27 Emitted: board:setOn
+ℹ 04/Feb/2019:09:51:28 Emitted: board:setOff
+ℹ 04/Feb/2019:09:51:28 Emitted: board:setOn
+ℹ 04/Feb/2019:09:51:29 Emitted: board:setOff
+ℹ 04/Feb/2019:12:15:52 Emitted: board:setOn
+ℹ 04/Feb/2019:12:15:53 Emitted: board:setOff
+ℹ 04/Feb/2019:12:15:54 Emitted: board:setOn
+ℹ 04/Feb/2019:12:15:55 Emitted: board:setOff
+ℹ 04/Feb/2019:12:16:05 Emitted: board:setOn
+ℹ 04/Feb/2019:12:16:05 Emitted: board:setOff
+ℹ 04/Feb/2019:15:07:30 Emitted: board:setOn
+ℹ 04/Feb/2019:15:07:32 Emitted: board:setOff
+ℹ 04/Feb/2019:15:07:32 Emitted: board:setOn
+ℹ 04/Feb/2019:15:07:33 Emitted: board:setOff
+ℹ 04/Feb/2019:15:07:34 Emitted: board:setOn
+ℹ 04/Feb/2019:15:07:34 Emitted: board:setOff
+ℹ 04/Feb/2019:15:07:34 Emitted: board:setOn
+ℹ 04/Feb/2019:15:07:35 Emitted: board:setOff
+ℹ 04/Feb/2019:15:07:36 Emitted: board:setOn
+ℹ 04/Feb/2019:15:07:36 Emitted: board:setOff
+ℹ 04/Feb/2019:15:07:37 Emitted: board:setOn
+ℹ 04/Feb/2019:15:07:37 Emitted: board:setOff
+ℹ 04/Feb/2019:15:07:43 Emitted: board:setOn
+ℹ 04/Feb/2019:15:07:43 Emitted: board:setOff
+ℹ 04/Feb/2019:15:07:45 Emitted: board:setOn
+ℹ 04/Feb/2019:15:07:45 Emitted: board:setOff
+ℹ 04/Feb/2019:15:07:46 Emitted: board:setOn
+ℹ 04/Feb/2019:15:07:52 Emitted: board:setOff
+ℹ 04/Feb/2019:15:07:52 Emitted: board:setOn
+ℹ 04/Feb/2019:15:07:54 Emitted: board:setOff
+ℹ 04/Feb/2019:15:07:54 Emitted: board:setOn
+ℹ 04/Feb/2019:15:07:54 Emitted: board:setOff
+ℹ 04/Feb/2019:15:07:55 Emitted: board:setOn
+ℹ 04/Feb/2019:15:07:55 Emitted: board:setOff
+ℹ 04/Feb/2019:15:07:55 Emitted: board:setOn
+ℹ 04/Feb/2019:15:07:56 Emitted: board:setOff
+ℹ 04/Feb/2019:15:07:56 Emitted: board:setOn
+ℹ 04/Feb/2019:15:07:56 Emitted: board:setOff
+ℹ 04/Feb/2019:15:07:56 Emitted: board:setOn
+ℹ 04/Feb/2019:15:07:57 Emitted: board:setOff
+ℹ 04/Feb/2019:15:07:57 Emitted: board:setOn
+ℹ 04/Feb/2019:15:07:57 Emitted: board:setOff
+ℹ 04/Feb/2019:15:07:57 Emitted: board:setOn
+ℹ 04/Feb/2019:15:07:57 Emitted: board:setOff
+ℹ 04/Feb/2019:15:07:58 Emitted: board:setOn
+ℹ 04/Feb/2019:15:07:58 Emitted: board:setOff
+ℹ 04/Feb/2019:15:07:58 Emitted: board:setOn
+ℹ 04/Feb/2019:15:07:58 Emitted: board:setOff
+ℹ 04/Feb/2019:15:07:59 Emitted: board:setOn
+ℹ 04/Feb/2019:15:07:59 Emitted: board:setOff
+ℹ 04/Feb/2019:15:07:59 Emitted: board:setOn
+ℹ 04/Feb/2019:15:08:00 Emitted: board:setOff
+ℹ 04/Feb/2019:15:08:00 Emitted: board:setOn
+ℹ 04/Feb/2019:15:08:01 Emitted: board:setOff
+ℹ 04/Feb/2019:15:08:04 Emitted: board:setOn
+ℹ 04/Feb/2019:15:08:04 Emitted: board:setOff
+ℹ 04/Feb/2019:15:08:05 Emitted: board:setOn
+ℹ 04/Feb/2019:15:08:05 Emitted: board:setOff
+ℹ 04/Feb/2019:15:08:05 Emitted: board:setOn
+ℹ 04/Feb/2019:15:08:06 Emitted: board:setOff
+ℹ 04/Feb/2019:15:08:06 Emitted: board:setOn
+ℹ 04/Feb/2019:15:08:07 Emitted: board:setOff
+ℹ 04/Feb/2019:15:08:07 Emitted: board:setOn
+ℹ 04/Feb/2019:15:08:08 Emitted: board:setOff
+ℹ 04/Feb/2019:15:08:09 Emitted: board:setOn
+ℹ 04/Feb/2019:15:08:09 Emitted: board:setOff
+ℹ 04/Feb/2019:15:08:09 Emitted: board:setOn
+ℹ 04/Feb/2019:15:08:09 Emitted: board:setOff
+ℹ 04/Feb/2019:15:08:10 Emitted: board:setOn
+ℹ 04/Feb/2019:15:08:10 Emitted: board:setOff
+ℹ 04/Feb/2019:15:08:11 Emitted: board:setOn
+ℹ 04/Feb/2019:15:08:11 Emitted: board:setOff
+ℹ 04/Feb/2019:15:08:11 Emitted: board:setOn
+ℹ 04/Feb/2019:15:08:12 Emitted: board:setOff
+ℹ 04/Feb/2019:15:08:13 Emitted: board:setOn
+ℹ 04/Feb/2019:15:08:14 Emitted: board:setOff
+ℹ 04/Feb/2019:15:08:14 Emitted: board:setOn
+ℹ 04/Feb/2019:15:08:15 Emitted: board:setOff
+ℹ 04/Feb/2019:15:08:15 Emitted: board:setOn
+ℹ 04/Feb/2019:15:08:16 Emitted: board:setOff
+ℹ 04/Feb/2019:15:08:16 Emitted: board:setOn
+ℹ 04/Feb/2019:15:08:17 Emitted: board:setOff
+ℹ 04/Feb/2019:15:08:17 Emitted: board:setOn
+ℹ 04/Feb/2019:15:08:17 Emitted: board:setOff
+ℹ 04/Feb/2019:15:08:18 Emitted: board:setOn
+ℹ 04/Feb/2019:15:08:18 Emitted: board:setOff
+ℹ 04/Feb/2019:15:08:19 Emitted: board:setOn
+ℹ 04/Feb/2019:15:08:19 Emitted: board:setOff
+ℹ 04/Feb/2019:15:17:10 Emitted: board:setOn
+ℹ 04/Feb/2019:15:17:11 Emitted: board:setOff
+ℹ 04/Feb/2019:15:17:14 Emitted: board:setOn
+ℹ 04/Feb/2019:15:17:20 Emitted: board:setOff
+ℹ 04/Feb/2019:15:17:25 Emitted: board:setOn
+ℹ 04/Feb/2019:15:17:25 Emitted: board:setOff
+ℹ 04/Feb/2019:15:18:44 Emitted: board:setOn
+ℹ 04/Feb/2019:15:18:45 Emitted: board:setOff
+ℹ 04/Feb/2019:15:18:58 Emitted: board:setOn
+ℹ 04/Feb/2019:15:19:04 Emitted: board:setOff
+ℹ 04/Feb/2019:15:19:05 Emitted: board:setOn
+ℹ 04/Feb/2019:15:19:06 Emitted: board:setOff
+ℹ 04/Feb/2019:15:19:14 Emitted: board:setOn
+ℹ 04/Feb/2019:15:19:15 Emitted: board:setOff
+ℹ 04/Feb/2019:15:19:16 Emitted: board:setOn
+ℹ 04/Feb/2019:15:19:17 Emitted: board:setOff
+ℹ 04/Feb/2019:15:19:17 Emitted: board:setOn
+ℹ 04/Feb/2019:15:19:18 Emitted: board:setOff
+ℹ 04/Feb/2019:15:19:19 Emitted: board:setOn
+ℹ 04/Feb/2019:15:19:19 Emitted: board:setOff
+ℹ 04/Feb/2019:15:20:38 Emitted: board:setOff
+ℹ 04/Feb/2019:15:20:38 Emitted: board:sense
+ℹ 04/Feb/2019:15:20:39 Emitted: board:sense
+ℹ 04/Feb/2019:15:20:41 Emitted: board:setOff
+ℹ 04/Feb/2019:15:20:41 Emitted: board:sense
+ℹ 04/Feb/2019:15:20:41 Emitted: board:sense
+ℹ 04/Feb/2019:15:20:44 Emitted: board:setOff
+ℹ 04/Feb/2019:15:20:44 Emitted: board:sense
+ℹ 04/Feb/2019:15:20:45 Emitted: board:sense
+ℹ 04/Feb/2019:15:20:46 Emitted: board:setOff
+ℹ 04/Feb/2019:15:20:46 Emitted: board:sense
+ℹ 04/Feb/2019:15:20:52 Emitted: board:sense
+ℹ 04/Feb/2019:15:20:57 Emitted: board:setOff
+ℹ 04/Feb/2019:15:20:57 Emitted: board:sense
+ℹ 04/Feb/2019:15:20:59 Emitted: board:sense
+ℹ 04/Feb/2019:15:21:13 Emitted: board:setOff
+ℹ 04/Feb/2019:15:21:13 Emitted: board:sense
+ℹ 04/Feb/2019:15:21:19 Emitted: board:sense
+ℹ 04/Feb/2019:15:21:22 Emitted: board:setOff
+ℹ 04/Feb/2019:15:21:22 Emitted: board:sense
+ℹ 04/Feb/2019:15:21:23 Emitted: board:sense
+ℹ 04/Feb/2019:15:21:27 Emitted: board:setOff
+ℹ 04/Feb/2019:15:21:27 Emitted: board:sense
+ℹ 04/Feb/2019:15:22:14 Emitted: board:sense
+ℹ 04/Feb/2019:15:22:14 Emitted: board:setOff
+ℹ 04/Feb/2019:15:22:14 Emitted: board:sense
+ℹ 04/Feb/2019:15:24:37 Emitted: board:setOn
+ℹ 04/Feb/2019:15:24:37 Emitted: board:setOff
+ℹ 04/Feb/2019:15:24:46 Emitted: board:setOff
+ℹ 04/Feb/2019:15:24:46 Emitted: board:sense
+ℹ 04/Feb/2019:15:24:49 Emitted: board:sense
+ℹ 04/Feb/2019:15:24:56 Emitted: board:setOff
+ℹ 04/Feb/2019:15:24:56 Emitted: board:sense
+ℹ 04/Feb/2019:15:25:02 Emitted: board:sense
+ℹ 04/Feb/2019:15:25:07 Emitted: board:setOff
+ℹ 04/Feb/2019:15:25:07 Emitted: board:sense
+❯ 04/Feb/2019:15:33:18 Connecting to database...
+ℹ 04/Feb/2019:15:33:18 Initializing Socket Events.
+ℹ 04/Feb/2019:15:33:18 Server UP, listening on port 5000
+✔ 04/Feb/2019:15:33:18 Database connection success!!!
+ℹ 04/Feb/2019:15:34:00 Emitted: board:setOn
+ℹ 04/Feb/2019:15:34:01 Emitted: board:setOff
+ℹ 04/Feb/2019:15:34:01 Emitted: board:setOn
+ℹ 04/Feb/2019:15:34:02 Emitted: board:setOff
+ℹ 04/Feb/2019:15:34:03 Emitted: board:setOn
+ℹ 04/Feb/2019:15:34:05 Emitted: board:setOff
+ℹ 04/Feb/2019:15:34:05 Emitted: board:sense
+ℹ 04/Feb/2019:15:34:09 Emitted: board:sense
+ℹ 04/Feb/2019:15:34:10 Emitted: board:setOff
+ℹ 04/Feb/2019:15:34:10 Emitted: board:sense
+ℹ 04/Feb/2019:15:34:18 Emitted: board:sense
+ℹ 04/Feb/2019:15:34:24 Emitted: board:setOff
+ℹ 04/Feb/2019:15:34:24 Emitted: board:sense
+ℹ 04/Feb/2019:15:34:30 Emitted: board:setOn
+ℹ 04/Feb/2019:15:34:37 Emitted: board:sense
+ℹ 04/Feb/2019:15:34:37 Emitted: board:setOff
+ℹ 04/Feb/2019:15:34:37 Emitted: board:sense
+ℹ 04/Feb/2019:15:34:44 Emitted: board:setOn
+ℹ 04/Feb/2019:15:35:00 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:07 Emitted: board:setOff
+ℹ 04/Feb/2019:15:35:07 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:08 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:08 Emitted: board:setOff
+ℹ 04/Feb/2019:15:35:08 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:10 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:11 Emitted: board:setOff
+ℹ 04/Feb/2019:15:35:11 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:12 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:13 Emitted: board:setOff
+ℹ 04/Feb/2019:15:35:13 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:14 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:15 Emitted: board:setOff
+ℹ 04/Feb/2019:15:35:15 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:18 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:20 Emitted: board:setOff
+ℹ 04/Feb/2019:15:35:20 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:20 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:21 Emitted: board:setOff
+ℹ 04/Feb/2019:15:35:21 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:22 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:23 Emitted: board:setOff
+ℹ 04/Feb/2019:15:35:23 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:24 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:25 Emitted: board:setOff
+ℹ 04/Feb/2019:15:35:25 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:26 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:27 Emitted: board:setOff
+ℹ 04/Feb/2019:15:35:27 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:27 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:31 Emitted: board:setOff
+ℹ 04/Feb/2019:15:35:31 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:32 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:33 Emitted: board:setOff
+ℹ 04/Feb/2019:15:35:33 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:35 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:35 Emitted: board:setOff
+ℹ 04/Feb/2019:15:35:35 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:36 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:37 Emitted: board:setOff
+ℹ 04/Feb/2019:15:35:37 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:38 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:39 Emitted: board:setOff
+ℹ 04/Feb/2019:15:35:39 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:40 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:41 Emitted: board:setOff
+ℹ 04/Feb/2019:15:35:41 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:41 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:43 Emitted: board:setOff
+ℹ 04/Feb/2019:15:35:43 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:44 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:44 Emitted: board:setOff
+ℹ 04/Feb/2019:15:35:44 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:45 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:45 Emitted: board:setOff
+ℹ 04/Feb/2019:15:35:45 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:46 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:46 Emitted: board:setOff
+ℹ 04/Feb/2019:15:35:46 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:46 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:47 Emitted: board:setOff
+ℹ 04/Feb/2019:15:35:47 Emitted: board:sense
+ℹ 04/Feb/2019:15:35:57 Emitted: board:sense
+ℹ 04/Feb/2019:15:36:03 Emitted: board:setOff
+ℹ 04/Feb/2019:15:36:03 Emitted: board:sense
+ℹ 04/Feb/2019:15:36:08 Emitted: board:sense
+ℹ 04/Feb/2019:15:36:11 Emitted: board:setOff
+ℹ 04/Feb/2019:15:36:11 Emitted: board:sense
+ℹ 04/Feb/2019:15:36:13 Emitted: board:sense
+ℹ 04/Feb/2019:15:36:14 Emitted: board:setOff
+ℹ 04/Feb/2019:15:36:14 Emitted: board:sense
+ℹ 04/Feb/2019:15:36:16 Emitted: board:sense
+ℹ 04/Feb/2019:15:36:23 Emitted: board:setOff
+ℹ 04/Feb/2019:15:36:23 Emitted: board:sense
+ℹ 04/Feb/2019:15:36:27 Emitted: board:sense
+ℹ 04/Feb/2019:15:36:33 Emitted: board:setOff
+ℹ 04/Feb/2019:15:36:33 Emitted: board:sense
+ℹ 04/Feb/2019:15:36:33 Emitted: board:sense
+ℹ 04/Feb/2019:15:36:35 Emitted: board:setOff
+ℹ 04/Feb/2019:15:36:35 Emitted: board:sense
+ℹ 04/Feb/2019:15:36:37 Emitted: board:sense
+ℹ 04/Feb/2019:15:36:39 Emitted: board:setOff
+ℹ 04/Feb/2019:15:36:39 Emitted: board:sense
+ℹ 04/Feb/2019:15:36:41 Emitted: board:sense
+ℹ 04/Feb/2019:15:36:43 Emitted: board:setOff
+ℹ 04/Feb/2019:15:36:43 Emitted: board:sense
+ℹ 04/Feb/2019:15:36:44 Emitted: board:sense
+ℹ 04/Feb/2019:15:36:47 Emitted: board:setOff
+ℹ 04/Feb/2019:15:36:47 Emitted: board:sense
+ℹ 04/Feb/2019:15:36:48 Emitted: board:sense
+ℹ 04/Feb/2019:15:36:50 Emitted: board:setOn
+ℹ 04/Feb/2019:15:36:53 Emitted: board:setOff
+ℹ 04/Feb/2019:15:36:53 Emitted: board:sense
+ℹ 04/Feb/2019:15:36:56 Emitted: board:setOn
+ℹ 04/Feb/2019:15:36:56 Emitted: board:sense
+ℹ 04/Feb/2019:15:37:02 Emitted: board:setOff
+ℹ 04/Feb/2019:15:37:02 Emitted: board:sense
+ℹ 04/Feb/2019:15:37:06 Emitted: board:setOn
+ℹ 04/Feb/2019:15:37:06 Emitted: board:sense
+ℹ 04/Feb/2019:15:37:10 Emitted: board:setOff
+ℹ 04/Feb/2019:15:37:10 Emitted: board:sense
+ℹ 04/Feb/2019:15:37:12 Emitted: board:setOn
+ℹ 04/Feb/2019:15:37:12 Emitted: board:sense
+ℹ 04/Feb/2019:15:37:15 Emitted: board:setOff
+ℹ 04/Feb/2019:15:37:15 Emitted: board:sense
+ℹ 04/Feb/2019:15:37:17 Emitted: board:sense
+ℹ 04/Feb/2019:15:46:05 Emitted: board:setOn
+ℹ 04/Feb/2019:15:46:05 Emitted: board:setOff
+ℹ 04/Feb/2019:15:46:07 Emitted: board:setOn
+ℹ 04/Feb/2019:15:46:08 Emitted: board:setOff
+ℹ 04/Feb/2019:15:46:08 Emitted: board:setOn
+ℹ 04/Feb/2019:15:46:10 Emitted: board:setOff
+ℹ 04/Feb/2019:15:46:10 Emitted: board:setOn
+ℹ 04/Feb/2019:15:46:11 Emitted: board:setOff
+ℹ 04/Feb/2019:15:46:12 Emitted: board:setOn
+ℹ 04/Feb/2019:15:46:13 Emitted: board:setOff
+ℹ 04/Feb/2019:15:46:13 Emitted: board:setOn
+ℹ 04/Feb/2019:15:46:14 Emitted: board:setOff
+ℹ 04/Feb/2019:15:46:19 Emitted: board:setOff
+ℹ 04/Feb/2019:15:46:19 Emitted: board:sense
+ℹ 04/Feb/2019:15:46:20 Emitted: board:sense
+ℹ 04/Feb/2019:15:46:21 Emitted: board:setOff
+ℹ 04/Feb/2019:15:46:21 Emitted: board:sense
+ℹ 04/Feb/2019:15:46:22 Emitted: board:sense
+ℹ 04/Feb/2019:15:46:23 Emitted: board:setOff
+ℹ 04/Feb/2019:15:46:23 Emitted: board:sense
+ℹ 04/Feb/2019:15:46:23 Emitted: board:sense
+ℹ 04/Feb/2019:15:46:25 Emitted: board:setOff
+ℹ 04/Feb/2019:15:46:25 Emitted: board:sense
+ℹ 04/Feb/2019:15:46:25 Emitted: board:sense
+ℹ 04/Feb/2019:15:46:31 Emitted: board:setOff
+ℹ 04/Feb/2019:15:46:31 Emitted: board:sense
+ℹ 04/Feb/2019:15:46:31 Emitted: board:sense
+ℹ 04/Feb/2019:15:46:34 Emitted: board:setOn
+ℹ 04/Feb/2019:15:46:35 Emitted: board:setOff
+ℹ 04/Feb/2019:15:46:35 Emitted: board:sense
+ℹ 04/Feb/2019:15:46:36 Emitted: board:sense
+ℹ 04/Feb/2019:15:46:37 Emitted: board:setOn
+ℹ 04/Feb/2019:15:46:38 Emitted: board:setOff
+ℹ 04/Feb/2019:15:46:38 Emitted: board:sense
+ℹ 04/Feb/2019:15:46:39 Emitted: board:sense
+ℹ 04/Feb/2019:15:46:40 Emitted: board:setOn
+ℹ 04/Feb/2019:15:46:41 Emitted: board:setOff
+ℹ 04/Feb/2019:15:46:41 Emitted: board:sense
+ℹ 04/Feb/2019:15:46:42 Emitted: board:sense
+ℹ 04/Feb/2019:15:46:43 Emitted: board:setOn
+ℹ 04/Feb/2019:15:46:44 Emitted: board:setOff
+ℹ 04/Feb/2019:15:46:44 Emitted: board:sense
+ℹ 04/Feb/2019:15:46:44 Emitted: board:sense
+ℹ 04/Feb/2019:15:46:45 Emitted: board:setOn
+ℹ 04/Feb/2019:15:46:46 Emitted: board:setOff
+ℹ 04/Feb/2019:15:46:46 Emitted: board:sense
+ℹ 04/Feb/2019:15:46:46 Emitted: board:sense
+ℹ 04/Feb/2019:15:46:47 Emitted: board:setOn
+ℹ 04/Feb/2019:15:46:48 Emitted: board:setOff
+ℹ 04/Feb/2019:15:46:48 Emitted: board:sense
+ℹ 04/Feb/2019:15:46:48 Emitted: board:sense
+ℹ 04/Feb/2019:15:46:49 Emitted: board:setOn
+ℹ 04/Feb/2019:15:46:50 Emitted: board:setOff
+ℹ 04/Feb/2019:15:46:50 Emitted: board:sense
+ℹ 04/Feb/2019:15:46:51 Emitted: board:sense
+ℹ 04/Feb/2019:15:46:54 Emitted: board:setOn
+ℹ 04/Feb/2019:15:46:56 Emitted: board:setOff
+ℹ 04/Feb/2019:15:46:56 Emitted: board:sense
+ℹ 04/Feb/2019:15:46:56 Emitted: board:sense
+ℹ 04/Feb/2019:15:46:57 Emitted: board:setOff
+ℹ 04/Feb/2019:15:46:57 Emitted: board:sense
+ℹ 04/Feb/2019:15:46:59 Emitted: board:setOn
+ℹ 04/Feb/2019:15:47:06 Emitted: board:sense
+ℹ 04/Feb/2019:15:47:08 Emitted: board:setOff
+ℹ 04/Feb/2019:15:47:08 Emitted: board:sense
+ℹ 04/Feb/2019:15:47:08 Emitted: board:sense
+ℹ 04/Feb/2019:15:47:09 Emitted: board:setOff
+ℹ 04/Feb/2019:15:47:09 Emitted: board:sense
+ℹ 04/Feb/2019:15:47:10 Emitted: board:sense
+ℹ 04/Feb/2019:15:47:12 Emitted: board:setOff
+ℹ 04/Feb/2019:15:47:12 Emitted: board:sense
+ℹ 04/Feb/2019:15:47:13 Emitted: board:sense
+ℹ 04/Feb/2019:15:47:15 Emitted: board:setOn
+ℹ 04/Feb/2019:15:47:17 Emitted: board:setOff
+ℹ 04/Feb/2019:15:47:17 Emitted: board:sense
+ℹ 04/Feb/2019:15:47:20 Emitted: board:setOn
+ℹ 04/Feb/2019:15:47:24 Emitted: board:sense
+ℹ 04/Feb/2019:15:47:26 Emitted: board:setOff
+ℹ 04/Feb/2019:15:47:26 Emitted: board:sense
+ℹ 04/Feb/2019:15:47:44 Emitted: board:sense
+ℹ 04/Feb/2019:15:47:47 Emitted: board:setOff
+ℹ 04/Feb/2019:15:47:47 Emitted: board:sense
+ℹ 04/Feb/2019:15:47:50 Emitted: board:sense
+ℹ 04/Feb/2019:15:48:08 Emitted: board:setOff
+ℹ 04/Feb/2019:15:48:08 Emitted: board:sense
+ℹ 04/Feb/2019:15:48:09 Emitted: board:sense
+ℹ 04/Feb/2019:15:48:10 Emitted: board:setOff
+ℹ 04/Feb/2019:15:48:10 Emitted: board:sense
+ℹ 04/Feb/2019:15:48:11 Emitted: board:sense
+ℹ 04/Feb/2019:15:48:14 Emitted: board:setOff
+ℹ 04/Feb/2019:15:48:14 Emitted: board:sense
+ℹ 04/Feb/2019:15:48:14 Emitted: board:sense
+ℹ 04/Feb/2019:15:48:16 Emitted: board:setOff
+ℹ 04/Feb/2019:15:48:16 Emitted: board:sense
+ℹ 04/Feb/2019:15:48:19 Emitted: board:sense
+ℹ 04/Feb/2019:15:48:20 Emitted: board:setOff
+ℹ 04/Feb/2019:15:48:20 Emitted: board:sense
+ℹ 04/Feb/2019:15:48:21 Emitted: board:sense
+ℹ 04/Feb/2019:15:48:23 Emitted: board:setOff
+ℹ 04/Feb/2019:15:48:23 Emitted: board:sense
+ℹ 04/Feb/2019:15:48:24 Emitted: board:sense
+ℹ 04/Feb/2019:15:48:26 Emitted: board:setOff
+ℹ 04/Feb/2019:15:48:26 Emitted: board:sense
+ℹ 04/Feb/2019:15:48:26 Emitted: board:setOn
+ℹ 04/Feb/2019:15:48:28 Emitted: board:sense
+ℹ 04/Feb/2019:15:48:30 Emitted: board:setOff
+ℹ 04/Feb/2019:15:48:30 Emitted: board:sense
+ℹ 04/Feb/2019:15:48:31 Emitted: board:setOn
+ℹ 04/Feb/2019:15:48:31 Emitted: board:sense
+ℹ 04/Feb/2019:15:48:33 Emitted: board:setOff
+ℹ 04/Feb/2019:15:48:33 Emitted: board:sense
+ℹ 04/Feb/2019:15:48:34 Emitted: board:setOn
+ℹ 04/Feb/2019:15:48:34 Emitted: board:sense
+ℹ 04/Feb/2019:15:48:36 Emitted: board:setOff
+ℹ 04/Feb/2019:15:48:36 Emitted: board:sense
+ℹ 04/Feb/2019:15:48:36 Emitted: board:setOn
+ℹ 04/Feb/2019:15:48:37 Emitted: board:sense
+ℹ 04/Feb/2019:15:48:38 Emitted: board:setOff
+ℹ 04/Feb/2019:15:48:38 Emitted: board:sense
+ℹ 04/Feb/2019:15:48:38 Emitted: board:sense
+ℹ 04/Feb/2019:15:48:40 Emitted: board:setOff
+ℹ 04/Feb/2019:15:48:40 Emitted: board:sense
+ℹ 04/Feb/2019:15:49:34 Emitted: board:sense
+ℹ 04/Feb/2019:15:49:35 Emitted: board:setOff
+ℹ 04/Feb/2019:15:49:35 Emitted: board:sense
+ℹ 04/Feb/2019:15:49:35 Emitted: board:sense
+ℹ 04/Feb/2019:15:49:37 Emitted: board:setOff
+ℹ 04/Feb/2019:15:49:37 Emitted: board:sense
+ℹ 04/Feb/2019:15:49:38 Emitted: board:sense
+ℹ 04/Feb/2019:15:49:38 Emitted: board:setOff
+ℹ 04/Feb/2019:15:49:38 Emitted: board:sense
+ℹ 04/Feb/2019:15:49:39 Emitted: board:sense
+ℹ 04/Feb/2019:15:49:40 Emitted: board:setOff
+ℹ 04/Feb/2019:15:49:40 Emitted: board:sense
+ℹ 04/Feb/2019:15:49:40 Emitted: board:sense
+ℹ 04/Feb/2019:15:49:42 Emitted: board:setOff
+ℹ 04/Feb/2019:15:49:42 Emitted: board:sense
+ℹ 04/Feb/2019:15:49:43 Emitted: board:sense
+ℹ 04/Feb/2019:15:49:43 Emitted: board:setOff
+ℹ 04/Feb/2019:15:49:43 Emitted: board:sense
+ℹ 04/Feb/2019:15:49:44 Emitted: board:sense
+ℹ 04/Feb/2019:15:49:45 Emitted: board:setOff
+ℹ 04/Feb/2019:15:49:45 Emitted: board:sense
+ℹ 04/Feb/2019:15:49:45 Emitted: board:sense
+ℹ 04/Feb/2019:15:49:46 Emitted: board:setOff
+ℹ 04/Feb/2019:15:49:46 Emitted: board:sense
+ℹ 04/Feb/2019:15:49:46 Emitted: board:sense
+ℹ 04/Feb/2019:15:49:49 Emitted: board:setOff
+ℹ 04/Feb/2019:15:49:49 Emitted: board:sense
+ℹ 04/Feb/2019:15:49:51 Emitted: board:setOn
+ℹ 04/Feb/2019:15:49:51 Emitted: board:sense
+ℹ 04/Feb/2019:15:49:54 Emitted: board:setOff
+ℹ 04/Feb/2019:15:49:54 Emitted: board:sense
+ℹ 04/Feb/2019:15:49:55 Emitted: board:setOn
+ℹ 04/Feb/2019:15:49:56 Emitted: board:sense
+ℹ 04/Feb/2019:15:49:58 Emitted: board:setOff
+ℹ 04/Feb/2019:15:49:58 Emitted: board:sense
+ℹ 04/Feb/2019:15:49:59 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:00 Emitted: board:setOff
+ℹ 04/Feb/2019:15:50:00 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:01 Emitted: board:setOn
+ℹ 04/Feb/2019:15:50:10 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:11 Emitted: board:setOff
+ℹ 04/Feb/2019:15:50:11 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:12 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:13 Emitted: board:setOff
+ℹ 04/Feb/2019:15:50:13 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:14 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:14 Emitted: board:setOff
+ℹ 04/Feb/2019:15:50:14 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:15 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:15 Emitted: board:setOff
+ℹ 04/Feb/2019:15:50:15 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:16 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:17 Emitted: board:setOff
+ℹ 04/Feb/2019:15:50:17 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:18 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:18 Emitted: board:setOff
+ℹ 04/Feb/2019:15:50:18 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:19 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:20 Emitted: board:setOff
+ℹ 04/Feb/2019:15:50:20 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:21 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:21 Emitted: board:setOff
+ℹ 04/Feb/2019:15:50:21 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:22 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:23 Emitted: board:setOff
+ℹ 04/Feb/2019:15:50:23 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:23 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:24 Emitted: board:setOff
+ℹ 04/Feb/2019:15:50:24 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:25 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:25 Emitted: board:setOff
+ℹ 04/Feb/2019:15:50:25 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:32 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:33 Emitted: board:setOff
+ℹ 04/Feb/2019:15:50:33 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:35 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:37 Emitted: board:setOff
+ℹ 04/Feb/2019:15:50:37 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:39 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:42 Emitted: board:setOff
+ℹ 04/Feb/2019:15:50:42 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:42 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:43 Emitted: board:setOff
+ℹ 04/Feb/2019:15:50:43 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:46 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:47 Emitted: board:setOff
+ℹ 04/Feb/2019:15:50:47 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:48 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:49 Emitted: board:setOff
+ℹ 04/Feb/2019:15:50:49 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:50 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:50 Emitted: board:setOff
+ℹ 04/Feb/2019:15:50:50 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:52 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:52 Emitted: board:setOff
+ℹ 04/Feb/2019:15:50:52 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:53 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:54 Emitted: board:setOff
+ℹ 04/Feb/2019:15:50:54 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:55 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:56 Emitted: board:setOff
+ℹ 04/Feb/2019:15:50:56 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:57 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:57 Emitted: board:setOff
+ℹ 04/Feb/2019:15:50:57 Emitted: board:sense
+ℹ 04/Feb/2019:15:50:59 Emitted: board:sense
+ℹ 04/Feb/2019:15:51:00 Emitted: board:setOff
+ℹ 04/Feb/2019:15:51:00 Emitted: board:sense
+ℹ 04/Feb/2019:15:51:02 Emitted: board:sense
+ℹ 04/Feb/2019:15:51:03 Emitted: board:setOff
+ℹ 04/Feb/2019:15:51:03 Emitted: board:sense
+ℹ 04/Feb/2019:15:51:04 Emitted: board:sense
+ℹ 04/Feb/2019:15:51:06 Emitted: board:setOff
+ℹ 04/Feb/2019:15:51:06 Emitted: board:sense
+ℹ 04/Feb/2019:15:51:06 Emitted: board:sense
+ℹ 04/Feb/2019:15:51:08 Emitted: board:setOff
+ℹ 04/Feb/2019:15:51:08 Emitted: board:sense
+ℹ 04/Feb/2019:15:51:13 Emitted: board:sense
+ℹ 04/Feb/2019:15:51:20 Emitted: board:setOff
+ℹ 04/Feb/2019:15:51:20 Emitted: board:sense
+ℹ 04/Feb/2019:15:51:21 Emitted: board:sense
+ℹ 04/Feb/2019:15:51:22 Emitted: board:setOff
+ℹ 04/Feb/2019:15:51:22 Emitted: board:sense
+ℹ 04/Feb/2019:15:51:23 Emitted: board:sense
+ℹ 04/Feb/2019:15:51:25 Emitted: board:setOff
+ℹ 04/Feb/2019:15:51:25 Emitted: board:sense
+ℹ 04/Feb/2019:15:51:26 Emitted: board:sense
+ℹ 04/Feb/2019:15:51:27 Emitted: board:setOff
+ℹ 04/Feb/2019:15:51:27 Emitted: board:sense
+ℹ 04/Feb/2019:15:51:27 Emitted: board:sense
+ℹ 04/Feb/2019:15:51:28 Emitted: board:setOff
+ℹ 04/Feb/2019:15:51:28 Emitted: board:sense
+ℹ 04/Feb/2019:15:51:29 Emitted: board:sense
+ℹ 04/Feb/2019:15:51:30 Emitted: board:setOff
+ℹ 04/Feb/2019:15:51:30 Emitted: board:sense
+ℹ 04/Feb/2019:15:51:33 Emitted: board:sense
+ℹ 04/Feb/2019:15:51:33 Emitted: board:setOff
+ℹ 04/Feb/2019:15:51:33 Emitted: board:sense
+ℹ 04/Feb/2019:15:51:33 Emitted: board:sense
+ℹ 04/Feb/2019:15:51:34 Emitted: board:setOff
+ℹ 04/Feb/2019:15:51:34 Emitted: board:sense
+ℹ 04/Feb/2019:15:51:35 Emitted: board:sense
+ℹ 04/Feb/2019:15:51:40 Emitted: board:setOff
+ℹ 04/Feb/2019:15:51:40 Emitted: board:sense
+ℹ 04/Feb/2019:15:51:45 Emitted: board:sense
+ℹ 04/Feb/2019:15:51:50 Emitted: board:setOff
+ℹ 04/Feb/2019:15:51:50 Emitted: board:sense
+ℹ 04/Feb/2019:15:51:50 Emitted: board:sense
+ℹ 04/Feb/2019:15:54:54 Emitted: board:setOff
+ℹ 04/Feb/2019:15:54:54 Emitted: board:sense
+ℹ 04/Feb/2019:15:55:00 Emitted: board:sense
+ℹ 04/Feb/2019:15:55:00 Emitted: board:setOff
+ℹ 04/Feb/2019:15:55:00 Emitted: board:sense
+ℹ 04/Feb/2019:15:55:03 Emitted: board:sense
+ℹ 04/Feb/2019:15:55:04 Emitted: board:setOff
+ℹ 04/Feb/2019:15:55:04 Emitted: board:sense
+ℹ 04/Feb/2019:15:55:06 Emitted: board:sense
+ℹ 04/Feb/2019:15:55:08 Emitted: board:setOff
+ℹ 04/Feb/2019:15:55:08 Emitted: board:sense
+ℹ 04/Feb/2019:15:55:08 Emitted: board:sense
+ℹ 04/Feb/2019:15:55:09 Emitted: board:setOff
+ℹ 04/Feb/2019:15:55:09 Emitted: board:sense
+ℹ 04/Feb/2019:15:55:11 Emitted: board:sense
+ℹ 04/Feb/2019:15:55:13 Emitted: board:setOff
+ℹ 04/Feb/2019:15:55:13 Emitted: board:sense
+ℹ 04/Feb/2019:15:55:14 Emitted: board:sense
+ℹ 04/Feb/2019:15:55:17 Emitted: board:setOff
+ℹ 04/Feb/2019:15:55:17 Emitted: board:sense
+ℹ 04/Feb/2019:15:55:17 Emitted: board:sense
+ℹ 04/Feb/2019:15:55:19 Emitted: board:setOff
+ℹ 04/Feb/2019:15:55:19 Emitted: board:sense
+ℹ 04/Feb/2019:15:55:21 Emitted: board:sense
+ℹ 04/Feb/2019:15:55:21 Emitted: board:setOff
+ℹ 04/Feb/2019:15:55:21 Emitted: board:sense
+ℹ 04/Feb/2019:15:55:23 Emitted: board:sense
+ℹ 04/Feb/2019:15:55:23 Emitted: board:setOff
+ℹ 04/Feb/2019:15:55:23 Emitted: board:sense
+ℹ 04/Feb/2019:15:55:26 Emitted: board:sense
+ℹ 04/Feb/2019:15:55:31 Emitted: board:setOff
+ℹ 04/Feb/2019:15:55:31 Emitted: board:sense
+ℹ 04/Feb/2019:15:55:33 Emitted: board:sense
+ℹ 04/Feb/2019:15:55:39 Emitted: board:setOff
+ℹ 04/Feb/2019:15:55:39 Emitted: board:sense
+ℹ 04/Feb/2019:15:55:43 Emitted: board:sense
+ℹ 04/Feb/2019:15:55:47 Emitted: board:setOff
+ℹ 04/Feb/2019:15:55:47 Emitted: board:sense
+ℹ 04/Feb/2019:15:55:49 Emitted: board:sense
+ℹ 04/Feb/2019:15:55:50 Emitted: board:setOff
+ℹ 04/Feb/2019:15:55:50 Emitted: board:sense
+ℹ 04/Feb/2019:15:55:55 Emitted: board:sense
+ℹ 04/Feb/2019:15:55:59 Emitted: board:setOff
+ℹ 04/Feb/2019:15:55:59 Emitted: board:sense
+ℹ 04/Feb/2019:15:56:06 Emitted: board:sense
+ℹ 04/Feb/2019:15:56:06 Emitted: board:setOff
+ℹ 04/Feb/2019:15:56:06 Emitted: board:sense
+ℹ 04/Feb/2019:15:59:07 Emitted: board:setOn
+ℹ 04/Feb/2019:15:59:09 Emitted: board:setOff
+ℹ 04/Feb/2019:15:59:09 Emitted: board:setOn
+ℹ 04/Feb/2019:15:59:11 Emitted: board:setOff
+ℹ 04/Feb/2019:15:59:11 Emitted: board:setOn
+ℹ 04/Feb/2019:15:59:12 Emitted: board:setOff
+ℹ 04/Feb/2019:15:59:12 Emitted: board:setOn
+ℹ 04/Feb/2019:15:59:13 Emitted: board:setOff
+ℹ 04/Feb/2019:15:59:14 Emitted: board:setOn
+ℹ 04/Feb/2019:15:59:14 Emitted: board:setOff
+ℹ 04/Feb/2019:15:59:15 Emitted: board:setOn
+ℹ 04/Feb/2019:15:59:15 Emitted: board:setOff
+ℹ 04/Feb/2019:15:59:16 Emitted: board:setOn
+ℹ 04/Feb/2019:15:59:16 Emitted: board:setOff
+ℹ 04/Feb/2019:15:59:17 Emitted: board:setOn
+ℹ 04/Feb/2019:15:59:17 Emitted: board:setOff
+ℹ 04/Feb/2019:15:59:18 Emitted: board:setOn
+ℹ 04/Feb/2019:15:59:18 Emitted: board:setOff
+ℹ 04/Feb/2019:15:59:24 Emitted: board:setOn
+ℹ 04/Feb/2019:15:59:27 Emitted: board:setOff
+ℹ 04/Feb/2019:15:59:27 Emitted: board:sense
+ℹ 04/Feb/2019:15:59:28 Emitted: board:sense
+ℹ 04/Feb/2019:15:59:29 Emitted: board:setOff
+ℹ 04/Feb/2019:15:59:29 Emitted: board:sense
+ℹ 04/Feb/2019:15:59:30 Emitted: board:sense
+ℹ 04/Feb/2019:15:59:32 Emitted: board:setOff
+ℹ 04/Feb/2019:15:59:32 Emitted: board:sense
+ℹ 04/Feb/2019:15:59:32 Emitted: board:sense
+ℹ 04/Feb/2019:15:59:33 Emitted: board:setOff
+ℹ 04/Feb/2019:15:59:33 Emitted: board:sense
+ℹ 04/Feb/2019:15:59:34 Emitted: board:sense
+ℹ 04/Feb/2019:15:59:35 Emitted: board:setOff
+ℹ 04/Feb/2019:15:59:35 Emitted: board:sense
+ℹ 04/Feb/2019:15:59:35 Emitted: board:sense
+ℹ 04/Feb/2019:15:59:36 Emitted: board:setOff
+ℹ 04/Feb/2019:15:59:36 Emitted: board:sense
+ℹ 04/Feb/2019:15:59:36 Emitted: board:sense
+ℹ 04/Feb/2019:15:59:37 Emitted: board:setOff
+ℹ 04/Feb/2019:15:59:37 Emitted: board:sense
+ℹ 04/Feb/2019:15:59:38 Emitted: board:sense
+ℹ 04/Feb/2019:15:59:38 Emitted: board:setOff
+ℹ 04/Feb/2019:15:59:38 Emitted: board:sense
+ℹ 04/Feb/2019:15:59:39 Emitted: board:sense
+ℹ 04/Feb/2019:15:59:40 Emitted: board:setOff
+ℹ 04/Feb/2019:15:59:40 Emitted: board:sense
+ℹ 04/Feb/2019:15:59:40 Emitted: board:sense
+ℹ 04/Feb/2019:15:59:42 Emitted: board:setOff
+ℹ 04/Feb/2019:15:59:42 Emitted: board:sense
+ℹ 04/Feb/2019:15:59:47 Emitted: board:sense
+ℹ 04/Feb/2019:15:59:49 Emitted: board:setOff
+ℹ 04/Feb/2019:15:59:49 Emitted: board:sense
+ℹ 04/Feb/2019:15:59:49 Emitted: board:sense
+ℹ 04/Feb/2019:15:59:50 Emitted: board:setOff
+ℹ 04/Feb/2019:15:59:50 Emitted: board:sense
+ℹ 04/Feb/2019:15:59:51 Emitted: board:sense
+ℹ 04/Feb/2019:15:59:52 Emitted: board:setOff
+ℹ 04/Feb/2019:15:59:52 Emitted: board:sense
+ℹ 04/Feb/2019:15:59:52 Emitted: board:sense
+ℹ 04/Feb/2019:15:59:55 Emitted: board:setOff
+ℹ 04/Feb/2019:15:59:55 Emitted: board:sense
+ℹ 04/Feb/2019:15:59:55 Emitted: board:sense
+ℹ 04/Feb/2019:15:59:56 Emitted: board:setOff
+ℹ 04/Feb/2019:15:59:56 Emitted: board:sense
+ℹ 04/Feb/2019:15:59:57 Emitted: board:sense
+ℹ 04/Feb/2019:15:59:58 Emitted: board:setOff
+ℹ 04/Feb/2019:15:59:58 Emitted: board:sense
+ℹ 04/Feb/2019:15:59:58 Emitted: board:sense
+ℹ 04/Feb/2019:15:59:59 Emitted: board:setOff
+ℹ 04/Feb/2019:15:59:59 Emitted: board:sense
+ℹ 04/Feb/2019:16:00:00 Emitted: board:sense
+ℹ 04/Feb/2019:16:00:01 Emitted: board:setOff
+ℹ 04/Feb/2019:16:00:01 Emitted: board:sense
+ℹ 04/Feb/2019:16:00:02 Emitted: board:sense
+ℹ 04/Feb/2019:16:00:03 Emitted: board:setOff
+ℹ 04/Feb/2019:16:00:03 Emitted: board:sense
+ℹ 04/Feb/2019:16:00:03 Emitted: board:sense
+ℹ 04/Feb/2019:16:00:04 Emitted: board:setOff
+ℹ 04/Feb/2019:16:00:04 Emitted: board:sense
+ℹ 04/Feb/2019:16:00:04 Emitted: board:sense
+ℹ 04/Feb/2019:16:00:04 Emitted: board:setOff
+ℹ 04/Feb/2019:16:00:04 Emitted: board:sense
+ℹ 04/Feb/2019:16:00:05 Emitted: board:sense
+ℹ 04/Feb/2019:16:00:06 Emitted: board:setOff
+ℹ 04/Feb/2019:16:00:06 Emitted: board:sense
+ℹ 04/Feb/2019:16:00:21 Emitted: board:setOn
+ℹ 04/Feb/2019:16:00:21 Emitted: board:setOff
+ℹ 04/Feb/2019:16:00:22 Emitted: board:sense
+ℹ 04/Feb/2019:16:00:25 Emitted: board:setOn
+ℹ 04/Feb/2019:16:00:29 Emitted: board:setOff
+ℹ 04/Feb/2019:16:00:29 Emitted: board:sense
+ℹ 04/Feb/2019:16:00:35 Emitted: board:setOn
+ℹ 04/Feb/2019:16:00:38 Emitted: board:setOff
+ℹ 04/Feb/2019:16:00:40 Emitted: board:sense
+ℹ 04/Feb/2019:16:00:49 Emitted: board:setOff
+ℹ 04/Feb/2019:16:00:49 Emitted: board:sense
+ℹ 04/Feb/2019:16:00:50 Emitted: board:sense
+ℹ 04/Feb/2019:16:00:51 Emitted: board:setOff
+ℹ 04/Feb/2019:16:00:51 Emitted: board:sense
+ℹ 04/Feb/2019:16:00:52 Emitted: board:sense
+ℹ 04/Feb/2019:16:00:54 Emitted: board:setOff
+ℹ 04/Feb/2019:16:00:54 Emitted: board:sense
+ℹ 04/Feb/2019:16:00:57 Emitted: board:setOn
+ℹ 04/Feb/2019:16:01:01 Emitted: board:setOff
+ℹ 04/Feb/2019:16:01:04 Emitted: board:sense
+ℹ 04/Feb/2019:16:01:04 Emitted: board:setOff
+ℹ 04/Feb/2019:16:01:04 Emitted: board:sense
+ℹ 04/Feb/2019:16:01:05 Emitted: board:sense
+ℹ 04/Feb/2019:16:01:07 Emitted: board:setOff
+ℹ 04/Feb/2019:16:01:07 Emitted: board:sense
+ℹ 04/Feb/2019:16:01:07 Emitted: board:sense
+ℹ 04/Feb/2019:16:01:07 Emitted: board:setOff
+ℹ 04/Feb/2019:16:01:07 Emitted: board:sense
+ℹ 04/Feb/2019:16:01:10 Emitted: board:sense
+ℹ 04/Feb/2019:16:01:10 Emitted: board:setOff
+ℹ 04/Feb/2019:16:01:10 Emitted: board:sense
+ℹ 04/Feb/2019:16:01:11 Emitted: board:setOn
+ℹ 04/Feb/2019:16:01:13 Emitted: board:sense
+ℹ 04/Feb/2019:16:01:13 Emitted: board:setOff
+ℹ 04/Feb/2019:16:01:13 Emitted: board:sense
+ℹ 04/Feb/2019:16:01:13 Emitted: board:sense
+ℹ 04/Feb/2019:16:01:14 Emitted: board:setOn
+ℹ 04/Feb/2019:16:01:19 Emitted: board:setOff
+ℹ 04/Feb/2019:16:01:19 Emitted: board:sense
+ℹ 04/Feb/2019:16:01:19 Emitted: board:sense
+ℹ 04/Feb/2019:16:01:20 Emitted: board:setOff
+ℹ 04/Feb/2019:16:01:20 Emitted: board:sense
+ℹ 04/Feb/2019:16:01:21 Emitted: board:setOn
+ℹ 04/Feb/2019:16:01:25 Emitted: board:setOff
+ℹ 04/Feb/2019:16:02:26 Emitted: board:sense
+ℹ 04/Feb/2019:16:02:26 Emitted: board:setOff
+ℹ 04/Feb/2019:16:02:26 Emitted: board:sense
+ℹ 04/Feb/2019:16:02:30 Emitted: board:setOn
+ℹ 04/Feb/2019:16:02:36 Emitted: board:sense
+ℹ 04/Feb/2019:16:02:38 Emitted: board:setOff
+ℹ 04/Feb/2019:16:02:38 Emitted: board:sense
+ℹ 04/Feb/2019:16:02:40 Emitted: board:setOn
+ℹ 04/Feb/2019:16:02:42 Emitted: board:sense
+ℹ 04/Feb/2019:16:02:49 Emitted: board:setOff
+ℹ 04/Feb/2019:16:02:49 Emitted: board:sense
+ℹ 04/Feb/2019:16:02:49 Emitted: board:sense
+ℹ 04/Feb/2019:16:02:50 Emitted: board:setOn
+ℹ 04/Feb/2019:16:02:51 Emitted: board:setOff
+ℹ 04/Feb/2019:16:02:51 Emitted: board:sense
+ℹ 04/Feb/2019:16:02:54 Emitted: board:sense
+ℹ 04/Feb/2019:16:02:55 Emitted: board:setOn
+ℹ 04/Feb/2019:16:02:57 Emitted: board:setOff
+ℹ 04/Feb/2019:16:02:57 Emitted: board:sense
+ℹ 04/Feb/2019:16:02:58 Emitted: board:setOn
+ℹ 04/Feb/2019:16:02:59 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:00 Emitted: board:setOff
+ℹ 04/Feb/2019:16:03:02 Emitted: board:setOn
+ℹ 04/Feb/2019:16:03:03 Emitted: board:setOff
+ℹ 04/Feb/2019:16:03:03 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:04 Emitted: board:setOn
+ℹ 04/Feb/2019:16:03:06 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:08 Emitted: board:setOff
+ℹ 04/Feb/2019:16:03:08 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:08 Emitted: board:setOn
+ℹ 04/Feb/2019:16:03:09 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:10 Emitted: board:setOff
+ℹ 04/Feb/2019:16:03:10 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:11 Emitted: board:setOn
+ℹ 04/Feb/2019:16:03:11 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:12 Emitted: board:setOff
+ℹ 04/Feb/2019:16:03:12 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:13 Emitted: board:setOn
+ℹ 04/Feb/2019:16:03:13 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:14 Emitted: board:setOff
+ℹ 04/Feb/2019:16:03:14 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:15 Emitted: board:setOn
+ℹ 04/Feb/2019:16:03:16 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:17 Emitted: board:setOff
+ℹ 04/Feb/2019:16:03:17 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:17 Emitted: board:setOn
+ℹ 04/Feb/2019:16:03:18 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:20 Emitted: board:setOff
+ℹ 04/Feb/2019:16:03:20 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:20 Emitted: board:setOn
+ℹ 04/Feb/2019:16:03:21 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:22 Emitted: board:setOff
+ℹ 04/Feb/2019:16:03:22 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:23 Emitted: board:setOn
+ℹ 04/Feb/2019:16:03:24 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:25 Emitted: board:setOff
+ℹ 04/Feb/2019:16:03:25 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:26 Emitted: board:setOn
+ℹ 04/Feb/2019:16:03:26 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:27 Emitted: board:setOff
+ℹ 04/Feb/2019:16:03:27 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:28 Emitted: board:setOn
+ℹ 04/Feb/2019:16:03:28 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:29 Emitted: board:setOff
+ℹ 04/Feb/2019:16:03:29 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:30 Emitted: board:setOn
+ℹ 04/Feb/2019:16:03:30 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:31 Emitted: board:setOff
+ℹ 04/Feb/2019:16:03:31 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:31 Emitted: board:setOn
+ℹ 04/Feb/2019:16:03:32 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:33 Emitted: board:setOff
+ℹ 04/Feb/2019:16:03:33 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:33 Emitted: board:setOn
+ℹ 04/Feb/2019:16:03:34 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:35 Emitted: board:setOff
+ℹ 04/Feb/2019:16:03:35 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:35 Emitted: board:setOn
+ℹ 04/Feb/2019:16:03:36 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:36 Emitted: board:setOff
+ℹ 04/Feb/2019:16:03:36 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:37 Emitted: board:setOn
+ℹ 04/Feb/2019:16:03:38 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:39 Emitted: board:setOff
+ℹ 04/Feb/2019:16:03:39 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:40 Emitted: board:setOn
+ℹ 04/Feb/2019:16:03:40 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:41 Emitted: board:setOff
+ℹ 04/Feb/2019:16:03:41 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:42 Emitted: board:setOn
+ℹ 04/Feb/2019:16:03:43 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:53 Emitted: board:setOff
+ℹ 04/Feb/2019:16:03:53 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:53 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:54 Emitted: board:setOff
+ℹ 04/Feb/2019:16:03:54 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:55 Emitted: board:sense
+ℹ 04/Feb/2019:16:03:56 Emitted: board:setOn
+ℹ 04/Feb/2019:16:03:59 Emitted: board:setOff
+ℹ 04/Feb/2019:16:03:59 Emitted: board:sense
+ℹ 04/Feb/2019:16:04:01 Emitted: board:setOn
+ℹ 04/Feb/2019:16:04:01 Emitted: board:sense
+ℹ 04/Feb/2019:16:04:02 Emitted: board:setOff
+ℹ 04/Feb/2019:16:04:02 Emitted: board:sense
+ℹ 04/Feb/2019:16:04:03 Emitted: board:setOn
+ℹ 04/Feb/2019:16:04:03 Emitted: board:sense
+ℹ 04/Feb/2019:16:04:08 Emitted: board:setOff
+ℹ 04/Feb/2019:16:04:08 Emitted: board:sense
+ℹ 04/Feb/2019:16:04:09 Emitted: board:sense
+ℹ 04/Feb/2019:16:04:09 Emitted: board:setOn
+ℹ 04/Feb/2019:16:04:10 Emitted: board:setOff
+ℹ 04/Feb/2019:16:04:10 Emitted: board:sense
+ℹ 04/Feb/2019:16:04:11 Emitted: board:setOn
+ℹ 04/Feb/2019:16:04:12 Emitted: board:sense
+ℹ 04/Feb/2019:16:04:13 Emitted: board:setOff
+ℹ 04/Feb/2019:16:04:13 Emitted: board:sense
+ℹ 04/Feb/2019:16:04:14 Emitted: board:setOn
+ℹ 04/Feb/2019:16:04:14 Emitted: board:sense
+ℹ 04/Feb/2019:16:04:21 Emitted: board:setOff
+ℹ 04/Feb/2019:16:04:21 Emitted: board:sense
+ℹ 04/Feb/2019:16:04:23 Emitted: board:setOn
+ℹ 04/Feb/2019:16:04:26 Emitted: board:sense
+ℹ 04/Feb/2019:16:04:31 Emitted: board:setOff
+ℹ 04/Feb/2019:16:04:31 Emitted: board:sense
+ℹ 04/Feb/2019:16:04:32 Emitted: board:setOn
+ℹ 04/Feb/2019:16:04:32 Emitted: board:sense
+ℹ 04/Feb/2019:16:04:35 Emitted: board:setOff
+ℹ 04/Feb/2019:16:04:35 Emitted: board:sense
+ℹ 04/Feb/2019:16:04:41 Emitted: board:sense
+ℹ 04/Feb/2019:16:04:42 Emitted: board:setOff
+ℹ 04/Feb/2019:16:04:42 Emitted: board:sense
+ℹ 04/Feb/2019:16:04:44 Emitted: board:setOn
+ℹ 04/Feb/2019:16:04:45 Emitted: board:sense
+ℹ 04/Feb/2019:16:04:46 Emitted: board:setOff
+ℹ 04/Feb/2019:16:04:46 Emitted: board:sense
+ℹ 04/Feb/2019:16:04:47 Emitted: board:setOn
+ℹ 04/Feb/2019:16:04:48 Emitted: board:sense
+ℹ 04/Feb/2019:16:04:49 Emitted: board:setOff
+ℹ 04/Feb/2019:16:04:49 Emitted: board:sense
+ℹ 04/Feb/2019:16:04:49 Emitted: board:setOn
+ℹ 04/Feb/2019:16:04:52 Emitted: board:sense
+ℹ 04/Feb/2019:16:04:53 Emitted: board:setOff
+ℹ 04/Feb/2019:16:04:53 Emitted: board:sense
+ℹ 04/Feb/2019:16:04:54 Emitted: board:setOn
+ℹ 04/Feb/2019:16:04:55 Emitted: board:sense
+ℹ 04/Feb/2019:16:04:58 Emitted: board:setOff
+ℹ 04/Feb/2019:16:04:58 Emitted: board:sense
+ℹ 04/Feb/2019:16:05:01 Emitted: board:sense
+ℹ 04/Feb/2019:16:05:01 Emitted: board:setOff
+ℹ 04/Feb/2019:16:05:01 Emitted: board:sense
+ℹ 04/Feb/2019:16:05:07 Emitted: board:sense
+ℹ 04/Feb/2019:16:05:09 Emitted: board:setOff
+ℹ 04/Feb/2019:16:05:09 Emitted: board:sense
+ℹ 04/Feb/2019:16:05:19 Emitted: board:sense
+ℹ 04/Feb/2019:16:05:21 Emitted: board:setOff
+ℹ 04/Feb/2019:16:05:21 Emitted: board:sense
+ℹ 04/Feb/2019:16:05:22 Emitted: board:sense
+ℹ 04/Feb/2019:16:05:23 Emitted: board:setOff
+ℹ 04/Feb/2019:16:05:23 Emitted: board:sense
+ℹ 04/Feb/2019:16:05:24 Emitted: board:sense
+ℹ 04/Feb/2019:16:05:26 Emitted: board:setOff
+ℹ 04/Feb/2019:16:05:26 Emitted: board:sense
+ℹ 04/Feb/2019:16:05:27 Emitted: board:sense
+ℹ 04/Feb/2019:16:05:29 Emitted: board:setOff
+ℹ 04/Feb/2019:16:05:29 Emitted: board:sense
+ℹ 04/Feb/2019:16:05:30 Emitted: board:sense
+ℹ 04/Feb/2019:16:05:32 Emitted: board:setOff
+ℹ 04/Feb/2019:16:05:32 Emitted: board:sense
+ℹ 04/Feb/2019:16:05:32 Emitted: board:sense
+ℹ 04/Feb/2019:16:05:34 Emitted: board:setOff
+ℹ 04/Feb/2019:16:05:34 Emitted: board:sense
+ℹ 04/Feb/2019:16:05:35 Emitted: board:sense
+ℹ 04/Feb/2019:16:05:38 Emitted: board:setOff
+ℹ 04/Feb/2019:16:05:38 Emitted: board:sense
+ℹ 04/Feb/2019:16:05:40 Emitted: board:sense
+ℹ 04/Feb/2019:16:05:42 Emitted: board:setOff
+ℹ 04/Feb/2019:16:05:42 Emitted: board:sense
+ℹ 04/Feb/2019:16:05:43 Emitted: board:sense
+ℹ 04/Feb/2019:16:05:44 Emitted: board:setOff
+ℹ 04/Feb/2019:16:05:44 Emitted: board:sense
+ℹ 04/Feb/2019:16:05:46 Emitted: board:sense
+ℹ 04/Feb/2019:16:05:47 Emitted: board:setOff
+ℹ 04/Feb/2019:16:05:47 Emitted: board:sense
+ℹ 04/Feb/2019:16:05:50 Emitted: board:sense
+ℹ 04/Feb/2019:16:05:51 Emitted: board:setOff
+ℹ 04/Feb/2019:16:05:51 Emitted: board:sense
+ℹ 04/Feb/2019:16:05:53 Emitted: board:sense
+ℹ 04/Feb/2019:16:05:54 Emitted: board:setOff
+ℹ 04/Feb/2019:16:05:54 Emitted: board:sense
+ℹ 04/Feb/2019:16:05:55 Emitted: board:sense
+ℹ 04/Feb/2019:16:05:57 Emitted: board:setOff
+ℹ 04/Feb/2019:16:05:57 Emitted: board:sense
+ℹ 04/Feb/2019:16:05:59 Emitted: board:sense
+ℹ 04/Feb/2019:16:06:00 Emitted: board:setOff
+ℹ 04/Feb/2019:16:06:00 Emitted: board:sense
+ℹ 04/Feb/2019:16:06:01 Emitted: board:sense
+ℹ 04/Feb/2019:16:06:02 Emitted: board:setOff
+ℹ 04/Feb/2019:16:06:02 Emitted: board:sense
+ℹ 04/Feb/2019:16:06:04 Emitted: board:sense
+ℹ 04/Feb/2019:16:06:05 Emitted: board:setOff
+ℹ 04/Feb/2019:16:06:05 Emitted: board:sense
+ℹ 04/Feb/2019:16:06:06 Emitted: board:sense
+ℹ 04/Feb/2019:16:06:07 Emitted: board:setOff
+ℹ 04/Feb/2019:16:06:07 Emitted: board:sense
+ℹ 04/Feb/2019:16:08:35 Emitted: board:sense
+ℹ 04/Feb/2019:16:08:50 Emitted: board:setOff
+ℹ 04/Feb/2019:16:08:50 Emitted: board:sense
+ℹ 04/Feb/2019:16:08:51 Emitted: board:sense
+ℹ 04/Feb/2019:16:08:54 Emitted: board:setOff
+ℹ 04/Feb/2019:16:08:54 Emitted: board:sense
+ℹ 04/Feb/2019:16:08:55 Emitted: board:sense
+ℹ 04/Feb/2019:16:08:57 Emitted: board:setOff
+ℹ 04/Feb/2019:16:08:57 Emitted: board:sense
+ℹ 04/Feb/2019:16:08:57 Emitted: board:sense
+ℹ 04/Feb/2019:16:08:58 Emitted: board:setOff
+ℹ 04/Feb/2019:16:08:58 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:04 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:05 Emitted: board:setOff
+ℹ 04/Feb/2019:16:09:05 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:07 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:10 Emitted: board:setOff
+ℹ 04/Feb/2019:16:09:10 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:10 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:12 Emitted: board:setOff
+ℹ 04/Feb/2019:16:09:12 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:14 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:16 Emitted: board:setOff
+ℹ 04/Feb/2019:16:09:16 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:17 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:18 Emitted: board:setOff
+ℹ 04/Feb/2019:16:09:18 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:19 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:19 Emitted: board:setOff
+ℹ 04/Feb/2019:16:09:19 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:20 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:22 Emitted: board:setOff
+ℹ 04/Feb/2019:16:09:22 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:22 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:22 Emitted: board:setOff
+ℹ 04/Feb/2019:16:09:22 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:26 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:28 Emitted: board:setOff
+ℹ 04/Feb/2019:16:09:28 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:28 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:29 Emitted: board:setOff
+ℹ 04/Feb/2019:16:09:29 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:29 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:29 Emitted: board:setOff
+ℹ 04/Feb/2019:16:09:29 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:32 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:37 Emitted: board:setOff
+ℹ 04/Feb/2019:16:09:37 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:37 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:39 Emitted: board:setOff
+ℹ 04/Feb/2019:16:09:39 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:39 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:40 Emitted: board:setOff
+ℹ 04/Feb/2019:16:09:40 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:41 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:43 Emitted: board:setOff
+ℹ 04/Feb/2019:16:09:43 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:43 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:44 Emitted: board:setOff
+ℹ 04/Feb/2019:16:09:44 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:50 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:50 Emitted: board:setOff
+ℹ 04/Feb/2019:16:09:50 Emitted: board:sense
+ℹ 04/Feb/2019:16:09:51 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:14 Emitted: board:setOff
+ℹ 04/Feb/2019:16:11:14 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:16 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:20 Emitted: board:setOff
+ℹ 04/Feb/2019:16:11:20 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:22 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:23 Emitted: board:setOff
+ℹ 04/Feb/2019:16:11:23 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:25 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:25 Emitted: board:setOff
+ℹ 04/Feb/2019:16:11:25 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:26 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:30 Emitted: board:setOff
+ℹ 04/Feb/2019:16:11:30 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:33 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:40 Emitted: board:setOff
+ℹ 04/Feb/2019:16:11:40 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:41 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:42 Emitted: board:setOff
+ℹ 04/Feb/2019:16:11:42 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:43 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:44 Emitted: board:setOff
+ℹ 04/Feb/2019:16:11:44 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:45 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:45 Emitted: board:setOff
+ℹ 04/Feb/2019:16:11:45 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:46 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:46 Emitted: board:setOff
+ℹ 04/Feb/2019:16:11:46 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:47 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:47 Emitted: board:setOff
+ℹ 04/Feb/2019:16:11:47 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:47 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:48 Emitted: board:setOff
+ℹ 04/Feb/2019:16:11:48 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:48 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:49 Emitted: board:setOff
+ℹ 04/Feb/2019:16:11:49 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:49 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:51 Emitted: board:setOff
+ℹ 04/Feb/2019:16:11:51 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:51 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:52 Emitted: board:setOff
+ℹ 04/Feb/2019:16:11:52 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:52 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:53 Emitted: board:setOff
+ℹ 04/Feb/2019:16:11:53 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:54 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:54 Emitted: board:setOff
+ℹ 04/Feb/2019:16:11:54 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:55 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:55 Emitted: board:setOff
+ℹ 04/Feb/2019:16:11:55 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:56 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:57 Emitted: board:setOff
+ℹ 04/Feb/2019:16:11:57 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:58 Emitted: board:sense
+ℹ 04/Feb/2019:16:11:58 Emitted: board:setOff
+ℹ 04/Feb/2019:16:11:58 Emitted: board:sense
+ℹ 04/Feb/2019:16:12:01 Emitted: board:sense
+ℹ 04/Feb/2019:16:12:01 Emitted: board:setOff
+ℹ 04/Feb/2019:16:12:01 Emitted: board:sense
+ℹ 04/Feb/2019:16:12:03 Emitted: board:sense
+ℹ 04/Feb/2019:16:12:03 Emitted: board:setOff
+ℹ 04/Feb/2019:16:12:03 Emitted: board:sense
+ℹ 04/Feb/2019:16:12:03 Emitted: board:sense
+ℹ 04/Feb/2019:16:12:04 Emitted: board:setOff
+ℹ 04/Feb/2019:16:12:04 Emitted: board:sense
+ℹ 04/Feb/2019:16:12:04 Emitted: board:sense
+ℹ 04/Feb/2019:16:12:05 Emitted: board:setOff
+ℹ 04/Feb/2019:16:12:05 Emitted: board:sense
+ℹ 04/Feb/2019:16:12:05 Emitted: board:sense
+ℹ 04/Feb/2019:16:12:07 Emitted: board:setOff
+ℹ 04/Feb/2019:16:12:07 Emitted: board:sense
+ℹ 04/Feb/2019:16:12:07 Emitted: board:sense
+ℹ 04/Feb/2019:16:12:09 Emitted: board:setOff
+ℹ 04/Feb/2019:16:12:09 Emitted: board:sense
+ℹ 04/Feb/2019:16:12:09 Emitted: board:sense
+ℹ 04/Feb/2019:16:12:11 Emitted: board:setOff
+ℹ 04/Feb/2019:16:12:11 Emitted: board:sense
+ℹ 04/Feb/2019:16:12:12 Emitted: board:sense
+ℹ 04/Feb/2019:16:12:13 Emitted: board:setOff
+ℹ 04/Feb/2019:16:12:13 Emitted: board:sense
+ℹ 04/Feb/2019:16:12:52 Emitted: board:sense
+ℹ 04/Feb/2019:16:12:57 Emitted: board:setOff
+ℹ 04/Feb/2019:16:12:57 Emitted: board:sense
+ℹ 04/Feb/2019:16:13:05 Emitted: board:sense
+ℹ 04/Feb/2019:16:13:07 Emitted: board:setOff
+ℹ 04/Feb/2019:16:13:07 Emitted: board:sense
+ℹ 04/Feb/2019:16:13:10 Emitted: board:sense
+ℹ 04/Feb/2019:16:13:10 Emitted: board:setOff
+ℹ 04/Feb/2019:16:13:10 Emitted: board:sense
+ℹ 04/Feb/2019:16:13:13 Emitted: board:sense
+ℹ 04/Feb/2019:16:13:16 Emitted: board:setOff
+ℹ 04/Feb/2019:16:13:16 Emitted: board:sense
+ℹ 04/Feb/2019:16:13:17 Emitted: board:sense
+ℹ 04/Feb/2019:16:13:18 Emitted: board:setOff
+ℹ 04/Feb/2019:16:13:18 Emitted: board:sense
+ℹ 04/Feb/2019:16:13:19 Emitted: board:sense
+ℹ 04/Feb/2019:16:13:21 Emitted: board:setOff
+ℹ 04/Feb/2019:16:13:21 Emitted: board:sense
+ℹ 04/Feb/2019:16:13:24 Emitted: board:sense
+ℹ 04/Feb/2019:16:13:31 Emitted: board:setOff
+ℹ 04/Feb/2019:16:13:31 Emitted: board:sense
+ℹ 04/Feb/2019:16:13:32 Emitted: board:sense
+ℹ 04/Feb/2019:16:13:34 Emitted: board:setOff
+ℹ 04/Feb/2019:16:13:34 Emitted: board:sense
+ℹ 04/Feb/2019:16:13:36 Emitted: board:sense
+ℹ 04/Feb/2019:16:13:36 Emitted: board:setOff
+ℹ 04/Feb/2019:16:13:36 Emitted: board:sense
+ℹ 04/Feb/2019:16:13:37 Emitted: board:sense
+ℹ 04/Feb/2019:16:13:38 Emitted: board:setOff
+ℹ 04/Feb/2019:16:13:38 Emitted: board:sense
+ℹ 04/Feb/2019:16:13:39 Emitted: board:sense
+ℹ 04/Feb/2019:16:13:41 Emitted: board:setOff
+ℹ 04/Feb/2019:16:13:41 Emitted: board:sense
+ℹ 04/Feb/2019:16:13:42 Emitted: board:sense
+ℹ 04/Feb/2019:16:13:43 Emitted: board:setOff
+ℹ 04/Feb/2019:16:13:43 Emitted: board:sense
+ℹ 04/Feb/2019:16:18:50 Emitted: board:setOn
+ℹ 04/Feb/2019:16:18:51 Emitted: board:setOff
+ℹ 04/Feb/2019:16:18:52 Emitted: board:setOn
+ℹ 04/Feb/2019:16:18:52 Emitted: board:setOff
+ℹ 04/Feb/2019:16:18:56 Emitted: board:setOn
+ℹ 04/Feb/2019:16:18:57 Emitted: board:setOff
+ℹ 04/Feb/2019:16:18:58 Emitted: board:setOn
+ℹ 04/Feb/2019:16:18:58 Emitted: board:setOff
+ℹ 04/Feb/2019:16:19:02 Emitted: board:setOn
+ℹ 04/Feb/2019:16:19:04 Emitted: board:setOff
+ℹ 04/Feb/2019:16:19:11 Emitted: board:setOn
+ℹ 04/Feb/2019:16:19:12 Emitted: board:setOff
+❯ 04/Feb/2019:16:20:17 Connecting to database...
+ℹ 04/Feb/2019:16:20:17 Initializing Socket Events.
+ℹ 04/Feb/2019:16:20:17 Server UP, listening on port 5000
+✔ 04/Feb/2019:16:20:17 Database connection success!!!
+❯ 05/Feb/2019:13:07:44 Connecting to database...
+ℹ 05/Feb/2019:13:07:44 Initializing Socket Events.
+ℹ 05/Feb/2019:13:07:44 Server UP, listening on port 5000
+✔ 05/Feb/2019:13:07:44 Database connection success!!!
+❯ 05/Feb/2019:15:28:22 Connecting to database...
+ℹ 05/Feb/2019:15:28:22 Initializing Socket Events.
+ℹ 05/Feb/2019:15:28:22 Server UP, listening on port 5000
+✔ 05/Feb/2019:15:28:22 Database connection success!!!
+❯ 05/Feb/2019:16:05:24 Connecting to database...
+ℹ 05/Feb/2019:16:05:24 Initializing Socket Events.
+ℹ 05/Feb/2019:16:05:24 Server UP, listening on port 5000
+✔ 05/Feb/2019:16:05:24 Database connection success!!!
+❯ 05/Feb/2019:16:23:29 Connecting to database...
+ℹ 05/Feb/2019:16:23:29 Initializing Socket Events.
+ℹ 05/Feb/2019:16:23:30 Server UP, listening on port 5000
+✔ 05/Feb/2019:16:23:30 Database connection success!!!
+❯ 07/Feb/2019:10:40:19 Connecting to database...
+ℹ 07/Feb/2019:10:40:19 Initializing Socket Events.
+ℹ 07/Feb/2019:10:40:19 Server UP, listening on port 5000
+✔ 07/Feb/2019:10:40:19 Database connection success!!!
+❯ 07/Feb/2019:11:06:46 Connecting to database...
+ℹ 07/Feb/2019:11:06:46 Initializing Socket Events.
+ℹ 07/Feb/2019:11:06:46 Server UP, listening on port 5000
+✔ 07/Feb/2019:11:06:46 Database connection success!!!
+❯ 07/Feb/2019:12:44:59 Connecting to database...
+ℹ 07/Feb/2019:12:44:59 Initializing Socket Events.
+ℹ 07/Feb/2019:12:44:59 Server UP, listening on port 5000
+✔ 07/Feb/2019:12:44:59 Database connection success!!!
+❯ 07/Feb/2019:13:17:04 Connecting to database...
+ℹ 07/Feb/2019:13:17:04 Initializing Socket Events.
+ℹ 07/Feb/2019:13:17:04 Server UP, listening on port 5000
+✔ 07/Feb/2019:13:17:04 Database connection success!!!
+❯ 07/Feb/2019:13:21:12 Connecting to database...
+ℹ 07/Feb/2019:13:21:12 Initializing Socket Events.
+ℹ 07/Feb/2019:13:21:12 Server UP, listening on port 5000
+✔ 07/Feb/2019:13:21:12 Database connection success!!!
+❯ 07/Feb/2019:13:27:38 Connecting to database...
+ℹ 07/Feb/2019:13:27:38 Initializing Socket Events.
+ℹ 07/Feb/2019:13:27:38 Server UP, listening on port 5000
+✔ 07/Feb/2019:13:27:38 Database connection success!!!
+❯ 07/Feb/2019:13:28:53 Connecting to database...
+ℹ 07/Feb/2019:13:28:54 Initializing Socket Events.
+ℹ 07/Feb/2019:13:28:54 Server UP, listening on port 5000
+✔ 07/Feb/2019:13:28:54 Database connection success!!!
+ℹ 07/Feb/2019:14:04:33 Emitted: board:setOn
+ℹ 07/Feb/2019:14:04:35 Emitted: board:setOff
+ℹ 07/Feb/2019:14:04:36 Emitted: board:setOn
+ℹ 07/Feb/2019:14:04:37 Emitted: board:setOff
+ℹ 07/Feb/2019:14:04:37 Emitted: board:setOn
+ℹ 07/Feb/2019:14:04:38 Emitted: board:setOff
+ℹ 07/Feb/2019:14:09:43 Emitted: board:setOn
+ℹ 07/Feb/2019:14:09:44 Emitted: board:setOff
+ℹ 07/Feb/2019:14:09:44 Emitted: board:setOn
+ℹ 07/Feb/2019:14:09:45 Emitted: board:setOff
+ℹ 07/Feb/2019:14:14:39 Emitted: board:setOn
+ℹ 07/Feb/2019:14:14:40 Emitted: board:setOff
+ℹ 07/Feb/2019:14:14:41 Emitted: board:setOn
+ℹ 07/Feb/2019:14:14:42 Emitted: board:setOff
+ℹ 07/Feb/2019:14:14:43 Emitted: board:setOn
+ℹ 07/Feb/2019:14:14:44 Emitted: board:setOff
+ℹ 07/Feb/2019:14:14:45 Emitted: board:setOn
+ℹ 07/Feb/2019:14:14:45 Emitted: board:setOff
+ℹ 07/Feb/2019:14:14:49 Emitted: board:setOn
+ℹ 07/Feb/2019:14:14:49 Emitted: board:setOff
+ℹ 07/Feb/2019:14:14:50 Emitted: board:setOn
+ℹ 07/Feb/2019:14:14:50 Emitted: board:setOff
+ℹ 07/Feb/2019:14:14:51 Emitted: board:setOn
+ℹ 07/Feb/2019:14:14:52 Emitted: board:setOff
+ℹ 07/Feb/2019:14:15:25 Emitted: board:setOn
+ℹ 07/Feb/2019:14:15:26 Emitted: board:setOff
+ℹ 07/Feb/2019:14:15:27 Emitted: board:setOn
+ℹ 07/Feb/2019:14:15:27 Emitted: board:setOff
+ℹ 07/Feb/2019:14:15:28 Emitted: board:setOn
+ℹ 07/Feb/2019:14:15:28 Emitted: board:setOff
+ℹ 07/Feb/2019:14:15:29 Emitted: board:setOn
+ℹ 07/Feb/2019:14:15:29 Emitted: board:setOff
+ℹ 07/Feb/2019:14:15:30 Emitted: board:setOn
+ℹ 07/Feb/2019:14:15:30 Emitted: board:setOff
+ℹ 07/Feb/2019:14:15:31 Emitted: board:setOn
+ℹ 07/Feb/2019:14:15:31 Emitted: board:setOff
+ℹ 07/Feb/2019:14:17:23 Emitted: board:setOn
+ℹ 07/Feb/2019:14:17:30 Emitted: board:setOff
+ℹ 07/Feb/2019:14:33:47 Emitted: board:setOn
+ℹ 07/Feb/2019:14:33:48 Emitted: board:setOff
+ℹ 07/Feb/2019:14:33:49 Emitted: board:setOn
+ℹ 07/Feb/2019:14:33:50 Emitted: board:setOff
+ℹ 07/Feb/2019:14:33:51 Emitted: board:setOn
+ℹ 07/Feb/2019:14:33:51 Emitted: board:setOff
+ℹ 07/Feb/2019:14:33:52 Emitted: board:setOn
+ℹ 07/Feb/2019:14:33:52 Emitted: board:setOff
+ℹ 07/Feb/2019:14:33:53 Emitted: board:setOn
+ℹ 07/Feb/2019:14:33:54 Emitted: board:setOff
+ℹ 07/Feb/2019:14:33:54 Emitted: board:setOn
+ℹ 07/Feb/2019:14:33:55 Emitted: board:setOff
+ℹ 07/Feb/2019:14:33:55 Emitted: board:setOn
+ℹ 07/Feb/2019:14:33:57 Emitted: board:setOff
+ℹ 07/Feb/2019:14:33:57 Emitted: board:setOn
+ℹ 07/Feb/2019:14:33:57 Emitted: board:setOff
+ℹ 07/Feb/2019:14:33:58 Emitted: board:setOn
+ℹ 07/Feb/2019:14:33:58 Emitted: board:setOff
+ℹ 07/Feb/2019:14:33:59 Emitted: board:setOn
+ℹ 07/Feb/2019:14:33:59 Emitted: board:setOff
+ℹ 07/Feb/2019:14:34:00 Emitted: board:setOn
+ℹ 07/Feb/2019:14:34:00 Emitted: board:setOff
+ℹ 07/Feb/2019:14:36:08 Emitted: board:setOn
+ℹ 07/Feb/2019:14:36:10 Emitted: board:setOff
+ℹ 07/Feb/2019:14:36:10 Emitted: board:setOn
+ℹ 07/Feb/2019:14:36:11 Emitted: board:setOff
+ℹ 07/Feb/2019:14:36:11 Emitted: board:setOn
+ℹ 07/Feb/2019:14:36:12 Emitted: board:setOff
+ℹ 07/Feb/2019:14:36:12 Emitted: board:setOn
+ℹ 07/Feb/2019:14:36:12 Emitted: board:setOff
+ℹ 07/Feb/2019:14:36:13 Emitted: board:setOn
+ℹ 07/Feb/2019:14:36:13 Emitted: board:setOff
+ℹ 07/Feb/2019:14:36:13 Emitted: board:setOn
+ℹ 07/Feb/2019:14:36:14 Emitted: board:setOff
+ℹ 07/Feb/2019:14:36:14 Emitted: board:setOn
+ℹ 07/Feb/2019:14:36:15 Emitted: board:setOff
+ℹ 07/Feb/2019:14:36:15 Emitted: board:setOn
+ℹ 07/Feb/2019:14:36:15 Emitted: board:setOff
+ℹ 07/Feb/2019:14:36:15 Emitted: board:setOn
+ℹ 07/Feb/2019:14:36:16 Emitted: board:setOff
+ℹ 07/Feb/2019:14:36:16 Emitted: board:setOn
+ℹ 07/Feb/2019:14:36:16 Emitted: board:setOff
+ℹ 07/Feb/2019:14:36:17 Emitted: board:setOn
+ℹ 07/Feb/2019:14:36:17 Emitted: board:setOff
+ℹ 07/Feb/2019:14:36:17 Emitted: board:setOn
+ℹ 07/Feb/2019:14:36:18 Emitted: board:setOff
+ℹ 07/Feb/2019:14:39:13 Emitted: board:setOn
+ℹ 07/Feb/2019:14:39:17 Emitted: board:setOff
+ℹ 07/Feb/2019:14:39:18 Emitted: board:setOn
+ℹ 07/Feb/2019:14:39:18 Emitted: board:setOff
+ℹ 07/Feb/2019:14:40:47 Emitted: board:setOn
+ℹ 07/Feb/2019:14:40:48 Emitted: board:setOff
+ℹ 07/Feb/2019:14:40:49 Emitted: board:setOn
+ℹ 07/Feb/2019:14:40:50 Emitted: board:setOff
+ℹ 07/Feb/2019:14:40:50 Emitted: board:setOn
+ℹ 07/Feb/2019:14:40:51 Emitted: board:setOff
+ℹ 07/Feb/2019:14:41:11 Emitted: board:setOn
+ℹ 07/Feb/2019:14:41:13 Emitted: board:setOff
+ℹ 07/Feb/2019:14:50:46 Emitted: board:setOn
+ℹ 07/Feb/2019:14:50:48 Emitted: board:setOff
+ℹ 07/Feb/2019:14:50:48 Emitted: board:setOn
+ℹ 07/Feb/2019:14:50:49 Emitted: board:setOff
+ℹ 07/Feb/2019:14:50:50 Emitted: board:setOn
+ℹ 07/Feb/2019:14:50:50 Emitted: board:setOff
+ℹ 07/Feb/2019:14:50:51 Emitted: board:setOn
+ℹ 07/Feb/2019:14:50:51 Emitted: board:setOff
+ℹ 07/Feb/2019:14:50:51 Emitted: board:setOn
+ℹ 07/Feb/2019:14:50:57 Emitted: board:setOff
+ℹ 07/Feb/2019:14:52:01 Emitted: board:setOn
+ℹ 07/Feb/2019:14:52:01 Emitted: board:setOff
+ℹ 07/Feb/2019:14:52:02 Emitted: board:setOn
+ℹ 07/Feb/2019:14:52:03 Emitted: board:setOff
+ℹ 07/Feb/2019:14:52:03 Emitted: board:setOn
+ℹ 07/Feb/2019:14:52:04 Emitted: board:setOff
+ℹ 07/Feb/2019:14:52:04 Emitted: board:setOn
+ℹ 07/Feb/2019:14:52:04 Emitted: board:setOff
+ℹ 07/Feb/2019:14:52:20 Emitted: board:setOn
+ℹ 07/Feb/2019:14:52:21 Emitted: board:setOff
+ℹ 07/Feb/2019:14:52:21 Emitted: board:setOn
+ℹ 07/Feb/2019:14:52:22 Emitted: board:setOff
+ℹ 07/Feb/2019:14:52:22 Emitted: board:setOn
+ℹ 07/Feb/2019:14:52:23 Emitted: board:setOff
+ℹ 07/Feb/2019:14:52:24 Emitted: board:setOn
+ℹ 07/Feb/2019:14:52:37 Emitted: board:setOff
+ℹ 07/Feb/2019:15:04:42 Emitted: board:setOn
+ℹ 07/Feb/2019:15:04:43 Emitted: board:setOff
+ℹ 07/Feb/2019:15:04:43 Emitted: board:setOn
+ℹ 07/Feb/2019:15:04:44 Emitted: board:setOff
+ℹ 07/Feb/2019:15:04:44 Emitted: board:setOn
+ℹ 07/Feb/2019:15:04:44 Emitted: board:setOff
+ℹ 07/Feb/2019:15:04:44 Emitted: board:setOn
+ℹ 07/Feb/2019:15:04:44 Emitted: board:setOff
+ℹ 07/Feb/2019:15:04:45 Emitted: board:setOn
+ℹ 07/Feb/2019:15:04:45 Emitted: board:setOff
+ℹ 07/Feb/2019:15:24:51 Emitted: board:setOn
+ℹ 07/Feb/2019:15:24:52 Emitted: board:setOff
+ℹ 08/Feb/2019:09:30:11 Emitted: board:setOn
+ℹ 08/Feb/2019:09:30:11 Emitted: board:setOff
+ℹ 08/Feb/2019:09:30:12 Emitted: board:setOn
+ℹ 08/Feb/2019:09:30:12 Emitted: board:setOff
+ℹ 08/Feb/2019:09:30:22 Emitted: board:setOn
+ℹ 08/Feb/2019:09:30:23 Emitted: board:setOff
+ℹ 08/Feb/2019:09:30:23 Emitted: board:setOn
+ℹ 08/Feb/2019:09:30:24 Emitted: board:setOff
+ℹ 08/Feb/2019:09:37:59 Emitted: board:setOn
+ℹ 08/Feb/2019:09:38:00 Emitted: board:setOff
+ℹ 08/Feb/2019:09:38:01 Emitted: board:setOn
+ℹ 08/Feb/2019:09:38:01 Emitted: board:setOff
+ℹ 08/Feb/2019:09:38:03 Emitted: board:setOn
+ℹ 08/Feb/2019:09:38:04 Emitted: board:setOff
+ℹ 08/Feb/2019:09:38:04 Emitted: board:setOn
+ℹ 08/Feb/2019:09:38:05 Emitted: board:setOff
+ℹ 08/Feb/2019:09:38:06 Emitted: board:setOn
+ℹ 08/Feb/2019:09:38:06 Emitted: board:setOff
+ℹ 08/Feb/2019:09:38:07 Emitted: board:setOn
+ℹ 08/Feb/2019:09:38:07 Emitted: board:setOff
+❯ 08/Feb/2019:11:23:37 Connecting to database...
+ℹ 08/Feb/2019:11:23:38 Initializing Socket Events.
+ℹ 08/Feb/2019:11:23:38 Server UP, listening on port 5000
+✔ 08/Feb/2019:11:23:38 Database connection success!!!
+ℹ 08/Feb/2019:11:24:00 Emitted: board:setOn
+ℹ 08/Feb/2019:11:24:01 Emitted: board:setOff
+ℹ 08/Feb/2019:11:24:01 Emitted: board:setOn
+ℹ 08/Feb/2019:11:24:02 Emitted: board:setOff
+ℹ 08/Feb/2019:11:24:02 Emitted: board:setOn
+ℹ 08/Feb/2019:11:24:03 Emitted: board:setOff
+ℹ 08/Feb/2019:11:24:04 Emitted: board:setOn
+ℹ 08/Feb/2019:11:24:05 Emitted: board:setOff
+ℹ 08/Feb/2019:11:24:05 Emitted: board:setOn
+ℹ 08/Feb/2019:11:24:05 Emitted: board:setOff
+ℹ 08/Feb/2019:11:24:06 Emitted: board:setOn
+ℹ 08/Feb/2019:11:24:06 Emitted: board:setOff
+ℹ 08/Feb/2019:11:24:07 Emitted: board:setOn
+ℹ 08/Feb/2019:11:24:07 Emitted: board:setOff
+ℹ 08/Feb/2019:11:24:08 Emitted: board:setOn
+ℹ 08/Feb/2019:11:24:08 Emitted: board:setOff
+ℹ 08/Feb/2019:11:24:08 Emitted: board:setOn
+ℹ 08/Feb/2019:11:24:09 Emitted: board:setOff
+ℹ 08/Feb/2019:11:24:32 Emitted: board:setOn
+ℹ 08/Feb/2019:11:24:32 Emitted: board:setOff
+ℹ 08/Feb/2019:11:39:56 Emitted: board:setOn
+ℹ 08/Feb/2019:11:39:56 Emitted: board:setOff
+ℹ 08/Feb/2019:11:39:57 Emitted: board:setOn
+ℹ 08/Feb/2019:11:39:58 Emitted: board:setOff
+ℹ 08/Feb/2019:11:40:08 Emitted: board:setOn
+ℹ 08/Feb/2019:11:40:09 Emitted: board:setOff
+ℹ 08/Feb/2019:11:40:09 Emitted: board:setOn
+ℹ 08/Feb/2019:11:40:10 Emitted: board:setOff
+ℹ 08/Feb/2019:11:40:10 Emitted: board:setOn
+ℹ 08/Feb/2019:11:40:11 Emitted: board:setOff
+ℹ 08/Feb/2019:11:40:12 Emitted: board:setOn
+ℹ 08/Feb/2019:11:40:13 Emitted: board:setOff
+ℹ 08/Feb/2019:11:49:11 Emitted: board:setOn
+ℹ 08/Feb/2019:11:49:13 Emitted: board:setOff
+ℹ 08/Feb/2019:11:49:14 Emitted: board:setOn
+ℹ 08/Feb/2019:11:49:14 Emitted: board:setOff
+ℹ 08/Feb/2019:11:49:31 Emitted: board:setOn
+ℹ 08/Feb/2019:11:49:32 Emitted: board:setOff
+ℹ 08/Feb/2019:11:51:11 Emitted: board:setOff
+ℹ 08/Feb/2019:11:51:11 Emitted: board:sense
+ℹ 08/Feb/2019:11:51:11 Emitted: board:sense
+ℹ 08/Feb/2019:11:51:13 Emitted: board:setOff
+ℹ 08/Feb/2019:11:51:13 Emitted: board:sense
+ℹ 08/Feb/2019:11:51:13 Emitted: board:sense
+ℹ 08/Feb/2019:11:51:20 Emitted: board:setOn
+ℹ 08/Feb/2019:11:51:20 Emitted: board:setOff
+ℹ 08/Feb/2019:11:51:21 Emitted: board:setOn
+ℹ 08/Feb/2019:11:51:21 Emitted: board:setOff
+ℹ 08/Feb/2019:11:51:23 Emitted: board:setOff
+ℹ 08/Feb/2019:11:51:23 Emitted: board:sense
+ℹ 08/Feb/2019:11:51:23 Emitted: board:sense
+ℹ 08/Feb/2019:11:51:23 Emitted: board:setOff
+ℹ 08/Feb/2019:11:51:23 Emitted: board:sense
+ℹ 08/Feb/2019:11:51:23 Emitted: board:sense
+ℹ 08/Feb/2019:11:51:25 Emitted: board:setOff
+ℹ 08/Feb/2019:11:51:25 Emitted: board:sense
+ℹ 08/Feb/2019:11:51:25 Emitted: board:sense
+ℹ 08/Feb/2019:11:51:26 Emitted: board:setOff
+ℹ 08/Feb/2019:11:51:26 Emitted: board:sense
+ℹ 08/Feb/2019:11:51:27 Emitted: board:sense
+ℹ 08/Feb/2019:11:51:27 Emitted: board:setOff
+ℹ 08/Feb/2019:11:51:27 Emitted: board:sense
+ℹ 08/Feb/2019:11:51:27 Emitted: board:sense
+ℹ 08/Feb/2019:11:51:28 Emitted: board:setOff
+ℹ 08/Feb/2019:11:51:28 Emitted: board:sense
+ℹ 08/Feb/2019:11:51:28 Emitted: board:sense
+ℹ 08/Feb/2019:13:31:12 Emitted: board:setOn
+ℹ 08/Feb/2019:13:31:14 Emitted: board:setOff
+ℹ 08/Feb/2019:13:31:14 Emitted: board:setOn
+ℹ 08/Feb/2019:13:31:15 Emitted: board:setOff
+ℹ 08/Feb/2019:13:31:16 Emitted: board:setOn
+ℹ 08/Feb/2019:13:31:16 Emitted: board:setOff
+ℹ 08/Feb/2019:13:31:17 Emitted: board:setOn
+ℹ 08/Feb/2019:13:31:17 Emitted: board:setOff
+ℹ 08/Feb/2019:13:31:35 Emitted: board:setOn
+ℹ 08/Feb/2019:13:31:36 Emitted: board:setOff
+ℹ 08/Feb/2019:13:31:36 Emitted: board:setOn
+ℹ 08/Feb/2019:13:31:37 Emitted: board:setOff
+ℹ 08/Feb/2019:13:43:42 Emitted: board:setOn
+ℹ 08/Feb/2019:13:43:44 Emitted: board:setOff
+ℹ 08/Feb/2019:13:43:44 Emitted: board:setOn
+ℹ 08/Feb/2019:13:43:45 Emitted: board:setOff
+ℹ 08/Feb/2019:13:43:46 Emitted: board:setOn
+ℹ 08/Feb/2019:13:43:46 Emitted: board:setOff
+ℹ 08/Feb/2019:13:43:47 Emitted: board:setOn
+ℹ 08/Feb/2019:13:43:47 Emitted: board:setOff
+ℹ 08/Feb/2019:13:43:47 Emitted: board:setOn
+ℹ 08/Feb/2019:13:43:48 Emitted: board:setOff
+ℹ 08/Feb/2019:13:43:48 Emitted: board:setOn
+ℹ 08/Feb/2019:13:43:48 Emitted: board:setOff
+ℹ 08/Feb/2019:13:43:48 Emitted: board:setOn
+ℹ 08/Feb/2019:13:43:48 Emitted: board:setOff
+ℹ 08/Feb/2019:13:43:49 Emitted: board:setOn
+ℹ 08/Feb/2019:13:43:49 Emitted: board:setOff
+ℹ 08/Feb/2019:13:43:49 Emitted: board:setOn
+ℹ 08/Feb/2019:13:43:50 Emitted: board:setOff
+ℹ 08/Feb/2019:13:43:50 Emitted: board:setOn
+ℹ 08/Feb/2019:13:43:50 Emitted: board:setOff
+ℹ 08/Feb/2019:13:43:51 Emitted: board:setOn
+ℹ 08/Feb/2019:13:43:51 Emitted: board:setOff
+ℹ 08/Feb/2019:13:43:51 Emitted: board:setOn
+ℹ 08/Feb/2019:13:43:52 Emitted: board:setOff
+ℹ 08/Feb/2019:13:43:52 Emitted: board:setOn
+ℹ 08/Feb/2019:13:43:52 Emitted: board:setOff
+ℹ 08/Feb/2019:13:43:52 Emitted: board:setOn
+ℹ 08/Feb/2019:13:43:53 Emitted: board:setOff
+ℹ 08/Feb/2019:13:44:12 Emitted: board:setOn
+ℹ 08/Feb/2019:13:44:13 Emitted: board:setOff
+ℹ 08/Feb/2019:13:44:15 Emitted: board:setOn
+ℹ 08/Feb/2019:13:44:16 Emitted: board:setOff
+ℹ 08/Feb/2019:13:44:16 Emitted: board:setOn
+ℹ 08/Feb/2019:13:44:17 Emitted: board:setOff
+ℹ 08/Feb/2019:13:44:18 Emitted: board:setOn
+ℹ 08/Feb/2019:13:44:19 Emitted: board:setOff
+ℹ 08/Feb/2019:13:44:20 Emitted: board:setOn
+ℹ 08/Feb/2019:13:44:23 Emitted: board:setOff
+ℹ 08/Feb/2019:13:48:01 Emitted: board:setOn
+ℹ 08/Feb/2019:13:48:02 Emitted: board:setOff
+ℹ 08/Feb/2019:13:48:02 Emitted: board:setOn
+ℹ 08/Feb/2019:13:48:03 Emitted: board:setOff
+ℹ 08/Feb/2019:13:48:04 Emitted: board:setOn
+ℹ 08/Feb/2019:13:48:05 Emitted: board:setOff
+ℹ 08/Feb/2019:13:48:19 Emitted: board:setOff
+ℹ 08/Feb/2019:13:48:19 Emitted: board:sense
+ℹ 08/Feb/2019:13:48:21 Emitted: board:sense
+ℹ 08/Feb/2019:13:48:22 Emitted: board:setOff
+ℹ 08/Feb/2019:13:48:22 Emitted: board:sense
+ℹ 08/Feb/2019:13:48:23 Emitted: board:sense
+ℹ 08/Feb/2019:13:48:23 Emitted: board:setOff
+ℹ 08/Feb/2019:13:48:23 Emitted: board:sense
+ℹ 08/Feb/2019:13:48:24 Emitted: board:sense
+ℹ 08/Feb/2019:13:48:25 Emitted: board:setOff
+ℹ 08/Feb/2019:13:48:25 Emitted: board:sense
+ℹ 08/Feb/2019:13:48:25 Emitted: board:sense
+ℹ 08/Feb/2019:13:48:26 Emitted: board:setOff
+ℹ 08/Feb/2019:13:48:26 Emitted: board:sense
+ℹ 08/Feb/2019:13:48:27 Emitted: board:sense
+ℹ 08/Feb/2019:13:48:34 Emitted: board:setOff
+ℹ 08/Feb/2019:13:48:34 Emitted: board:sense
+ℹ 08/Feb/2019:13:48:34 Emitted: board:sense
+ℹ 08/Feb/2019:13:48:36 Emitted: board:setOff
+ℹ 08/Feb/2019:13:48:36 Emitted: board:sense
+ℹ 08/Feb/2019:13:48:36 Emitted: board:sense
+ℹ 08/Feb/2019:13:48:37 Emitted: board:setOff
+ℹ 08/Feb/2019:13:48:37 Emitted: board:sense
+ℹ 08/Feb/2019:13:48:37 Emitted: board:sense
+ℹ 08/Feb/2019:13:48:38 Emitted: board:setOff
+ℹ 08/Feb/2019:13:48:38 Emitted: board:sense
+ℹ 08/Feb/2019:13:48:38 Emitted: board:sense
+ℹ 08/Feb/2019:13:48:40 Emitted: board:setOff
+ℹ 08/Feb/2019:13:48:40 Emitted: board:sense
+ℹ 08/Feb/2019:13:48:40 Emitted: board:sense
+ℹ 08/Feb/2019:13:48:41 Emitted: board:setOff
+ℹ 08/Feb/2019:13:48:41 Emitted: board:sense
+ℹ 08/Feb/2019:13:48:41 Emitted: board:sense
+ℹ 08/Feb/2019:13:48:45 Emitted: board:setOff
+ℹ 08/Feb/2019:13:48:45 Emitted: board:sense
+ℹ 08/Feb/2019:13:48:47 Emitted: board:sense
+ℹ 08/Feb/2019:13:48:47 Emitted: board:setOff
+ℹ 08/Feb/2019:13:48:47 Emitted: board:sense
+ℹ 08/Feb/2019:13:48:49 Emitted: board:sense
+ℹ 08/Feb/2019:13:48:49 Emitted: board:setOff
+ℹ 08/Feb/2019:13:48:49 Emitted: board:sense
+ℹ 08/Feb/2019:13:48:52 Emitted: board:sense
+ℹ 08/Feb/2019:13:48:52 Emitted: board:setOff
+ℹ 08/Feb/2019:13:48:52 Emitted: board:sense
+ℹ 08/Feb/2019:13:48:56 Emitted: board:sense
+ℹ 08/Feb/2019:13:48:56 Emitted: board:setOff
+ℹ 08/Feb/2019:13:48:56 Emitted: board:sense
+ℹ 08/Feb/2019:13:48:56 Emitted: board:sense
+ℹ 08/Feb/2019:13:48:57 Emitted: board:setOff
+ℹ 08/Feb/2019:13:48:57 Emitted: board:sense
+ℹ 08/Feb/2019:13:48:59 Emitted: board:sense
+ℹ 08/Feb/2019:13:49:03 Emitted: board:setOff
+ℹ 08/Feb/2019:13:49:03 Emitted: board:sense
+ℹ 08/Feb/2019:13:49:04 Emitted: board:sense
+ℹ 08/Feb/2019:13:49:05 Emitted: board:setOff
+ℹ 08/Feb/2019:13:49:05 Emitted: board:sense
+ℹ 08/Feb/2019:13:49:07 Emitted: board:sense
+ℹ 08/Feb/2019:13:49:07 Emitted: board:setOff
+ℹ 08/Feb/2019:13:49:07 Emitted: board:sense
+ℹ 08/Feb/2019:13:49:07 Emitted: board:sense
+ℹ 08/Feb/2019:13:49:08 Emitted: board:setOff
+ℹ 08/Feb/2019:13:49:08 Emitted: board:sense
+ℹ 08/Feb/2019:13:49:09 Emitted: board:sense
+ℹ 08/Feb/2019:13:49:11 Emitted: board:setOff
+ℹ 08/Feb/2019:13:49:11 Emitted: board:sense
+ℹ 08/Feb/2019:13:49:14 Emitted: board:sense
+ℹ 08/Feb/2019:13:49:15 Emitted: board:setOff
+ℹ 08/Feb/2019:13:49:15 Emitted: board:sense
+ℹ 08/Feb/2019:13:49:16 Emitted: board:sense
+ℹ 08/Feb/2019:13:49:17 Emitted: board:setOff
+ℹ 08/Feb/2019:13:49:17 Emitted: board:sense
+ℹ 08/Feb/2019:13:49:17 Emitted: board:sense
+ℹ 08/Feb/2019:13:49:18 Emitted: board:setOff
+ℹ 08/Feb/2019:13:49:18 Emitted: board:sense
+ℹ 08/Feb/2019:13:49:19 Emitted: board:sense
+ℹ 08/Feb/2019:13:49:19 Emitted: board:setOff
+ℹ 08/Feb/2019:13:49:19 Emitted: board:sense
+ℹ 08/Feb/2019:13:49:19 Emitted: board:sense
+ℹ 08/Feb/2019:13:49:21 Emitted: board:setOff
+ℹ 08/Feb/2019:13:49:21 Emitted: board:sense
+ℹ 08/Feb/2019:13:49:22 Emitted: board:sense
+ℹ 08/Feb/2019:13:49:24 Emitted: board:setOff
+ℹ 08/Feb/2019:13:49:24 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:51 Emitted: board:setOff
+ℹ 08/Feb/2019:13:52:51 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:51 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:51 Emitted: board:setOff
+ℹ 08/Feb/2019:13:52:51 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:51 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:51 Emitted: board:setOff
+ℹ 08/Feb/2019:13:52:51 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:51 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:51 Emitted: board:setOff
+ℹ 08/Feb/2019:13:52:51 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:52 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:52 Emitted: board:setOff
+ℹ 08/Feb/2019:13:52:52 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:52 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:52 Emitted: board:setOff
+ℹ 08/Feb/2019:13:52:52 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:53 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:53 Emitted: board:setOff
+ℹ 08/Feb/2019:13:52:53 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:53 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:53 Emitted: board:setOff
+ℹ 08/Feb/2019:13:52:53 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:53 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:53 Emitted: board:setOff
+ℹ 08/Feb/2019:13:52:53 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:53 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:53 Emitted: board:setOff
+ℹ 08/Feb/2019:13:52:53 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:54 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:54 Emitted: board:setOff
+ℹ 08/Feb/2019:13:52:54 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:54 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:54 Emitted: board:setOff
+ℹ 08/Feb/2019:13:52:54 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:54 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:54 Emitted: board:setOff
+ℹ 08/Feb/2019:13:52:54 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:55 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:55 Emitted: board:setOff
+ℹ 08/Feb/2019:13:52:55 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:56 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:56 Emitted: board:setOff
+ℹ 08/Feb/2019:13:52:56 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:56 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:56 Emitted: board:setOff
+ℹ 08/Feb/2019:13:52:56 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:56 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:56 Emitted: board:setOff
+ℹ 08/Feb/2019:13:52:56 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:58 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:58 Emitted: board:setOff
+ℹ 08/Feb/2019:13:52:58 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:58 Emitted: board:sense
+ℹ 08/Feb/2019:13:52:58 Emitted: board:setOff
+ℹ 08/Feb/2019:13:52:58 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:00 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:00 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:00 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:00 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:00 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:00 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:00 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:00 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:00 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:02 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:02 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:02 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:02 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:02 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:02 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:02 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:03 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:03 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:03 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:03 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:03 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:03 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:04 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:04 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:04 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:04 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:04 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:04 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:04 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:04 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:05 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:05 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:05 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:05 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:05 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:05 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:05 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:05 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:05 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:05 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:05 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:05 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:05 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:05 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:05 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:06 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:06 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:06 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:06 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:06 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:06 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:06 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:06 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:06 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:07 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:07 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:07 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:07 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:07 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:07 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:07 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:07 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:07 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:07 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:07 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:07 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:07 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:07 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:07 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:08 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:08 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:08 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:08 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:08 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:08 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:08 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:08 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:08 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:09 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:09 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:09 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:10 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:10 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:10 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:10 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:10 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:10 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:11 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:11 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:11 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:11 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:11 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:11 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:11 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:11 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:11 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:12 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:12 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:12 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:13 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:13 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:13 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:13 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:13 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:13 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:13 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:13 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:13 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:14 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:14 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:14 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:14 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:15 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:15 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:16 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:16 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:16 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:16 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:16 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:16 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:17 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:17 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:17 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:17 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:17 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:17 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:17 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:17 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:17 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:18 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:18 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:18 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:18 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:18 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:18 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:18 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:18 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:18 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:18 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:18 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:18 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:19 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:19 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:19 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:19 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:19 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:19 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:21 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:21 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:21 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:21 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:21 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:21 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:21 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:21 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:21 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:21 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:21 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:21 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:22 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:22 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:22 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:23 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:23 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:23 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:23 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:23 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:23 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:24 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:24 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:24 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:24 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:24 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:24 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:25 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:25 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:25 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:25 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:25 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:25 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:25 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:25 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:25 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:25 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:25 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:25 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:26 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:26 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:26 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:27 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:27 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:27 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:27 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:27 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:27 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:27 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:27 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:27 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:27 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:27 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:27 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:28 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:28 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:28 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:28 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:28 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:28 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:28 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:28 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:28 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:28 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:28 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:28 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:28 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:28 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:28 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:28 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:28 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:28 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:29 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:29 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:29 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:29 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:29 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:29 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:29 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:29 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:29 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:30 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:30 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:30 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:30 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:30 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:30 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:30 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:30 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:30 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:30 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:30 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:30 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:30 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:30 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:30 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:31 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:31 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:31 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:31 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:31 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:31 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:31 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:31 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:31 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:31 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:31 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:31 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:47 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:47 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:47 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:47 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:47 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:47 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:47 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:47 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:47 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:47 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:47 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:47 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:47 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:47 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:48 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:48 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:48 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:48 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:48 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:48 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:48 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:48 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:48 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:48 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:48 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:48 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:48 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:49 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:49 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:49 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:49 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:49 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:49 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:49 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:49 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:49 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:49 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:49 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:49 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:49 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:49 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:49 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:49 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:49 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:49 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:49 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:49 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:50 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:50 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:50 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:50 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:50 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:50 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:50 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:50 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:50 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:51 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:51 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:51 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:51 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:51 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:51 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:51 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:51 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:51 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:52 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:52 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:52 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:52 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:52 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:52 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:52 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:52 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:52 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:52 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:52 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:52 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:53 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:53 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:53 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:53 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:53 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:53 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:53 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:53 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:53 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:53 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:53 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:53 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:53 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:54 Emitted: board:setOff
+ℹ 08/Feb/2019:13:53:54 Emitted: board:sense
+ℹ 08/Feb/2019:13:53:54 Emitted: board:sense
+ℹ 08/Feb/2019:13:54:34 Emitted: board:setOff
+ℹ 08/Feb/2019:13:54:34 Emitted: board:sense
+ℹ 08/Feb/2019:13:54:34 Emitted: board:sense
+ℹ 08/Feb/2019:13:54:34 Emitted: board:setOff
+ℹ 08/Feb/2019:13:54:34 Emitted: board:sense
+ℹ 08/Feb/2019:13:54:37 Emitted: board:sense
+ℹ 08/Feb/2019:13:54:38 Emitted: board:setOff
+ℹ 08/Feb/2019:13:54:38 Emitted: board:sense
+ℹ 08/Feb/2019:13:54:38 Emitted: board:sense
+ℹ 08/Feb/2019:13:54:42 Emitted: board:setOff
+ℹ 08/Feb/2019:13:54:42 Emitted: board:sense
+ℹ 08/Feb/2019:13:54:42 Emitted: board:sense
+ℹ 08/Feb/2019:13:54:47 Emitted: board:setOff
+ℹ 08/Feb/2019:13:54:47 Emitted: board:sense
+ℹ 08/Feb/2019:13:54:47 Emitted: board:sense
+ℹ 08/Feb/2019:13:54:51 Emitted: board:setOff
+ℹ 08/Feb/2019:13:54:51 Emitted: board:sense
+ℹ 08/Feb/2019:13:54:51 Emitted: board:sense
+ℹ 08/Feb/2019:13:54:52 Emitted: board:setOff
+ℹ 08/Feb/2019:13:54:52 Emitted: board:sense
+ℹ 08/Feb/2019:13:54:52 Emitted: board:sense
+ℹ 08/Feb/2019:13:54:54 Emitted: board:setOff
+ℹ 08/Feb/2019:13:54:54 Emitted: board:sense
+ℹ 08/Feb/2019:13:54:54 Emitted: board:sense
+ℹ 08/Feb/2019:13:54:54 Emitted: board:setOff
+ℹ 08/Feb/2019:13:54:54 Emitted: board:sense
+ℹ 08/Feb/2019:13:55:05 Emitted: board:sense
+ℹ 08/Feb/2019:13:55:05 Emitted: board:setOff
+ℹ 08/Feb/2019:13:55:05 Emitted: board:sense
+ℹ 08/Feb/2019:13:55:07 Emitted: board:sense
+ℹ 08/Feb/2019:13:55:07 Emitted: board:setOff
+ℹ 08/Feb/2019:13:55:07 Emitted: board:sense
+ℹ 08/Feb/2019:13:55:09 Emitted: board:sense
+ℹ 08/Feb/2019:13:55:09 Emitted: board:setOff
+ℹ 08/Feb/2019:13:55:09 Emitted: board:sense
+ℹ 08/Feb/2019:13:55:10 Emitted: board:sense
+ℹ 08/Feb/2019:13:55:10 Emitted: board:setOff
+ℹ 08/Feb/2019:13:55:10 Emitted: board:sense
+ℹ 08/Feb/2019:13:55:11 Emitted: board:sense
+ℹ 08/Feb/2019:13:55:11 Emitted: board:setOff
+ℹ 08/Feb/2019:13:55:11 Emitted: board:sense
+ℹ 08/Feb/2019:13:55:14 Emitted: board:sense
+ℹ 08/Feb/2019:13:55:14 Emitted: board:setOff
+ℹ 08/Feb/2019:13:55:14 Emitted: board:sense
+ℹ 08/Feb/2019:13:55:21 Emitted: board:sense
+ℹ 08/Feb/2019:13:55:21 Emitted: board:setOff
+ℹ 08/Feb/2019:13:55:21 Emitted: board:sense
+ℹ 08/Feb/2019:13:55:22 Emitted: board:sense
+ℹ 08/Feb/2019:13:55:22 Emitted: board:setOff
+ℹ 08/Feb/2019:13:55:22 Emitted: board:sense
+ℹ 08/Feb/2019:13:55:25 Emitted: board:sense
+ℹ 08/Feb/2019:13:55:25 Emitted: board:setOff
+ℹ 08/Feb/2019:13:55:25 Emitted: board:sense
+ℹ 08/Feb/2019:13:55:26 Emitted: board:sense
+ℹ 08/Feb/2019:13:55:26 Emitted: board:setOff
+ℹ 08/Feb/2019:13:55:26 Emitted: board:sense
+ℹ 08/Feb/2019:13:55:27 Emitted: board:sense
+ℹ 08/Feb/2019:13:55:28 Emitted: board:setOff
+ℹ 08/Feb/2019:13:55:28 Emitted: board:sense
+ℹ 08/Feb/2019:13:55:28 Emitted: board:sense
+ℹ 08/Feb/2019:13:55:29 Emitted: board:setOff
+ℹ 08/Feb/2019:13:55:29 Emitted: board:sense
+ℹ 08/Feb/2019:13:55:29 Emitted: board:sense
+ℹ 08/Feb/2019:13:55:29 Emitted: board:setOff
+ℹ 08/Feb/2019:13:55:29 Emitted: board:sense
+ℹ 08/Feb/2019:13:55:32 Emitted: board:sense
+ℹ 08/Feb/2019:13:55:32 Emitted: board:setOff
+ℹ 08/Feb/2019:13:55:32 Emitted: board:sense
+ℹ 08/Feb/2019:13:55:41 Emitted: board:sense
+ℹ 08/Feb/2019:13:55:41 Emitted: board:setOff
+ℹ 08/Feb/2019:13:55:41 Emitted: board:sense
+ℹ 08/Feb/2019:13:55:42 Emitted: board:sense
+ℹ 08/Feb/2019:13:57:10 Emitted: board:setOn
+ℹ 08/Feb/2019:13:57:11 Emitted: board:setOff
+ℹ 08/Feb/2019:13:57:11 Emitted: board:setOn
+ℹ 08/Feb/2019:13:57:12 Emitted: board:setOff
+ℹ 08/Feb/2019:13:57:26 Emitted: board:setOff
+ℹ 08/Feb/2019:13:57:26 Emitted: board:sense
+ℹ 08/Feb/2019:13:57:26 Emitted: board:sense
+ℹ 08/Feb/2019:13:57:26 Emitted: board:setOff
+ℹ 08/Feb/2019:13:57:26 Emitted: board:sense
+ℹ 08/Feb/2019:13:57:26 Emitted: board:sense
+ℹ 08/Feb/2019:13:57:27 Emitted: board:setOff
+ℹ 08/Feb/2019:13:57:27 Emitted: board:sense
+ℹ 08/Feb/2019:13:57:33 Emitted: board:sense
+ℹ 08/Feb/2019:13:59:42 Emitted: board:setOn
+ℹ 08/Feb/2019:13:59:43 Emitted: board:setOff
+ℹ 08/Feb/2019:13:59:44 Emitted: board:setOn
+ℹ 08/Feb/2019:13:59:44 Emitted: board:setOff
+ℹ 08/Feb/2019:13:59:45 Emitted: board:setOn
+ℹ 08/Feb/2019:13:59:45 Emitted: board:setOff
+ℹ 08/Feb/2019:13:59:45 Emitted: board:setOn
+ℹ 08/Feb/2019:13:59:45 Emitted: board:setOff
+ℹ 08/Feb/2019:13:59:46 Emitted: board:setOn
+ℹ 08/Feb/2019:13:59:46 Emitted: board:setOff
+ℹ 08/Feb/2019:13:59:46 Emitted: board:setOn
+ℹ 08/Feb/2019:13:59:47 Emitted: board:setOff
+ℹ 08/Feb/2019:13:59:47 Emitted: board:setOn
+ℹ 08/Feb/2019:13:59:47 Emitted: board:setOff
+ℹ 08/Feb/2019:13:59:47 Emitted: board:setOn
+ℹ 08/Feb/2019:13:59:54 Emitted: board:setOff
+ℹ 08/Feb/2019:13:59:54 Emitted: board:sense
+ℹ 08/Feb/2019:13:59:57 Emitted: board:setOn
+ℹ 08/Feb/2019:13:59:59 Emitted: board:sense
+ℹ 08/Feb/2019:14:00:00 Emitted: board:setOff
+ℹ 08/Feb/2019:14:00:00 Emitted: board:sense
+ℹ 08/Feb/2019:14:08:58 Emitted: board:setOn
+ℹ 08/Feb/2019:14:08:58 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:05 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:05 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:05 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:05 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:05 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:07 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:07 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:07 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:07 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:07 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:07 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:08 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:08 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:08 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:09 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:09 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:09 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:09 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:09 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:09 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:10 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:10 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:10 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:11 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:11 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:11 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:11 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:11 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:11 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:12 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:12 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:12 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:12 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:12 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:12 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:12 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:12 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:12 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:15 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:15 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:15 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:17 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:17 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:17 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:18 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:18 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:18 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:18 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:18 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:18 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:23 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:24 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:24 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:24 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:24 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:24 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:27 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:27 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:31 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:31 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:31 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:31 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:31 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:31 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:32 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:32 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:32 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:32 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:32 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:32 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:32 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:33 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:33 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:33 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:33 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:34 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:34 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:34 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:34 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:36 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:36 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:52 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:53 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:53 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:53 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:53 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:53 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:53 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:54 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:54 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:54 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:55 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:55 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:55 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:55 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:55 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:55 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:56 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:56 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:56 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:58 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:58 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:58 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:59 Emitted: board:setOff
+ℹ 08/Feb/2019:14:09:59 Emitted: board:sense
+ℹ 08/Feb/2019:14:09:59 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:01 Emitted: board:setOff
+ℹ 08/Feb/2019:14:10:01 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:01 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:03 Emitted: board:setOff
+ℹ 08/Feb/2019:14:10:03 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:03 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:08 Emitted: board:setOff
+ℹ 08/Feb/2019:14:10:08 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:08 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:10 Emitted: board:setOff
+ℹ 08/Feb/2019:14:10:10 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:10 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:13 Emitted: board:setOff
+ℹ 08/Feb/2019:14:10:13 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:13 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:16 Emitted: board:setOff
+ℹ 08/Feb/2019:14:10:16 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:16 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:30 Emitted: board:setOff
+ℹ 08/Feb/2019:14:10:30 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:30 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:31 Emitted: board:setOff
+ℹ 08/Feb/2019:14:10:31 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:31 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:42 Emitted: board:setOff
+ℹ 08/Feb/2019:14:10:42 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:42 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:45 Emitted: board:setOff
+ℹ 08/Feb/2019:14:10:45 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:46 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:52 Emitted: board:setOff
+ℹ 08/Feb/2019:14:10:52 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:52 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:54 Emitted: board:setOff
+ℹ 08/Feb/2019:14:10:54 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:54 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:56 Emitted: board:setOff
+ℹ 08/Feb/2019:14:10:56 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:56 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:56 Emitted: board:setOff
+ℹ 08/Feb/2019:14:10:56 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:56 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:56 Emitted: board:setOff
+ℹ 08/Feb/2019:14:10:56 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:56 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:57 Emitted: board:setOff
+ℹ 08/Feb/2019:14:10:57 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:57 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:58 Emitted: board:setOff
+ℹ 08/Feb/2019:14:10:58 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:58 Emitted: board:setOff
+ℹ 08/Feb/2019:14:10:58 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:58 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:58 Emitted: board:setOff
+ℹ 08/Feb/2019:14:10:58 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:59 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:59 Emitted: board:setOff
+ℹ 08/Feb/2019:14:10:59 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:59 Emitted: board:sense
+ℹ 08/Feb/2019:14:10:59 Emitted: board:setOff
+ℹ 08/Feb/2019:14:10:59 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:00 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:00 Emitted: board:setOff
+ℹ 08/Feb/2019:14:11:00 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:00 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:01 Emitted: board:setOff
+ℹ 08/Feb/2019:14:11:01 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:01 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:01 Emitted: board:setOff
+ℹ 08/Feb/2019:14:11:01 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:01 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:01 Emitted: board:setOff
+ℹ 08/Feb/2019:14:11:01 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:01 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:01 Emitted: board:setOff
+ℹ 08/Feb/2019:14:11:01 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:01 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:02 Emitted: board:setOff
+ℹ 08/Feb/2019:14:11:02 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:02 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:02 Emitted: board:setOff
+ℹ 08/Feb/2019:14:11:02 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:03 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:08 Emitted: board:setOff
+ℹ 08/Feb/2019:14:11:08 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:09 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:12 Emitted: board:setOff
+ℹ 08/Feb/2019:14:11:12 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:13 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:14 Emitted: board:setOff
+ℹ 08/Feb/2019:14:11:14 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:15 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:18 Emitted: board:setOff
+ℹ 08/Feb/2019:14:11:18 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:25 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:28 Emitted: board:setOff
+ℹ 08/Feb/2019:14:11:28 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:29 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:30 Emitted: board:setOff
+ℹ 08/Feb/2019:14:11:30 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:33 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:33 Emitted: board:setOff
+ℹ 08/Feb/2019:14:11:33 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:34 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:35 Emitted: board:setOff
+ℹ 08/Feb/2019:14:11:35 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:37 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:37 Emitted: board:setOff
+ℹ 08/Feb/2019:14:11:37 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:54 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:59 Emitted: board:setOff
+ℹ 08/Feb/2019:14:11:59 Emitted: board:sense
+ℹ 08/Feb/2019:14:11:59 Emitted: board:sense
+ℹ 08/Feb/2019:14:12:00 Emitted: board:setOff
+ℹ 08/Feb/2019:14:12:00 Emitted: board:sense
+ℹ 08/Feb/2019:14:12:01 Emitted: board:sense
+ℹ 08/Feb/2019:14:12:03 Emitted: board:setOff
+ℹ 08/Feb/2019:14:12:03 Emitted: board:sense
+ℹ 08/Feb/2019:14:12:03 Emitted: board:sense
+ℹ 08/Feb/2019:14:12:06 Emitted: board:setOff
+ℹ 08/Feb/2019:14:12:06 Emitted: board:sense
+ℹ 08/Feb/2019:14:12:09 Emitted: board:sense
+ℹ 08/Feb/2019:14:12:09 Emitted: board:setOff
+ℹ 08/Feb/2019:14:12:09 Emitted: board:sense
+ℹ 08/Feb/2019:14:12:10 Emitted: board:sense
+ℹ 08/Feb/2019:14:12:10 Emitted: board:setOff
+ℹ 08/Feb/2019:14:12:10 Emitted: board:sense
+ℹ 08/Feb/2019:14:12:10 Emitted: board:sense
+ℹ 08/Feb/2019:14:12:11 Emitted: board:setOff
+ℹ 08/Feb/2019:14:12:11 Emitted: board:sense
+ℹ 08/Feb/2019:14:12:14 Emitted: board:sense
+ℹ 08/Feb/2019:14:12:15 Emitted: board:setOff
+ℹ 08/Feb/2019:14:12:15 Emitted: board:sense
+ℹ 08/Feb/2019:14:12:16 Emitted: board:sense
+ℹ 08/Feb/2019:14:12:18 Emitted: board:setOff
+ℹ 08/Feb/2019:14:12:18 Emitted: board:sense
+ℹ 08/Feb/2019:14:12:19 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:03 Emitted: board:setOff
+ℹ 08/Feb/2019:14:13:03 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:04 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:05 Emitted: board:setOff
+ℹ 08/Feb/2019:14:13:05 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:06 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:08 Emitted: board:setOff
+ℹ 08/Feb/2019:14:13:08 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:13 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:15 Emitted: board:setOff
+ℹ 08/Feb/2019:14:13:15 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:16 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:18 Emitted: board:setOff
+ℹ 08/Feb/2019:14:13:18 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:19 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:21 Emitted: board:setOff
+ℹ 08/Feb/2019:14:13:21 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:21 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:23 Emitted: board:setOff
+ℹ 08/Feb/2019:14:13:23 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:24 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:26 Emitted: board:setOff
+ℹ 08/Feb/2019:14:13:26 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:32 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:35 Emitted: board:setOff
+ℹ 08/Feb/2019:14:13:35 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:35 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:37 Emitted: board:setOff
+ℹ 08/Feb/2019:14:13:37 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:40 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:41 Emitted: board:setOff
+ℹ 08/Feb/2019:14:13:41 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:42 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:42 Emitted: board:setOff
+ℹ 08/Feb/2019:14:13:42 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:44 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:45 Emitted: board:setOff
+ℹ 08/Feb/2019:14:13:45 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:46 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:47 Emitted: board:setOff
+ℹ 08/Feb/2019:14:13:47 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:49 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:49 Emitted: board:setOff
+ℹ 08/Feb/2019:14:13:49 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:51 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:52 Emitted: board:setOff
+ℹ 08/Feb/2019:14:13:52 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:53 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:55 Emitted: board:setOff
+ℹ 08/Feb/2019:14:13:55 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:56 Emitted: board:sense
+ℹ 08/Feb/2019:14:13:56 Emitted: board:setOff
+ℹ 08/Feb/2019:14:13:56 Emitted: board:sense
+ℹ 08/Feb/2019:14:14:00 Emitted: board:sense
+ℹ 08/Feb/2019:14:14:03 Emitted: board:setOff
+ℹ 08/Feb/2019:14:14:03 Emitted: board:sense
+ℹ 08/Feb/2019:14:14:03 Emitted: board:sense
+ℹ 08/Feb/2019:14:14:04 Emitted: board:setOff
+ℹ 08/Feb/2019:14:14:04 Emitted: board:sense
+ℹ 08/Feb/2019:14:14:07 Emitted: board:sense
+ℹ 08/Feb/2019:14:14:10 Emitted: board:setOff
+ℹ 08/Feb/2019:14:14:10 Emitted: board:sense
+ℹ 08/Feb/2019:14:14:13 Emitted: board:sense
+ℹ 08/Feb/2019:14:14:13 Emitted: board:setOff
+ℹ 08/Feb/2019:14:14:13 Emitted: board:sense
+ℹ 08/Feb/2019:14:14:16 Emitted: board:sense
+ℹ 08/Feb/2019:14:14:20 Emitted: board:setOff
+ℹ 08/Feb/2019:14:14:20 Emitted: board:sense
+ℹ 08/Feb/2019:14:14:25 Emitted: board:sense
+ℹ 08/Feb/2019:14:14:29 Emitted: board:setOff
+ℹ 08/Feb/2019:14:14:29 Emitted: board:sense
+ℹ 08/Feb/2019:14:14:29 Emitted: board:sense
+ℹ 08/Feb/2019:14:19:46 Emitted: board:setOff
+ℹ 08/Feb/2019:14:19:46 Emitted: board:sense
+ℹ 08/Feb/2019:14:19:46 Emitted: board:sense
+ℹ 08/Feb/2019:14:19:47 Emitted: board:setOff
+ℹ 08/Feb/2019:14:19:47 Emitted: board:sense
+ℹ 08/Feb/2019:14:19:50 Emitted: board:sense
+ℹ 08/Feb/2019:14:19:54 Emitted: board:setOff
+ℹ 08/Feb/2019:14:19:54 Emitted: board:sense
+ℹ 08/Feb/2019:14:19:56 Emitted: board:sense
+ℹ 08/Feb/2019:14:19:59 Emitted: board:setOff
+ℹ 08/Feb/2019:14:19:59 Emitted: board:sense
+ℹ 08/Feb/2019:14:20:02 Emitted: board:setOn
+ℹ 08/Feb/2019:14:20:05 Emitted: board:sense
+ℹ 08/Feb/2019:14:20:10 Emitted: board:setOff
+ℹ 08/Feb/2019:14:20:14 Emitted: board:setOff
+ℹ 08/Feb/2019:14:20:14 Emitted: board:sense
+ℹ 08/Feb/2019:14:20:15 Emitted: board:sense
+ℹ 08/Feb/2019:14:22:56 Emitted: board:setOff
+ℹ 08/Feb/2019:14:22:56 Emitted: board:sense
+ℹ 08/Feb/2019:14:22:57 Emitted: board:sense
+ℹ 08/Feb/2019:14:22:58 Emitted: board:setOff
+ℹ 08/Feb/2019:14:22:58 Emitted: board:sense
+ℹ 08/Feb/2019:14:23:01 Emitted: board:sense
+ℹ 08/Feb/2019:14:23:02 Emitted: board:setOff
+ℹ 08/Feb/2019:14:23:02 Emitted: board:sense
+ℹ 08/Feb/2019:14:23:04 Emitted: board:sense
+ℹ 08/Feb/2019:14:23:05 Emitted: board:setOff
+ℹ 08/Feb/2019:14:23:05 Emitted: board:sense
+ℹ 08/Feb/2019:14:23:05 Emitted: board:sense
+ℹ 08/Feb/2019:14:23:05 Emitted: board:setOff
+ℹ 08/Feb/2019:14:23:05 Emitted: board:sense
+ℹ 08/Feb/2019:14:23:11 Emitted: board:sense
+ℹ 08/Feb/2019:14:23:12 Emitted: board:setOff
+ℹ 08/Feb/2019:14:23:12 Emitted: board:sense
+ℹ 08/Feb/2019:14:23:12 Emitted: board:sense
+ℹ 08/Feb/2019:14:23:13 Emitted: board:setOff
+ℹ 08/Feb/2019:14:23:13 Emitted: board:sense
+ℹ 08/Feb/2019:14:23:13 Emitted: board:sense
+ℹ 08/Feb/2019:14:23:15 Emitted: board:setOff
+ℹ 08/Feb/2019:14:23:15 Emitted: board:sense
+ℹ 08/Feb/2019:14:23:17 Emitted: board:sense
+ℹ 08/Feb/2019:14:23:19 Emitted: board:setOff
+ℹ 08/Feb/2019:14:23:19 Emitted: board:sense
+ℹ 08/Feb/2019:14:23:20 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:00 Emitted: board:setOff
+ℹ 08/Feb/2019:14:24:00 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:03 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:05 Emitted: board:setOff
+ℹ 08/Feb/2019:14:24:05 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:05 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:10 Emitted: board:setOff
+ℹ 08/Feb/2019:14:24:10 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:13 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:13 Emitted: board:setOff
+ℹ 08/Feb/2019:14:24:13 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:15 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:16 Emitted: board:setOff
+ℹ 08/Feb/2019:14:24:16 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:17 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:17 Emitted: board:setOff
+ℹ 08/Feb/2019:14:24:17 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:18 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:19 Emitted: board:setOff
+ℹ 08/Feb/2019:14:24:19 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:21 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:22 Emitted: board:setOff
+ℹ 08/Feb/2019:14:24:22 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:22 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:23 Emitted: board:setOff
+ℹ 08/Feb/2019:14:24:23 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:25 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:26 Emitted: board:setOff
+ℹ 08/Feb/2019:14:24:26 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:27 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:28 Emitted: board:setOff
+ℹ 08/Feb/2019:14:24:28 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:29 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:31 Emitted: board:setOff
+ℹ 08/Feb/2019:14:24:31 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:31 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:31 Emitted: board:setOff
+ℹ 08/Feb/2019:14:24:31 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:34 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:36 Emitted: board:setOff
+ℹ 08/Feb/2019:14:24:36 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:37 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:38 Emitted: board:setOff
+ℹ 08/Feb/2019:14:24:38 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:39 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:39 Emitted: board:setOff
+ℹ 08/Feb/2019:14:24:39 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:41 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:41 Emitted: board:setOff
+ℹ 08/Feb/2019:14:24:41 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:42 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:43 Emitted: board:setOff
+ℹ 08/Feb/2019:14:24:43 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:46 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:46 Emitted: board:setOff
+ℹ 08/Feb/2019:14:24:46 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:47 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:47 Emitted: board:setOff
+ℹ 08/Feb/2019:14:24:47 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:48 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:49 Emitted: board:setOff
+ℹ 08/Feb/2019:14:24:49 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:50 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:50 Emitted: board:setOff
+ℹ 08/Feb/2019:14:24:50 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:56 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:56 Emitted: board:setOff
+ℹ 08/Feb/2019:14:24:56 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:57 Emitted: board:sense
+ℹ 08/Feb/2019:14:24:58 Emitted: board:setOff
+ℹ 08/Feb/2019:14:24:58 Emitted: board:sense
+ℹ 08/Feb/2019:14:25:00 Emitted: board:sense
+ℹ 08/Feb/2019:14:25:01 Emitted: board:setOff
+ℹ 08/Feb/2019:14:25:01 Emitted: board:sense
+ℹ 08/Feb/2019:14:25:03 Emitted: board:sense
+ℹ 08/Feb/2019:14:25:03 Emitted: board:setOff
+ℹ 08/Feb/2019:14:25:03 Emitted: board:sense
+ℹ 08/Feb/2019:14:25:05 Emitted: board:sense
+ℹ 08/Feb/2019:14:25:05 Emitted: board:setOff
+ℹ 08/Feb/2019:14:25:05 Emitted: board:sense
+ℹ 08/Feb/2019:14:25:07 Emitted: board:sense
+ℹ 08/Feb/2019:14:25:08 Emitted: board:setOff
+ℹ 08/Feb/2019:14:25:08 Emitted: board:sense
+ℹ 08/Feb/2019:14:25:09 Emitted: board:sense
+ℹ 08/Feb/2019:14:25:13 Emitted: board:setOff
+ℹ 08/Feb/2019:14:25:13 Emitted: board:sense
+ℹ 08/Feb/2019:14:25:13 Emitted: board:sense
+ℹ 08/Feb/2019:14:25:15 Emitted: board:setOff
+ℹ 08/Feb/2019:14:25:15 Emitted: board:sense
+ℹ 08/Feb/2019:14:25:16 Emitted: board:sense
+ℹ 08/Feb/2019:14:25:16 Emitted: board:setOff
+ℹ 08/Feb/2019:14:25:16 Emitted: board:sense
+ℹ 08/Feb/2019:14:25:20 Emitted: board:sense
+ℹ 08/Feb/2019:14:25:20 Emitted: board:setOff
+ℹ 08/Feb/2019:14:25:20 Emitted: board:sense
+ℹ 08/Feb/2019:14:25:20 Emitted: board:sense
+ℹ 08/Feb/2019:14:25:21 Emitted: board:setOff
+ℹ 08/Feb/2019:14:25:21 Emitted: board:sense
+ℹ 08/Feb/2019:14:25:21 Emitted: board:sense
+ℹ 08/Feb/2019:14:25:23 Emitted: board:setOff
+ℹ 08/Feb/2019:14:25:23 Emitted: board:sense
+ℹ 08/Feb/2019:14:25:23 Emitted: board:sense
+ℹ 08/Feb/2019:14:25:26 Emitted: board:setOff
+ℹ 08/Feb/2019:14:25:26 Emitted: board:sense
+ℹ 08/Feb/2019:14:25:28 Emitted: board:sense
+ℹ 08/Feb/2019:14:25:29 Emitted: board:setOff
+ℹ 08/Feb/2019:14:25:29 Emitted: board:sense
+ℹ 08/Feb/2019:14:26:29 Emitted: board:sense
+ℹ 08/Feb/2019:14:26:33 Emitted: board:setOff
+ℹ 08/Feb/2019:14:26:33 Emitted: board:sense
+ℹ 08/Feb/2019:14:26:33 Emitted: board:sense
+ℹ 08/Feb/2019:14:26:35 Emitted: board:setOff
+ℹ 08/Feb/2019:14:26:35 Emitted: board:sense
+ℹ 08/Feb/2019:14:26:37 Emitted: board:sense
+ℹ 08/Feb/2019:14:26:46 Emitted: board:setOff
+ℹ 08/Feb/2019:14:26:46 Emitted: board:sense
+ℹ 08/Feb/2019:14:26:46 Emitted: board:sense
+ℹ 08/Feb/2019:14:26:47 Emitted: board:setOff
+ℹ 08/Feb/2019:14:26:47 Emitted: board:sense
+ℹ 08/Feb/2019:14:28:52 Emitted: board:sense
+ℹ 08/Feb/2019:14:28:53 Emitted: board:setOff
+ℹ 08/Feb/2019:14:28:53 Emitted: board:sense
+ℹ 08/Feb/2019:14:28:54 Emitted: board:sense
+ℹ 08/Feb/2019:14:29:12 Emitted: board:setOff
+ℹ 08/Feb/2019:14:29:12 Emitted: board:sense
+ℹ 08/Feb/2019:14:29:13 Emitted: board:sense
+ℹ 08/Feb/2019:14:29:16 Emitted: board:setOff
+ℹ 08/Feb/2019:14:29:16 Emitted: board:sense
+ℹ 08/Feb/2019:14:29:20 Emitted: board:sense
+ℹ 08/Feb/2019:14:29:23 Emitted: board:setOff
+ℹ 08/Feb/2019:14:29:23 Emitted: board:sense
+ℹ 08/Feb/2019:14:29:26 Emitted: board:sense
+ℹ 08/Feb/2019:14:29:28 Emitted: board:setOff
+ℹ 08/Feb/2019:14:29:28 Emitted: board:sense
+ℹ 08/Feb/2019:14:29:31 Emitted: board:sense
+ℹ 08/Feb/2019:14:29:33 Emitted: board:setOff
+ℹ 08/Feb/2019:14:29:33 Emitted: board:sense
+ℹ 08/Feb/2019:14:29:35 Emitted: board:sense
+ℹ 08/Feb/2019:14:29:36 Emitted: board:setOff
+ℹ 08/Feb/2019:14:29:36 Emitted: board:sense
+ℹ 08/Feb/2019:14:29:37 Emitted: board:sense
+ℹ 08/Feb/2019:14:29:37 Emitted: board:setOff
+ℹ 08/Feb/2019:14:29:37 Emitted: board:sense
+ℹ 08/Feb/2019:14:29:37 Emitted: board:sense
+ℹ 08/Feb/2019:14:29:38 Emitted: board:setOff
+ℹ 08/Feb/2019:14:29:38 Emitted: board:sense
+ℹ 08/Feb/2019:14:29:39 Emitted: board:sense
+ℹ 08/Feb/2019:14:29:41 Emitted: board:setOff
+ℹ 08/Feb/2019:14:29:41 Emitted: board:sense
+ℹ 08/Feb/2019:14:29:44 Emitted: board:sense
+ℹ 08/Feb/2019:14:29:45 Emitted: board:setOff
+ℹ 08/Feb/2019:14:29:45 Emitted: board:sense
+ℹ 08/Feb/2019:14:29:45 Emitted: board:sense
+ℹ 08/Feb/2019:14:29:45 Emitted: board:setOff
+ℹ 08/Feb/2019:14:29:45 Emitted: board:sense
+ℹ 08/Feb/2019:14:29:47 Emitted: board:sense
+ℹ 08/Feb/2019:14:29:49 Emitted: board:setOff
+ℹ 08/Feb/2019:14:29:49 Emitted: board:sense
+ℹ 08/Feb/2019:14:29:54 Emitted: board:sense
+ℹ 08/Feb/2019:14:29:56 Emitted: board:setOff
+ℹ 08/Feb/2019:14:29:56 Emitted: board:sense
+ℹ 08/Feb/2019:14:29:58 Emitted: board:sense
+ℹ 08/Feb/2019:14:29:59 Emitted: board:setOff
+ℹ 08/Feb/2019:14:29:59 Emitted: board:sense
+ℹ 08/Feb/2019:14:30:01 Emitted: board:sense
+ℹ 08/Feb/2019:14:30:03 Emitted: board:setOff
+ℹ 08/Feb/2019:14:30:03 Emitted: board:sense
+ℹ 08/Feb/2019:14:30:04 Emitted: board:sense
+ℹ 08/Feb/2019:14:30:05 Emitted: board:setOff
+ℹ 08/Feb/2019:14:30:05 Emitted: board:sense
+ℹ 08/Feb/2019:14:30:05 Emitted: board:sense
+ℹ 08/Feb/2019:14:30:05 Emitted: board:setOff
+ℹ 08/Feb/2019:14:30:06 Emitted: board:sense
+ℹ 08/Feb/2019:14:30:08 Emitted: board:setOn
+ℹ 08/Feb/2019:14:30:10 Emitted: board:sense
+ℹ 08/Feb/2019:14:30:10 Emitted: board:setOff
+ℹ 08/Feb/2019:14:30:10 Emitted: board:sense
+ℹ 08/Feb/2019:14:30:12 Emitted: board:sense
+ℹ 08/Feb/2019:14:30:13 Emitted: board:setOff
+ℹ 08/Feb/2019:14:30:13 Emitted: board:sense
+ℹ 08/Feb/2019:14:30:13 Emitted: board:setOn
+ℹ 08/Feb/2019:14:30:14 Emitted: board:sense
+ℹ 08/Feb/2019:14:30:14 Emitted: board:setOff
+ℹ 08/Feb/2019:14:30:14 Emitted: board:sense
+ℹ 08/Feb/2019:14:30:16 Emitted: board:setOn
+ℹ 08/Feb/2019:14:30:18 Emitted: board:sense
+ℹ 08/Feb/2019:14:30:20 Emitted: board:setOff
+ℹ 08/Feb/2019:14:30:20 Emitted: board:sense
+ℹ 08/Feb/2019:14:30:27 Emitted: board:setOn
+ℹ 08/Feb/2019:14:30:28 Emitted: board:sense
+ℹ 08/Feb/2019:14:30:31 Emitted: board:setOff
+ℹ 08/Feb/2019:14:30:31 Emitted: board:sense
+ℹ 08/Feb/2019:14:30:34 Emitted: board:setOn
+ℹ 08/Feb/2019:14:30:35 Emitted: board:sense
+ℹ 08/Feb/2019:14:30:36 Emitted: board:setOff
+ℹ 08/Feb/2019:14:30:36 Emitted: board:sense
+ℹ 08/Feb/2019:14:30:40 Emitted: board:setOn
+ℹ 08/Feb/2019:14:30:43 Emitted: board:sense
+ℹ 08/Feb/2019:14:30:45 Emitted: board:setOff
+ℹ 08/Feb/2019:14:30:45 Emitted: board:sense
+ℹ 08/Feb/2019:14:30:47 Emitted: board:setOn
+ℹ 08/Feb/2019:14:30:48 Emitted: board:sense
+ℹ 08/Feb/2019:14:30:50 Emitted: board:setOff
+ℹ 08/Feb/2019:14:30:50 Emitted: board:sense
+ℹ 08/Feb/2019:14:30:50 Emitted: board:sense
+ℹ 08/Feb/2019:14:30:50 Emitted: board:setOff
+ℹ 08/Feb/2019:14:30:50 Emitted: board:sense
+ℹ 08/Feb/2019:14:30:51 Emitted: board:sense
+ℹ 08/Feb/2019:14:30:55 Emitted: board:setOff
+ℹ 08/Feb/2019:14:30:55 Emitted: board:sense
+ℹ 08/Feb/2019:14:30:56 Emitted: board:setOn
+ℹ 08/Feb/2019:14:30:57 Emitted: board:sense
+ℹ 08/Feb/2019:14:30:57 Emitted: board:setOff
+ℹ 08/Feb/2019:14:30:57 Emitted: board:sense
+ℹ 08/Feb/2019:14:31:17 Emitted: board:sense
+ℹ 08/Feb/2019:14:31:18 Emitted: board:setOff
+ℹ 08/Feb/2019:14:31:18 Emitted: board:sense
+ℹ 08/Feb/2019:14:31:18 Emitted: board:sense
+ℹ 08/Feb/2019:14:31:19 Emitted: board:setOff
+ℹ 08/Feb/2019:14:31:19 Emitted: board:sense
+ℹ 08/Feb/2019:14:31:20 Emitted: board:sense
+ℹ 08/Feb/2019:14:31:21 Emitted: board:setOff
+ℹ 08/Feb/2019:14:31:21 Emitted: board:sense
+ℹ 08/Feb/2019:14:31:21 Emitted: board:sense
+ℹ 08/Feb/2019:14:31:23 Emitted: board:setOff
+ℹ 08/Feb/2019:14:31:23 Emitted: board:sense
+ℹ 08/Feb/2019:14:31:24 Emitted: board:sense
+ℹ 08/Feb/2019:14:31:27 Emitted: board:setOn
+ℹ 08/Feb/2019:14:31:28 Emitted: board:setOff
+ℹ 08/Feb/2019:14:31:28 Emitted: board:sense
+ℹ 08/Feb/2019:14:31:30 Emitted: board:setOn
+ℹ 08/Feb/2019:14:31:31 Emitted: board:sense
+ℹ 08/Feb/2019:14:31:34 Emitted: board:setOff
+ℹ 08/Feb/2019:14:31:34 Emitted: board:sense
+ℹ 08/Feb/2019:14:31:35 Emitted: board:sense
+ℹ 08/Feb/2019:14:31:36 Emitted: board:setOff
+ℹ 08/Feb/2019:14:31:36 Emitted: board:sense
+ℹ 08/Feb/2019:14:31:37 Emitted: board:setOn
+ℹ 08/Feb/2019:14:31:38 Emitted: board:sense
+ℹ 08/Feb/2019:14:31:41 Emitted: board:setOff
+ℹ 08/Feb/2019:14:31:41 Emitted: board:sense
+ℹ 08/Feb/2019:14:31:50 Emitted: board:sense
+ℹ 08/Feb/2019:14:31:54 Emitted: board:setOff
+ℹ 08/Feb/2019:14:31:54 Emitted: board:sense
+ℹ 08/Feb/2019:14:31:55 Emitted: board:sense
+ℹ 08/Feb/2019:14:31:56 Emitted: board:setOff
+ℹ 08/Feb/2019:14:31:56 Emitted: board:sense
+ℹ 08/Feb/2019:14:31:58 Emitted: board:setOn
+ℹ 08/Feb/2019:14:32:00 Emitted: board:sense
+ℹ 08/Feb/2019:14:32:00 Emitted: board:setOff
+ℹ 08/Feb/2019:14:32:00 Emitted: board:sense
+ℹ 08/Feb/2019:14:32:02 Emitted: board:setOn
+ℹ 08/Feb/2019:14:32:03 Emitted: board:sense
+ℹ 08/Feb/2019:14:32:03 Emitted: board:setOff
+ℹ 08/Feb/2019:14:32:03 Emitted: board:sense
+ℹ 08/Feb/2019:14:32:05 Emitted: board:sense
+ℹ 08/Feb/2019:14:32:05 Emitted: board:setOn
+ℹ 08/Feb/2019:14:32:06 Emitted: board:setOff
+ℹ 08/Feb/2019:14:32:06 Emitted: board:sense
+ℹ 08/Feb/2019:14:32:07 Emitted: board:sense
+ℹ 08/Feb/2019:14:32:07 Emitted: board:setOn
+ℹ 08/Feb/2019:14:32:08 Emitted: board:setOff
+ℹ 08/Feb/2019:14:32:08 Emitted: board:sense
+ℹ 08/Feb/2019:14:32:09 Emitted: board:sense
+ℹ 08/Feb/2019:14:32:09 Emitted: board:setOff
+ℹ 08/Feb/2019:14:32:09 Emitted: board:sense
+ℹ 08/Feb/2019:14:32:09 Emitted: board:sense
+ℹ 08/Feb/2019:14:32:10 Emitted: board:setOff
+ℹ 08/Feb/2019:14:32:10 Emitted: board:sense
+ℹ 08/Feb/2019:14:32:11 Emitted: board:sense
+ℹ 08/Feb/2019:14:32:11 Emitted: board:setOff
+ℹ 08/Feb/2019:14:32:11 Emitted: board:sense
+ℹ 08/Feb/2019:14:32:13 Emitted: board:setOn
+ℹ 08/Feb/2019:14:32:15 Emitted: board:sense
+ℹ 08/Feb/2019:14:32:19 Emitted: board:setOff
+ℹ 08/Feb/2019:14:32:19 Emitted: board:sense
+ℹ 08/Feb/2019:14:32:22 Emitted: board:sense
+ℹ 08/Feb/2019:14:32:24 Emitted: board:setOff
+ℹ 08/Feb/2019:14:32:24 Emitted: board:sense
+ℹ 08/Feb/2019:14:32:33 Emitted: board:sense
+ℹ 08/Feb/2019:14:32:33 Emitted: board:setOff
+ℹ 08/Feb/2019:14:32:33 Emitted: board:sense
+ℹ 08/Feb/2019:14:32:35 Emitted: board:sense
+ℹ 08/Feb/2019:14:32:40 Emitted: board:setOff
+ℹ 08/Feb/2019:14:32:40 Emitted: board:sense
+ℹ 08/Feb/2019:14:32:40 Emitted: board:sense
+ℹ 08/Feb/2019:14:32:41 Emitted: board:setOff
+ℹ 08/Feb/2019:14:32:41 Emitted: board:sense
+ℹ 08/Feb/2019:14:32:47 Emitted: board:setOn
+ℹ 08/Feb/2019:14:32:49 Emitted: board:sense
+ℹ 08/Feb/2019:14:32:51 Emitted: board:setOff
+ℹ 08/Feb/2019:14:32:51 Emitted: board:sense
+ℹ 08/Feb/2019:14:32:59 Emitted: board:sense
+ℹ 08/Feb/2019:14:33:01 Emitted: board:setOff
+ℹ 08/Feb/2019:14:33:01 Emitted: board:sense
+ℹ 08/Feb/2019:14:33:01 Emitted: board:sense
+ℹ 08/Feb/2019:14:33:01 Emitted: board:setOff
+ℹ 08/Feb/2019:14:33:01 Emitted: board:sense
+ℹ 08/Feb/2019:14:33:02 Emitted: board:setOn
+ℹ 08/Feb/2019:14:33:02 Emitted: board:sense
+ℹ 08/Feb/2019:14:33:03 Emitted: board:setOff
+ℹ 08/Feb/2019:14:33:03 Emitted: board:sense
+ℹ 08/Feb/2019:14:33:05 Emitted: board:setOn
+ℹ 08/Feb/2019:14:33:06 Emitted: board:sense
+ℹ 08/Feb/2019:14:33:06 Emitted: board:setOff
+ℹ 08/Feb/2019:14:33:06 Emitted: board:sense
+ℹ 08/Feb/2019:14:33:07 Emitted: board:sense
+ℹ 08/Feb/2019:14:33:07 Emitted: board:setOff
+ℹ 08/Feb/2019:14:33:07 Emitted: board:sense
+ℹ 08/Feb/2019:14:33:08 Emitted: board:sense
+ℹ 08/Feb/2019:14:33:09 Emitted: board:setOn
+ℹ 08/Feb/2019:14:33:10 Emitted: board:setOff
+ℹ 08/Feb/2019:14:33:10 Emitted: board:sense
+ℹ 08/Feb/2019:14:33:11 Emitted: board:setOn
+ℹ 08/Feb/2019:14:33:11 Emitted: board:sense
+ℹ 08/Feb/2019:14:33:11 Emitted: board:setOff
+ℹ 08/Feb/2019:14:33:11 Emitted: board:sense
+ℹ 08/Feb/2019:14:33:13 Emitted: board:sense
+ℹ 08/Feb/2019:14:33:13 Emitted: board:setOn
+ℹ 08/Feb/2019:14:33:14 Emitted: board:setOff
+ℹ 08/Feb/2019:14:33:14 Emitted: board:sense
+ℹ 08/Feb/2019:14:33:14 Emitted: board:sense
+ℹ 08/Feb/2019:14:33:14 Emitted: board:setOff
+ℹ 08/Feb/2019:14:33:14 Emitted: board:sense
+ℹ 08/Feb/2019:14:33:15 Emitted: board:setOn
+ℹ 08/Feb/2019:14:33:17 Emitted: board:sense
+ℹ 08/Feb/2019:14:33:17 Emitted: board:setOff
+ℹ 08/Feb/2019:14:33:17 Emitted: board:sense
+ℹ 08/Feb/2019:14:33:20 Emitted: board:setOn
+ℹ 08/Feb/2019:14:36:52 Emitted: board:sense
+ℹ 08/Feb/2019:14:36:56 Emitted: board:setOff
+ℹ 08/Feb/2019:14:36:56 Emitted: board:sense
+ℹ 08/Feb/2019:14:37:00 Emitted: board:sense
+ℹ 08/Feb/2019:14:37:02 Emitted: board:setOff
+ℹ 08/Feb/2019:14:37:02 Emitted: board:sense
+ℹ 08/Feb/2019:14:37:02 Emitted: board:sense
+ℹ 08/Feb/2019:14:37:04 Emitted: board:setOff
+ℹ 08/Feb/2019:14:37:04 Emitted: board:sense
+ℹ 08/Feb/2019:14:37:06 Emitted: board:sense
+ℹ 08/Feb/2019:14:37:06 Emitted: board:setOff
+ℹ 08/Feb/2019:14:37:06 Emitted: board:sense
+ℹ 08/Feb/2019:14:37:07 Emitted: board:sense
+ℹ 08/Feb/2019:16:05:14 Emitted: board:setOn
+ℹ 08/Feb/2019:16:05:15 Emitted: board:setOff
+ℹ 08/Feb/2019:16:05:17 Emitted: board:setOn
+ℹ 08/Feb/2019:16:05:17 Emitted: board:setOff
+ℹ 08/Feb/2019:16:05:22 Emitted: board:setOn
+ℹ 08/Feb/2019:16:05:28 Emitted: board:setOff
+ℹ 08/Feb/2019:16:05:28 Emitted: board:setOn
+ℹ 08/Feb/2019:16:05:28 Emitted: board:setOff
+ℹ 08/Feb/2019:16:05:28 Emitted: board:setOn
+ℹ 08/Feb/2019:16:05:29 Emitted: board:setOff
+ℹ 08/Feb/2019:16:05:30 Emitted: board:setOn
+ℹ 08/Feb/2019:16:05:30 Emitted: board:setOff
+ℹ 08/Feb/2019:16:05:31 Emitted: board:setOn
+ℹ 08/Feb/2019:16:05:32 Emitted: board:setOff
+ℹ 08/Feb/2019:16:05:34 Emitted: board:setOn
+ℹ 08/Feb/2019:16:05:40 Emitted: board:setOff
+ℹ 08/Feb/2019:16:05:40 Emitted: board:sense
+ℹ 08/Feb/2019:16:05:50 Emitted: board:sense
+ℹ 08/Feb/2019:16:05:53 Emitted: board:setOff
+ℹ 08/Feb/2019:16:05:53 Emitted: board:sense
+ℹ 08/Feb/2019:16:05:54 Emitted: board:sense
+ℹ 08/Feb/2019:16:05:54 Emitted: board:setOn
+ℹ 08/Feb/2019:16:05:58 Emitted: board:setOff
+ℹ 08/Feb/2019:16:06:02 Emitted: board:setOff
+ℹ 08/Feb/2019:16:06:02 Emitted: board:sense
+ℹ 08/Feb/2019:16:06:03 Emitted: board:sense
+ℹ 08/Feb/2019:16:06:04 Emitted: board:setOff
+ℹ 08/Feb/2019:16:06:04 Emitted: board:sense
+ℹ 08/Feb/2019:16:06:06 Emitted: board:sense
+ℹ 08/Feb/2019:16:06:09 Emitted: board:setOn
+ℹ 08/Feb/2019:16:06:10 Emitted: board:setOff
+ℹ 08/Feb/2019:16:06:10 Emitted: board:sense
+ℹ 08/Feb/2019:16:06:11 Emitted: board:sense
+ℹ 08/Feb/2019:16:06:12 Emitted: board:setOn
+ℹ 08/Feb/2019:16:06:14 Emitted: board:setOff
+ℹ 08/Feb/2019:16:06:15 Emitted: board:setOn
+ℹ 08/Feb/2019:16:06:16 Emitted: board:setOff
+ℹ 08/Feb/2019:16:38:56 Emitted: board:setOff
+ℹ 08/Feb/2019:16:38:56 Emitted: board:sense
+ℹ 08/Feb/2019:16:38:57 Emitted: board:sense
+ℹ 08/Feb/2019:16:38:59 Emitted: board:setOff
+ℹ 08/Feb/2019:16:38:59 Emitted: board:sense
+ℹ 08/Feb/2019:16:38:59 Emitted: board:sense
+ℹ 08/Feb/2019:16:39:01 Emitted: board:setOff
+ℹ 08/Feb/2019:16:39:01 Emitted: board:sense
+ℹ 08/Feb/2019:16:39:01 Emitted: board:sense
+ℹ 08/Feb/2019:16:39:03 Emitted: board:setOff
+ℹ 08/Feb/2019:16:39:03 Emitted: board:sense
+ℹ 08/Feb/2019:16:39:04 Emitted: board:sense
+ℹ 08/Feb/2019:16:39:05 Emitted: board:setOff
+ℹ 08/Feb/2019:16:39:05 Emitted: board:sense
+ℹ 08/Feb/2019:16:39:05 Emitted: board:sense
+ℹ 08/Feb/2019:16:39:08 Emitted: board:setOff
+ℹ 08/Feb/2019:16:39:08 Emitted: board:sense
+ℹ 08/Feb/2019:16:39:08 Emitted: board:sense
+ℹ 08/Feb/2019:16:39:10 Emitted: board:setOff
+ℹ 08/Feb/2019:16:39:10 Emitted: board:sense
+ℹ 08/Feb/2019:16:39:11 Emitted: board:sense
+ℹ 08/Feb/2019:16:39:14 Emitted: board:setOff
+ℹ 08/Feb/2019:16:39:14 Emitted: board:sense
+ℹ 08/Feb/2019:16:39:15 Emitted: board:sense
+ℹ 08/Feb/2019:16:39:16 Emitted: board:setOff
+ℹ 08/Feb/2019:16:39:16 Emitted: board:sense
+ℹ 08/Feb/2019:16:39:18 Emitted: board:sense
+ℹ 08/Feb/2019:16:39:22 Emitted: board:setOff
+ℹ 08/Feb/2019:16:39:22 Emitted: board:sense
+ℹ 08/Feb/2019:16:39:25 Emitted: board:sense
+ℹ 08/Feb/2019:16:39:26 Emitted: board:setOff
+ℹ 08/Feb/2019:16:39:26 Emitted: board:sense
+❯ 12/Feb/2019:09:30:37 Connecting to database...
+ℹ 12/Feb/2019:09:30:38 Initializing Socket Events.
+ℹ 12/Feb/2019:09:30:38 Server UP, listening on port 5000
+✔ 12/Feb/2019:09:30:38 Database connection success!!!
+❯ 12/Feb/2019:10:03:36 Connecting to database...
+ℹ 12/Feb/2019:10:03:36 Initializing Socket Events.
+ℹ 12/Feb/2019:10:03:36 Server UP, listening on port 5000
+✔ 12/Feb/2019:10:03:36 Database connection success!!!
+ℹ 12/Feb/2019:10:04:16 Emitted: board:setOn
+ℹ 12/Feb/2019:10:04:17 Emitted: board:setOff
+ℹ 12/Feb/2019:10:04:18 Emitted: board:setOn
+ℹ 12/Feb/2019:10:04:18 Emitted: board:setOff
+ℹ 12/Feb/2019:10:04:18 Emitted: board:setOn
+ℹ 12/Feb/2019:10:04:19 Emitted: board:setOff
+ℹ 12/Feb/2019:10:04:19 Emitted: board:setOn
+ℹ 12/Feb/2019:10:04:19 Emitted: board:setOff
+ℹ 12/Feb/2019:10:04:20 Emitted: board:setOn
+ℹ 12/Feb/2019:10:04:20 Emitted: board:setOff
+ℹ 12/Feb/2019:10:04:23 Emitted: board:setOff
+ℹ 12/Feb/2019:10:04:23 Emitted: board:sense
+ℹ 12/Feb/2019:10:04:28 Emitted: board:setOn
+ℹ 12/Feb/2019:10:04:28 Emitted: board:setOff
+ℹ 12/Feb/2019:10:04:29 Emitted: board:setOn
+ℹ 12/Feb/2019:10:04:29 Emitted: board:setOff
+ℹ 12/Feb/2019:10:04:30 Emitted: board:setOn
+ℹ 12/Feb/2019:10:04:30 Emitted: board:setOff
+ℹ 12/Feb/2019:10:04:49 Emitted: board:setOn
+ℹ 12/Feb/2019:10:04:50 Emitted: board:setOff
+ℹ 12/Feb/2019:10:04:56 Emitted: board:setOn
+ℹ 12/Feb/2019:10:04:57 Emitted: board:setOff
+ℹ 12/Feb/2019:10:05:00 Emitted: board:sense
+ℹ 12/Feb/2019:10:05:05 Emitted: board:setOff
+ℹ 12/Feb/2019:10:05:05 Emitted: board:sense
+ℹ 12/Feb/2019:10:05:05 Emitted: board:sense
+ℹ 12/Feb/2019:10:05:05 Emitted: board:setOff
+ℹ 12/Feb/2019:10:05:05 Emitted: board:sense
+ℹ 12/Feb/2019:10:06:25 Emitted: board:setOn
+ℹ 12/Feb/2019:10:06:27 Emitted: board:setOff
+ℹ 12/Feb/2019:10:06:27 Emitted: board:setOn
+ℹ 12/Feb/2019:10:06:31 Emitted: board:sense
+ℹ 12/Feb/2019:10:06:31 Emitted: board:setOff
+ℹ 12/Feb/2019:10:06:31 Emitted: board:sense
+ℹ 12/Feb/2019:10:06:32 Emitted: board:sense
+ℹ 12/Feb/2019:10:06:34 Emitted: board:setOn
+ℹ 12/Feb/2019:10:06:40 Emitted: board:setOff
+ℹ 12/Feb/2019:10:06:40 Emitted: board:sense
+ℹ 12/Feb/2019:10:06:42 Emitted: board:setOn
+ℹ 12/Feb/2019:10:06:43 Emitted: board:sense
+ℹ 12/Feb/2019:10:06:43 Emitted: board:setOff
+ℹ 12/Feb/2019:10:06:43 Emitted: board:sense
+ℹ 12/Feb/2019:10:06:44 Emitted: board:sense
+ℹ 12/Feb/2019:10:06:45 Emitted: board:setOff
+ℹ 12/Feb/2019:10:06:45 Emitted: board:sense
+ℹ 12/Feb/2019:10:06:47 Emitted: board:sense
+ℹ 12/Feb/2019:10:06:48 Emitted: board:setOff
+ℹ 12/Feb/2019:10:06:48 Emitted: board:sense
+ℹ 12/Feb/2019:10:06:51 Emitted: board:sense
+ℹ 12/Feb/2019:10:06:52 Emitted: board:setOff
+ℹ 12/Feb/2019:10:06:52 Emitted: board:sense
+ℹ 12/Feb/2019:10:06:54 Emitted: board:sense
+ℹ 12/Feb/2019:10:06:55 Emitted: board:setOff
+ℹ 12/Feb/2019:10:06:55 Emitted: board:sense
+ℹ 12/Feb/2019:10:06:57 Emitted: board:sense
+ℹ 12/Feb/2019:10:06:58 Emitted: board:setOff
+ℹ 12/Feb/2019:10:06:58 Emitted: board:sense
+ℹ 12/Feb/2019:10:07:03 Emitted: board:sense
+ℹ 12/Feb/2019:10:07:05 Emitted: board:setOff
+ℹ 12/Feb/2019:10:07:05 Emitted: board:sense
+ℹ 12/Feb/2019:10:07:10 Emitted: board:sense
+ℹ 12/Feb/2019:10:07:11 Emitted: board:setOff
+ℹ 12/Feb/2019:10:07:11 Emitted: board:sense
+ℹ 12/Feb/2019:10:07:12 Emitted: board:sense
+ℹ 12/Feb/2019:10:07:14 Emitted: board:setOff
+ℹ 12/Feb/2019:10:07:14 Emitted: board:sense
+ℹ 12/Feb/2019:10:07:16 Emitted: board:sense
+ℹ 12/Feb/2019:10:07:18 Emitted: board:setOff
+ℹ 12/Feb/2019:10:07:18 Emitted: board:sense
+ℹ 12/Feb/2019:10:07:21 Emitted: board:sense
+ℹ 12/Feb/2019:10:07:55 Emitted: board:setOff
+ℹ 12/Feb/2019:10:07:55 Emitted: board:sense
+ℹ 12/Feb/2019:10:07:56 Emitted: board:sense
+ℹ 12/Feb/2019:10:08:00 Emitted: board:setOff
+ℹ 12/Feb/2019:10:08:00 Emitted: board:sense
+ℹ 12/Feb/2019:10:08:00 Emitted: board:sense
+ℹ 12/Feb/2019:10:08:01 Emitted: board:setOff
+ℹ 12/Feb/2019:10:08:01 Emitted: board:sense
+ℹ 12/Feb/2019:10:08:01 Emitted: board:sense
+ℹ 12/Feb/2019:10:08:05 Emitted: board:setOff
+ℹ 12/Feb/2019:10:08:05 Emitted: board:sense
+ℹ 12/Feb/2019:10:08:05 Emitted: board:sense
+ℹ 12/Feb/2019:10:08:06 Emitted: board:setOff
+ℹ 12/Feb/2019:10:08:06 Emitted: board:sense
+ℹ 12/Feb/2019:10:08:09 Emitted: board:sense
+ℹ 12/Feb/2019:10:08:09 Emitted: board:setOff
+ℹ 12/Feb/2019:10:08:09 Emitted: board:sense
+ℹ 12/Feb/2019:10:08:09 Emitted: board:sense
+ℹ 12/Feb/2019:10:08:10 Emitted: board:setOff
+ℹ 12/Feb/2019:10:08:10 Emitted: board:sense
+ℹ 12/Feb/2019:10:08:11 Emitted: board:sense
+ℹ 12/Feb/2019:10:08:11 Emitted: board:setOff
+ℹ 12/Feb/2019:10:08:11 Emitted: board:sense
+ℹ 12/Feb/2019:10:08:12 Emitted: board:sense
+ℹ 12/Feb/2019:10:11:40 Emitted: board:setOff
+ℹ 12/Feb/2019:10:11:40 Emitted: board:sense
+ℹ 12/Feb/2019:10:11:42 Emitted: board:sense
+ℹ 12/Feb/2019:10:11:42 Emitted: board:setOff
+ℹ 12/Feb/2019:10:11:42 Emitted: board:sense
+ℹ 12/Feb/2019:10:11:43 Emitted: board:sense
+ℹ 12/Feb/2019:10:11:43 Emitted: board:setOff
+ℹ 12/Feb/2019:10:11:43 Emitted: board:sense
+ℹ 12/Feb/2019:10:11:45 Emitted: board:sense
+ℹ 12/Feb/2019:10:11:47 Emitted: board:setOff
+ℹ 12/Feb/2019:10:11:47 Emitted: board:sense
+ℹ 12/Feb/2019:10:11:49 Emitted: board:sense
+ℹ 12/Feb/2019:10:11:51 Emitted: board:setOff
+ℹ 12/Feb/2019:10:11:51 Emitted: board:sense
+ℹ 12/Feb/2019:10:11:54 Emitted: board:sense
+ℹ 12/Feb/2019:10:11:56 Emitted: board:setOff
+ℹ 12/Feb/2019:10:11:56 Emitted: board:sense
+ℹ 12/Feb/2019:10:11:56 Emitted: board:sense
+ℹ 12/Feb/2019:10:11:57 Emitted: board:setOff
+ℹ 12/Feb/2019:10:11:57 Emitted: board:sense
+ℹ 12/Feb/2019:10:11:58 Emitted: board:sense
+ℹ 12/Feb/2019:10:11:58 Emitted: board:setOff
+ℹ 12/Feb/2019:10:11:58 Emitted: board:sense
+ℹ 12/Feb/2019:10:11:59 Emitted: board:sense
+ℹ 12/Feb/2019:10:11:59 Emitted: board:setOff
+ℹ 12/Feb/2019:10:11:59 Emitted: board:sense
+ℹ 12/Feb/2019:10:11:59 Emitted: board:sense
+ℹ 12/Feb/2019:10:11:59 Emitted: board:setOff
+ℹ 12/Feb/2019:10:11:59 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:00 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:00 Emitted: board:setOff
+ℹ 12/Feb/2019:10:12:00 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:00 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:00 Emitted: board:setOff
+ℹ 12/Feb/2019:10:12:00 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:00 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:00 Emitted: board:setOff
+ℹ 12/Feb/2019:10:12:00 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:01 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:01 Emitted: board:setOff
+ℹ 12/Feb/2019:10:12:01 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:03 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:04 Emitted: board:setOff
+ℹ 12/Feb/2019:10:12:04 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:05 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:05 Emitted: board:setOff
+ℹ 12/Feb/2019:10:12:05 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:07 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:08 Emitted: board:setOff
+ℹ 12/Feb/2019:10:12:08 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:09 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:09 Emitted: board:setOff
+ℹ 12/Feb/2019:10:12:09 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:10 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:11 Emitted: board:setOff
+ℹ 12/Feb/2019:10:12:11 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:12 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:12 Emitted: board:setOff
+ℹ 12/Feb/2019:10:12:12 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:13 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:15 Emitted: board:setOff
+ℹ 12/Feb/2019:10:12:15 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:16 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:17 Emitted: board:setOff
+ℹ 12/Feb/2019:10:12:17 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:17 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:18 Emitted: board:setOff
+ℹ 12/Feb/2019:10:12:18 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:19 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:20 Emitted: board:setOff
+ℹ 12/Feb/2019:10:12:20 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:20 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:21 Emitted: board:setOff
+ℹ 12/Feb/2019:10:12:21 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:22 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:22 Emitted: board:setOff
+ℹ 12/Feb/2019:10:12:22 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:23 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:24 Emitted: board:setOff
+ℹ 12/Feb/2019:10:12:24 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:24 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:25 Emitted: board:setOff
+ℹ 12/Feb/2019:10:12:25 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:26 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:26 Emitted: board:setOff
+ℹ 12/Feb/2019:10:12:26 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:27 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:28 Emitted: board:setOff
+ℹ 12/Feb/2019:10:12:28 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:28 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:29 Emitted: board:setOff
+ℹ 12/Feb/2019:10:12:29 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:29 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:30 Emitted: board:setOff
+ℹ 12/Feb/2019:10:12:30 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:31 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:31 Emitted: board:setOff
+ℹ 12/Feb/2019:10:12:31 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:32 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:34 Emitted: board:setOff
+ℹ 12/Feb/2019:10:12:34 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:35 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:35 Emitted: board:setOff
+ℹ 12/Feb/2019:10:12:35 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:36 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:36 Emitted: board:setOff
+ℹ 12/Feb/2019:10:12:36 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:37 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:38 Emitted: board:setOff
+ℹ 12/Feb/2019:10:12:38 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:39 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:48 Emitted: board:setOff
+ℹ 12/Feb/2019:10:12:48 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:49 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:50 Emitted: board:setOff
+ℹ 12/Feb/2019:10:12:50 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:51 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:52 Emitted: board:setOff
+ℹ 12/Feb/2019:10:12:52 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:53 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:54 Emitted: board:setOff
+ℹ 12/Feb/2019:10:12:54 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:55 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:56 Emitted: board:setOff
+ℹ 12/Feb/2019:10:12:56 Emitted: board:sense
+ℹ 12/Feb/2019:10:12:58 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:00 Emitted: board:setOff
+ℹ 12/Feb/2019:10:13:00 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:01 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:01 Emitted: board:setOff
+ℹ 12/Feb/2019:10:13:01 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:02 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:03 Emitted: board:setOff
+ℹ 12/Feb/2019:10:13:03 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:07 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:08 Emitted: board:setOff
+ℹ 12/Feb/2019:10:13:08 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:09 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:12 Emitted: board:setOff
+ℹ 12/Feb/2019:10:13:12 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:13 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:14 Emitted: board:setOff
+ℹ 12/Feb/2019:10:13:14 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:15 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:16 Emitted: board:setOff
+ℹ 12/Feb/2019:10:13:16 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:16 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:18 Emitted: board:setOff
+ℹ 12/Feb/2019:10:13:18 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:18 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:20 Emitted: board:setOff
+ℹ 12/Feb/2019:10:13:20 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:20 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:22 Emitted: board:setOff
+ℹ 12/Feb/2019:10:13:22 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:23 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:24 Emitted: board:setOff
+ℹ 12/Feb/2019:10:13:24 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:24 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:25 Emitted: board:setOff
+ℹ 12/Feb/2019:10:13:25 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:26 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:27 Emitted: board:setOff
+ℹ 12/Feb/2019:10:13:27 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:27 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:28 Emitted: board:setOff
+ℹ 12/Feb/2019:10:13:28 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:29 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:30 Emitted: board:setOff
+ℹ 12/Feb/2019:10:13:30 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:31 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:31 Emitted: board:setOff
+ℹ 12/Feb/2019:10:13:31 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:32 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:33 Emitted: board:setOff
+ℹ 12/Feb/2019:10:13:33 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:33 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:34 Emitted: board:setOff
+ℹ 12/Feb/2019:10:13:34 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:35 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:36 Emitted: board:setOff
+ℹ 12/Feb/2019:10:13:36 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:36 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:37 Emitted: board:setOff
+ℹ 12/Feb/2019:10:13:37 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:38 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:39 Emitted: board:setOff
+ℹ 12/Feb/2019:10:13:39 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:40 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:41 Emitted: board:setOff
+ℹ 12/Feb/2019:10:13:41 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:42 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:42 Emitted: board:setOff
+ℹ 12/Feb/2019:10:13:42 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:43 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:44 Emitted: board:setOff
+ℹ 12/Feb/2019:10:13:44 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:45 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:45 Emitted: board:setOff
+ℹ 12/Feb/2019:10:13:45 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:46 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:46 Emitted: board:setOff
+ℹ 12/Feb/2019:10:13:46 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:47 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:48 Emitted: board:setOff
+ℹ 12/Feb/2019:10:13:48 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:49 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:50 Emitted: board:setOff
+ℹ 12/Feb/2019:10:13:50 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:50 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:51 Emitted: board:setOff
+ℹ 12/Feb/2019:10:13:51 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:51 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:52 Emitted: board:setOff
+ℹ 12/Feb/2019:10:13:52 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:53 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:53 Emitted: board:setOff
+ℹ 12/Feb/2019:10:13:53 Emitted: board:sense
+ℹ 12/Feb/2019:10:13:56 Emitted: board:sense
+ℹ 12/Feb/2019:10:14:16 Emitted: board:setOff
+ℹ 12/Feb/2019:10:14:16 Emitted: board:sense
+ℹ 12/Feb/2019:10:14:17 Emitted: board:sense
+ℹ 12/Feb/2019:10:14:18 Emitted: board:setOff
+ℹ 12/Feb/2019:10:14:18 Emitted: board:sense
+ℹ 12/Feb/2019:10:14:20 Emitted: board:sense
+ℹ 12/Feb/2019:10:14:20 Emitted: board:setOff
+ℹ 12/Feb/2019:10:14:20 Emitted: board:sense
+ℹ 12/Feb/2019:10:14:23 Emitted: board:sense
+ℹ 12/Feb/2019:10:14:25 Emitted: board:setOff
+ℹ 12/Feb/2019:10:14:25 Emitted: board:sense
+ℹ 12/Feb/2019:10:14:25 Emitted: board:sense
+ℹ 12/Feb/2019:10:14:26 Emitted: board:setOff
+ℹ 12/Feb/2019:10:14:26 Emitted: board:sense
+ℹ 12/Feb/2019:10:14:28 Emitted: board:sense
+ℹ 12/Feb/2019:10:14:29 Emitted: board:setOff
+ℹ 12/Feb/2019:10:14:29 Emitted: board:sense
+ℹ 12/Feb/2019:10:14:29 Emitted: board:sense
+ℹ 12/Feb/2019:10:14:30 Emitted: board:setOff
+ℹ 12/Feb/2019:10:14:30 Emitted: board:sense
+ℹ 12/Feb/2019:10:14:31 Emitted: board:sense
+ℹ 12/Feb/2019:10:14:32 Emitted: board:setOff
+ℹ 12/Feb/2019:10:14:32 Emitted: board:sense
+ℹ 12/Feb/2019:10:14:32 Emitted: board:sense
+ℹ 12/Feb/2019:10:14:33 Emitted: board:setOff
+ℹ 12/Feb/2019:10:14:33 Emitted: board:sense
+ℹ 12/Feb/2019:10:14:34 Emitted: board:sense
+ℹ 12/Feb/2019:10:14:39 Emitted: board:setOff
+ℹ 12/Feb/2019:10:14:39 Emitted: board:sense
+ℹ 12/Feb/2019:10:14:41 Emitted: board:sense
+ℹ 12/Feb/2019:10:14:41 Emitted: board:setOff
+ℹ 12/Feb/2019:10:14:41 Emitted: board:sense
+ℹ 12/Feb/2019:10:14:42 Emitted: board:sense
+ℹ 12/Feb/2019:10:14:44 Emitted: board:setOff
+ℹ 12/Feb/2019:10:14:44 Emitted: board:sense
+ℹ 12/Feb/2019:10:14:45 Emitted: board:sense
+ℹ 12/Feb/2019:10:14:45 Emitted: board:setOff
+ℹ 12/Feb/2019:10:14:45 Emitted: board:sense
+ℹ 12/Feb/2019:10:14:46 Emitted: board:sense
+ℹ 12/Feb/2019:10:15:09 Emitted: board:setOn
+ℹ 12/Feb/2019:10:15:10 Emitted: board:setOff
+ℹ 12/Feb/2019:10:15:11 Emitted: board:setOn
+ℹ 12/Feb/2019:10:15:11 Emitted: board:setOff
+ℹ 12/Feb/2019:10:18:43 Emitted: board:setOn
+ℹ 12/Feb/2019:10:18:44 Emitted: board:setOff
+ℹ 12/Feb/2019:10:18:44 Emitted: board:setOn
+ℹ 12/Feb/2019:10:18:44 Emitted: board:setOff
+ℹ 12/Feb/2019:10:18:45 Emitted: board:setOn
+ℹ 12/Feb/2019:10:18:45 Emitted: board:setOff
+ℹ 12/Feb/2019:10:19:22 Emitted: board:setOn
+ℹ 12/Feb/2019:10:19:23 Emitted: board:setOff
+ℹ 12/Feb/2019:10:19:26 Emitted: board:setOn
+ℹ 12/Feb/2019:10:19:27 Emitted: board:setOff
+ℹ 12/Feb/2019:10:19:28 Emitted: board:setOn
+ℹ 12/Feb/2019:10:19:28 Emitted: board:setOff
+ℹ 12/Feb/2019:10:19:57 Emitted: board:setOn
+❯ 12/Feb/2019:10:40:34 Connecting to database...
+ℹ 12/Feb/2019:10:40:34 Initializing Socket Events.
+ℹ 12/Feb/2019:10:40:34 Server UP, listening on port 5000
+✔ 12/Feb/2019:10:40:34 Database connection success!!!
+ℹ 12/Feb/2019:10:40:44 Emitted: board:setOff
+ℹ 12/Feb/2019:10:40:46 Emitted: board:setOn
+ℹ 12/Feb/2019:10:40:46 Emitted: board:setOff
+ℹ 12/Feb/2019:10:40:47 Emitted: board:setOn
+ℹ 12/Feb/2019:10:40:47 Emitted: board:setOff
+ℹ 12/Feb/2019:10:40:47 Emitted: board:setOn
+ℹ 12/Feb/2019:10:40:48 Emitted: board:setOff
+ℹ 12/Feb/2019:10:41:04 Emitted: board:setOff
+ℹ 12/Feb/2019:10:41:04 Emitted: board:sense
+ℹ 12/Feb/2019:10:41:05 Emitted: board:sense
+ℹ 12/Feb/2019:10:41:05 Emitted: board:setOff
+ℹ 12/Feb/2019:10:41:05 Emitted: board:sense
+ℹ 12/Feb/2019:10:41:06 Emitted: board:sense
+ℹ 12/Feb/2019:10:41:07 Emitted: board:setOff
+ℹ 12/Feb/2019:10:41:07 Emitted: board:sense
+ℹ 12/Feb/2019:10:41:49 Emitted: board:sense
+ℹ 12/Feb/2019:10:41:50 Emitted: board:setOff
+ℹ 12/Feb/2019:10:41:50 Emitted: board:sense
+ℹ 12/Feb/2019:10:41:53 Emitted: board:sense
+ℹ 12/Feb/2019:10:41:56 Emitted: board:setOff
+ℹ 12/Feb/2019:10:41:56 Emitted: board:sense
+❯ 12/Feb/2019:10:44:05 Connecting to database...
+ℹ 12/Feb/2019:10:44:05 Initializing Socket Events.
+ℹ 12/Feb/2019:10:44:05 Server UP, listening on port 5000
+✔ 12/Feb/2019:10:44:05 Database connection success!!!
+❯ 12/Feb/2019:10:44:59 Connecting to database...
+ℹ 12/Feb/2019:10:44:59 Initializing Socket Events.
+ℹ 12/Feb/2019:10:44:59 Server UP, listening on port 5000
+✔ 12/Feb/2019:10:44:59 Database connection success!!!
+❯ 12/Feb/2019:10:45:00 Connecting to database...
+ℹ 12/Feb/2019:10:45:00 Initializing Socket Events.
+ℹ 12/Feb/2019:10:45:00 Server UP, listening on port 5000
+✔ 12/Feb/2019:10:45:00 Database connection success!!!
+ℹ 12/Feb/2019:10:45:09 Emitted: board:sense
+❯ 12/Feb/2019:10:45:53 Connecting to database...
+ℹ 12/Feb/2019:10:45:53 Initializing Socket Events.
+ℹ 12/Feb/2019:10:45:53 Server UP, listening on port 5000
+✔ 12/Feb/2019:10:45:53 Database connection success!!!
+❯ 12/Feb/2019:10:45:54 Connecting to database...
+ℹ 12/Feb/2019:10:45:54 Initializing Socket Events.
+ℹ 12/Feb/2019:10:45:54 Server UP, listening on port 5000
+✔ 12/Feb/2019:10:45:54 Database connection success!!!
+❯ 12/Feb/2019:10:54:07 Connecting to database...
+ℹ 12/Feb/2019:10:54:07 Initializing Socket Events.
+ℹ 12/Feb/2019:10:54:07 Server UP, listening on port 5000
+✔ 12/Feb/2019:10:54:07 Database connection success!!!
+❯ 12/Feb/2019:10:54:09 Connecting to database...
+ℹ 12/Feb/2019:10:54:09 Initializing Socket Events.
+ℹ 12/Feb/2019:10:54:09 Server UP, listening on port 5000
+✔ 12/Feb/2019:10:54:09 Database connection success!!!
+ℹ 12/Feb/2019:10:59:41 Emitted: board:setOn
+ℹ 12/Feb/2019:10:59:42 Emitted: board:setOff
+ℹ 12/Feb/2019:10:59:43 Emitted: board:setOn
+❯ 12/Feb/2019:11:01:22 Connecting to database...
+ℹ 12/Feb/2019:11:01:22 Initializing Socket Events.
+ℹ 12/Feb/2019:11:01:22 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:01:22 Database connection success!!!
+❯ 12/Feb/2019:11:01:23 Connecting to database...
+ℹ 12/Feb/2019:11:01:23 Initializing Socket Events.
+ℹ 12/Feb/2019:11:01:23 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:01:23 Database connection success!!!
+❯ 12/Feb/2019:11:02:19 Connecting to database...
+ℹ 12/Feb/2019:11:02:19 Initializing Socket Events.
+ℹ 12/Feb/2019:11:02:19 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:02:19 Database connection success!!!
+❯ 12/Feb/2019:11:07:09 Connecting to database...
+ℹ 12/Feb/2019:11:07:09 Initializing Socket Events.
+ℹ 12/Feb/2019:11:07:09 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:07:09 Database connection success!!!
+ℹ 12/Feb/2019:11:11:04 Emitted: board:sense
+ℹ 12/Feb/2019:11:12:22 Emitted: board:setOn
+ℹ 12/Feb/2019:11:12:23 Emitted: board:setOff
+ℹ 12/Feb/2019:11:14:39 Emitted: board:setOn
+ℹ 12/Feb/2019:11:14:40 Emitted: board:setOff
+ℹ 12/Feb/2019:11:14:40 Emitted: board:setOn
+ℹ 12/Feb/2019:11:14:41 Emitted: board:setOff
+ℹ 12/Feb/2019:11:14:41 Emitted: board:setOn
+ℹ 12/Feb/2019:11:14:42 Emitted: board:setOff
+ℹ 12/Feb/2019:11:15:11 Emitted: board:setOff
+ℹ 12/Feb/2019:11:15:11 Emitted: board:sense
+ℹ 12/Feb/2019:11:15:12 Emitted: board:sense
+ℹ 12/Feb/2019:11:15:12 Emitted: board:setOff
+ℹ 12/Feb/2019:11:15:12 Emitted: board:sense
+ℹ 12/Feb/2019:11:15:13 Emitted: board:sense
+ℹ 12/Feb/2019:11:15:15 Emitted: board:setOff
+ℹ 12/Feb/2019:11:15:15 Emitted: board:sense
+ℹ 12/Feb/2019:11:15:17 Emitted: board:sense
+ℹ 12/Feb/2019:11:15:18 Emitted: board:setOff
+ℹ 12/Feb/2019:11:15:18 Emitted: board:sense
+ℹ 12/Feb/2019:11:15:19 Emitted: board:sense
+❯ 12/Feb/2019:11:19:18 Connecting to database...
+ℹ 12/Feb/2019:11:19:18 Initializing Socket Events.
+ℹ 12/Feb/2019:11:19:19 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:19:19 Database connection success!!!
+❯ 12/Feb/2019:11:19:20 Connecting to database...
+ℹ 12/Feb/2019:11:19:20 Initializing Socket Events.
+ℹ 12/Feb/2019:11:19:20 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:19:20 Database connection success!!!
+❯ 12/Feb/2019:11:19:42 Connecting to database...
+ℹ 12/Feb/2019:11:19:42 Initializing Socket Events.
+ℹ 12/Feb/2019:11:19:42 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:19:42 Database connection success!!!
+❯ 12/Feb/2019:11:19:44 Connecting to database...
+ℹ 12/Feb/2019:11:19:44 Initializing Socket Events.
+ℹ 12/Feb/2019:11:19:44 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:19:44 Database connection success!!!
+❯ 12/Feb/2019:11:19:46 Connecting to database...
+ℹ 12/Feb/2019:11:19:46 Initializing Socket Events.
+ℹ 12/Feb/2019:11:19:46 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:19:46 Database connection success!!!
+❯ 12/Feb/2019:11:19:47 Connecting to database...
+ℹ 12/Feb/2019:11:19:48 Initializing Socket Events.
+ℹ 12/Feb/2019:11:19:48 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:19:48 Database connection success!!!
+❯ 12/Feb/2019:11:19:49 Connecting to database...
+ℹ 12/Feb/2019:11:19:49 Initializing Socket Events.
+ℹ 12/Feb/2019:11:19:50 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:19:50 Database connection success!!!
+❯ 12/Feb/2019:11:19:51 Connecting to database...
+ℹ 12/Feb/2019:11:19:51 Initializing Socket Events.
+ℹ 12/Feb/2019:11:19:51 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:19:51 Database connection success!!!
+❯ 12/Feb/2019:11:19:55 Connecting to database...
+ℹ 12/Feb/2019:11:19:55 Initializing Socket Events.
+ℹ 12/Feb/2019:11:19:55 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:19:55 Database connection success!!!
+❯ 12/Feb/2019:11:20:01 Connecting to database...
+ℹ 12/Feb/2019:11:20:01 Initializing Socket Events.
+ℹ 12/Feb/2019:11:20:01 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:20:01 Database connection success!!!
+ℹ 12/Feb/2019:11:20:23 Emitted: board:sense
+ℹ 12/Feb/2019:11:20:37 Emitted: board:setOff
+ℹ 12/Feb/2019:11:20:37 Emitted: board:sense
+ℹ 12/Feb/2019:11:20:40 Emitted: board:sense
+ℹ 12/Feb/2019:11:20:41 Emitted: board:setOff
+ℹ 12/Feb/2019:11:20:41 Emitted: board:sense
+ℹ 12/Feb/2019:11:20:44 Emitted: board:sense
+ℹ 12/Feb/2019:11:20:45 Emitted: board:setOff
+ℹ 12/Feb/2019:11:20:45 Emitted: board:sense
+❯ 12/Feb/2019:11:20:48 Connecting to database...
+ℹ 12/Feb/2019:11:20:48 Initializing Socket Events.
+ℹ 12/Feb/2019:11:20:48 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:20:48 Database connection success!!!
+ℹ 12/Feb/2019:11:20:49 Emitted: board:sense
+ℹ 12/Feb/2019:11:20:53 Emitted: board:sense
+ℹ 12/Feb/2019:11:20:57 Emitted: board:setOff
+ℹ 12/Feb/2019:11:20:57 Emitted: board:sense
+ℹ 12/Feb/2019:11:20:57 Emitted: board:sense
+ℹ 12/Feb/2019:11:20:58 Emitted: board:setOff
+ℹ 12/Feb/2019:11:20:58 Emitted: board:sense
+ℹ 12/Feb/2019:11:21:00 Emitted: board:sense
+ℹ 12/Feb/2019:11:21:00 Emitted: board:setOff
+ℹ 12/Feb/2019:11:21:00 Emitted: board:sense
+ℹ 12/Feb/2019:11:21:01 Emitted: board:sense
+ℹ 12/Feb/2019:11:21:03 Emitted: board:setOff
+ℹ 12/Feb/2019:11:21:03 Emitted: board:sense
+ℹ 12/Feb/2019:11:21:04 Emitted: board:sense
+ℹ 12/Feb/2019:11:21:09 Emitted: board:setOff
+ℹ 12/Feb/2019:11:21:09 Emitted: board:sense
+❯ 12/Feb/2019:11:32:03 Connecting to database...
+ℹ 12/Feb/2019:11:32:03 Initializing Socket Events.
+ℹ 12/Feb/2019:11:32:03 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:32:03 Database connection success!!!
+❯ 12/Feb/2019:11:32:04 Connecting to database...
+ℹ 12/Feb/2019:11:32:04 Initializing Socket Events.
+ℹ 12/Feb/2019:11:32:04 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:32:04 Database connection success!!!
+❯ 12/Feb/2019:11:32:08 Connecting to database...
+ℹ 12/Feb/2019:11:32:08 Initializing Socket Events.
+ℹ 12/Feb/2019:11:32:08 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:32:08 Database connection success!!!
+❯ 12/Feb/2019:11:32:52 Connecting to database...
+ℹ 12/Feb/2019:11:32:53 Initializing Socket Events.
+ℹ 12/Feb/2019:11:32:53 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:32:53 Database connection success!!!
+❯ 12/Feb/2019:11:32:54 Connecting to database...
+ℹ 12/Feb/2019:11:32:54 Initializing Socket Events.
+ℹ 12/Feb/2019:11:32:54 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:32:54 Database connection success!!!
+ℹ 12/Feb/2019:11:35:51 Emitted: board:sense
+ℹ 12/Feb/2019:11:35:54 Emitted: board:setOff
+ℹ 12/Feb/2019:11:35:54 Emitted: board:sense
+ℹ 12/Feb/2019:11:36:07 Emitted: board:sense
+ℹ 12/Feb/2019:11:36:11 Emitted: board:setOff
+ℹ 12/Feb/2019:11:36:11 Emitted: board:sense
+ℹ 12/Feb/2019:11:36:12 Emitted: board:sense
+ℹ 12/Feb/2019:11:36:15 Emitted: board:setOff
+ℹ 12/Feb/2019:11:36:15 Emitted: board:sense
+ℹ 12/Feb/2019:11:36:18 Emitted: board:sense
+ℹ 12/Feb/2019:11:36:18 Emitted: board:setOff
+ℹ 12/Feb/2019:11:36:18 Emitted: board:sense
+ℹ 12/Feb/2019:11:36:18 Emitted: board:sense
+ℹ 12/Feb/2019:11:36:22 Emitted: board:setOff
+ℹ 12/Feb/2019:11:36:22 Emitted: board:sense
+ℹ 12/Feb/2019:11:36:23 Emitted: board:sense
+ℹ 12/Feb/2019:11:36:24 Emitted: board:setOff
+ℹ 12/Feb/2019:11:36:24 Emitted: board:sense
+ℹ 12/Feb/2019:11:36:27 Emitted: board:sense
+ℹ 12/Feb/2019:11:36:27 Emitted: board:setOff
+ℹ 12/Feb/2019:11:36:27 Emitted: board:sense
+ℹ 12/Feb/2019:11:36:27 Emitted: board:sense
+ℹ 12/Feb/2019:11:36:29 Emitted: board:setOff
+ℹ 12/Feb/2019:11:36:29 Emitted: board:sense
+ℹ 12/Feb/2019:11:36:30 Emitted: board:sense
+ℹ 12/Feb/2019:11:36:32 Emitted: board:setOff
+ℹ 12/Feb/2019:11:36:32 Emitted: board:sense
+ℹ 12/Feb/2019:11:36:34 Emitted: board:sense
+ℹ 12/Feb/2019:11:36:35 Emitted: board:setOff
+ℹ 12/Feb/2019:11:36:35 Emitted: board:sense
+ℹ 12/Feb/2019:11:36:36 Emitted: board:sense
+ℹ 12/Feb/2019:11:36:37 Emitted: board:setOff
+ℹ 12/Feb/2019:11:36:37 Emitted: board:sense
+ℹ 12/Feb/2019:11:36:38 Emitted: board:sense
+ℹ 12/Feb/2019:11:36:39 Emitted: board:setOff
+ℹ 12/Feb/2019:11:36:39 Emitted: board:sense
+ℹ 12/Feb/2019:11:36:40 Emitted: board:sense
+ℹ 12/Feb/2019:11:36:41 Emitted: board:setOff
+ℹ 12/Feb/2019:11:36:41 Emitted: board:sense
+ℹ 12/Feb/2019:11:36:41 Emitted: board:sense
+ℹ 12/Feb/2019:11:36:42 Emitted: board:setOff
+ℹ 12/Feb/2019:11:36:42 Emitted: board:sense
+ℹ 12/Feb/2019:11:36:43 Emitted: board:sense
+ℹ 12/Feb/2019:11:36:44 Emitted: board:setOff
+ℹ 12/Feb/2019:11:36:44 Emitted: board:sense
+ℹ 12/Feb/2019:11:36:45 Emitted: board:sense
+❯ 12/Feb/2019:11:37:18 Connecting to database...
+ℹ 12/Feb/2019:11:37:18 Initializing Socket Events.
+ℹ 12/Feb/2019:11:37:18 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:37:18 Database connection success!!!
+ℹ 12/Feb/2019:11:37:18 Emitted: board:sense
+❯ 12/Feb/2019:11:37:23 Connecting to database...
+ℹ 12/Feb/2019:11:37:23 Initializing Socket Events.
+ℹ 12/Feb/2019:11:37:23 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:37:23 Database connection success!!!
+❯ 12/Feb/2019:11:37:24 Connecting to database...
+ℹ 12/Feb/2019:11:37:24 Initializing Socket Events.
+ℹ 12/Feb/2019:11:37:24 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:37:24 Database connection success!!!
+ℹ 12/Feb/2019:11:37:25 Emitted: board:sense
+❯ 12/Feb/2019:11:37:30 Connecting to database...
+ℹ 12/Feb/2019:11:37:30 Initializing Socket Events.
+ℹ 12/Feb/2019:11:37:30 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:37:30 Database connection success!!!
+❯ 12/Feb/2019:11:37:32 Connecting to database...
+ℹ 12/Feb/2019:11:37:32 Initializing Socket Events.
+ℹ 12/Feb/2019:11:37:32 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:37:32 Database connection success!!!
+ℹ 12/Feb/2019:11:37:32 Emitted: board:sense
+❯ 12/Feb/2019:11:37:37 Connecting to database...
+ℹ 12/Feb/2019:11:37:37 Initializing Socket Events.
+ℹ 12/Feb/2019:11:37:37 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:37:37 Database connection success!!!
+❯ 12/Feb/2019:11:37:39 Connecting to database...
+ℹ 12/Feb/2019:11:37:40 Initializing Socket Events.
+ℹ 12/Feb/2019:11:37:40 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:37:40 Database connection success!!!
+ℹ 12/Feb/2019:11:37:40 Emitted: board:sense
+❯ 12/Feb/2019:11:38:03 Connecting to database...
+ℹ 12/Feb/2019:11:38:03 Initializing Socket Events.
+ℹ 12/Feb/2019:11:38:03 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:38:03 Database connection success!!!
+ℹ 12/Feb/2019:11:38:04 Emitted: board:sense
+❯ 12/Feb/2019:11:38:09 Connecting to database...
+ℹ 12/Feb/2019:11:38:09 Initializing Socket Events.
+ℹ 12/Feb/2019:11:38:09 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:38:09 Database connection success!!!
+ℹ 12/Feb/2019:11:38:09 Emitted: board:sense
+❯ 12/Feb/2019:11:38:18 Connecting to database...
+ℹ 12/Feb/2019:11:38:18 Initializing Socket Events.
+ℹ 12/Feb/2019:11:38:18 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:38:18 Database connection success!!!
+ℹ 12/Feb/2019:11:38:19 Emitted: board:sense
+❯ 12/Feb/2019:11:38:20 Connecting to database...
+ℹ 12/Feb/2019:11:38:20 Initializing Socket Events.
+ℹ 12/Feb/2019:11:38:20 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:38:20 Database connection success!!!
+ℹ 12/Feb/2019:11:38:20 Emitted: board:sense
+❯ 12/Feb/2019:11:38:45 Connecting to database...
+ℹ 12/Feb/2019:11:38:45 Initializing Socket Events.
+ℹ 12/Feb/2019:11:38:45 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:38:45 Database connection success!!!
+ℹ 12/Feb/2019:11:38:45 Emitted: board:sense
+❯ 12/Feb/2019:11:38:55 Connecting to database...
+ℹ 12/Feb/2019:11:38:55 Initializing Socket Events.
+ℹ 12/Feb/2019:11:38:55 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:38:55 Database connection success!!!
+ℹ 12/Feb/2019:11:38:56 Emitted: board:sense
+❯ 12/Feb/2019:11:39:03 Connecting to database...
+ℹ 12/Feb/2019:11:39:03 Initializing Socket Events.
+ℹ 12/Feb/2019:11:39:03 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:39:03 Database connection success!!!
+ℹ 12/Feb/2019:11:39:03 Emitted: board:sense
+❯ 12/Feb/2019:11:39:09 Connecting to database...
+ℹ 12/Feb/2019:11:39:09 Initializing Socket Events.
+ℹ 12/Feb/2019:11:39:09 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:39:09 Database connection success!!!
+ℹ 12/Feb/2019:11:39:09 Emitted: board:sense
+❯ 12/Feb/2019:11:39:18 Connecting to database...
+ℹ 12/Feb/2019:11:39:18 Initializing Socket Events.
+ℹ 12/Feb/2019:11:39:18 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:39:18 Database connection success!!!
+ℹ 12/Feb/2019:11:39:19 Emitted: board:sense
+❯ 12/Feb/2019:11:39:33 Connecting to database...
+ℹ 12/Feb/2019:11:39:33 Initializing Socket Events.
+ℹ 12/Feb/2019:11:39:33 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:39:33 Database connection success!!!
+ℹ 12/Feb/2019:11:39:34 Emitted: board:sense
+❯ 12/Feb/2019:11:39:43 Connecting to database...
+ℹ 12/Feb/2019:11:39:43 Initializing Socket Events.
+ℹ 12/Feb/2019:11:39:43 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:39:43 Database connection success!!!
+ℹ 12/Feb/2019:11:39:43 Emitted: board:sense
+❯ 12/Feb/2019:11:39:47 Connecting to database...
+ℹ 12/Feb/2019:11:39:47 Initializing Socket Events.
+ℹ 12/Feb/2019:11:39:47 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:39:47 Database connection success!!!
+ℹ 12/Feb/2019:11:39:48 Emitted: board:sense
+❯ 12/Feb/2019:11:39:51 Connecting to database...
+ℹ 12/Feb/2019:11:39:51 Initializing Socket Events.
+ℹ 12/Feb/2019:11:39:51 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:39:51 Database connection success!!!
+ℹ 12/Feb/2019:11:39:52 Emitted: board:sense
+❯ 12/Feb/2019:11:40:09 Connecting to database...
+ℹ 12/Feb/2019:11:40:09 Initializing Socket Events.
+ℹ 12/Feb/2019:11:40:09 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:40:09 Database connection success!!!
+ℹ 12/Feb/2019:11:40:10 Emitted: board:sense
+❯ 12/Feb/2019:11:40:17 Connecting to database...
+ℹ 12/Feb/2019:11:40:17 Initializing Socket Events.
+ℹ 12/Feb/2019:11:40:17 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:40:17 Database connection success!!!
+ℹ 12/Feb/2019:11:40:18 Emitted: board:sense
+❯ 12/Feb/2019:11:40:39 Connecting to database...
+ℹ 12/Feb/2019:11:40:39 Initializing Socket Events.
+ℹ 12/Feb/2019:11:40:39 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:40:39 Database connection success!!!
+ℹ 12/Feb/2019:11:40:40 Emitted: board:sense
+❯ 12/Feb/2019:11:40:48 Connecting to database...
+ℹ 12/Feb/2019:11:40:49 Initializing Socket Events.
+ℹ 12/Feb/2019:11:40:49 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:40:49 Database connection success!!!
+ℹ 12/Feb/2019:11:40:49 Emitted: board:sense
+❯ 12/Feb/2019:11:41:17 Connecting to database...
+ℹ 12/Feb/2019:11:41:17 Initializing Socket Events.
+ℹ 12/Feb/2019:11:41:17 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:41:17 Database connection success!!!
+ℹ 12/Feb/2019:11:41:18 Emitted: board:sense
+❯ 12/Feb/2019:11:41:44 Connecting to database...
+ℹ 12/Feb/2019:11:41:44 Initializing Socket Events.
+ℹ 12/Feb/2019:11:41:44 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:41:44 Database connection success!!!
+ℹ 12/Feb/2019:11:41:44 Emitted: board:sense
+❯ 12/Feb/2019:11:41:50 Connecting to database...
+ℹ 12/Feb/2019:11:41:50 Initializing Socket Events.
+ℹ 12/Feb/2019:11:41:50 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:41:50 Database connection success!!!
+ℹ 12/Feb/2019:11:41:50 Emitted: board:sense
+❯ 12/Feb/2019:11:42:11 Connecting to database...
+ℹ 12/Feb/2019:11:42:11 Initializing Socket Events.
+ℹ 12/Feb/2019:11:42:11 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:42:11 Database connection success!!!
+❯ 12/Feb/2019:11:42:13 Connecting to database...
+ℹ 12/Feb/2019:11:42:13 Initializing Socket Events.
+ℹ 12/Feb/2019:11:42:13 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:42:13 Database connection success!!!
+❯ 12/Feb/2019:11:42:14 Connecting to database...
+ℹ 12/Feb/2019:11:42:15 Initializing Socket Events.
+ℹ 12/Feb/2019:11:42:15 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:42:15 Database connection success!!!
+ℹ 12/Feb/2019:11:42:15 Emitted: board:sense
+❯ 12/Feb/2019:11:42:48 Connecting to database...
+ℹ 12/Feb/2019:11:42:48 Initializing Socket Events.
+ℹ 12/Feb/2019:11:42:48 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:42:48 Database connection success!!!
+ℹ 12/Feb/2019:11:42:49 Emitted: board:sense
+❯ 12/Feb/2019:11:44:15 Connecting to database...
+ℹ 12/Feb/2019:11:44:15 Initializing Socket Events.
+ℹ 12/Feb/2019:11:44:15 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:44:15 Database connection success!!!
+ℹ 12/Feb/2019:11:44:15 Emitted: board:sense
+❯ 12/Feb/2019:11:44:16 Connecting to database...
+ℹ 12/Feb/2019:11:44:16 Initializing Socket Events.
+ℹ 12/Feb/2019:11:44:16 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:44:16 Database connection success!!!
+ℹ 12/Feb/2019:11:44:17 Emitted: board:sense
+❯ 12/Feb/2019:11:44:55 Connecting to database...
+ℹ 12/Feb/2019:11:44:55 Initializing Socket Events.
+ℹ 12/Feb/2019:11:44:55 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:44:55 Database connection success!!!
+ℹ 12/Feb/2019:11:44:56 Emitted: board:sense
+❯ 12/Feb/2019:11:46:04 Connecting to database...
+ℹ 12/Feb/2019:11:46:04 Initializing Socket Events.
+ℹ 12/Feb/2019:11:46:04 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:46:04 Database connection success!!!
+❯ 12/Feb/2019:11:46:05 Connecting to database...
+ℹ 12/Feb/2019:11:46:05 Initializing Socket Events.
+ℹ 12/Feb/2019:11:46:05 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:46:05 Database connection success!!!
+ℹ 12/Feb/2019:11:46:05 Emitted: board:sense
+❯ 12/Feb/2019:11:46:06 Connecting to database...
+ℹ 12/Feb/2019:11:46:06 Initializing Socket Events.
+ℹ 12/Feb/2019:11:46:06 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:46:06 Database connection success!!!
+ℹ 12/Feb/2019:11:46:07 Emitted: board:sense
+❯ 12/Feb/2019:11:46:37 Connecting to database...
+ℹ 12/Feb/2019:11:46:38 Initializing Socket Events.
+ℹ 12/Feb/2019:11:46:38 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:46:38 Database connection success!!!
+ℹ 12/Feb/2019:11:46:38 Emitted: board:sense
+❯ 12/Feb/2019:11:46:40 Connecting to database...
+ℹ 12/Feb/2019:11:46:40 Initializing Socket Events.
+ℹ 12/Feb/2019:11:46:40 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:46:40 Database connection success!!!
+❯ 12/Feb/2019:11:46:41 Connecting to database...
+ℹ 12/Feb/2019:11:46:41 Initializing Socket Events.
+ℹ 12/Feb/2019:11:46:42 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:46:42 Database connection success!!!
+❯ 12/Feb/2019:11:46:43 Connecting to database...
+ℹ 12/Feb/2019:11:46:43 Initializing Socket Events.
+ℹ 12/Feb/2019:11:46:43 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:46:43 Database connection success!!!
+ℹ 12/Feb/2019:11:46:43 Emitted: board:sense
+❯ 12/Feb/2019:11:46:46 Connecting to database...
+ℹ 12/Feb/2019:11:46:46 Initializing Socket Events.
+ℹ 12/Feb/2019:11:46:46 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:46:46 Database connection success!!!
+ℹ 12/Feb/2019:11:46:47 Emitted: board:sense
+❯ 12/Feb/2019:11:46:47 Connecting to database...
+ℹ 12/Feb/2019:11:46:48 Initializing Socket Events.
+ℹ 12/Feb/2019:11:46:48 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:46:48 Database connection success!!!
+ℹ 12/Feb/2019:11:46:48 Emitted: board:sense
+❯ 12/Feb/2019:11:46:57 Connecting to database...
+ℹ 12/Feb/2019:11:46:57 Initializing Socket Events.
+ℹ 12/Feb/2019:11:46:57 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:46:58 Database connection success!!!
+ℹ 12/Feb/2019:11:46:58 Emitted: board:sense
+❯ 12/Feb/2019:11:46:59 Connecting to database...
+ℹ 12/Feb/2019:11:47:00 Initializing Socket Events.
+ℹ 12/Feb/2019:11:47:00 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:47:00 Database connection success!!!
+ℹ 12/Feb/2019:11:47:00 Emitted: board:sense
+❯ 12/Feb/2019:11:47:33 Connecting to database...
+ℹ 12/Feb/2019:11:47:33 Initializing Socket Events.
+ℹ 12/Feb/2019:11:47:33 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:47:33 Database connection success!!!
+❯ 12/Feb/2019:11:47:34 Connecting to database...
+ℹ 12/Feb/2019:11:47:34 Initializing Socket Events.
+ℹ 12/Feb/2019:11:47:34 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:47:34 Database connection success!!!
+ℹ 12/Feb/2019:11:47:35 Emitted: board:sense
+❯ 12/Feb/2019:11:48:12 Connecting to database...
+ℹ 12/Feb/2019:11:48:12 Initializing Socket Events.
+ℹ 12/Feb/2019:11:48:12 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:48:12 Database connection success!!!
+ℹ 12/Feb/2019:11:48:13 Emitted: board:sense
+❯ 12/Feb/2019:11:48:14 Connecting to database...
+ℹ 12/Feb/2019:11:48:14 Initializing Socket Events.
+ℹ 12/Feb/2019:11:48:14 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:48:14 Database connection success!!!
+❯ 12/Feb/2019:11:48:15 Connecting to database...
+ℹ 12/Feb/2019:11:48:15 Initializing Socket Events.
+ℹ 12/Feb/2019:11:48:15 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:48:15 Database connection success!!!
+ℹ 12/Feb/2019:11:48:15 Emitted: board:sense
+❯ 12/Feb/2019:11:48:16 Connecting to database...
+ℹ 12/Feb/2019:11:48:16 Initializing Socket Events.
+ℹ 12/Feb/2019:11:48:16 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:48:16 Database connection success!!!
+ℹ 12/Feb/2019:11:48:17 Emitted: board:sense
+ℹ 12/Feb/2019:11:48:20 Emitted: board:setOn
+ℹ 12/Feb/2019:11:48:21 Emitted: board:setOff
+ℹ 12/Feb/2019:11:48:22 Emitted: board:setOff
+ℹ 12/Feb/2019:11:48:22 Emitted: board:sense
+ℹ 12/Feb/2019:11:48:23 Emitted: board:sense
+ℹ 12/Feb/2019:11:48:24 Emitted: board:setOff
+ℹ 12/Feb/2019:11:48:24 Emitted: board:sense
+ℹ 12/Feb/2019:11:48:25 Emitted: board:sense
+ℹ 12/Feb/2019:11:48:27 Emitted: board:setOff
+ℹ 12/Feb/2019:11:48:27 Emitted: board:sense
+ℹ 12/Feb/2019:11:48:27 Emitted: board:sense
+ℹ 12/Feb/2019:11:48:29 Emitted: board:setOff
+ℹ 12/Feb/2019:11:48:29 Emitted: board:sense
+ℹ 12/Feb/2019:11:48:30 Emitted: board:sense
+ℹ 12/Feb/2019:11:48:31 Emitted: board:setOff
+ℹ 12/Feb/2019:11:48:31 Emitted: board:sense
+❯ 12/Feb/2019:11:48:41 Connecting to database...
+ℹ 12/Feb/2019:11:48:41 Initializing Socket Events.
+ℹ 12/Feb/2019:11:48:41 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:48:41 Database connection success!!!
+❯ 12/Feb/2019:11:48:42 Connecting to database...
+ℹ 12/Feb/2019:11:48:43 Initializing Socket Events.
+ℹ 12/Feb/2019:11:48:43 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:48:43 Database connection success!!!
+ℹ 12/Feb/2019:11:48:43 Emitted: board:sense
+❯ 12/Feb/2019:11:49:03 Connecting to database...
+ℹ 12/Feb/2019:11:49:03 Initializing Socket Events.
+ℹ 12/Feb/2019:11:49:04 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:49:04 Database connection success!!!
+❯ 12/Feb/2019:11:49:05 Connecting to database...
+ℹ 12/Feb/2019:11:49:05 Initializing Socket Events.
+ℹ 12/Feb/2019:11:49:05 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:49:05 Database connection success!!!
+ℹ 12/Feb/2019:11:49:05 Emitted: board:sense
+❯ 12/Feb/2019:11:49:33 Connecting to database...
+ℹ 12/Feb/2019:11:49:33 Initializing Socket Events.
+ℹ 12/Feb/2019:11:49:33 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:49:33 Database connection success!!!
+❯ 12/Feb/2019:11:49:35 Connecting to database...
+ℹ 12/Feb/2019:11:49:36 Initializing Socket Events.
+ℹ 12/Feb/2019:11:49:36 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:49:36 Database connection success!!!
+❯ 12/Feb/2019:11:49:37 Connecting to database...
+ℹ 12/Feb/2019:11:49:37 Initializing Socket Events.
+ℹ 12/Feb/2019:11:49:37 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:49:37 Database connection success!!!
+ℹ 12/Feb/2019:11:49:37 Emitted: board:sense
+❯ 12/Feb/2019:11:50:00 Connecting to database...
+ℹ 12/Feb/2019:11:50:00 Initializing Socket Events.
+ℹ 12/Feb/2019:11:50:00 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:50:01 Database connection success!!!
+ℹ 12/Feb/2019:11:50:01 Emitted: board:sense
+❯ 12/Feb/2019:11:50:02 Connecting to database...
+ℹ 12/Feb/2019:11:50:02 Initializing Socket Events.
+ℹ 12/Feb/2019:11:50:02 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:50:02 Database connection success!!!
+ℹ 12/Feb/2019:11:50:05 Emitted: board:sense
+ℹ 12/Feb/2019:11:51:00 Emitted: board:sense
+❯ 12/Feb/2019:11:51:36 Connecting to database...
+ℹ 12/Feb/2019:11:51:36 Initializing Socket Events.
+ℹ 12/Feb/2019:11:51:36 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:51:36 Database connection success!!!
+ℹ 12/Feb/2019:11:51:37 Emitted: board:sense
+❯ 12/Feb/2019:11:51:38 Connecting to database...
+ℹ 12/Feb/2019:11:51:38 Initializing Socket Events.
+ℹ 12/Feb/2019:11:51:38 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:51:38 Database connection success!!!
+ℹ 12/Feb/2019:11:51:38 Emitted: board:sense
+ℹ 12/Feb/2019:11:52:51 Emitted: board:sense
+❯ 12/Feb/2019:11:52:57 Connecting to database...
+ℹ 12/Feb/2019:11:52:57 Initializing Socket Events.
+ℹ 12/Feb/2019:11:52:57 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:52:57 Database connection success!!!
+ℹ 12/Feb/2019:11:52:57 Emitted: board:sense
+ℹ 12/Feb/2019:11:53:59 Emitted: board:setOn
+ℹ 12/Feb/2019:11:54:00 Emitted: board:setOff
+ℹ 12/Feb/2019:11:54:01 Emitted: board:setOn
+ℹ 12/Feb/2019:11:54:02 Emitted: board:setOff
+❯ 12/Feb/2019:11:54:14 Connecting to database...
+ℹ 12/Feb/2019:11:54:14 Initializing Socket Events.
+ℹ 12/Feb/2019:11:54:14 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:54:14 Database connection success!!!
+ℹ 12/Feb/2019:11:54:27 Emitted: board:sense
+❯ 12/Feb/2019:11:55:10 Connecting to database...
+ℹ 12/Feb/2019:11:55:10 Initializing Socket Events.
+ℹ 12/Feb/2019:11:55:11 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:55:11 Database connection success!!!
+❯ 12/Feb/2019:11:55:12 Connecting to database...
+ℹ 12/Feb/2019:11:55:12 Initializing Socket Events.
+ℹ 12/Feb/2019:11:55:12 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:55:12 Database connection success!!!
+❯ 12/Feb/2019:11:55:17 Connecting to database...
+ℹ 12/Feb/2019:11:55:17 Initializing Socket Events.
+ℹ 12/Feb/2019:11:55:17 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:55:17 Database connection success!!!
+❯ 12/Feb/2019:11:55:18 Connecting to database...
+ℹ 12/Feb/2019:11:55:19 Initializing Socket Events.
+ℹ 12/Feb/2019:11:55:19 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:55:19 Database connection success!!!
+ℹ 12/Feb/2019:11:55:35 Emitted: board:sense
+ℹ 12/Feb/2019:11:56:24 Emitted: board:sense
+❯ 12/Feb/2019:11:56:40 Connecting to database...
+ℹ 12/Feb/2019:11:56:40 Initializing Socket Events.
+ℹ 12/Feb/2019:11:56:40 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:56:40 Database connection success!!!
+❯ 12/Feb/2019:11:56:41 Connecting to database...
+ℹ 12/Feb/2019:11:56:41 Initializing Socket Events.
+ℹ 12/Feb/2019:11:56:41 Server UP, listening on port 5000
+✔ 12/Feb/2019:11:56:41 Database connection success!!!
+ℹ 12/Feb/2019:11:56:42 Emitted: board:sense
+❯ 12/Feb/2019:12:01:19 Connecting to database...
+ℹ 12/Feb/2019:12:01:19 Initializing Socket Events.
+ℹ 12/Feb/2019:12:01:19 Server UP, listening on port 5000
+✔ 12/Feb/2019:12:01:19 Database connection success!!!
+❯ 12/Feb/2019:12:01:21 Connecting to database...
+ℹ 12/Feb/2019:12:01:21 Initializing Socket Events.
+ℹ 12/Feb/2019:12:01:21 Server UP, listening on port 5000
+✔ 12/Feb/2019:12:01:21 Database connection success!!!
+ℹ 12/Feb/2019:12:01:51 Emitted: board:sense
+ℹ 12/Feb/2019:12:02:40 Emitted: board:sense
