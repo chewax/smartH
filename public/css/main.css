@@ -3,7 +3,7 @@ body {
   background-color: #1a1a1a;
   font-family: Arial, sans-serif; }
 
-.actuator:after, .sensor:after, .macro:after, .forecast:after, .motorpulse:after, .disabled.actuator:before, .disabled.sensor:before, .disabled.macro:before, .disabled.forecast:before, .disabled.motorpulse:before, .actuator.bulb:after, .actuator.valve:after, .actuator.generic:after, .sensor.hall:before, .sensor.hall:after, .sensor.lock:after, .sensor.dht:after, .sensor.current:after, .today:before, .tomorrow:before, .tomorrow .rain:before, .motorpulse:before {
+.actuator:after, .sensor:after, .macro:after, .forecast:after, .motorpulse:after, .motor:after, .disabled.actuator:before, .disabled.sensor:before, .disabled.macro:before, .disabled.forecast:before, .disabled.motorpulse:before, .disabled.motor:before, .actuator.bulb:after, .actuator.valve:after, .actuator.generic:after, .sensor.hall:before, .sensor.hall:after, .sensor.lock:after, .sensor.dht:after, .sensor.current:after, .today:before, .tomorrow:before, .tomorrow .rain:before, .motorpulse:before, .motor:before {
   position: absolute;
   left: 50%;
   top: 60%;
@@ -13,10 +13,10 @@ body {
   font-family: "Font Awesome 5 Free";
   font-weight: 900; }
   @media only screen and (max-width: 430px) {
-    .actuator:after, .sensor:after, .macro:after, .forecast:after, .motorpulse:after, .disabled.actuator:before, .disabled.sensor:before, .disabled.macro:before, .disabled.forecast:before, .disabled.motorpulse:before, .actuator.bulb:after, .actuator.valve:after, .actuator.generic:after, .sensor.hall:before, .sensor.hall:after, .sensor.lock:after, .sensor.dht:after, .sensor.current:after, .today:before, .tomorrow:before, .tomorrow .rain:before, .motorpulse:before {
+    .actuator:after, .sensor:after, .macro:after, .forecast:after, .motorpulse:after, .motor:after, .disabled.actuator:before, .disabled.sensor:before, .disabled.macro:before, .disabled.forecast:before, .disabled.motorpulse:before, .disabled.motor:before, .actuator.bulb:after, .actuator.valve:after, .actuator.generic:after, .sensor.hall:before, .sensor.hall:after, .sensor.lock:after, .sensor.dht:after, .sensor.current:after, .today:before, .tomorrow:before, .tomorrow .rain:before, .motorpulse:before, .motor:before {
       font-size: 1.4em; } }
 
-.actuator .name, .sensor .name, .macro .name, .forecast .name, .motorpulse .name {
+.actuator .name, .sensor .name, .macro .name, .forecast .name, .motorpulse .name, .motor .name {
   position: absolute;
   left: 50%;
   top: 20%;
@@ -26,13 +26,13 @@ body {
   color: #c8c8c8;
   width: 90%; }
   @media only screen and (max-width: 430px) {
-    .actuator .name, .sensor .name, .macro .name, .forecast .name, .motorpulse .name {
+    .actuator .name, .sensor .name, .macro .name, .forecast .name, .motorpulse .name, .motor .name {
       font-size: 0.8em; } }
 
-.actuator .ip, .sensor .ip, .macro .ip, .forecast .ip, .motorpulse .ip {
+.actuator .ip, .sensor .ip, .macro .ip, .forecast .ip, .motorpulse .ip, .motor .ip {
   display: none; }
 
-.actuator, .sensor, .macro, .forecast, .motorpulse {
+.actuator, .sensor, .macro, .forecast, .motorpulse, .motor {
   position: relative;
   width: 100px;
   height: 100px;
@@ -42,34 +42,34 @@ body {
   margin-top: 4.5px;
   box-sizing: border-box; }
   @media only screen and (max-width: 430px) {
-    .actuator, .sensor, .macro, .forecast, .motorpulse {
+    .actuator, .sensor, .macro, .forecast, .motorpulse, .motor {
       width: 80px;
       height: 80px; } }
-  .md.actuator, .md.sensor, .md.macro, .md.forecast, .md.motorpulse {
+  .md.actuator, .md.sensor, .md.macro, .md.forecast, .md.motorpulse, .md.motor {
     width: 204.5px; }
     @media only screen and (max-width: 430px) {
-      .md.actuator, .md.sensor, .md.macro, .md.forecast, .md.motorpulse {
+      .md.actuator, .md.sensor, .md.macro, .md.forecast, .md.motorpulse, .md.motor {
         width: 164.5px; } }
-    .md.actuator:after, .md.sensor:after, .md.macro:after, .md.forecast:after, .md.motorpulse:after {
+    .md.actuator:after, .md.sensor:after, .md.macro:after, .md.forecast:after, .md.motorpulse:after, .md.motor:after {
       font-size: 3em;
       top: 55%; }
-  .lg.actuator, .lg.sensor, .lg.macro, .lg.forecast, .lg.motorpulse {
+  .lg.actuator, .lg.sensor, .lg.macro, .lg.forecast, .lg.motorpulse, .lg.motor {
     width: 204.5px;
     height: 204.5px; }
     @media only screen and (max-width: 430px) {
-      .lg.actuator, .lg.sensor, .lg.macro, .lg.forecast, .lg.motorpulse {
+      .lg.actuator, .lg.sensor, .lg.macro, .lg.forecast, .lg.motorpulse, .lg.motor {
         width: 164.5px;
         height: 164.5px; } }
-    .lg.actuator:after, .lg.sensor:after, .lg.macro:after, .lg.forecast:after, .lg.motorpulse:after {
+    .lg.actuator:after, .lg.sensor:after, .lg.macro:after, .lg.forecast:after, .lg.motorpulse:after, .lg.motor:after {
       font-size: 3em;
       top: 55%; }
-  .disabled.actuator, .disabled.sensor, .disabled.macro, .disabled.forecast, .disabled.motorpulse {
+  .disabled.actuator, .disabled.sensor, .disabled.macro, .disabled.forecast, .disabled.motorpulse, .disabled.motor {
     background-color: #272727; }
-    .disabled.actuator .name, .disabled.sensor .name, .disabled.macro .name, .disabled.forecast .name, .disabled.motorpulse .name {
+    .disabled.actuator .name, .disabled.sensor .name, .disabled.macro .name, .disabled.forecast .name, .disabled.motorpulse .name, .disabled.motor .name {
       color: #414141; }
-    .disabled.actuator:after, .disabled.sensor:after, .disabled.macro:after, .disabled.forecast:after, .disabled.motorpulse:after {
+    .disabled.actuator:after, .disabled.sensor:after, .disabled.macro:after, .disabled.forecast:after, .disabled.motorpulse:after, .disabled.motor:after {
       color: #414141; }
-    .disabled.actuator:before, .disabled.sensor:before, .disabled.macro:before, .disabled.forecast:before, .disabled.motorpulse:before {
+    .disabled.actuator:before, .disabled.sensor:before, .disabled.macro:before, .disabled.forecast:before, .disabled.motorpulse:before, .disabled.motor:before {
       position: absolute;
       left: 15%;
       top: 85%;
@@ -343,6 +343,60 @@ body {
   content: "";
   color: #fb870b; }
 .motorpulse.on:after {
+  -webkit-animation: rotating 2s linear infinite;
+  -moz-animation: rotating 2s linear infinite;
+  -ms-animation: rotating 2s linear infinite;
+  -o-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+  color: #fb870b; }
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+    -o-transform: translate(-50%, -50%) rotate(0deg);
+    transform: translate(-50%, -50%) rotate(0deg); }
+  to {
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+    -o-transform: translate(-50%, -50%) rotate(360deg);
+    transform: translate(-50%, -50%) rotate(360deg); } }
+@keyframes rotating {
+  from {
+    -ms-transform: translate(-50%, -50%) rotate(0deg);
+    -moz-transform: translate(-50%, -50%) rotate(0deg);
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+    -o-transform: translate(-50%, -50%) rotate(0deg);
+    transform: translate(-50%, -50%) rotate(0deg); }
+  to {
+    -ms-transform: translate(-50%, -50%) rotate(360deg);
+    -moz-transform: translate(-50%, -50%) rotate(360deg);
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+    -o-transform: translate(-50%, -50%) rotate(360deg);
+    transform: translate(-50%, -50%) rotate(360deg); } }
+.motor:after {
+  content: "";
+  font-size: 2em;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%); }
+.motor:before {
+  content: "";
+  position: absolute;
+  left: 80%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+  font-size: 1em;
+  color: #fb870b; }
+.motor.opened:before {
+  content: "";
+  color: #fade0a; }
+.motor.closed:before {
+  content: "";
+  color: #80d30b; }
+.motor.unknown:before {
+  content: "";
+  color: #fb870b; }
+.motor.on:after {
   -webkit-animation: rotating 2s linear infinite;
   -moz-animation: rotating 2s linear infinite;
   -ms-animation: rotating 2s linear infinite;

@@ -22,7 +22,7 @@ $(document).ready(function () {
     socket.on("console:board:new", appendBoard);
     socket.on("console:board:disable", disableBoard)
     socket.on("console:board:enable", enableBoard)
-    socket.on("console:board:sense", updateBoardSensor)
+    socket.on("console:board:sense", updateSensor)
     socket.on("console:board:setOn", boardSwitchOn)
     socket.on("console:board:setOff", boardSwitchOff)
 
@@ -35,14 +35,15 @@ $(document).ready(function () {
         boards.forEach(board => { appendBoard(board) });
     }
 
-    function updateBoardSensor (data) {
-        
+    function updateSensor (data) {
+
         var $board = $(`[id^='${data.id}']`);
-        
+
+        console.log(data);
         //TODO update with other data that might come from sensors.
         // var $boardData = $(`[id^='${data.id}'] .data`);
         // $boardData.text(data.sensorInfo);
-        
+
         //Remove all sensor related clasess
         $board.removeClass('opened');
         $board.removeClass('closed');
@@ -53,30 +54,22 @@ $(document).ready(function () {
     }
 
     function enableBoard (board) {
-        var $board = $(`[id^='${board.id}']`);
-        $board.removeClass('disabled');
+        updateBoard(board);
     }
 
     function disableBoard (board) {
-        console.log(board);
-        console.log("disabling board");
         var $board = $(`[id^='${board.id}']`);
         $board.addClass('disabled');
-        console.log($board);
     }
 
     function boardSwitchOn (board) {
-        
         if ($(this).hasClass('disabled')) return;
-
         var $board = $(`[id^='${board.id}']`);
         $board.addClass('on');
     }
 
     function boardSwitchOff (board) {
-        
         if ($(this).hasClass('disabled')) return;
-
         var $board = $(`[id^='${board.id}']`);
         $board.removeClass('on');
     }
@@ -84,11 +77,9 @@ $(document).ready(function () {
     function actuatorClick (e) {
         e.preventDefault();
 
-        console.log("click");
-
         if ($(this).hasClass('disabled')) return;
 
-        if ($(this).hasClass('on')) { 
+        if ($(this).hasClass('on')) {
             $(this).removeClass('on');
             socket.emit("console:board:setOff", $(this).attr('id'));
         }
@@ -121,12 +112,13 @@ $(document).ready(function () {
 
     }
 
-    // function removeBoard (board) {
-    //     var $board = $(`[id^='${board.id}']`);
-    //     $board.remove();
-    // }
+    function removeBoard (board) {
+        var $board = $(`[id^='${board.id}']`);
+        $board.remove();
+    }
 
-    function upsertBoard (board) {
+    function updateBoard (board) {
+
         var $board = $(`[id^='${board.id}']`);
 
         if ($board.length == 0) {
@@ -152,25 +144,18 @@ $(document).ready(function () {
             "text": `${board.ip}`,
         }).appendTo($board);
 
-
-        $board.addClass('actuator');
         $board.addClass(board.mode);
         $board.addClass(board.relayState);
+        $board.on('click', actuatorClick);
     }
 
     function appendBoard (board) {
-
         let $controls = $("#controls");
         let $board = createBoard(board);
         $board.addClass(board.mode);
-        
-        console.log(board);
-
         $board.addClass(board.relayState);
-
         $board.on('click', actuatorClick);
         $board.appendTo($controls);
-
     }
 
 })
