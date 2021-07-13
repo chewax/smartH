@@ -21,3 +21,17 @@
   .actuator.valve.on {
       &:after { color: $onBlue}
   }
+
+  .actuator.toggle {
+    &:after {
+      @extend %icon;
+      content: "\f204";
+    }
+  }
+
+  .actuator.toggle.on {
+      &:after { 
+        color: $onBlue;
+        content: "\f205";
+      }
+  }

@@ -3,7 +3,7 @@ body {
   background-color: #1a1a1a;
   font-family: Arial, sans-serif; }
 
-.actuator:after, .sensor:after, .macro:after, .forecast:after, .disabled.actuator:before, .disabled.sensor:before, .disabled.macro:before, .disabled.forecast:before, .actuator.bulb:after, .actuator.valve:after, .sensor.hall:before, .sensor.hall:after, .sensor.lock:after, .sensor.dht:after, .sensor.current:after, .today:before, .tomorrow:before, .tomorrow .rain:before {
+.actuator:after, .sensor:after, .macro:after, .forecast:after, .disabled.actuator:before, .disabled.sensor:before, .disabled.macro:before, .disabled.forecast:before, .actuator.bulb:after, .actuator.valve:after, .actuator.toggle:after, .sensor.hall:before, .sensor.hall:after, .sensor.lock:after, .sensor.dht:after, .sensor.current:after, .today:before, .tomorrow:before, .tomorrow .rain:before {
   position: absolute;
   left: 50%;
   top: 60%;
@@ -13,7 +13,7 @@ body {
   font-family: "Font Awesome 5 Free";
   font-weight: 900; }
   @media only screen and (max-width: 430px) {
-    .actuator:after, .sensor:after, .macro:after, .forecast:after, .disabled.actuator:before, .disabled.sensor:before, .disabled.macro:before, .disabled.forecast:before, .actuator.bulb:after, .actuator.valve:after, .sensor.hall:before, .sensor.hall:after, .sensor.lock:after, .sensor.dht:after, .sensor.current:after, .today:before, .tomorrow:before, .tomorrow .rain:before {
+    .actuator:after, .sensor:after, .macro:after, .forecast:after, .disabled.actuator:before, .disabled.sensor:before, .disabled.macro:before, .disabled.forecast:before, .actuator.bulb:after, .actuator.valve:after, .actuator.toggle:after, .sensor.hall:before, .sensor.hall:after, .sensor.lock:after, .sensor.dht:after, .sensor.current:after, .today:before, .tomorrow:before, .tomorrow .rain:before {
       font-size: 1.4em; } }
 
 .actuator .name, .sensor .name, .macro .name, .forecast .name {
@@ -90,6 +90,13 @@ body {
 .actuator.valve.on:after {
   color: #1398fa; }
 
+.actuator.toggle:after {
+  content: "\f204"; }
+
+.actuator.toggle.on:after {
+  color: #1398fa;
+  content: "\f205"; }
+
 .sensor {
   background-color: #4d4d4d; }
 
@@ -122,7 +129,7 @@ body {
 
 .sensor.dht .data {
   position: absolute;
-  left: 40%;
+  left: 50%;
   top: 60%;
   transform: translate(-50%, -50%);
   font-weight: 600;
@@ -133,13 +140,14 @@ body {
       font-size: 1.4em; } }
 .sensor.dht:after {
   font-family: Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 600;
+  color: #1398fa;
   font-size: 1.5em;
   position: absolute;
-  left: 75%;
-  top: 60%;
+  left: 85%;
+  top: 55%;
   transform: translate(-50%, -50%);
-  content: "℃"; }
+  content: "°"; }
   @media only screen and (max-width: 430px) {
     .sensor.dht:after {
       font-size: 1em; } }

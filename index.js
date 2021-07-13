@@ -2,15 +2,16 @@
 
     'use strict';
 
-    let express = require('express');
-    let app = express();
-    let server = require('http').Server(app);
-    let bodyParser = require('body-parser');
-    let cors = require('./lib/config/cors');
-    let config = require('./lib/config/config');
-    let logger = require('./lib/modules/core/logger');
-    let publicRoutes = require('./lib/routes/public');
-    let protectedRoutes = require('./lib/routes/protected');
+    const express = require('express');
+    const app = express();
+    const server = require('http').Server(app);
+    const bodyParser = require('body-parser');
+    const cors = require('./lib/config/cors');
+    const config = require('./lib/config/config');
+    const logger = require('./lib/modules/core/logger');
+
+    const publicRoutes = require('./lib/routes/public');
+    const protectedRoutes = require('./lib/routes/protected');
     
     // Socket server
     let SocketServer = require('./lib/modules/socket/socket');
@@ -18,8 +19,7 @@
 
     socket.initialize(server);
 
-    require('./lib/config/database');
-
+    require('./lib/config/database').connect();
 
     app.set('views', __dirname + '/views')
     app.set('view engine', 'pug')

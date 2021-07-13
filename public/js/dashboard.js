@@ -22,7 +22,7 @@ $(document).ready(function(){
   socket.on("console:board:new", appendBoard);
   socket.on("console:board:disable", disableModule)
   socket.on("console:board:enable", enableModule)
-  socket.on("console:board:temperature", updateModuleTemperature)
+  socket.on("console:board:data", updateData)
 
   
   function clearModules () {
@@ -33,9 +33,22 @@ $(document).ready(function(){
     boards.forEach( board => { appendBoard(board) });
   }
 
+  function updateData(data) {
+    switch (data.type) {
+      case "dht": updateModuleTemperature(data);
+      case "switch": updateModuleState(data);
+    }
+  } 
+
   function updateModuleTemperature (data) {
+    console.log(data);
     var $data = $(`[id^='${data.id}'] .data`);
-    $data.text(data.temperature);
+    $data.text(data.temperature.substr(0,4));
+  }
+
+  function updateModuleState (data) {
+    var $data = $(`[id^='${data.id}']`);
+    $data.toggleClass('on', data.state === 'on');
   }
 
   function enableModule (board) {
@@ -55,10 +68,12 @@ $(document).ready(function(){
     
     if ($(this).hasClass('disabled')) return;
 
+    let action = $(this).hasClass('on') ? 'off' : 'on';
     $(this).toggleClass('on');
+
     $(".macro").removeClass('active');
 
-    socket.emit("console:board:actuate", $(this).attr('id'));
+    socket.emit(`console:board:actuate`, { id: $(this).attr('id'), action });
   } 
 
   function createModule (board) {
@@ -92,7 +107,7 @@ $(document).ready(function(){
     }).appendTo($module);
 
     $module.addClass('sensor');
-    $module.addClass(board.sensor);
+    $module.addClass(board.actuator);
 
     $module.appendTo($controls);
   }
@@ -188,10 +203,8 @@ $(document).ready(function(){
   }
 
   function appendBoard (board) {
-
-    if (!isNull(board.sensor)) addSensor(board);
-    if (!isNull(board.actuator)) addActuator(board);
-
+    if (board.actuator == 'dht') addSensor(board);
+    else addActuator(board);
   }
 
   function updateBoard (board) {
