@@ -38,6 +38,8 @@ $(document).ready(function(){
 
   function updateData(data) {
 
+    console.log(data);
+
     switch (data.type) {
       case "dht": 
         updateModuleTemperature(data); 
@@ -259,6 +261,7 @@ $(document).ready(function(){
   function appendBoard (board) {
     if (board.actuator == 'dht') addSensor(board);
     if (board.actuator == 'caudal') addSensor(board);
+    if (board.actuator == 'filler') addSensor(board);
     else addActuator(board);
   }
 

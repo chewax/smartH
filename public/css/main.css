@@ -3,7 +3,7 @@ body {
   background-color: #1a1a1a;
   font-family: Arial, sans-serif; }
 
-.actuator:after, .sensor:after, .macro:after, .forecast:after, .disabled.actuator:before, .disabled.sensor:before, .disabled.macro:before, .disabled.forecast:before, .actuator.bulb:after, .actuator.valve:after, .actuator.toggle:after, .actuator.switch:after, .sensor.hall:before, .sensor.hall:after, .sensor.lock:after, .sensor.dht:after, .sensor.current:after, .sensor.caudal .data:after, .today:before, .tomorrow:before, .tomorrow .rain:before {
+.actuator:after, .sensor:after, .macro:after, .forecast:after, .disabled.actuator:before, .disabled.sensor:before, .disabled.macro:before, .disabled.forecast:before, .actuator.bulb:after, .actuator.valve:after, .actuator.toggle:after, .actuator.switch:after, .sensor.hall:before, .sensor.hall:after, .sensor.lock:after, .sensor.dht:after, .sensor.current:after, .sensor.caudal .data:after, .sensor.filler .data:after, .today:before, .tomorrow:before, .tomorrow .rain:before {
   position: absolute;
   left: 50%;
   top: 60%;
@@ -13,7 +13,7 @@ body {
   font-family: "Font Awesome 5 Free";
   font-weight: 900; }
   @media only screen and (max-width: 430px) {
-    .actuator:after, .sensor:after, .macro:after, .forecast:after, .disabled.actuator:before, .disabled.sensor:before, .disabled.macro:before, .disabled.forecast:before, .actuator.bulb:after, .actuator.valve:after, .actuator.toggle:after, .actuator.switch:after, .sensor.hall:before, .sensor.hall:after, .sensor.lock:after, .sensor.dht:after, .sensor.current:after, .sensor.caudal .data:after, .today:before, .tomorrow:before, .tomorrow .rain:before {
+    .actuator:after, .sensor:after, .macro:after, .forecast:after, .disabled.actuator:before, .disabled.sensor:before, .disabled.macro:before, .disabled.forecast:before, .actuator.bulb:after, .actuator.valve:after, .actuator.toggle:after, .actuator.switch:after, .sensor.hall:before, .sensor.hall:after, .sensor.lock:after, .sensor.dht:after, .sensor.current:after, .sensor.caudal .data:after, .sensor.filler .data:after, .today:before, .tomorrow:before, .tomorrow .rain:before {
       font-size: 1.4em; } }
 
 .actuator .name, .sensor .name, .macro .name, .forecast .name {
@@ -202,6 +202,22 @@ body {
       font-size: 1em; } }
 
 .sensor.caudal.alt .data:after {
+  content: "(lts)"; }
+
+.sensor.filler .data:after {
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  font-size: 0.6em;
+  position: absolute;
+  left: 50%;
+  top: -40%;
+  transform: translate(-50%, -50%);
+  content: "(l/h)"; }
+  @media only screen and (max-width: 430px) {
+    .sensor.filler .data:after {
+      font-size: 1em; } }
+
+.sensor.filler.alt .data:after {
   content: "(lts)"; }
 
 .macro:after {

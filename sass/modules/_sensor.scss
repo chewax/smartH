@@ -113,9 +113,7 @@
   }
 
   .sensor.caudal {
-    
     .data {
-    
       &:after {
         @extend %icon;
         font-family: $fontFamily;
@@ -133,6 +131,32 @@
   
 
   .sensor.caudal.alt {
+    .data{
+      &:after {
+        content: "(lts)";
+      }
+    }
+  }
+
+  .sensor.filler {
+    .data {
+      &:after {
+        @extend %icon;
+        font-family: $fontFamily;
+        font-weight: 700;
+        font-size: 0.6em;
+        @include positionXY(50%, -40%);
+        content: "(l/h)";
+  
+        @include respond-to(handhelds) {
+          font-size: 1em;
+        }
+      }
+    }
+  }
+  
+
+  .sensor.filler.alt {
     .data{
       &:after {
         content: "(lts)";
