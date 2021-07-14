@@ -37,18 +37,26 @@ $(document).ready(function(){
   }
 
   function updateData(data) {
+
     switch (data.type) {
-      case "dht": updateModuleTemperature(data);
-      case "switch": updateModuleState(data);
-      case "caudal": updateModeleCaudal(data);
+      case "dht": 
+        updateModuleTemperature(data); 
+        break;
+
+      case "switch": 
+        updateModuleState(data);
+        break;
+
+      case "caudal": 
+        updateModuleCaudal(data);
+        break;
     }
+
   } 
 
-  function updateModeleCaudal (data) {
+  function updateModuleCaudal (data) {
     let $data = $(`[id^='${data.id}'] .data`);
     let sensor = getSensor(data.id);
-    console.log(sensor);
-    // console.log(sensor.alt);
 
     if (sensor.alt) {
       let idx = data.vol.indexOf(".");
@@ -62,7 +70,6 @@ $(document).ready(function(){
   }
 
   function updateModuleTemperature (data) {
-    console.log(data);
     let $data = $(`[id^='${data.id}'] .data`);
     $data.text(data.temperature.substr(0,4));
   }
@@ -73,7 +80,6 @@ $(document).ready(function(){
   }
 
   function enableModule (board) {
-    console.log(board);
     let modules = $(`[id^='${board.id}']`);
     modules.removeClass('disabled');
     updateBoard (board);
@@ -99,6 +105,7 @@ $(document).ready(function(){
 
   function sensorClick (e) {
     e.preventDefault();
+    
     if ($(this).hasClass('disabled')) return;
 
     let id = $(this).attr('id');
@@ -153,10 +160,6 @@ $(document).ready(function(){
     $module.appendTo($controls);
   }
 
-  function getActuator(id){
-    let idx =  actuators.findIndex( a => a.id === id);
-    if (idx !== -1) return actuators[idx];
-  }
 
   function addActuator (board) {
     actuators.push(board);
@@ -172,11 +175,15 @@ $(document).ready(function(){
   }
 
   function removeSensor (board) {
+    let idx =  sensors.findIndex( a => a.id === board.id);
+    if (idx !== -1) sensors.splice(idx,1);
     let $module = $(`[id^='${board.id}'].sensor`);
     $module.remove();
   }
 
   function removeActuator (board) {
+    let idx =  actuators.findIndex( a => a.id === board.id);
+    if (idx !== -1) actuators.splice(idx,1);
     let $module = $(`[id^='${board.id}'].actuator`);
     $module.remove();
   }
