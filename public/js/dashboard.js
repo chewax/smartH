@@ -1,8 +1,11 @@
 $(document).ready(function(){
 
-  var socket = io();
-  var serverStatus = ""
-  var client = {
+  let sensors = [];
+  let actuators = [];
+
+  let socket = io();
+  let serverStatus = ""
+  let client = {
     id: "someuniqueidprobablylogintoken",
     name: "Daniel"
   }
@@ -42,31 +45,42 @@ $(document).ready(function(){
   } 
 
   function updateModeleCaudal (data) {
-    var $data = $(`[id^='${data.id}'] .data`);
-    let idx = data.lph.indexOf(".");
-    $data.text(data.lph.substr(0,idx));
+    let $data = $(`[id^='${data.id}'] .data`);
+    let sensor = getSensor(data.id);
+    console.log(sensor);
+    // console.log(sensor.alt);
+
+    if (sensor.alt) {
+      let idx = data.vol.indexOf(".");
+      $data.text(data.vol.substr(0,idx+2));
+    }
+    else {
+      let idx = data.lph.indexOf(".");
+      $data.text(data.lph.substr(0,idx));
+    }
+    
   }
 
   function updateModuleTemperature (data) {
     console.log(data);
-    var $data = $(`[id^='${data.id}'] .data`);
+    let $data = $(`[id^='${data.id}'] .data`);
     $data.text(data.temperature.substr(0,4));
   }
 
   function updateModuleState (data) {
-    var $data = $(`[id^='${data.id}']`);
+    let $data = $(`[id^='${data.id}']`);
     $data.toggleClass('on', data.state === 'on');
   }
 
   function enableModule (board) {
     console.log(board);
-    var modules = $(`[id^='${board.id}']`);
+    let modules = $(`[id^='${board.id}']`);
     modules.removeClass('disabled');
     updateBoard (board);
   }
 
   function disableModule (id) {
-    var modules = $(`[id^='${id}']`);
+    let modules = $(`[id^='${id}']`);
     modules.addClass('disabled');  
   }
 
@@ -81,6 +95,18 @@ $(document).ready(function(){
     $(".macro").removeClass('active');
 
     socket.emit(`console:board:actuate`, { id: $(this).attr('id'), action });
+  } 
+
+  function sensorClick (e) {
+    e.preventDefault();
+    if ($(this).hasClass('disabled')) return;
+
+    let id = $(this).attr('id');
+    let idx =  sensors.findIndex( a => a.id === id);
+    if (idx !== -1) {
+      sensors[idx].alt = !sensors[idx].alt; 
+      $(this).toggleClass('alt');
+    }
   } 
 
   function createModule (board) {
@@ -104,7 +130,15 @@ $(document).ready(function(){
     
   }
 
+  function getSensor(id){
+    let idx =  sensors.findIndex( a => a.id === id);
+    if (idx !== -1) return sensors[idx];
+  }
+
   function addSensor (board) {
+    board["alt"] = false;
+    sensors.push(board);
+
     let $controls = $("#controls");
     let $module = createModule(board);
 
@@ -115,11 +149,17 @@ $(document).ready(function(){
 
     $module.addClass('sensor');
     $module.addClass(board.actuator);
-
+    $module.on('click', sensorClick);
     $module.appendTo($controls);
   }
 
+  function getActuator(id){
+    let idx =  actuators.findIndex( a => a.id === id);
+    if (idx !== -1) return actuators[idx];
+  }
+
   function addActuator (board) {
+    actuators.push(board);
 
     let $controls = $("#controls");
     let $module = createModule(board);
@@ -132,17 +172,17 @@ $(document).ready(function(){
   }
 
   function removeSensor (board) {
-    var $module = $(`[id^='${board.id}'].sensor`);
+    let $module = $(`[id^='${board.id}'].sensor`);
     $module.remove();
   }
 
   function removeActuator (board) {
-    var $module = $(`[id^='${board.id}'].actuator`);
+    let $module = $(`[id^='${board.id}'].actuator`);
     $module.remove();
   }
 
   function upsertSensor (board) {
-    var $module = $(`[id^='${board.id}'].sensor`);
+    let $module = $(`[id^='${board.id}'].sensor`);
     
     
     if ($module.length == 0) {
@@ -179,7 +219,7 @@ $(document).ready(function(){
   }
 
   function upsertActuator (board) {
-    var $module = $(`[id^='${board.id}'].actuator`);
+    let $module = $(`[id^='${board.id}'].actuator`);
 
     if ($module.length == 0) {
       

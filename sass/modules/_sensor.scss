@@ -131,3 +131,11 @@
     }
   }
   
+
+  .sensor.caudal.alt {
+    .data{
+      &:after {
+        content: "(lts)";
+      }
+    }
+  }

@@ -201,6 +201,9 @@ body {
     .sensor.caudal .data:after {
       font-size: 1em; } }
 
+.sensor.caudal.alt .data:after {
+  content: "(lts)"; }
+
 .macro:after {
   color: #c8c8c8;
   content: "\f2f1"; }
