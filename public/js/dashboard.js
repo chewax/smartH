@@ -37,8 +37,15 @@ $(document).ready(function(){
     switch (data.type) {
       case "dht": updateModuleTemperature(data);
       case "switch": updateModuleState(data);
+      case "caudal": updateModeleCaudal(data);
     }
   } 
+
+  function updateModeleCaudal (data) {
+    var $data = $(`[id^='${data.id}'] .data`);
+    let idx = data.lph.indexOf(".");
+    $data.text(data.lph.substr(0,idx));
+  }
 
   function updateModuleTemperature (data) {
     console.log(data);
@@ -88,10 +95,10 @@ $(document).ready(function(){
       "text": `${board.name}`,
     }).appendTo($module);
 
-    $("<span/>", { 
-      "class": "ip",
-      "text": `${board.ip}`,
-    }).appendTo($module); 
+    // $("<span/>", { 
+    //   "class": "ip",
+    //   "text": `${board.ip}`,
+    // }).appendTo($module); 
 
     return $module;
     
@@ -204,6 +211,7 @@ $(document).ready(function(){
 
   function appendBoard (board) {
     if (board.actuator == 'dht') addSensor(board);
+    if (board.actuator == 'caudal') addSensor(board);
     else addActuator(board);
   }
 

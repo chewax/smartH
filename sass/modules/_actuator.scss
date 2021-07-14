@@ -35,3 +35,17 @@
         content: "\f205";
       }
   }
+
+  .actuator.switch {
+    &:after {
+      @extend %icon;
+      content: "\f204";
+    }
+  }
+
+  .actuator.switch.on {
+      &:after { 
+        color: $onBlue;
+        content: "\f205";
+      }
+  }

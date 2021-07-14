@@ -1,6 +1,16 @@
 .sensor {
     @extend %container;
     background-color: lighten($backgroundColor, 20%);
+
+    .data {
+      position:relative;  
+      font-weight: 600;
+      color: $white;
+      font-size: 2em;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 5px;
+    }
   }
   
   .sensor.hall {
@@ -99,7 +109,25 @@
       @include respond-to(handhelds) {
         font-size: 1em;
       }
-    }
+    } 
+  }
+
+  .sensor.caudal {
     
+    .data {
+    
+      &:after {
+        @extend %icon;
+        font-family: $fontFamily;
+        font-weight: 700;
+        font-size: 0.6em;
+        @include positionXY(50%, -40%);
+        content: "(l/h)";
+  
+        @include respond-to(handhelds) {
+          font-size: 1em;
+        }
+      }
+    }
   }
   
