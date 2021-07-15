@@ -3,7 +3,15 @@ body {
   background-color: #1a1a1a;
   font-family: Arial, sans-serif; }
 
-.actuator:after, .sensor:after, .macro:after, .forecast:after, .disabled.actuator:before, .disabled.sensor:before, .disabled.macro:before, .disabled.forecast:before, .actuator.bulb:after, .actuator.valve:after, .actuator.toggle:after, .actuator.switch:after, .sensor.hall:before, .sensor.hall:after, .sensor.lock:after, .sensor.dht:after, .sensor.current:after, .sensor.caudal .data:after, .sensor.filler .data:after, .today:before, .tomorrow:before, .tomorrow .rain:before {
+#controls {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+  align-content: flex-start;
+  align-items: flex-start; }
+
+.actuator:after, .sensor:after, .forecast:after, .disabled.actuator:before, .disabled.sensor:before, .disabled.forecast:before, .actuator.bulb:after, .actuator.valve:after, .actuator.toggle:after, .actuator.switch:after, .sensor.hall:before, .sensor.hall:after, .sensor.lock:after, .sensor.dht:after, .sensor.current:after, .sensor.caudal .data:after, .sensor.filler .data:after, .today:before, .tomorrow:before, .tomorrow .rain:before {
   position: absolute;
   left: 50%;
   top: 60%;
@@ -13,28 +21,24 @@ body {
   font-family: "Font Awesome 5 Free";
   font-weight: 900; }
   @media only screen and (max-width: 430px) {
-    .actuator:after, .sensor:after, .macro:after, .forecast:after, .disabled.actuator:before, .disabled.sensor:before, .disabled.macro:before, .disabled.forecast:before, .actuator.bulb:after, .actuator.valve:after, .actuator.toggle:after, .actuator.switch:after, .sensor.hall:before, .sensor.hall:after, .sensor.lock:after, .sensor.dht:after, .sensor.current:after, .sensor.caudal .data:after, .sensor.filler .data:after, .today:before, .tomorrow:before, .tomorrow .rain:before {
+    .actuator:after, .sensor:after, .forecast:after, .disabled.actuator:before, .disabled.sensor:before, .disabled.forecast:before, .actuator.bulb:after, .actuator.valve:after, .actuator.toggle:after, .actuator.switch:after, .sensor.hall:before, .sensor.hall:after, .sensor.lock:after, .sensor.dht:after, .sensor.current:after, .sensor.caudal .data:after, .sensor.filler .data:after, .today:before, .tomorrow:before, .tomorrow .rain:before {
       font-size: 1.4em; } }
 
-.actuator .name, .sensor .name, .macro .name, .forecast .name {
+.actuator .name, .sensor .name, .forecast .name {
   font-size: 1.1em;
   text-align: center;
   color: #c8c8c8;
   width: 100%;
   margin-top: 5px; }
   @media only screen and (max-width: 430px) {
-    .actuator .name, .sensor .name, .macro .name, .forecast .name {
+    .actuator .name, .sensor .name, .forecast .name {
       font-size: 0.8em; } }
 
-.actuator .ip, .sensor .ip, .macro .ip, .forecast .ip {
-  display: none; }
-
-.actuator, .sensor, .macro, .forecast {
+.actuator, .sensor, .forecast {
   position: relative;
   width: 100px;
   height: 100px;
   background-color: #343434;
-  float: left;
   margin-left: 4.5px;
   margin-top: 4.5px;
   box-sizing: border-box;
@@ -42,34 +46,34 @@ body {
   flex-direction: column;
   justify-content: space-between; }
   @media only screen and (max-width: 430px) {
-    .actuator, .sensor, .macro, .forecast {
+    .actuator, .sensor, .forecast {
       width: 80px;
       height: 80px; } }
-  .md.actuator, .md.sensor, .md.macro, .md.forecast {
+  .md.actuator, .md.sensor, .md.forecast {
     width: 204.5px; }
     @media only screen and (max-width: 430px) {
-      .md.actuator, .md.sensor, .md.macro, .md.forecast {
+      .md.actuator, .md.sensor, .md.forecast {
         width: 164.5px; } }
-    .md.actuator:after, .md.sensor:after, .md.macro:after, .md.forecast:after {
+    .md.actuator:after, .md.sensor:after, .md.forecast:after {
       font-size: 3em;
       top: 55%; }
-  .lg.actuator, .lg.sensor, .lg.macro, .lg.forecast {
+  .lg.actuator, .lg.sensor, .lg.forecast {
     width: 204.5px;
     height: 204.5px; }
     @media only screen and (max-width: 430px) {
-      .lg.actuator, .lg.sensor, .lg.macro, .lg.forecast {
+      .lg.actuator, .lg.sensor, .lg.forecast {
         width: 164.5px;
         height: 164.5px; } }
-    .lg.actuator:after, .lg.sensor:after, .lg.macro:after, .lg.forecast:after {
+    .lg.actuator:after, .lg.sensor:after, .lg.forecast:after {
       font-size: 3em;
       top: 55%; }
-  .disabled.actuator, .disabled.sensor, .disabled.macro, .disabled.forecast {
+  .disabled.actuator, .disabled.sensor, .disabled.forecast {
     background-color: #272727; }
-    .disabled.actuator .name, .disabled.sensor .name, .disabled.macro .name, .disabled.forecast .name {
+    .disabled.actuator .name, .disabled.sensor .name, .disabled.forecast .name {
       color: #414141; }
-    .disabled.actuator:after, .disabled.sensor:after, .disabled.macro:after, .disabled.forecast:after {
+    .disabled.actuator:after, .disabled.sensor:after, .disabled.forecast:after {
       color: #414141; }
-    .disabled.actuator:before, .disabled.sensor:before, .disabled.macro:before, .disabled.forecast:before {
+    .disabled.actuator:before, .disabled.sensor:before, .disabled.forecast:before {
       position: absolute;
       left: 15%;
       top: 85%;
@@ -219,22 +223,6 @@ body {
 
 .sensor.filler.alt .data:after {
   content: "(lts)"; }
-
-.macro:after {
-  color: #c8c8c8;
-  content: "\f2f1"; }
-
-.macro.morning:after {
-  content: ""; }
-
-.macro.night:after {
-  content: ""; }
-
-.macro.away:after {
-  content: ""; }
-
-.macro.active:after {
-  color: #fb870b; }
 
 .today:before, .tomorrow:before, .tomorrow .rain:before {
   font-family: "weathericons";
