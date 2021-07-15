@@ -6,13 +6,17 @@ html
         link(rel="stylesheet", href="/static/css/weather-icons.min.css")
         link(rel="stylesheet", href="https://use.fontawesome.com/releases/v5.2.0/css/all.css")
     body
-        block content
-    
-        block footer
+        #app
+            block header
 
-        script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js')
-        script(src='/socket/socket.io.js')
-        script(src='/static/js/utils.js')
-        block scripts
+            #content
+                block content
+
+            block footer
+            
+            script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js')
+            script(src='/socket/socket.io.js')
+            script(src='/static/js/utils.js')
+            block scripts
         
         

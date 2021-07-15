@@ -2,6 +2,7 @@
   @extend %icon;
   font-family: $weatherFontFamily;
   color: $onOrange;
+  font-size: 1.5em;
   content: "\f00d";
   left: 0%;
   top: 50%;
@@ -11,21 +12,26 @@
   @extend %container;
   background-color: lighten($backgroundColor, 20%);
   text-align: center;
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  padding:5px;
 }
   
 .today {
-  position: absolute;
+  position: relative;
   width: 100%;
-  height: 50%;
+  height: 100%;
 
   &:before { 
     @extend %weather_icon;
-    @include positionXY(50%, 50%);
+    @include positionXY(50%, 45%);
   }
 
   .temp {
     @include positionXY(50%, 85%);
-    font-size: 1.5em;
+    font-size: 1.3em;
+    font-weight: 600;;
     color: $onOrange;
     width: 100%;
 
@@ -35,93 +41,42 @@
   }
 }
   
-
-.tomorrow {
-  @extend .today;
-  top: 50%;
-  
-  &:after {
-    content: "";
-    width: 80%;
-    @include positionXY(50%, 5%);
-    height: 2px;
-    background-color: darken($smoke,10%);
-  }
-
-  &:before { 
-    color: $smoke;
-    font-size: 1.2em;
-    @include positionXY(50%, 42%);
-  }
-
-  .temp {
-    font-size: 1em;
-    color: $smoke;
-    width: 100%;
-    @include positionXY(50%, 66%);
-
-    @include respond-to(handhelds) {
-      font-size: 0.7em;
-    }
-  }
-
-  .rain {
-    @include positionXY(55%, 86%);
-    color: $smoke;
-    font-size: 1em;
-
-    &:before {
-      @extend %weather_icon;
-      content: "\f084";
-      color: currentColor;
-      font-size: 0.9em;
-      left: -35%;
-      top: 40%;
-    }
-
-    @include respond-to(handhelds) {
-      font-size: 1em;
-    }
-  }
-
+.clear-day:before {
+  content: "\f00d";
 }
-  
-  .clear-day:before {
-    content: "\f00d";
-  }
 
-  .clear-night:before {
-    content: "\f02e";
-  }
+.clear-night:before {
+  content: "\f02e";
+}
 
-  .rain:before {
-    content: "\f019";
-  }
+.rain:before {
+  content: "\f019";
+}
 
-  .snow:before {
-    content: "\f01b";
-  }
+.snow:before {
+  content: "\f01b";
+}
 
-  .sleet:before {
-    content: "\f0b5";
-  }
+.sleet:before {
+  content: "\f0b5";
+}
 
-  .wind:before {
-    content: "\f021";
-  }
+.wind:before {
+  content: "\f021";
+}
 
-  .fog:before {
-    content: "\f014";
-  }
+.fog:before {
+  content: "\f014";
+}
 
-  .cloudy:before {
-    content: "\f013";
-  }
+.cloudy:before {
+  content: "\f013";
+}
 
-  .partly-cloudy-night:before {
-    content: "\f086";
-  }
+.partly-cloudy-night:before {
+  content: "\f086";
+}
 
-  .partly-cloudy-day:before {
-    content: "\f002";
-  }
+.partly-cloudy-day:before {
+  content: "\f002";
+}
