@@ -3,13 +3,14 @@ class Module {
   constructor(board, parentElem, socket){
     board["alt"] = false;
 
-    this.$state = {};
     this.$board = board;
+    this.$state = {};
     this.$parent = parentElem;
     this.$socket = socket;
     
     this.render();
     this.$el.appendTo(this.$parent);
+    this.updateState(board.state)
   }
 
   onClick(e) {
@@ -106,9 +107,9 @@ class Actuator extends Module {
   }
 
   updateState(data) {
+    console.log(data);
     super.updateState(data);
-    let $data = this.$el.find(".data");
-    $data.toggleClass('on', data.state === 'on');
+    this.$el.toggleClass('on', data.state === 'on');
   }
 
   render(){
