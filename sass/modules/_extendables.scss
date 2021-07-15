@@ -8,96 +8,88 @@
     @include respond-to(handhelds) {
       font-size: 1.4em;
     }
-  }
+}
   
-  %name {
-    font-size: 1.1em;
-    text-align: center;
-    color: $white;
-    width: 100%;
-    margin-top: 5px;
+%name {
+  font-size: 1.1em;
+  text-align: center;
+  color: $white;
+  width: 100%;
+  margin-top: 5px;
+
+  @include respond-to(handhelds) {
+    font-size: 0.8em;
+  }
+}
+
+%container {
+  position: relative;
+  width: $buttonSize;
+  height: $buttonSize;
+  background-color: $buttonColor;
+  margin-left: $nbspSize;
+  margin-top: $nbspSize;
+  box-sizing: border-box;
+
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @include respond-to(handhelds) {
+    width: $buttonSizeMobile;
+    height: $buttonSizeMobile;
+  }
+
+  &:after {  @extend %icon }
+
+  .name { @extend %name }
+  
+  &.md {
+    width: (2 * $buttonSize) + $nbspSize;
 
     @include respond-to(handhelds) {
-      font-size: 0.8em;
+      width: (2 * $buttonSizeMobile) + $nbspSize;
+    }
+
+    &:after {
+      font-size: 3em;
+      top: 55%;
     }
   }
 
-
-  %ip {
-    display: none;
-  }
-  
-  %container {
-    position: relative;
-    width: $buttonSize;
-    height: $buttonSize;
-    background-color: $buttonColor;
-    float: left;
-    margin-left: $nbspSize;
-    margin-top: $nbspSize;
-    box-sizing: border-box;
-
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
+  &.lg {
+    width: (2 * $buttonSize) + $nbspSize;
+    height: (2 * $buttonSize) + $nbspSize;  
 
     @include respond-to(handhelds) {
-      width: $buttonSizeMobile;
-      height: $buttonSizeMobile;
+      width: (2 * $buttonSizeMobile) + $nbspSize;
+      height: (2 * $buttonSizeMobile) + $nbspSize; 
     }
 
-    &:after {  @extend %icon }
-
-    .name { @extend %name }
-    .ip { @extend %ip }
-    
-    &.md {
-      width: (2 * $buttonSize) + $nbspSize;
-
-      @include respond-to(handhelds) {
-        width: (2 * $buttonSizeMobile) + $nbspSize;
-      }
-
-      &:after {
+    &:after {
         font-size: 3em;
         top: 55%;
       }
-  
+
+  }
+
+  &.disabled {
+    background-color: darken($buttonColor, 5%);
+    
+    .name {
+      color: lighten($buttonColor, 5%);
     }
 
-    &.lg {
-      width: (2 * $buttonSize) + $nbspSize;
-      height: (2 * $buttonSize) + $nbspSize;  
-
-      @include respond-to(handhelds) {
-        width: (2 * $buttonSizeMobile) + $nbspSize;
-        height: (2 * $buttonSizeMobile) + $nbspSize; 
-      }
-
-      &:after {
-          font-size: 3em;
-          top: 55%;
-        }
-  
+    &:after {
+      color: lighten($buttonColor, 5%);
     }
 
-    &.disabled {
-      background-color: darken($buttonColor, 5%);
-      
-      .name {
-        color: lighten($buttonColor, 5%);
-      }
-
-      &:after {
-        color: lighten($buttonColor, 5%);
-      }
-
-      &:before {
-        @extend %icon;
-        @include positionXY (15%, 85%);
-        font-size: 0.9em;
-        content: "\f111";
-        color: $onRed;
-      }
+    &:before {
+      @extend %icon;
+      @include positionXY (15%, 85%);
+      font-size: 0.9em;
+      content: "\f111";
+      color: $onRed;
     }
   }
+}

@@ -11,154 +11,154 @@
       text-align: center;
       margin-bottom: 5px;
     }
+}
+  
+.sensor.hall {
+  
+  &:before {
+    @extend %icon;
+    @include positionXY(33%, 60%);
+    content: "\f30b";
   }
   
-  .sensor.hall {
-    
-    &:before {
-      @extend %icon;
-      @include positionXY(33%, 60%);
-      content: "\f30b";
-    }
-    
-    &:after {
-      @extend %icon;
-      @include positionXY(66%, 60%);
-      content: "\f30a";
-    }
-    
+  &:after {
+    @extend %icon;
+    @include positionXY(66%, 60%);
+    content: "\f30a";
   }
+  
+}
 
-  .sensor.hall.active {
-    
-    &:before {
-      content: "\f30a";
-      color: $onOrange;
-    }
-    
-    &:after {
-      content: "\f30b";
-      color: $onOrange;
-    }
-   
+.sensor.hall.active {
+  
+  &:before {
+    content: "\f30a";
+    color: $onOrange;
   }
   
-  .sensor.lock {
-    
-    &:after {
-      @extend %icon;
-      content: "\f023";
-    }
-    
+  &:after {
+    content: "\f30b";
+    color: $onOrange;
   }
   
-  .sensor.lock.active {
-    
-    &:after {
-      content: "\f3c1";
-      color: $onOrange;
-    }
-   
-  }
-  
-  .sensor.dht {
-    .data {
-      @include positionXY(50%,60%);
-      font-weight: 600;
-      color: $onBlue;
-      font-size: 2em;
+}
 
-      @include respond-to(handhelds) {
-        font-size: 1.4em;
-      }
+.sensor.lock {
+  
+  &:after {
+    @extend %icon;
+    content: "\f023";
+  }
+  
+}
+
+.sensor.lock.active {
+  
+  &:after {
+    content: "\f3c1";
+    color: $onOrange;
+  }
+  
+}
+
+.sensor.dht {
+  .data {
+    @include positionXY(50%,60%);
+    font-weight: 600;
+    color: $onBlue;
+    font-size: 2em;
+
+    @include respond-to(handhelds) {
+      font-size: 1.4em;
     }
-    
+  }
+  
+  &:after {
+    @extend %icon;
+    font-family: $fontFamily;
+    font-weight: 600;
+    color: $onBlue;
+    font-size: 1.5em;
+    @include positionXY(87%,55%);
+    content: "°";
+
+    @include respond-to(handhelds) {
+      font-size: 1em;
+    }
+  }
+  
+}
+
+.sensor.current {
+  .data {
+    @include positionXY(40%,60%);
+    font-weight: 600;
+    color: $white;
+    font-size: 2em;
+  }
+  
+  &:after {
+    @extend %icon;
+    font-family: $fontFamily;
+    font-weight: 400;
+    font-size: 1.5em;
+    @include positionXY(75%,60%);
+    content: "KWh";
+
+    @include respond-to(handhelds) {
+      font-size: 1em;
+    }
+  } 
+}
+
+.sensor.caudal {
+  .data {
     &:after {
       @extend %icon;
       font-family: $fontFamily;
-      font-weight: 600;
-      color: $onBlue;
-      font-size: 1.5em;
-      @include positionXY(87%,55%);
-      content: "°";
+      font-weight: 700;
+      font-size: 0.6em;
+      @include positionXY(50%, -40%);
+      content: "(l/h)";
 
       @include respond-to(handhelds) {
         font-size: 1em;
       }
     }
-    
   }
-  
-  .sensor.current {
-    .data {
-      @include positionXY(40%,60%);
-      font-weight: 600;
-      color: $white;
-      font-size: 2em;
+}
+
+
+.sensor.caudal.alt {
+  .data{
+    &:after {
+      content: "(lts)";
     }
-    
+  }
+}
+
+.sensor.filler {
+  .data {
     &:after {
       @extend %icon;
       font-family: $fontFamily;
-      font-weight: 400;
-      font-size: 1.5em;
-      @include positionXY(75%,60%);
-      content: "KWh";
+      font-weight: 700;
+      font-size: 0.6em;
+      @include positionXY(50%, -40%);
+      content: "(l/h)";
 
       @include respond-to(handhelds) {
         font-size: 1em;
       }
-    } 
-  }
-
-  .sensor.caudal {
-    .data {
-      &:after {
-        @extend %icon;
-        font-family: $fontFamily;
-        font-weight: 700;
-        font-size: 0.6em;
-        @include positionXY(50%, -40%);
-        content: "(l/h)";
-  
-        @include respond-to(handhelds) {
-          font-size: 1em;
-        }
-      }
     }
   }
-  
+}
 
-  .sensor.caudal.alt {
-    .data{
-      &:after {
-        content: "(lts)";
-      }
+
+.sensor.filler.alt {
+  .data{
+    &:after {
+      content: "(lts)";
     }
   }
-
-  .sensor.filler {
-    .data {
-      &:after {
-        @extend %icon;
-        font-family: $fontFamily;
-        font-weight: 700;
-        font-size: 0.6em;
-        @include positionXY(50%, -40%);
-        content: "(l/h)";
-  
-        @include respond-to(handhelds) {
-          font-size: 1em;
-        }
-      }
-    }
-  }
-  
-
-  .sensor.filler.alt {
-    .data{
-      &:after {
-        content: "(lts)";
-      }
-    }
-  }
+}
