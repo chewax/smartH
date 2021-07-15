@@ -1,276 +1,206 @@
-$(document).ready(function(){
+class Module {
 
-  let sensors = [];
-  let actuators = [];
+  constructor(board, parentElem, socket){
+    board["alt"] = false;
 
-  let socket = io();
-  let serverStatus = ""
-  let client = {
-    id: "someuniqueidprobablylogintoken",
-    name: "Daniel"
-  }
-
-  socket.on('disconnect', function() {
-    serverStatus = "offline"
-  })
-
-  socket.on('connect', function() {
-    clearModules();
-    serverStatus = "online"
-    socket.emit('console:register', client);
-    socket.emit('console:boards:get');
-  })
-
-  socket.on("console:boards:get", loadModules)
-  socket.on("console:board:new", appendBoard);
-  socket.on("console:board:disable", disableModule)
-  socket.on("console:board:enable", enableModule)
-  socket.on("console:board:data", updateData)
-
-  
-  function clearModules () {
-    $("#controls").empty();
-  }
-
-  function loadModules (boards) {
-    boards.forEach( board => { appendBoard(board) });
-  }
-
-  function updateData(data) {
-
-    console.log(data);
-
-    switch (data.type) {
-      case "dht": 
-        updateModuleTemperature(data); 
-        break;
-
-      case "switch": 
-        updateModuleState(data);
-        break;
-
-      case "caudal": 
-        updateModuleCaudal(data);
-        break;
-    }
-
-  } 
-
-  function updateModuleCaudal (data) {
-    let $data = $(`[id^='${data.id}'] .data`);
-    let sensor = getSensor(data.id);
-
-    if (sensor.alt) {
-      let idx = data.vol.indexOf(".");
-      $data.text(data.vol.substr(0,idx+2));
-    }
-    else {
-      let idx = data.lph.indexOf(".");
-      $data.text(data.lph.substr(0,idx));
-    }
+    this.$state = {};
+    this.$board = board;
+    this.$parent = parentElem;
+    this.$socket = socket;
     
+    this.render();
+    this.$el.appendTo(this.$parent);
   }
 
-  function updateModuleTemperature (data) {
-    let $data = $(`[id^='${data.id}'] .data`);
-    $data.text(data.temperature.substr(0,4));
+  onClick(e) {
+    e.preventDefault();
   }
 
-  function updateModuleState (data) {
-    let $data = $(`[id^='${data.id}']`);
+  updateState(data) {
+    this.$state = data;
+  }
+
+  disable(){
+    this.$el.addClass('disabled');
+  }
+
+  enable(){
+    this.$el.removeClass('disabled');
+  }
+
+  render(){
+    this.$el = $( "<div/>", { id: `${this.$board.id}` });
+    if (this.$board.status === "offline") this.$el.addClass('disabled');
+    $("<span/>", { 
+      "class": "name",
+      "text": `${this.$board.name}`,
+    }).appendTo(this.$el);
+  }
+}
+
+class Sensor extends Module {
+
+  constructor(board, parentElem, socket){
+    super(board, parentElem, socket);
+    this.$el.on('click', this.onClick.bind(this));
+  }
+
+  onClick(e) {
+    super.onClick(e);
+    if (this.$board.status === "offline") return;
+    this.$board.alt = !this.$board.alt;
+    this.$el.toggleClass('alt');
+  }
+
+  updateState(data) {
+    super.updateState(data);
+    let $data = this.$el.find(".data");
+    let text = "";
+  
+    switch (this.$state.type) {
+
+      case 'dht':
+        text = this.$state.temperature.substr(0,4);
+        break;
+      
+      case 'caudal':
+        if (this.$board.alt) {
+          let idx = data.vol.indexOf(".");
+          text = data.vol.substr(0,idx+2);
+        }
+        else {
+          let idx = data.lph.indexOf(".");
+          text = data.lph.substr(0,idx)
+        }
+        break;
+    }
+
+    $data.text(text);
+  }
+  render(){
+    super.render();
+
+    $("<span/>", { 
+      "class": "data",
+      "text": "",
+    }).appendTo(this.$el);
+
+    this.$el.addClass('sensor');
+    this.$el.addClass(this.$board.actuator);
+  }
+}
+
+class Actuator extends Module {
+
+  constructor(board, parentElem, socket){
+    super(board, parentElem, socket);
+    this.$el.on('click', this.onClick.bind(this));
+  }
+
+  onClick(e) {
+    super.onClick(e);
+    if (this.$board.status === "offline") return;
+    let action = this.$el.hasClass('on') ? 'off' : 'on';
+    this.$el.toggleClass('on');
+    this.$socket.emit(`console:boards:actuate`, { id: this.$board.id, action });
+  }
+
+  updateState(data) {
+    super.updateState(data);
+    let $data = this.$el.find(".data");
     $data.toggleClass('on', data.state === 'on');
   }
 
-  function enableModule (board) {
-    let modules = $(`[id^='${board.id}']`);
-    modules.removeClass('disabled');
-    updateBoard (board);
+  render(){
+    super.render();
+    this.$el.addClass('actuator');
+    this.$el.addClass(this.$board.actuator);
   }
+}
 
-  function disableModule (id) {
-    let modules = $(`[id^='${id}']`);
-    modules.addClass('disabled');  
-  }
+class Dashboard {
 
-  function actuatorClick (e) {
-    e.preventDefault();
+  constructor(){
+    this.$socket = io();
     
-    if ($(this).hasClass('disabled')) return;
+    this.$socket.on("connect", this.onConnect.bind(this));
+    this.$socket.on("disconnect", this.onDisconnect.bind(this));
 
-    let action = $(this).hasClass('on') ? 'off' : 'on';
-    $(this).toggleClass('on');
+    this.$socket.on("console:boards:list", this.loadBoards.bind(this));
+    this.$socket.on("console:boards:new", this.addBoard.bind(this));
+    this.$socket.on("console:boards:disable", this.disableBoard.bind(this))
+    this.$socket.on("console:boards:enable", this.enableBoard.bind(this))
+    this.$socket.on("console:boards:data", this.updateBoardState.bind(this))
 
-    $(".macro").removeClass('active');
+    this.$el = $("#controls");
+    this.boards = [];
+    this.serverStatus = "offline";
+  };
 
-    socket.emit(`console:board:actuate`, { id: $(this).attr('id'), action });
-  } 
-
-  function sensorClick (e) {
-    e.preventDefault();
-    
-    if ($(this).hasClass('disabled')) return;
-
-    let id = $(this).attr('id');
-    let idx =  sensors.findIndex( a => a.id === id);
-    if (idx !== -1) {
-      sensors[idx].alt = !sensors[idx].alt; 
-      $(this).toggleClass('alt');
-    }
-  } 
-
-  function createModule (board) {
-    let $module = $( "<div/>", {
-        id: `${board.id}`
-      })
-
-    if (board.status == "offline") $module.addClass('disabled');
-    
-    $("<span/>", { 
-      "class": "name",
-      "text": `${board.name}`,
-    }).appendTo($module);
-
-    // $("<span/>", { 
-    //   "class": "ip",
-    //   "text": `${board.ip}`,
-    // }).appendTo($module); 
-
-    return $module;
-    
+  onConnect(){
+    this.clearModules();
+    this.serverStatus = "online";
+    this.$socket.emit('console:register', {
+      id: "someuniqueidprobablylogintoken",
+      name: "Daniel"
+    });
+    this.$socket.emit('console:boards:get');
   }
 
-  function getSensor(id){
-    let idx =  sensors.findIndex( a => a.id === id);
-    if (idx !== -1) return sensors[idx];
+  onDisconnect(){
+    this.serverStatus = "offline"
   }
 
-  function addSensor (board) {
-    board["alt"] = false;
-    sensors.push(board);
-
-    let $controls = $("#controls");
-    let $module = createModule(board);
-
-    $("<span/>", { 
-      "class": "data",
-      "text": "",
-    }).appendTo($module);
-
-    $module.addClass('sensor');
-    $module.addClass(board.actuator);
-    $module.on('click', sensorClick);
-    $module.appendTo($controls);
+  disableBoard(id) {
+    let idx = this.boards.findIndex( b => b.$board.id === id);
+    if (idx !== -1) this.boards[idx].disable();
   }
 
-
-  function addActuator (board) {
-    actuators.push(board);
-
-    let $controls = $("#controls");
-    let $module = createModule(board);
-
-    $module.addClass('actuator');
-    $module.addClass(board.actuator);
-    $module.on('click', actuatorClick);
-
-    $module.appendTo($controls);
+  enableBoard(id) {
+    let idx = this.boards.findIndex( b => b.$board.id === id);
+    if (idx !== -1) this.boards[idx].enable();
   }
 
-  function removeSensor (board) {
-    let idx =  sensors.findIndex( a => a.id === board.id);
-    if (idx !== -1) sensors.splice(idx,1);
-    let $module = $(`[id^='${board.id}'].sensor`);
-    $module.remove();
+  updateBoardState(data) {
+    let idx = this.boards.findIndex( b => b.$board.id === data.id);
+    if (idx !== -1) this.boards[idx].updateState(data);
   }
 
-  function removeActuator (board) {
-    let idx =  actuators.findIndex( a => a.id === board.id);
-    if (idx !== -1) actuators.splice(idx,1);
-    let $module = $(`[id^='${board.id}'].actuator`);
-    $module.remove();
+  clearModules () {
+    this.$el.empty();
   }
 
-  function upsertSensor (board) {
-    let $module = $(`[id^='${board.id}'].sensor`);
-    
-    
-    if ($module.length == 0) {
-      $module = $( "<div/>", {
-        id: `${board.id}`
-      })
-
-      if (board.status == "offline") $module.addClass('disabled');
-    }
-    else {
-      $module.empty();
-      $module.removeClass();
-    }
-    
-
-    $("<span/>", { 
-      "class": "name",
-      "text": `${board.name}`,
-    }).appendTo($module);
-
-    $("<span/>", { 
-      "class": "ip",
-      "text": `${board.ip}`,
-    }).appendTo($module);
-
-    $("<span/>", { 
-      "class": "data",
-      "text": "",
-    }).appendTo($module);
-
-    $module.addClass('sensor');
-    $module.addClass(board.sensor);
-
+  loadBoards(board){
+    board.forEach( this.addBoard.bind(this) );
   }
 
-  function upsertActuator (board) {
-    let $module = $(`[id^='${board.id}'].actuator`);
+  addBoard (board) {
+    let allowedSensors = ['dht', 'caudal', 'filter'];
+    let idx = allowedSensors.findIndex( a => a === board.actuator);
 
-    if ($module.length == 0) {
-      
-      $module = $( "<div/>", {
-        id: `${board.id}`
-      })
-
-      if (board.status == "offline") $module.addClass('disabled');
-    }
-    else {
-      $module.empty();
-      $module.removeClass();
-    }
-
-    $("<span/>", { 
-      "class": "name",
-      "text": `${board.name}`,
-    }).appendTo($module);
-
-    $("<span/>", { 
-      "class": "ip",
-      "text": `${board.ip}`,
-    }).appendTo($module);
-
-
-    $module.addClass('actuator');
-    $module.addClass(board.actuator);
+    if (idx !== -1) this.addSensor(board);
+    else this.addActuator(board);
   }
 
-  function appendBoard (board) {
-    if (board.actuator == 'dht') addSensor(board);
-    if (board.actuator == 'caudal') addSensor(board);
-    if (board.actuator == 'filler') addSensor(board);
-    else addActuator(board);
+  addSensor(board) {
+    let idx = this.boards.findIndex( b => b.$board.id === board.id);
+    let sensor = new Sensor(board, this.$el, this.$socket);
+
+     //we find an existing sensor with that id. Need to recreate in that very spot
+    if (idx !== -1) this.boards.splice(idx,1,sensor);
+    else this.boards.push(sensor); //else we just add at the end
   }
 
-  function updateBoard (board) {
-    if (!isNull(board.sensor)) upsertSensor (board);
-    else removeSensor (board);
+  addActuator(board) {
+    let idx = this.boards.findIndex( b => b.$board.id === board.id);
+    let actuator = new Actuator(board, this.$el, this.$socket);
 
-    if (!isNull(board.actuator)) upsertActuator (board);
-    else removeActuator (board);
+    //we find an existing actuator with that id. Need to recreate in that very spot
+    if (idx !== -1) this.boards.splice(idx,1,actuator);
+    else this.boards.push(actuator); //else we just add at the end
   }
+}
 
+$(document).ready(function(){
+  let dash = new Dashboard();
 })
