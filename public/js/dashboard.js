@@ -22,10 +22,12 @@ class Module {
   }
 
   disable(){
+    this.$board.status = 'offline';
     this.$el.addClass('disabled');
   }
 
   enable(){
+    this.$board.status = 'online';
     this.$el.removeClass('disabled');
   }
 
@@ -61,7 +63,7 @@ class Sensor extends Module {
     switch (this.$state.type) {
 
       case 'dht':
-        text = this.$state.temperature.substr(0,4);
+        text = `${this.$state.temperature.substr(0,4)}`;
         break;
       
       case 'caudal':
@@ -103,6 +105,7 @@ class Actuator extends Module {
     if (this.$board.status === "offline") return;
     let action = this.$el.hasClass('on') ? 'off' : 'on';
     this.$el.toggleClass('on');
+    console.log(this.$board);
     this.$socket.emit(`console:boards:actuate`, { id: this.$board.id, action });
   }
 

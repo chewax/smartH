@@ -3,7 +3,7 @@ body {
   background-color: #1a1a1a;
   font-family: Helvetica, sans-serif; }
 
-.actuator:after, .sensor:after, .forecast:after, .disabled.actuator:before, .disabled.sensor:before, .disabled.forecast:before, .actuator.bulb:after, .actuator.valve:after, .actuator.toggle:after, .actuator.switch:after, .sensor.hall:before, .sensor.hall:after, .sensor.lock:after, .sensor.dht:after, .sensor.current:after, .sensor.caudal .data:after, .sensor.filler .data:after, .today:before {
+.actuator:after, .sensor:after, .forecast:after, .disabled.actuator:before, .disabled.sensor:before, .disabled.forecast:before, .actuator.bulb:after, .actuator.valve:after, .actuator.toggle:after, .actuator.switch:after, .sensor.hall:before, .sensor.hall:after, .sensor.lock:after, .sensor.dht .data:after, .sensor.current:after, .sensor.caudal .data:after, .sensor.filler .data:after, .today:before {
   position: absolute;
   left: 50%;
   top: 60%;
@@ -13,7 +13,7 @@ body {
   font-family: "Font Awesome 5 Free";
   font-weight: 900; }
   @media only screen and (max-width: 430px) {
-    .actuator:after, .sensor:after, .forecast:after, .disabled.actuator:before, .disabled.sensor:before, .disabled.forecast:before, .actuator.bulb:after, .actuator.valve:after, .actuator.toggle:after, .actuator.switch:after, .sensor.hall:before, .sensor.hall:after, .sensor.lock:after, .sensor.dht:after, .sensor.current:after, .sensor.caudal .data:after, .sensor.filler .data:after, .today:before {
+    .actuator:after, .sensor:after, .forecast:after, .disabled.actuator:before, .disabled.sensor:before, .disabled.forecast:before, .actuator.bulb:after, .actuator.valve:after, .actuator.toggle:after, .actuator.switch:after, .sensor.hall:before, .sensor.hall:after, .sensor.lock:after, .sensor.dht .data:after, .sensor.current:after, .sensor.caudal .data:after, .sensor.filler .data:after, .today:before {
       font-size: 1.4em; } }
 
 .actuator .name, .sensor .name, .forecast .name {
@@ -61,9 +61,8 @@ body {
       font-size: 3em;
       top: 55%; }
   .disabled.actuator, .disabled.sensor, .disabled.forecast {
-    background-color: #272727; }
-    .disabled.actuator .name, .disabled.sensor .name, .disabled.forecast .name {
-      color: #414141; }
+    background-color: #272727;
+    color: #414141 !important; }
     .disabled.actuator:after, .disabled.sensor:after, .disabled.forecast:after {
       color: #414141; }
     .disabled.actuator:before, .disabled.sensor:before, .disabled.forecast:before {
@@ -74,6 +73,9 @@ body {
       font-size: 0.9em;
       content: "\f111";
       color: #fa3e0a; }
+
+.actuator.disabled .name {
+  color: #414141; }
 
 .actuator.bulb:after {
   content: "\f0eb"; }
@@ -111,6 +113,12 @@ body {
     width: 100%;
     text-align: center;
     margin-bottom: 5px; }
+  .sensor.disabled .name {
+    color: #414141; }
+  .sensor.disabled .data {
+    color: #414141 !important; }
+  .sensor.disabled .data::after {
+    color: #414141 !important; }
 
 .sensor.hall:before {
   position: absolute;
@@ -150,18 +158,18 @@ body {
   @media only screen and (max-width: 430px) {
     .sensor.dht .data {
       font-size: 1.4em; } }
-.sensor.dht:after {
+.sensor.dht .data:after {
   font-family: Helvetica, sans-serif;
   font-weight: 600;
   color: #1398fa;
-  font-size: 1.5em;
+  font-size: 0.8em;
   position: absolute;
   left: 87%;
-  top: 55%;
+  top: 45%;
   transform: translate(-50%, -50%);
   content: "°"; }
   @media only screen and (max-width: 430px) {
-    .sensor.dht:after {
+    .sensor.dht .data:after {
       font-size: 1em; } }
 
 .sensor.current .data {

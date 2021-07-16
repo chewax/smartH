@@ -76,10 +76,7 @@
 
   &.disabled {
     background-color: darken($buttonColor, 5%);
-    
-    .name {
-      color: lighten($buttonColor, 5%);
-    }
+    color: lighten($buttonColor, 5%) !important; 
 
     &:after {
       color: lighten($buttonColor, 5%);

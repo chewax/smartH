@@ -11,6 +11,20 @@
       text-align: center;
       margin-bottom: 5px;
     }
+
+    &.disabled {
+      .name {
+        color: lighten($buttonColor, 5%);
+      }
+  
+      .data {
+        color: lighten($buttonColor, 5%) !important;
+      }
+
+      .data::after{
+        color: lighten($buttonColor, 5%) !important;
+      }
+    }
 }
   
 .sensor.hall {
@@ -62,6 +76,7 @@
 }
 
 .sensor.dht {
+
   .data {
     @include positionXY(50%,60%);
     font-weight: 600;
@@ -73,13 +88,13 @@
     }
   }
   
-  &:after {
+  .data:after {
     @extend %icon;
     font-family: $fontFamily;
     font-weight: 600;
     color: $onBlue;
-    font-size: 1.5em;
-    @include positionXY(87%,55%);
+    font-size: 0.8em;
+    @include positionXY(87%,45%);
     content: "°";
 
     @include respond-to(handhelds) {

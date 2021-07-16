@@ -1,51 +1,57 @@
 .actuator {
-    @extend %container;  
+  @extend %container;  
+}
+ 
+.actuator.disabled {
+  .name {
+    color: lighten($buttonColor, 5%);
   }
-  
-  .actuator.bulb {
-    &:after {
-      @extend %icon;
-      content: "\f0eb";
-    }
-  }
-  .actuator.bulb.on {
-      &:after { color: $onGreen}
-  }
-  
-  .actuator.valve {
-    &:after {
-      @extend %icon;
-      content: "\f043";
-    }
-  }
-  .actuator.valve.on {
-      &:after { color: $onBlue}
-  }
+}
 
-  .actuator.toggle {
-    &:after {
-      @extend %icon;
-      content: "\f204";
+.actuator.bulb {
+  &:after {
+    @extend %icon;
+    content: "\f0eb";
+  }
+}
+.actuator.bulb.on {
+    &:after { color: $onGreen}
+}
+
+.actuator.valve {
+  &:after {
+    @extend %icon;
+    content: "\f043";
+  }
+}
+.actuator.valve.on {
+    &:after { color: $onBlue}
+}
+
+.actuator.toggle {
+  &:after {
+    @extend %icon;
+    content: "\f204";
+  }
+}
+
+.actuator.toggle.on {
+    &:after { 
+      color: $onBlue;
+      content: "\f205";
     }
-  }
+}
 
-  .actuator.toggle.on {
-      &:after { 
-        color: $onBlue;
-        content: "\f205";
-      }
+.actuator.switch {
+  &:after {
+    @extend %icon;
+    content: "\f204";
   }
+}
 
-  .actuator.switch {
-    &:after {
-      @extend %icon;
-      content: "\f204";
+.actuator.switch.on {
+    &:after { 
+      color: $onBlue;
+      content: "\f205";
     }
-  }
-
-  .actuator.switch.on {
-      &:after { 
-        color: $onBlue;
-        content: "\f205";
-      }
-  }
+}
