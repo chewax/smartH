@@ -105,12 +105,10 @@ class Actuator extends Module {
     if (this.$board.status === "offline") return;
     let action = this.$el.hasClass('on') ? 'off' : 'on';
     this.$el.toggleClass('on');
-    console.log(this.$board);
     this.$socket.emit(`console:boards:actuate`, { id: this.$board.id, action });
   }
 
   updateState(data) {
-    console.log(data);
     super.updateState(data);
     this.$el.toggleClass('on', data.state === 'on');
   }
@@ -166,8 +164,8 @@ class Dashboard {
   }
 
   updateBoardState(data) {
-    let idx = this.boards.findIndex( b => b.$board.id === data.id);
-    if (idx !== -1) this.boards[idx].updateState(data);
+    let b = this.boards.find( b => b.$board.id === data.id);
+    if (b) b.updateState(data);
   }
 
   clearModules () {
@@ -179,7 +177,7 @@ class Dashboard {
   }
 
   addBoard (board) {
-    let allowedSensors = ['dht', 'caudal', 'filter'];
+    let allowedSensors = ['dht', 'caudal', 'filler'];
     let idx = allowedSensors.findIndex( a => a === board.actuator);
 
     if (idx !== -1) this.addSensor(board);
