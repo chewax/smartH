@@ -1,3 +1,6 @@
+include mixins/nav
+include mixins/footer
+
 html
     meta(name="viewport" content="minimal-ui width=device-width, initial-scale=1")
     head
@@ -6,17 +9,18 @@ html
         link(rel="stylesheet", href="/static/css/weather-icons.min.css")
         link(rel="stylesheet", href="https://use.fontawesome.com/releases/v5.2.0/css/all.css")
     body
-        #app
-            block header
+        div(class="content")
+            //- div(class="content__sidebar")
+            //-   +nav(scenes)
 
-            #content
+            div(class="content__main")
                 block content
-
-            block footer
+                +footer
             
             script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js')
             script(src='/socket/socket.io.js')
             script(src='/static/js/utils.js')
+            script(src='/static/js/nav.js')
             block scripts
         
         
