@@ -4,10 +4,6 @@
     color: $smoke;
     font-family: $iconFontFamily;
     font-weight: 900;
-
-    @include respond-to(handhelds) {
-      font-size: 1.4em;
-    }
 }
   
 %name {
@@ -15,7 +11,7 @@
   text-align: center;
   color: $white;
   width: 100%;
-  margin-top: 5px;
+  margin-top: 10px;
 
   @include respond-to(handhelds) {
     font-size: 0.8em;

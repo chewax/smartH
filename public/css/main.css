@@ -3,6 +3,23 @@ body {
   background-color: #1a1a1a;
   font-family: Helvetica, sans-serif; }
 
+.content {
+  display: flex;
+  height: 100%; }
+
+.content__sidebar {
+  width: 10%;
+  min-width: 80px;
+  max-width: 100px;
+  background-color: #4d4d4d; }
+
+.content__main {
+  /* Take the remaining width */
+  flex: 1;
+  margin-left: 20px;
+  /* Make it scrollable */
+  overflow: auto; }
+
 .actuator:after, .sensor:after, .forecast:after, .disabled.actuator:before, .disabled.sensor:before, .disabled.forecast:before, .actuator.bulb:after, .actuator.valve:after, .actuator.toggle:after, .actuator.switch:after, .sensor.hall:before, .sensor.hall:after, .sensor.lock:after, .sensor.dht .data:after, .sensor.current:after, .sensor.caudal .data:after, .sensor.filler .data:after, .today:before {
   position: absolute;
   left: 50%;
@@ -12,16 +29,13 @@ body {
   color: #787878;
   font-family: "Font Awesome 5 Free";
   font-weight: 900; }
-  @media only screen and (max-width: 430px) {
-    .actuator:after, .sensor:after, .forecast:after, .disabled.actuator:before, .disabled.sensor:before, .disabled.forecast:before, .actuator.bulb:after, .actuator.valve:after, .actuator.toggle:after, .actuator.switch:after, .sensor.hall:before, .sensor.hall:after, .sensor.lock:after, .sensor.dht .data:after, .sensor.current:after, .sensor.caudal .data:after, .sensor.filler .data:after, .today:before {
-      font-size: 1.4em; } }
 
 .actuator .name, .sensor .name, .forecast .name {
   font-size: 1.1em;
   text-align: center;
   color: #c8c8c8;
   width: 100%;
-  margin-top: 5px; }
+  margin-top: 10px; }
   @media only screen and (max-width: 430px) {
     .actuator .name, .sensor .name, .forecast .name {
       font-size: 0.8em; } }
@@ -204,7 +218,7 @@ body {
   content: "(l/h)"; }
   @media only screen and (max-width: 430px) {
     .sensor.caudal .data:after {
-      font-size: 1em; } }
+      font-size: 0.5em; } }
 
 .sensor.caudal.alt .data:after {
   content: "(lts)"; }
@@ -220,7 +234,11 @@ body {
   content: "(l/h)"; }
   @media only screen and (max-width: 430px) {
     .sensor.filler .data:after {
-      font-size: 1em; } }
+      position: absolute;
+      left: 50%;
+      top: -13%;
+      transform: translate(-50%, -50%);
+      font-size: 0.35em; } }
 
 .sensor.filler.alt .data:after {
   content: "(lts)"; }
@@ -298,5 +316,35 @@ body {
   color: #7c7c7c;
   font-size: 0.6em;
   font-weight: 700; }
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; }
+  .nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #c8c8c8;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 100;
+    font-family: Helvetica, sans-serif; }
+    .nav ul li {
+      text-align: center;
+      margin-top: 10px;
+      background-color: #343434;
+      height: 64px;
+      width: 64px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%; }
+    .nav ul li.selected {
+      background-color: #c8c8c8;
+      color: #343434;
+      border: 2px solid #343434; }
 
 /*# sourceMappingURL=main.css.map */

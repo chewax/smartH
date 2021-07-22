@@ -14,7 +14,6 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 // Socket server
 import SocketServer from './lib/modules/socket/socket.js';
 let socket = new SocketServer();
-
 socket.initialize(server);
 
 import db from './lib/config/database.js';

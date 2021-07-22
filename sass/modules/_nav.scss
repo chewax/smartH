@@ -1,0 +1,40 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  
+    color: $white;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 100;
+    
+    font-family: $fontFamily;
+
+    li {
+      
+      text-align: center;
+      margin-top: 10px;
+      background-color: lighten($backgroundColor,10);
+      height: $buttonSizeMobile * 0.8;
+      width: $buttonSizeMobile * 0.8;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+    }
+
+    li.selected {
+      background-color: $white;
+      color: lighten($backgroundColor,10);
+      border: 2px solid lighten($backgroundColor,10);
+      // border-right: none;
+    }
+  }
+}

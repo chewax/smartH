@@ -137,7 +137,7 @@
       content: "(l/h)";
 
       @include respond-to(handhelds) {
-        font-size: 1em;
+        font-size: 0.5em;
       }
     }
   }
@@ -163,7 +163,8 @@
       content: "(l/h)";
 
       @include respond-to(handhelds) {
-        font-size: 1em;
+        @include positionXY(50%, -13%);
+        font-size: 0.35em;
       }
     }
   }
