@@ -24,7 +24,7 @@ body {
   overflow: auto;
 }
 
-.today:before, .sensor.filler .data:after, .sensor.caudal .data:after, .sensor.current:after, .sensor.dht .data:after, .sensor.lock:after, .sensor.hall:after, .sensor.hall:before, .actuator.switch:after, .actuator.toggle:after, .actuator.valve:after, .actuator.bulb:after, .disabled.forecast:before, .disabled.sensor:before, .disabled.actuator:before, .forecast:after, .sensor:after, .actuator:after {
+.sensor.filler .data:after, .sensor.caudal .data:after, .sensor.current:after, .sensor.dht .data:after, .sensor.lock:after, .sensor.hall:after, .sensor.hall:before, .actuator.switch:after, .actuator.toggle:after, .actuator.valve:after, .actuator.bulb:after, .disabled.forecast:before, .disabled.sensor:before, .disabled.actuator:before, .forecast:after, .sensor:after, .actuator:after {
   position: absolute;
   left: 50%;
   top: 60%;
@@ -303,89 +303,28 @@ body {
   content: "(lts)";
 }
 
-.today:before {
-  font-family: "weathericons";
-  color: #fb870b;
-  font-size: 1.5em;
-  content: "";
-  left: 0%;
-  top: 50%;
-}
-
 .forecast {
   background-color: #4d4d4d;
-  text-align: center;
   font-size: 1em;
   display: flex;
   flex-direction: column;
-  padding: 5px;
+  align-items: center;
 }
-
-.today {
-  position: relative;
-  width: 100%;
-  height: 100%;
+.forecast .wi {
+  font-family: "weathericons";
+  color: #fb870b;
+  font-size: 3em;
 }
-.today:before {
-  position: absolute;
-  left: 50%;
-  top: 45%;
-  transform: translate(-50%, -50%);
-}
-.today .temp {
-  position: absolute;
-  left: 50%;
-  top: 85%;
-  transform: translate(-50%, -50%);
+.forecast .temp {
   font-size: 1.3em;
   font-weight: 600;
   color: #fb870b;
-  width: 100%;
+  margin-bottom: 10px;
 }
 @media only screen and (max-width: 430px) {
-  .today .temp {
+  .forecast .temp {
     font-size: 1.3em;
   }
-}
-
-.clear-day:before {
-  content: "";
-}
-
-.clear-night:before {
-  content: "";
-}
-
-.rain:before {
-  content: "";
-}
-
-.snow:before {
-  content: "";
-}
-
-.sleet:before {
-  content: "";
-}
-
-.wind:before {
-  content: "";
-}
-
-.fog:before {
-  content: "";
-}
-
-.cloudy:before {
-  content: "";
-}
-
-.partly-cloudy-night:before {
-  content: "";
-}
-
-.partly-cloudy-day:before {
-  content: "";
 }
 
 .ticker {

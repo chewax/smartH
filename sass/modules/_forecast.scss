@@ -1,82 +1,100 @@
-%weather_icon {
-  @extend %icon;
-  font-family: $weatherFontFamily;
-  color: $onOrange;
-  font-size: 1.5em;
-  content: "\f00d";
-  left: 0%;
-  top: 50%;
-}
+// %weather_icon {
+//   @extend %icon;
+//   font-family: $weatherFontFamily;
+//   color: $onOrange;
+//   font-size: 3em;
+//   content: "\f00d";
+//   left: 0%;
+//   top: 50%;
+// }
 
 .forecast {
   @extend %container;
   background-color: lighten($backgroundColor, 20%);
-  text-align: center;
+  // text-align: center;
   font-size: 1em;
   display: flex;
   flex-direction: column;
-  padding:5px;
-}
-  
-.today {
-  position: relative;
-  width: 100%;
-  height: 100%;
+  align-items: center;
 
-  &:before { 
-    @extend %weather_icon;
-    @include positionXY(50%, 45%);
+  .wi {
+    font-family: $weatherFontFamily;
+    color: $onOrange;
+    font-size: 3em;
   }
 
   .temp {
-    @include positionXY(50%, 85%);
     font-size: 1.3em;
-    font-weight: 600;;
+    font-weight: 600;
     color: $onOrange;
-    width: 100%;
+    margin-bottom: 10px;
 
     @include respond-to(handhelds) {
       font-size: 1.3em;
     }
   }
 }
+
+
+// .today {
+//   position: relative;
+//   width: 100%;
+//   height: 100%;
+
+//   &:before { 
+//     @extend %weather_icon;
+//     @include positionXY(50%, 45%);
+//   }
+
+//   .temp {
+//     @include positionXY(50%, 85%);
+//     font-size: 1.3em;
+//     font-weight: 600;;
+//     color: $onOrange;
+//     width: 100%;
+
+//     @include respond-to(handhelds) {
+//       font-size: 1.3em;
+//     }
+//   }
+// }
   
-.clear-day:before {
-  content: "\f00d";
-}
+// .clear-day:before {
+//   content: "\f00d";
+// }
 
-.clear-night:before {
-  content: "\f02e";
-}
+// .clear-night:before {
+//   content: "\f02e";
+// }
 
-.rain:before {
-  content: "\f019";
-}
+// .rain:before {
+//   content: "\f019";
+// }
 
-.snow:before {
-  content: "\f01b";
-}
+// .snow:before {
+//   content: "\f01b";
+// }
 
-.sleet:before {
-  content: "\f0b5";
-}
+// .sleet:before {
+//   content: "\f0b5";
+// }
 
-.wind:before {
-  content: "\f021";
-}
+// .wind:before {
+//   content: "\f021";
+// }
 
-.fog:before {
-  content: "\f014";
-}
+// .fog:before {
+//   content: "\f014";
+// }
 
-.cloudy:before {
-  content: "\f013";
-}
+// .cloudy:before {
+//   content: "\f013";
+// }
 
-.partly-cloudy-night:before {
-  content: "\f086";
-}
+// .partly-cloudy-night:before {
+//   content: "\f086";
+// }
 
-.partly-cloudy-day:before {
-  content: "\f002";
-}
+// .partly-cloudy-day:before {
+//   content: "\f002";
+// }

@@ -29,7 +29,10 @@
     "socket.io": "^2.1.1"
   },
   "devDependencies": {
+    "css-loader": "^6.2.0",
     "eslint": "^7.31.0",
-    "sass": "^1.36.0"
+    "path-dirname": "^1.0.2",
+    "sass": "^1.36.0",
+    "style-loader": "^3.2.1"
   }
 }
