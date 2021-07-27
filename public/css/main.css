@@ -56,7 +56,6 @@ body {
   background-color: #343434;
   margin-left: 4.5px;
   margin-top: 4.5px;
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -306,24 +305,37 @@ body {
 .forecast {
   background-color: #4d4d4d;
   font-size: 1em;
-  display: flex;
-  flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
+  position: relative;
 }
 .forecast .wi {
   font-family: "weathericons";
   color: #fb870b;
-  font-size: 3em;
+  font-size: 1.8em;
+}
+@media only screen and (max-width: 430px) {
+  .forecast .wi {
+    font-size: 1.4em;
+  }
+}
+.forecast .wi {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.forecast .wi:before {
+  content: "";
 }
 .forecast .temp {
-  font-size: 1.3em;
-  font-weight: 600;
-  color: #fb870b;
+  font-size: 1.1em;
+  font-weight: 200;
+  color: #c8c8c8;
   margin-bottom: 10px;
 }
 @media only screen and (max-width: 430px) {
   .forecast .temp {
-    font-size: 1.3em;
+    font-size: 0.8em;
   }
 }
 

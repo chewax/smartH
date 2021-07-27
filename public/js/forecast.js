@@ -2,29 +2,23 @@ $(document).ready(function(){
     let socket = io();
     socket.emit('console:forecast:get');
 
-
     let iconsMap = {
-        "clear-day": "wi-day-sunny"
+        '800': 'wi-day-sunny'
     };
 
-    socket.on("console:forecast:get", (data) => {
-        // <i class="wi wi-night-sleet"></i>
+    socket.on('console:forecast:get', (data) => {    
         
-        console.log(data.daily.data[0].icon);
+        console.log(data);
+        let $forecast = $('.forecast');
 
-        let $forecast = $(".forecast");
+        // $(this).attr('data-before','anything');
 
-         $(`<i class="wi ${iconsMap[data.daily.data[0].icon]}"></i>`)
+        $(`<i class="wi ${iconsMap[data.current.weather[0].id]}"></i>`)
             .appendTo($forecast);
 
-        // $today.addClass( iconsMap[data.daily.data[0].icon] );
-        $(`<span>${Math.round(data.daily.data[0].temperatureMax)}°/${Math.round(data.daily.data[0].temperatureMin)}°</span>`)
-            .addClass("temp")
+        $(`<span>${Math.round(data.current.temp)}°</span>`)
+            .addClass('temp')
             .appendTo($forecast);
-    })
-
-    let forecast = $("#forecast")
-
-
+    });
     
-})
+});
