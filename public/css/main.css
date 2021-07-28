@@ -4,24 +4,19 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
-.content {
+.container {
   display: flex;
+  flex-direction: column;
   height: 100%;
 }
 
-.content__sidebar {
-  width: 10%;
-  min-width: 80px;
-  max-width: 100px;
-  background-color: #4d4d4d;
+.container__header,
+.container__footer {
+  flex-shrink: 0;
 }
 
-.content__main {
-  /* Take the remaining width */
-  flex: 1;
-  margin-left: 20px;
-  /* Make it scrollable */
-  overflow: auto;
+.container__main {
+  flex-grow: 1;
 }
 
 .sensor.filler .data:after, .sensor.caudal .data:after, .sensor.current:after, .sensor.dht .data:after, .sensor.lock:after, .sensor.hall:after, .sensor.hall:before, .actuator.switch:after, .actuator.toggle:after, .actuator.valve:after, .actuator.bulb:after, .disabled.forecast:before, .disabled.sensor:before, .disabled.actuator:before, .forecast:after, .sensor:after, .actuator:after {
@@ -305,45 +300,86 @@ body {
 .forecast {
   background-color: #4d4d4d;
   font-size: 1em;
-  justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  position: relative;
 }
 .forecast .wi {
   font-family: "weathericons";
   color: #fb870b;
-  font-size: 1.8em;
-}
-@media only screen and (max-width: 430px) {
-  .forecast .wi {
-    font-size: 1.4em;
-  }
-}
-.forecast .wi {
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-.forecast .wi:before {
-  content: "";
+  font-size: 2em;
 }
 .forecast .temp {
-  font-size: 1.1em;
-  font-weight: 200;
-  color: #c8c8c8;
+  font-size: 1.3em;
+  font-weight: 600;
+  color: #fb870b;
   margin-bottom: 10px;
 }
 @media only screen and (max-width: 430px) {
   .forecast .temp {
-    font-size: 0.8em;
+    font-size: 1.3em;
   }
 }
 
-.ticker {
+* {
+  box-sizing: border-box;
+}
+
+@-webkit-keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+@keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+.ticker-wrap {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 2rem;
+  background-color: transparent;
+  padding-left: 100%;
+  box-sizing: content-box;
+}
+.ticker-wrap .ticker {
+  display: inline-block;
+  height: 2rem;
+  line-height: 2rem;
+  white-space: nowrap;
+  padding-right: 100%;
+  box-sizing: content-box;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-name: ticker;
+  animation-name: ticker;
+  -webkit-animation-duration: 30s;
+  animation-duration: 30s;
+}
+.ticker-wrap .ticker__item {
+  display: inline-block;
+  padding: 0 0.7rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #676767;
   text-transform: uppercase;
-  color: #7c7c7c;
-  font-size: 0.6em;
-  font-weight: 700;
 }
 
 .nav {
