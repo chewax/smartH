@@ -164,6 +164,7 @@ class Dashboard {
     }
 
     updateBoardState(data) {
+        console.log(data);
         let b = this.boards.find( b => b.$board.id === data.id);
         if (b) b.updateState(data);
     }

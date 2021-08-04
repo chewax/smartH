@@ -1,3 +1,6 @@
+import dotenv from 'dotenv';
+dotenv.config();
+
 import express from 'express';
 import config from './lib/config/config.js';
 import cors from './lib/config/cors.js';
@@ -17,6 +20,7 @@ let socket = new SocketServer();
 socket.initialize(server);
 
 import db from './lib/config/database.js';
+
 db.connect();
 
 app.set('views', __dirname + '/views');

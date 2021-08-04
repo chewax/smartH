@@ -8,13 +8,16 @@
     "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "sudo nodemon -L index.js",
+    "sass": "grunt --gruntfile Gruntfile.cjs watch"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.1",
     "chalk": "^2.4.1",
-    "dotenv": "^6.0.0",
+    "dotenv": "^6.2.0",
     "express": "^4.16.3",
     "figures": "^2.0.0",
     "grunt": "^1.0.3",
@@ -23,10 +26,13 @@
     "lowdb": "^2.1.0",
     "moment": "^2.22.2",
     "pug": "^2.0.3",
-    "request": "^2.87.0",
     "socket.io": "^2.1.1"
   },
   "devDependencies": {
-    "eslint": "^7.31.0"
+    "css-loader": "^6.2.0",
+    "eslint": "^7.31.0",
+    "path-dirname": "^1.0.2",
+    "sass": "^1.36.0",
+    "style-loader": "^3.2.1"
   }
 }

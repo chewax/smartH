@@ -1,26 +1,25 @@
 @charset "UTF-8";
 body {
   background-color: #1a1a1a;
-  font-family: Helvetica, sans-serif; }
+  font-family: Helvetica, sans-serif;
+}
 
-.content {
+.container {
   display: flex;
-  height: 100%; }
+  flex-direction: column;
+  height: 100%;
+}
 
-.content__sidebar {
-  width: 10%;
-  min-width: 80px;
-  max-width: 100px;
-  background-color: #4d4d4d; }
+.container__header,
+.container__footer {
+  flex-shrink: 0;
+}
 
-.content__main {
-  /* Take the remaining width */
-  flex: 1;
-  margin-left: 20px;
-  /* Make it scrollable */
-  overflow: auto; }
+.container__main {
+  flex-grow: 1;
+}
 
-.actuator:after, .sensor:after, .forecast:after, .disabled.actuator:before, .disabled.sensor:before, .disabled.forecast:before, .actuator.bulb:after, .actuator.valve:after, .actuator.toggle:after, .actuator.switch:after, .sensor.hall:before, .sensor.hall:after, .sensor.lock:after, .sensor.dht .data:after, .sensor.current:after, .sensor.caudal .data:after, .sensor.filler .data:after, .today:before {
+.sensor.filler .data:after, .sensor.caudal .data:after, .sensor.current:after, .sensor.dht .data:after, .sensor.lock:after, .sensor.hall:after, .sensor.hall:before, .actuator.switch:after, .actuator.toggle:after, .actuator.valve:after, .actuator.bulb:after, .disabled.forecast:before, .disabled.sensor:before, .disabled.actuator:before, .forecast:after, .sensor:after, .actuator:after {
   position: absolute;
   left: 50%;
   top: 60%;
@@ -28,19 +27,23 @@ body {
   font-size: 2em;
   color: #787878;
   font-family: "Font Awesome 5 Free";
-  font-weight: 900; }
+  font-weight: 900;
+}
 
-.actuator .name, .sensor .name, .forecast .name {
+.forecast .name, .sensor .name, .actuator .name {
   font-size: 1.1em;
   text-align: center;
   color: #c8c8c8;
   width: 100%;
-  margin-top: 10px; }
-  @media only screen and (max-width: 430px) {
-    .actuator .name, .sensor .name, .forecast .name {
-      font-size: 0.8em; } }
+  margin-top: 10px;
+}
+@media only screen and (max-width: 430px) {
+  .forecast .name, .sensor .name, .actuator .name {
+    font-size: 0.8em;
+  }
+}
 
-.actuator, .sensor, .forecast {
+.forecast, .sensor, .actuator {
   position: relative;
   float: left;
   width: 100px;
@@ -48,118 +51,151 @@ body {
   background-color: #343434;
   margin-left: 4.5px;
   margin-top: 4.5px;
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; }
-  @media only screen and (max-width: 430px) {
-    .actuator, .sensor, .forecast {
-      width: 80px;
-      height: 80px; } }
-  .md.actuator, .md.sensor, .md.forecast {
-    width: 204.5px; }
-    @media only screen and (max-width: 430px) {
-      .md.actuator, .md.sensor, .md.forecast {
-        width: 164.5px; } }
-    .md.actuator:after, .md.sensor:after, .md.forecast:after {
-      font-size: 3em;
-      top: 55%; }
-  .lg.actuator, .lg.sensor, .lg.forecast {
-    width: 204.5px;
-    height: 204.5px; }
-    @media only screen and (max-width: 430px) {
-      .lg.actuator, .lg.sensor, .lg.forecast {
-        width: 164.5px;
-        height: 164.5px; } }
-    .lg.actuator:after, .lg.sensor:after, .lg.forecast:after {
-      font-size: 3em;
-      top: 55%; }
-  .disabled.actuator, .disabled.sensor, .disabled.forecast {
-    background-color: #272727;
-    color: #414141 !important; }
-    .disabled.actuator:after, .disabled.sensor:after, .disabled.forecast:after {
-      color: #414141; }
-    .disabled.actuator:before, .disabled.sensor:before, .disabled.forecast:before {
-      position: absolute;
-      left: 15%;
-      top: 85%;
-      transform: translate(-50%, -50%);
-      font-size: 0.9em;
-      content: "\f111";
-      color: #fa3e0a; }
+  justify-content: space-between;
+}
+@media only screen and (max-width: 430px) {
+  .forecast, .sensor, .actuator {
+    width: 80px;
+    height: 80px;
+  }
+}
+.md.forecast, .md.sensor, .md.actuator {
+  width: 204.5px;
+}
+@media only screen and (max-width: 430px) {
+  .md.forecast, .md.sensor, .md.actuator {
+    width: 164.5px;
+  }
+}
+.md.forecast:after, .md.sensor:after, .md.actuator:after {
+  font-size: 3em;
+  top: 55%;
+}
+.lg.forecast, .lg.sensor, .lg.actuator {
+  width: 204.5px;
+  height: 204.5px;
+}
+@media only screen and (max-width: 430px) {
+  .lg.forecast, .lg.sensor, .lg.actuator {
+    width: 164.5px;
+    height: 164.5px;
+  }
+}
+.lg.forecast:after, .lg.sensor:after, .lg.actuator:after {
+  font-size: 3em;
+  top: 55%;
+}
+.disabled.forecast, .disabled.sensor, .disabled.actuator {
+  background-color: #272727;
+  color: #414141 !important;
+}
+.disabled.forecast:after, .disabled.sensor:after, .disabled.actuator:after {
+  color: #414141;
+}
+.disabled.forecast:before, .disabled.sensor:before, .disabled.actuator:before {
+  position: absolute;
+  left: 15%;
+  top: 85%;
+  transform: translate(-50%, -50%);
+  font-size: 0.9em;
+  content: "";
+  color: #fa3e0a;
+}
 
 .actuator.disabled .name {
-  color: #414141; }
+  color: #414141;
+}
 
 .actuator.bulb:after {
-  content: "\f0eb"; }
+  content: "";
+}
 
 .actuator.bulb.on:after {
-  color: #80d30b; }
+  color: #80d30b;
+}
 
 .actuator.valve:after {
-  content: "\f043"; }
+  content: "";
+}
 
 .actuator.valve.on:after {
-  color: #1398fa; }
+  color: #1398fa;
+}
 
 .actuator.toggle:after {
-  content: "\f204"; }
+  content: "";
+}
 
 .actuator.toggle.on:after {
   color: #1398fa;
-  content: "\f205"; }
+  content: "";
+}
 
 .actuator.switch:after {
-  content: "\f204"; }
+  content: "";
+}
 
 .actuator.switch.on:after {
   color: #1398fa;
-  content: "\f205"; }
+  content: "";
+}
 
 .sensor {
-  background-color: #4d4d4d; }
-  .sensor .data {
-    position: relative;
-    font-weight: 600;
-    color: #c8c8c8;
-    font-size: 2em;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 5px; }
-  .sensor.disabled .name {
-    color: #414141; }
-  .sensor.disabled .data {
-    color: #414141 !important; }
-  .sensor.disabled .data::after {
-    color: #414141 !important; }
+  background-color: #4d4d4d;
+}
+.sensor .data {
+  position: relative;
+  font-weight: 600;
+  color: #c8c8c8;
+  font-size: 2em;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.sensor.disabled .name {
+  color: #414141;
+}
+.sensor.disabled .data {
+  color: #414141 !important;
+}
+.sensor.disabled .data::after {
+  color: #414141 !important;
+}
 
 .sensor.hall:before {
   position: absolute;
   left: 33%;
   top: 60%;
   transform: translate(-50%, -50%);
-  content: "\f30b"; }
+  content: "";
+}
 .sensor.hall:after {
   position: absolute;
   left: 66%;
   top: 60%;
   transform: translate(-50%, -50%);
-  content: "\f30a"; }
+  content: "";
+}
 
 .sensor.hall.active:before {
-  content: "\f30a";
-  color: #fb870b; }
+  content: "";
+  color: #fb870b;
+}
 .sensor.hall.active:after {
-  content: "\f30b";
-  color: #fb870b; }
+  content: "";
+  color: #fb870b;
+}
 
 .sensor.lock:after {
-  content: "\f023"; }
+  content: "";
+}
 
 .sensor.lock.active:after {
-  content: "\f3c1";
-  color: #fb870b; }
+  content: "";
+  color: #fb870b;
+}
 
 .sensor.dht .data {
   position: absolute;
@@ -168,10 +204,13 @@ body {
   transform: translate(-50%, -50%);
   font-weight: 600;
   color: #1398fa;
-  font-size: 2em; }
-  @media only screen and (max-width: 430px) {
-    .sensor.dht .data {
-      font-size: 1.4em; } }
+  font-size: 2em;
+}
+@media only screen and (max-width: 430px) {
+  .sensor.dht .data {
+    font-size: 1.4em;
+  }
+}
 .sensor.dht .data:after {
   font-family: Helvetica, sans-serif;
   font-weight: 600;
@@ -181,10 +220,13 @@ body {
   left: 87%;
   top: 45%;
   transform: translate(-50%, -50%);
-  content: "°"; }
-  @media only screen and (max-width: 430px) {
-    .sensor.dht .data:after {
-      font-size: 1em; } }
+  content: "°";
+}
+@media only screen and (max-width: 430px) {
+  .sensor.dht .data:after {
+    font-size: 1em;
+  }
+}
 
 .sensor.current .data {
   position: absolute;
@@ -193,7 +235,8 @@ body {
   transform: translate(-50%, -50%);
   font-weight: 600;
   color: #c8c8c8;
-  font-size: 2em; }
+  font-size: 2em;
+}
 .sensor.current:after {
   font-family: Helvetica, sans-serif;
   font-weight: 400;
@@ -202,10 +245,13 @@ body {
   left: 75%;
   top: 60%;
   transform: translate(-50%, -50%);
-  content: "KWh"; }
-  @media only screen and (max-width: 430px) {
-    .sensor.current:after {
-      font-size: 1em; } }
+  content: "KWh";
+}
+@media only screen and (max-width: 430px) {
+  .sensor.current:after {
+    font-size: 1em;
+  }
+}
 
 .sensor.caudal .data:after {
   font-family: Helvetica, sans-serif;
@@ -215,13 +261,17 @@ body {
   left: 50%;
   top: -40%;
   transform: translate(-50%, -50%);
-  content: "(l/h)"; }
-  @media only screen and (max-width: 430px) {
-    .sensor.caudal .data:after {
-      font-size: 0.5em; } }
+  content: "(l/h)";
+}
+@media only screen and (max-width: 430px) {
+  .sensor.caudal .data:after {
+    font-size: 0.5em;
+  }
+}
 
 .sensor.caudal.alt .data:after {
-  content: "(lts)"; }
+  content: "(lts)";
+}
 
 .sensor.filler .data:after {
   font-family: Helvetica, sans-serif;
@@ -231,120 +281,139 @@ body {
   left: 50%;
   top: -40%;
   transform: translate(-50%, -50%);
-  content: "(l/h)"; }
-  @media only screen and (max-width: 430px) {
-    .sensor.filler .data:after {
-      position: absolute;
-      left: 50%;
-      top: -13%;
-      transform: translate(-50%, -50%);
-      font-size: 0.35em; } }
+  content: "(l/h)";
+}
+@media only screen and (max-width: 430px) {
+  .sensor.filler .data:after {
+    position: absolute;
+    left: 50%;
+    top: -13%;
+    transform: translate(-50%, -50%);
+    font-size: 0.35em;
+  }
+}
 
 .sensor.filler.alt .data:after {
-  content: "(lts)"; }
-
-.today:before {
-  font-family: "weathericons";
-  color: #fb870b;
-  font-size: 1.5em;
-  content: "\f00d";
-  left: 0%;
-  top: 50%; }
+  content: "(lts)";
+}
 
 .forecast {
   background-color: #4d4d4d;
-  text-align: center;
   font-size: 1em;
   display: flex;
   flex-direction: column;
-  padding: 5px; }
-
-.today {
-  position: relative;
-  width: 100%;
-  height: 100%; }
-  .today:before {
-    position: absolute;
-    left: 50%;
-    top: 45%;
-    transform: translate(-50%, -50%); }
-  .today .temp {
-    position: absolute;
-    left: 50%;
-    top: 85%;
-    transform: translate(-50%, -50%);
+  align-items: center;
+}
+.forecast .wi {
+  font-family: "weathericons";
+  color: #fb870b;
+  font-size: 2em;
+}
+.forecast .temp {
+  font-size: 1.3em;
+  font-weight: 600;
+  color: #fb870b;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 430px) {
+  .forecast .temp {
     font-size: 1.3em;
-    font-weight: 600;
-    color: #fb870b;
-    width: 100%; }
-    @media only screen and (max-width: 430px) {
-      .today .temp {
-        font-size: 1.3em; } }
+  }
+}
 
-.clear-day:before {
-  content: "\f00d"; }
+* {
+  box-sizing: border-box;
+}
 
-.clear-night:before {
-  content: "\f02e"; }
-
-.rain:before {
-  content: "\f019"; }
-
-.snow:before {
-  content: "\f01b"; }
-
-.sleet:before {
-  content: "\f0b5"; }
-
-.wind:before {
-  content: "\f021"; }
-
-.fog:before {
-  content: "\f014"; }
-
-.cloudy:before {
-  content: "\f013"; }
-
-.partly-cloudy-night:before {
-  content: "\f086"; }
-
-.partly-cloudy-day:before {
-  content: "\f002"; }
-
-.ticker {
+@-webkit-keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+@keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+.ticker-wrap {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 2rem;
+  background-color: transparent;
+  padding-left: 100%;
+  box-sizing: content-box;
+}
+.ticker-wrap .ticker {
+  display: inline-block;
+  height: 2rem;
+  line-height: 2rem;
+  white-space: nowrap;
+  padding-right: 100%;
+  box-sizing: content-box;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-name: ticker;
+  animation-name: ticker;
+  -webkit-animation-duration: 30s;
+  animation-duration: 30s;
+}
+.ticker-wrap .ticker__item {
+  display: inline-block;
+  padding: 0 0.7rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #676767;
   text-transform: uppercase;
-  color: #7c7c7c;
-  font-size: 0.6em;
-  font-weight: 700; }
+}
 
 .nav {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center; }
-  .nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    color: #c8c8c8;
-    text-transform: uppercase;
-    font-size: 0.8em;
-    font-weight: 100;
-    font-family: Helvetica, sans-serif; }
-    .nav ul li {
-      text-align: center;
-      margin-top: 10px;
-      background-color: #343434;
-      height: 64px;
-      width: 64px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      border-radius: 50%; }
-    .nav ul li.selected {
-      background-color: #c8c8c8;
-      color: #343434;
-      border: 2px solid #343434; }
+  align-items: center;
+}
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #c8c8c8;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: 100;
+  font-family: Helvetica, sans-serif;
+}
+.nav ul li {
+  text-align: center;
+  margin-top: 10px;
+  background-color: #343434;
+  height: 64px;
+  width: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.nav ul li.selected {
+  background-color: #c8c8c8;
+  color: #343434;
+  border: 2px solid #343434;
+}
 
 /*# sourceMappingURL=main.css.map */

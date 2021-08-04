@@ -3,22 +3,38 @@ body {
   font-family: $fontFamily;
 }
 
-.content {
-  display: flex;
-  height: 100%;
+// .content {
+//   display: flex;
+//   height: 100%;
+// }
+
+// .content__sidebar {
+//   width: 10%;
+//   min-width: $buttonSizeMobile;
+//   max-width: $buttonSize;
+//   background-color: lighten($backgroundColor,20);
+// }
+
+// .content__main {
+//   /* Take the remaining width */
+//   flex: 1;
+//   margin-left: 20px;
+//   /* Make it scrollable */
+//   overflow: auto;
+
+// }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
-.content__sidebar {
-  width: 10%;
-  min-width: $buttonSizeMobile;
-  max-width: $buttonSize;
-  background-color: lighten($backgroundColor,20);
+.container__header,
+.container__footer {
+    flex-shrink: 0;
 }
 
-.content__main {
-  /* Take the remaining width */
-  flex: 1;
-  margin-left: 20px;
-  /* Make it scrollable */
-  overflow: auto;
+.container__main {
+    flex-grow: 1;
 }
