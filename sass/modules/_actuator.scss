@@ -55,3 +55,29 @@
       content: "\f205";
     }
 }
+
+
+.actuator.timerSwitch {
+  &:after {
+    @extend %icon;
+    content: "\f204";
+  }
+}
+
+.actuator.timerSwitch {
+  &:before {
+    @include positionXY(15%, 85%);
+    font-size: 0.85em;
+    color: $onBlue;
+    font-family: $iconFontFamily;
+    font-weight: 900;
+    content: "\f017";
+  }
+}
+
+.actuator.timerSwitch.on {
+    &:after { 
+      color: $onBlue;
+      content: "\f205";
+    }
+}

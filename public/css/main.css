@@ -19,7 +19,7 @@ body {
   flex-grow: 1;
 }
 
-.sensor.filler .data:after, .sensor.caudal .data:after, .sensor.current:after, .sensor.dht .data:after, .sensor.lock:after, .sensor.hall:after, .sensor.hall:before, .actuator.switch:after, .actuator.toggle:after, .actuator.valve:after, .actuator.bulb:after, .disabled.clock:before, .disabled.forecast:before, .disabled.sensor:before, .disabled.actuator:before, .clock:after, .forecast:after, .sensor:after, .actuator:after {
+.sensor.filler .data:after, .sensor.caudal .data:after, .sensor.current:after, .sensor.dht .data:after, .sensor.lock:after, .sensor.hall:after, .sensor.hall:before, .actuator.timerSwitch:after, .actuator.switch:after, .actuator.toggle:after, .actuator.valve:after, .actuator.bulb:after, .disabled.clock:before, .disabled.forecast:before, .disabled.sensor:before, .disabled.actuator:before, .clock:after, .forecast:after, .sensor:after, .actuator:after {
   position: absolute;
   left: 50%;
   top: 60%;
@@ -138,6 +138,27 @@ body {
 }
 
 .actuator.switch.on:after {
+  color: #1398fa;
+  content: "";
+}
+
+.actuator.timerSwitch:after {
+  content: "";
+}
+
+.actuator.timerSwitch:before {
+  position: absolute;
+  left: 15%;
+  top: 85%;
+  transform: translate(-50%, -50%);
+  font-size: 0.85em;
+  color: #1398fa;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "";
+}
+
+.actuator.timerSwitch.on:after {
   color: #1398fa;
   content: "";
 }

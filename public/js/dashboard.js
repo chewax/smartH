@@ -20,6 +20,7 @@ class Module {
 
     updateState(data) {
         this.$state = data;
+        console.log(data);
     }
 
     disable(){
