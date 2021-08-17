@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 class Module {
 
     constructor(board, parentElem, socket){
@@ -205,5 +206,5 @@ class Dashboard {
 }
 
 $(document).ready(function(){
-    let dash = new Dashboard();
+    new Dashboard();
 });

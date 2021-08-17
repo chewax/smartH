@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 $(document).ready(function(){
     const socket = io();
     socket.emit('console:forecast:get');

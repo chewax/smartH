@@ -25,6 +25,7 @@ db.connect();
 
 app.set('views', __dirname + '/views');
 app.set('view engine', 'pug');
+app.use(express.json());
 
 app.use(cors);
 app.use('/static', express.static(__dirname + '/public'));

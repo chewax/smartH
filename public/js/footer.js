@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 $(document).ready(function(){
     const socket = io();
     socket.emit('console:avwx:get');
@@ -9,8 +10,8 @@ $(document).ready(function(){
         let $ticker = $('.ticker');
 
         for (let sta in data.metar) {
-          $(`<div class="ticker__item">${data.metar[sta]}</div>`)
-            .appendTo($ticker);
+            $(`<div class="ticker__item">${data.metar[sta]}</div>`)
+                .appendTo($ticker);
         }
 
         // $(this).attr('data-before','anything');
